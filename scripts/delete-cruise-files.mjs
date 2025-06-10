@@ -1,22 +1,77 @@
+/**
+ * Cruise Data File Deletion Script
+ * ================================
+ *
+ * This script manages the deletion of city-specific cruise data files
+ * for the Velari Voyages project.
+ * Cruise files are TypeScript files named "{city-name}-cruises.ts" located in the
+ * "src/lib/constants/cruises/" directory.
+ *
+ * Features:
+ * - List available cruise files.
+ * - Delete cruise files for a specific city.
+ * - Delete cruise files matching a regular expression pattern.
+ * - Interactive mode for selecting files to delete or deleting all files.
+ * - Force mode to skip confirmation prompts.
+ * - Help option to display usage instructions.
+ *
+ * Usage Examples:
+ * --------------
+ * # List all available cruise files without deleting:
+ * node scripts/delete-cruise-files.mjs --list
+ *
+ * # Delete the cruise file for "miami" (will prompt for confirmation):
+ * node scripts/delete-cruise-files.mjs --city miami
+ *
+ * # Delete cruise files for cities starting with "new-" or "los-"
+ * # without prompting for confirmation:
+ * node scripts/delete-cruise-files.mjs --pattern "new-|los-" --force
+ *
+ * # Start interactive mode (default behavior if no other primary options are given):
+ * node scripts/delete-cruise-files.mjs
+ *
+ * # Show help message:
+ * node scripts/delete-cruise-files.mjs --help
+ *
+ * Command-line Options:
+ * ------------------
+ * --list, -l               List all available cruise files (e.g., "barcelona-cruises.ts")
+ *                          and exit. No deletion occurs with this flag.
+ *
+ * --city, -c <city-name>   Specify the city name (e.g., "barcelona") whose
+ *                          "{city-name}-cruises.ts" file is to be deleted.
+ *                          Example: --city barcelona
+ *
+ * --pattern, -p <pattern>  Specify a regular expression pattern. Cruise files
+ *                          whose city name part matches this pattern will be targeted.
+ *                          Example: --pattern "^san-.*" (cities starting with "san-")
+ *
+ * --force, -f              Skip all confirmation prompts. Use with caution.
+ *                          Example: node scripts/delete-cruise-files.mjs --city london --force
+ *
+ * --help, -h               Display this help message and exit.
+ *
+ * Interactive Mode:
+ * -----------------
+ * If run without --list, --city, or --pattern, the script enters interactive mode:
+ * 1. It lists all found cruise files.
+ * 2. Prompts the user to:
+ *    - [d]elete all listed files.
+ *    - [s]elect specific files from the list to delete.
+ *    - [c]ancel the operation.
+ * Confirmations are required unless --force is used.
+ *
+ * Target Directory:
+ * -----------------
+ * The script operates on files within:
+ * src/lib/constants/cruises/
+ * Specifically, files matching the pattern "{city-name}-cruises.ts".
+ */
+
 import fs from "fs";
 import path from "path";
 import readline from "readline";
 import { fileURLToPath } from "url";
-
-// List mode: Just show available cruise files without deleting
-// node scripts/delete-cruise-files.mjs --list
-
-// Delete specific city:
-// node scripts/delete-cruise-files.mjs --city miami
-
-// Delete by pattern:
-// node scripts/delete-cruise-files.mjs --pattern "new-|los-"
-
-// Force delete (skip confirmations):
-// node scripts/delete-cruise-files.mjs --force --city miami
-
-// Interactive mode (default):
-// node scripts/delete-cruise-files.mjs
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -29,7 +84,7 @@ const cruisesDir = path.join(
   "src",
   "lib",
   "constants",
-  "cruises",
+  "cruises"
 );
 
 // Parse command line arguments
@@ -38,7 +93,7 @@ const helpFlag = args.includes("--help") || args.includes("-h");
 const forceFlag = args.includes("--force") || args.includes("-f");
 const cityFlag = args.findIndex((arg) => arg === "--city" || arg === "-c");
 const patternFlag = args.findIndex(
-  (arg) => arg === "--pattern" || arg === "-p",
+  (arg) => arg === "--pattern" || arg === "-p"
 );
 const listFlag = args.includes("--list") || args.includes("-l");
 
@@ -160,7 +215,7 @@ async function main() {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      },
+      }
     );
     return;
   }
@@ -172,7 +227,7 @@ async function main() {
 
     if (matchingCities.length === 0) {
       console.log(
-        `No cruise files match the pattern '${args[patternFlag + 1]}'`,
+        `No cruise files match the pattern '${args[patternFlag + 1]}'`
       );
       rl.close();
       return;
@@ -192,13 +247,13 @@ async function main() {
             }
           });
           console.log(
-            `Deleted ${deletedCount} of ${matchingCities.length} cruise files.`,
+            `Deleted ${deletedCount} of ${matchingCities.length} cruise files.`
           );
         } else {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      },
+      }
     );
     return;
   }
@@ -224,13 +279,13 @@ async function main() {
                   }
                 });
                 console.log(
-                  `Deleted ${deletedCount} of ${cruiseFiles.length} cruise files.`,
+                  `Deleted ${deletedCount} of ${cruiseFiles.length} cruise files.`
                 );
               } else {
                 console.log("Deletion cancelled.");
               }
               rl.close();
-            },
+            }
           );
           break;
 
@@ -248,7 +303,7 @@ async function main() {
                 .split(",")
                 .map((num) => parseInt(num.trim()) - 1)
                 .filter(
-                  (num) => !isNaN(num) && num >= 0 && num < cruiseFiles.length,
+                  (num) => !isNaN(num) && num >= 0 && num < cruiseFiles.length
                 );
 
               if (selectedIndexes.length === 0) {
@@ -258,7 +313,7 @@ async function main() {
               }
 
               const selectedCities = selectedIndexes.map(
-                (index) => cruiseFiles[index],
+                (index) => cruiseFiles[index]
               );
               console.log("\nYou selected:");
               selectedCities.forEach((city) => console.log(`- ${city}`));
@@ -274,15 +329,15 @@ async function main() {
                       }
                     });
                     console.log(
-                      `Deleted ${deletedCount} of ${selectedCities.length} cruise files.`,
+                      `Deleted ${deletedCount} of ${selectedCities.length} cruise files.`
                     );
                   } else {
                     console.log("Deletion cancelled.");
                   }
                   rl.close();
-                },
+                }
               );
-            },
+            }
           );
           break;
 
@@ -290,7 +345,7 @@ async function main() {
           console.log("Operation cancelled.");
           rl.close();
       }
-    },
+    }
   );
 }
 

@@ -1,3 +1,43 @@
+/**
+ * Restaurant Testimonial Files Deletion Script
+ * ============================================
+ *
+ * This script is designed to delete all restaurant testimonial files for the Velari Voyages project.
+ * Testimonial files are expected to be TypeScript files ending with "-testimonials.ts"
+ * and located within city-specific subdirectories under:
+ * "src/lib/constants/cruises/testimonials/{cityName}/"
+ *
+ * Features:
+ * - Scans all city-specific testimonial directories.
+ * - Deletes all files matching the "*-testimonials.ts" pattern within these directories.
+ * - Prompts for a single confirmation before proceeding with the deletion of all found files.
+ * - Provides a summary of the deletion process, including the number of files deleted
+ *   and any errors encountered.
+ *
+ * Usage:
+ * ------
+ * # To run the script and delete all restaurant testimonial files (after confirmation):
+ * node scripts/delete-restaurant-testimonials-files.mjs
+ *
+ * Operation:
+ * ----------
+ * 1. The script identifies all city directories within the base testimonials path.
+ * 2. It asks for a global confirmation before deleting any files.
+ * 3. If confirmed, it iterates through each city directory, finds all files ending
+ *    with "-testimonials.ts", and deletes them.
+ * 4. A summary of actions is displayed upon completion.
+ *
+ * Note: This script does not currently support selective deletion by city or pattern
+ *       via command-line arguments. It is an "all or nothing" deletion tool for
+ *       restaurant testimonial files, with a confirmation step.
+ *
+ * Target Directory Structure:
+ * ---------------------------
+ * The script operates on files within:
+ * src/lib/constants/cruises/testimonials/{cityName}/{restaurantName}-testimonials.ts
+ * (e.g., src/lib/constants/cruises/testimonials/london/the-riverside-grill-testimonials.ts)
+ */
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -21,7 +61,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials",
+  "testimonials"
 );
 
 console.log(`Looking for testimonial files in: ${baseDir}`);
@@ -54,7 +94,7 @@ async function deleteTestimonialFiles() {
   const answer = await new Promise((resolve) => {
     rl.question(
       `This will delete ALL testimonial files in ${cityDirs.length} city directories. Continue? (y/n): `,
-      resolve,
+      resolve
     );
   });
 
@@ -74,7 +114,7 @@ async function deleteTestimonialFiles() {
     citiesProcessed++;
 
     console.log(
-      `Processing ${cityDir} (${citiesProcessed}/${cityDirs.length})`,
+      `Processing ${cityDir} (${citiesProcessed}/${cityDirs.length})`
     );
 
     try {

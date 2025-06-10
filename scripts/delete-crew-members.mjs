@@ -1,22 +1,75 @@
+/**
+ * Crew Member File Deletion Script
+ * ================================
+ *
+ * This script manages the deletion of crew member data files for the Velari Voyages project.
+ * Crew member files are TypeScript files (e.g., "{city-name}.ts") located in the
+ * "src/lib/constants/crewMembers/" directory.
+ *
+ * Features:
+ * - List available crew member files.
+ * - Delete crew member files for a specific city.
+ * - Delete crew member files matching a regular expression pattern.
+ * - Interactive mode for selecting files to delete or deleting all files.
+ * - Force mode to skip confirmation prompts.
+ * - Help option to display usage instructions.
+ *
+ * Usage Examples:
+ * --------------
+ * # List all available crew member files without deleting:
+ * node scripts/delete-crew-members.mjs --list
+ *
+ * # Delete the crew member file for "miami" (will prompt for confirmation):
+ * node scripts/delete-crew-members.mjs --city miami
+ *
+ * # Delete crew member files for cities starting with "new-" or "los-"
+ * # without prompting for confirmation:
+ * node scripts/delete-crew-members.mjs --pattern "new-|los-" --force
+ *
+ * # Start interactive mode (default behavior if no other primary options are given):
+ * node scripts/delete-crew-members.mjs
+ *
+ * # Show help message:
+ * node scripts/delete-crew-members.mjs --help
+ *
+ * Command-line Options:
+ * ------------------
+ * --list, -l               List all available crew member files and exit.
+ *                          No deletion occurs with this flag.
+ *
+ * --city, -c <city-name>   Specify the city name for whose crew member file
+ *                          is to be deleted.
+ *                          Example: --city barcelona
+ *
+ * --pattern, -p <pattern>  Specify a regular expression pattern. Crew member files
+ *                          whose names match this pattern will be targeted for deletion.
+ *                          Example: --pattern "^san-.*" (cities starting with "san-")
+ *
+ * --force, -f              Skip all confirmation prompts. Use with caution.
+ *                          Example: node scripts/delete-crew-members.mjs --city london --force
+ *
+ * --help, -h               Display this help message and exit.
+ *
+ * Interactive Mode:
+ * -----------------
+ * If run without --list, --city, or --pattern, the script enters interactive mode:
+ * 1. It lists all found crew member files.
+ * 2. Prompts the user to:
+ *    - [d]elete all listed files.
+ *    - [s]elect specific files from the list to delete.
+ *    - [c]ancel the operation.
+ * Confirmations are required unless --force is used.
+ *
+ * Target Directory:
+ * -----------------
+ * The script operates on files within:
+ * src/lib/constants/crewMembers/
+ */
+
 import fs from "fs";
 import path from "path";
 import readline from "readline";
 import { fileURLToPath } from "url";
-
-// List mode: Just show available crew member files without deleting
-// node scripts/delete-crew-members.mjs --list
-
-// Delete specific city:
-// node scripts/delete-crew-members.mjs --city miami
-
-// Delete by pattern:
-// node scripts/delete-crew-members.mjs --pattern "new-|los-"
-
-// Force delete (skip confirmations):
-// node scripts/delete-crew-members.mjs --force --city miami
-
-// Interactive mode (default):
-// node scripts/delete-crew-members.mjs
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -29,7 +82,7 @@ const crewMembersDir = path.join(
   "src",
   "lib",
   "constants",
-  "crewMembers",
+  "crewMembers"
 );
 
 // Parse command line arguments
@@ -38,7 +91,7 @@ const helpFlag = args.includes("--help") || args.includes("-h");
 const forceFlag = args.includes("--force") || args.includes("-f");
 const cityFlag = args.findIndex((arg) => arg === "--city" || arg === "-c");
 const patternFlag = args.findIndex(
-  (arg) => arg === "--pattern" || arg === "-p",
+  (arg) => arg === "--pattern" || arg === "-p"
 );
 const listFlag = args.includes("--list") || args.includes("-l");
 
@@ -146,7 +199,7 @@ async function main() {
 
     if (!crewMemberFiles.includes(cityToDelete)) {
       console.error(
-        `Error: No crew member file found for city '${cityToDelete}'`,
+        `Error: No crew member file found for city '${cityToDelete}'`
       );
       console.log("Available cities:", crewMemberFiles.join(", "));
       rl.close();
@@ -162,7 +215,7 @@ async function main() {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      },
+      }
     );
     return;
   }
@@ -174,7 +227,7 @@ async function main() {
 
     if (matchingCities.length === 0) {
       console.log(
-        `No crew member files match the pattern '${args[patternFlag + 1]}'`,
+        `No crew member files match the pattern '${args[patternFlag + 1]}'`
       );
       rl.close();
       return;
@@ -194,13 +247,13 @@ async function main() {
             }
           });
           console.log(
-            `Deleted ${deletedCount} of ${matchingCities.length} crew member files.`,
+            `Deleted ${deletedCount} of ${matchingCities.length} crew member files.`
           );
         } else {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      },
+      }
     );
     return;
   }
@@ -226,13 +279,13 @@ async function main() {
                   }
                 });
                 console.log(
-                  `Deleted ${deletedCount} of ${crewMemberFiles.length} crew member files.`,
+                  `Deleted ${deletedCount} of ${crewMemberFiles.length} crew member files.`
                 );
               } else {
                 console.log("Deletion cancelled.");
               }
               rl.close();
-            },
+            }
           );
           break;
 
@@ -251,7 +304,7 @@ async function main() {
                 .map((num) => parseInt(num.trim()) - 1)
                 .filter(
                   (num) =>
-                    !isNaN(num) && num >= 0 && num < crewMemberFiles.length,
+                    !isNaN(num) && num >= 0 && num < crewMemberFiles.length
                 );
 
               if (selectedIndexes.length === 0) {
@@ -261,7 +314,7 @@ async function main() {
               }
 
               const selectedCities = selectedIndexes.map(
-                (index) => crewMemberFiles[index],
+                (index) => crewMemberFiles[index]
               );
               console.log("\nYou selected:");
               selectedCities.forEach((city) => console.log(`- ${city}`));
@@ -277,15 +330,15 @@ async function main() {
                       }
                     });
                     console.log(
-                      `Deleted ${deletedCount} of ${selectedCities.length} crew member files.`,
+                      `Deleted ${deletedCount} of ${selectedCities.length} crew member files.`
                     );
                   } else {
                     console.log("Deletion cancelled.");
                   }
                   rl.close();
-                },
+                }
               );
-            },
+            }
           );
           break;
 
@@ -293,7 +346,7 @@ async function main() {
           console.log("Operation cancelled.");
           rl.close();
       }
-    },
+    }
   );
 }
 
