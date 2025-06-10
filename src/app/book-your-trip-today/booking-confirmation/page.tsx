@@ -40,7 +40,8 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cruiseCategoryMap } from "@/lib/constants/info/cruiseCategories";
 import { CrewMember } from "@/lib/interfaces/people/staff";
-import { CruiseVessel, Vessels } from "@/lib/interfaces/services/cruises";
+import { Vessels } from "@/lib/interfaces/services/cruises";
+import { Language } from "@/lib/types/types";
 import { getCrewMemberData } from "@/lib/utils/get/crew-members";
 import { getVesselForCruise } from "@/lib/utils/get/vessels";
 import Image from "next/image";
@@ -68,7 +69,9 @@ export default function BookingConfirmationPage() {
   // Filter state for crew members
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
+  const [selectedLanguage, setSelectedLanguage] = useState<Language>(
+    {} as Language
+  );
   const [selectedRole, setSelectedRole] = useState<string>("all");
   const [selectedExperience, setSelectedExperience] = useState<string>("all");
   const [selectedDepartment, setSelectedDepartment] = useState<string>("all");
@@ -99,7 +102,7 @@ export default function BookingConfirmationPage() {
     if (bookingInfo.cruiseCategory && bookingInfo.departureCity) {
       const cruiseVessel = getVesselForCruise(
         bookingInfo.departureCity,
-        bookingInfo.cruiseCategory,
+        bookingInfo.cruiseCategory
       );
       setVessel(cruiseVessel);
     }
@@ -118,7 +121,7 @@ export default function BookingConfirmationPage() {
                 member.role === "Captain" ||
                 member.role === "Guest Relations Manager" ||
                 member.role === "Chief Medical Officer" ||
-                member.role === "Hospitality Director",
+                member.role === "Hospitality Director"
             )
             .slice(0, 3); // Limit to 3 key contacts
 
@@ -133,7 +136,7 @@ export default function BookingConfirmationPage() {
               acc[dept] = 1;
               return acc;
             },
-            {} as Record<string, number>,
+            {} as Record<string, number>
           );
           setCurrentPages(initialPages);
         }
@@ -160,7 +163,7 @@ export default function BookingConfirmationPage() {
 
   const allExperiences = useMemo(() => {
     return [...new Set(crewMembers.map((crew) => crew.experienceYears))].sort(
-      (a = 0, b = 0) => a - b,
+      (a = 0, b = 0) => a - b
     );
   }, [crewMembers]);
 
@@ -181,7 +184,7 @@ export default function BookingConfirmationPage() {
 
       // Filter by language
       if (
-        selectedLanguage !== "all" &&
+        selectedLanguage &&
         !(crew.languages || []).includes(selectedLanguage)
       ) {
         return false;
@@ -230,7 +233,7 @@ export default function BookingConfirmationPage() {
         groups[department].push(member);
         return groups;
       },
-      {} as Record<string, CrewMember[]>,
+      {} as Record<string, CrewMember[]>
     );
   }, [filteredCrewMembers]);
 
@@ -250,7 +253,7 @@ export default function BookingConfirmationPage() {
   // Clear all filters
   const clearFilters = () => {
     setSearchQuery("");
-    setSelectedLanguage("all");
+    setSelectedLanguage({} as Language);
     setSelectedRole("all");
     setSelectedExperience("all");
     setSelectedDepartment("all");
@@ -382,7 +385,7 @@ export default function BookingConfirmationPage() {
                             {
                               year: "numeric",
                               month: "long",
-                            },
+                            }
                           )}
                         </p>
                         {vessel && (
@@ -584,14 +587,16 @@ export default function BookingConfirmationPage() {
                 </Badge>
               </div>
 
-              <div className="relative rounded-lg w-full overflow-hidden aspect-video">
-                <Image
-                  src={vessel.imageUrl}
-                  alt={vessel.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              {vessel.imageUrl && (
+                <div className="relative rounded-lg w-full overflow-hidden aspect-video">
+                  <Image
+                    src={vessel.imageUrl}
+                    alt={vessel.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              )}
 
               <div className="gap-6 grid md:grid-cols-3">
                 <Card className="md:col-span-2">
@@ -600,21 +605,6 @@ export default function BookingConfirmationPage() {
                       Vessel Description
                     </h3>
                     <p>{vessel.description}</p>
-
-                    <h3 className="mt-6 mb-4 font-semibold text-lg">
-                      Key Amenities
-                    </h3>
-                    <div className="gap-2 grid grid-cols-2">
-                      {vessel.amenities.map((amenity) => (
-                        <div
-                          key={amenity}
-                          className="flex items-center bg-gray-50 p-2 rounded-md"
-                        >
-                          <FaCheck className="mr-2 text-green-500" size={12} />
-                          <span>{amenity}</span>
-                        </div>
-                      ))}
-                    </div>
                   </CardContent>
                 </Card>
 
@@ -720,7 +710,7 @@ export default function BookingConfirmationPage() {
                         Filter by Language
                       </Label>
                       <Select
-                        value={selectedLanguage}
+                        value={selectedLanguage.name}
                         onValueChange={setSelectedLanguage}
                       >
                         <SelectTrigger id="filter-language">
@@ -729,8 +719,11 @@ export default function BookingConfirmationPage() {
                         <SelectContent>
                           <SelectItem value="all">All Languages</SelectItem>
                           {allLanguages.map((language) => (
-                            <SelectItem key={language} value={language}>
-                              {language}
+                            <SelectItem
+                              key={language.name}
+                              value={language.name}
+                            >
+                              {language.name}
                             </SelectItem>
                           ))}
                         </SelectContent>
@@ -940,7 +933,7 @@ export default function BookingConfirmationPage() {
                               onClick={() =>
                                 handlePageChange(
                                   department,
-                                  Math.max(1, currentPage - 1),
+                                  Math.max(1, currentPage - 1)
                                 )
                               }
                               className={
@@ -970,7 +963,7 @@ export default function BookingConfirmationPage() {
                               onClick={() =>
                                 handlePageChange(
                                   department,
-                                  Math.min(totalPages, currentPage + 1),
+                                  Math.min(totalPages, currentPage + 1)
                                 )
                               }
                               className={
@@ -1125,10 +1118,6 @@ export default function BookingConfirmationPage() {
             <p>
               <span className="font-medium">Capacity:</span>{" "}
               {vessel.capacity.toLocaleString()} passengers
-            </p>
-            <p>
-              <span className="font-medium">Key Amenities:</span>{" "}
-              {vessel.amenities.join(", ")}
             </p>
           </div>
         )}
