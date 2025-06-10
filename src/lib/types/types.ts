@@ -75,7 +75,7 @@ export type Details = {
   title: string;
   description: string;
   tags?: string[];
-  rating: number;
+  rating?: number;
   faqs?: FAQs[];
 };
 
