@@ -46,7 +46,9 @@ export default function CruiseInfo({
               <h2>{cruise.title}</h2>
               <p>{cruise.description}</p>
             </div>
-            <div className="flex">{displayRatingStars(cruise.rating)}</div>
+            {cruise.rating && (
+              <div className="flex">{displayRatingStars(cruise.rating)}</div>
+            )}
             <Sheet>
               <SheetTrigger asChild>
                 <Button
@@ -189,7 +191,7 @@ export default function CruiseInfo({
                   onClick={() =>
                     router.push(
                       "/book-your-trip-today?cruise=" +
-                        formatToSlug(cruise.title),
+                        formatToSlug(cruise.title)
                     )
                   }
                   className="mx-auto mt-4 w-13/14"
@@ -215,18 +217,15 @@ export default function CruiseInfo({
           <Button
             onClick={() => {
               const queryParams = new URLSearchParams({
-                departureLocationCity: cruise.departureLocation.city,
-                departureLocationCountry: cruise.departureLocation.country,
-                arrivalLocationCity: cruise.arrivalLocation.city,
-                arrivalLocationCountry: cruise.arrivalLocation.country,
-                cruise: cruise.title,
-                category: cruise.tourCategoryId,
+                cruiseId: cruise.id,
+                cruise: formatToSlug(cruise.title),
+                category: cruise.category,
               });
 
               router.push(
                 `/cruises/cruise-categories/velari-voyages-cruises/cruise/${formatToSlug(
-                  cruise.title,
-                )}?${queryParams.toString()}`,
+                  cruise.title
+                )}?${queryParams.toString()}`
               );
             }}
           >
