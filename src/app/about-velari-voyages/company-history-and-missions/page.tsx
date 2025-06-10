@@ -79,7 +79,7 @@ export default function CompanyHistoryAndMissionsPage() {
                 className="mt-2"
                 onClick={() =>
                   router.push(
-                    "/about-velari-voyages/company-history-and-missions/founding-story"
+                    "/about-velari-voyages/company-history-and-missions/founding-story",
                   )
                 }
               >

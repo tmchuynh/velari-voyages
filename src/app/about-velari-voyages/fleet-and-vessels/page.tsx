@@ -46,7 +46,7 @@ export default function FleetAndVessels() {
             acc[type].push(vessel);
             return acc;
           },
-          {} as Record<string, typeof fetchedVessels>
+          {} as Record<string, typeof fetchedVessels>,
         );
         setVesselsByType(groupedVessels);
 
@@ -61,8 +61,8 @@ export default function FleetAndVessels() {
               acc[type] = 1;
               return acc;
             },
-            {} as Record<string, number>
-          )
+            {} as Record<string, number>,
+          ),
         );
       } catch (error) {
         console.error("Error fetching vessels:", error);
@@ -221,7 +221,7 @@ export default function FleetAndVessels() {
                       onClick={() =>
                         handlePageChange(
                           type,
-                          Math.min(totalPages, currentPage + 1)
+                          Math.min(totalPages, currentPage + 1),
                         )
                       }
                       className={
