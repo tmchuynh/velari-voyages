@@ -1,20 +1,38 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Grand Trading Co. in athens
+ * Menu data for Golden Taproom in athens
  */
-export const athensgrandTradingCoMenu: RestaurantMenu[] = [
+export const athensgoldenTaproomMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of simple offerings from across the French spectrum",
+    "description": "Explore the richness of French cuisine through our homestyle perspective",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected French specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 33.67,
+            "name": "Traditional Flavorful Secret Recipe Bouillabaisse",
+            "price": 33.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Chef's Special Surf and Turf",
+            "price": 28.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Smoked Local Bounty Harvest Plate (Vegetarian)",
+            "price": 34.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,8 +40,17 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 37.24,
+            "name": "Homestyle Crunchy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 32.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Delicious Dry-Aged Tomahawk Steak",
+            "price": 36.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,49 +58,22 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 29.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 37.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 34.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 27.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 35.13,
+            "name": "Handcrafted Zingy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 28.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Tableside Carved Chateaubriand",
+            "price": 27.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -82,17 +82,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
         "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Homestyle Savory Locally Foraged Mushroom Selection",
-            "price": 38.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Braised Fire-Roasted Seasonal Centerpiece",
-            "price": 25.98,
+            "name": "Special Occasion Celebratory Dish",
+            "price": 37.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,8 +91,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Signature Spice-Rubbed Protein",
-            "price": 31.16,
+            "name": "Tasting of Local Artisanal Cheeses",
+            "price": 24.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,20 +100,29 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Fried Lobster Thermidor",
-            "price": 33.63,
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 25.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Roasted Seared Foie Gras with Fig Compote",
-            "price": 25.32,
+            "name": "Cedar Plank Salmon",
+            "price": 38.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tableside Prepared Tartare",
+            "price": 26.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,20 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of French culinary artistry.",
         "items": [
           {
-            "name": "Garlic Bread",
-            "price": 10.09,
+            "name": "Mezze Platter",
+            "price": 11.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nachos",
+            "price": 9.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -143,43 +152,43 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Shrimp Cocktail",
-            "price": 14.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Brie",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Meatballs",
-            "price": 9.58,
+            "price": 10.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Baba Ganoush",
+            "price": 10.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tuna Tartare",
+            "price": 9.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chicken Satay",
+            "price": 13.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Mini Crab Cakes",
-            "price": 14.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Dumplings",
-            "price": 9.72,
+            "name": "Onion Rings",
+            "price": 12.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,18 +196,9 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Falafel",
-            "price": 14.8,
+            "name": "Spring Rolls",
+            "price": 8.45,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 14.81,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,131 +208,11 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of French, crafted with care and expertise.",
+        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
         "items": [
           {
-            "name": "Corn Chowder",
-            "price": 8.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Soup",
-            "price": 10.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabbage Soup",
-            "price": 10,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Egg Drop Soup",
-            "price": 10.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
-        "items": [
-          {
-            "name": "Caesar Salad",
-            "price": 12.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 15.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 12.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 15.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 14.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Main Courses",
-        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
-        "items": [
-          {
-            "name": "Gourmet Pan-seared Chili con Carne",
-            "price": 27.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Succulent Grilled Tofu",
-            "price": 31.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Herbed Stir-fry",
-            "price": 21.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Grilled Beef Burger",
-            "price": 20.67,
+            "name": "Clam Chowder",
+            "price": 11.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,8 +220,17 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Delicious Seafood Platter",
-            "price": 27.95,
+            "name": "Pumpkin Soup",
+            "price": 10.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot and Sour Soup",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,26 +238,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Crunchy Pasta Primavera",
-            "price": 20.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Baked Pizza",
-            "price": 27.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flaky Lamb Chops",
-            "price": 24.62,
+            "name": "Chicken Noodle Soup",
+            "price": 11.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -378,39 +249,141 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "name": "Salads",
+        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
         "items": [
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 33.66,
+            "name": "Quinoa Salad",
+            "price": 11.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 14.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 10.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 12.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
+        "items": [
+          {
+            "name": "Grilled Chicken",
+            "price": 18.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 29.16,
+            "name": "Beef Wellington",
+            "price": 20.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "price": 31.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shakshuka",
+            "price": 20.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biryani",
+            "price": 26.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 29.58,
+            "name": "Eggplant Parmesan",
+            "price": 29.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 24.27,
+            "name": "Lamb Chops",
+            "price": 25.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roast Duck",
+            "price": 24.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "items": [
+          {
+            "name": "Seafood Risotto with Saffron",
+            "price": 29.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -419,22 +392,7 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Prawn Curry in Coconut Masala",
-            "price": 28.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "Each side is a testament to our commitment to quality and flavor.",
-        "items": [
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 7.39,
+            "price": 24.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,8 +400,77 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steamed Jasmine Rice",
-            "price": 5.44,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 24.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "New England Lobster Roll",
+            "price": 27.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 35.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Crafted to enhance your meal, these sides are a celebration of French flavors.",
+        "items": [
+          {
+            "name": "Handcrafted Delicious Sweet Corn and Cheddar Fritters",
+            "price": 5.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Green Beans Almondine",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Maple-Glazed Baby Carrots",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Pan-seared Macaroni and Aged Cheddar",
+            "price": 9.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Homestyle Baked Beans",
+            "price": 9.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,36 +478,9 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 7.44,
+            "name": "Gourmet Aromatic Baked Idaho Potato with Sour Cream",
+            "price": 8.35,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 9.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Buttered Egg Noodles",
-            "price": 8.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 6.92,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -490,20 +490,11 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 5.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.54,
+            "name": "Gourmet Savory Juice",
+            "price": 5.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +502,17 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.22,
+            "name": "Fresh Spiced Coffee",
+            "price": 4.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Water",
+            "price": 6.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,17 +520,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 5.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 4.57,
+            "name": "House Special Zingy Tea",
+            "price": 4.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,8 +529,17 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.88,
+            "name": "Homestyle Crunchy Smoothie",
+            "price": 7.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Exquisite Soda",
+            "price": 5.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,42 +552,15 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's delicious creations to end your meal on a sweet note",
+    "description": "From oven to plate – tasty desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "Indulge in our selection of baked treats, each one a labor of love.",
         "items": [
           {
-            "name": "Handcrafted Zesty Cinnamon Rolls",
-            "price": 10.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Brownies",
-            "price": 9.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Apple Pie",
-            "price": 9.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sizzling Cupcakes",
-            "price": 6.1,
+            "name": "Gourmet Spiced Pecan Pie",
+            "price": 10.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,8 +568,35 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Golden Vanilla Cake",
-            "price": 9.84,
+            "name": "Authentic Stuffed Berry Tart",
+            "price": 7.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Roasted Banana Bread",
+            "price": 10.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Comforting Crumb Cake",
+            "price": 7.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Golden Portuguese Custard Tarts",
+            "price": 9.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,11 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 11.66,
+            "name": "Gelato",
+            "price": 7.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,8 +619,17 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 9.28,
+            "name": "Ice Cream",
+            "price": 11.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,17 +637,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 10.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Cake",
-            "price": 7.34,
+            "name": "Frozen Fruit Bars",
+            "price": 11.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +646,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 8.77,
+            "name": "Paletas",
+            "price": 11.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,15 +660,15 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "From wines to spirits: homestyle choices for every palate",
+    "description": "Discover our hearty drinks, perfectly paired with our French cuisine",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
+        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
         "items": [
           {
-            "name": "Organic Golden Bloody Mary",
-            "price": 11.54,
+            "name": "Whiskey Sour",
+            "price": 15.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +676,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Mai Tai",
-            "price": 10.03,
+            "name": "Martini",
+            "price": 15.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +685,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Fried Mojito",
-            "price": 13.19,
+            "name": "Margarita",
+            "price": 15.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +694,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Old Fashioned",
-            "price": 12.77,
+            "name": "Cosmopolitan",
+            "price": 11.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,17 +703,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Crunchy Cosmopolitan",
-            "price": 13.94,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Manhattan",
-            "price": 12.17,
+            "name": "Mojito",
+            "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,9 +712,18 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Margarita",
-            "price": 11.91,
-            "isVegetarian": true,
+            "name": "Mai Tai",
+            "price": 13.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -736,17 +736,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
         "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Petit Verdot",
-            "price": 11.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 10.7,
+            "name": "Handcrafted Zesty Barbera",
+            "price": 10.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +745,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 8.81,
+            "name": "Deluxe Juicy Sauvignon Blanc",
+            "price": 11.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,50 +754,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 9.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Syrah/Shiraz",
-            "price": 8.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
-        "items": [
-          {
-            "name": "Deluxe Crunchy Mezcal",
-            "price": 13.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Flaky Vodka",
-            "price": 14.04,
+            "name": "Hearty Hearty Chardonnay",
+            "price": 9.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,17 +763,8 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Triple Sec",
-            "price": 16.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Gin",
-            "price": 17.4,
+            "name": "Authentic Aromatic Verdicchio",
+            "price": 12.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +772,71 @@ export const athensgrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Smoked Scotch",
-            "price": 17.04,
+            "name": "Deluxe Sweet Zinfandel",
+            "price": 10.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Roasted Prosecco",
+            "price": 13.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "items": [
+          {
+            "name": "Authentic Smoked Baileys Irish Cream",
+            "price": 14.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Herbed Vodka",
+            "price": 13.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Frangelico",
+            "price": 16.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Gin",
+            "price": 16.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sautéed Amaretto",
+            "price": 12.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
