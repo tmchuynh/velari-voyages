@@ -6,7 +6,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import {
   Bars3Icon,
@@ -16,6 +15,7 @@ import {
 import Image from "next/image";
 import { useState } from "react";
 import { ThemeToggle } from "../button/ThemeToggle";
+import { navbarItems } from "@/lib/utils/info/navigation";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

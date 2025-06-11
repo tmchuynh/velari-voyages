@@ -1,4 +1,4 @@
-import { navbarItems } from "@/lib/constants/info/navigation";
+import { navbarItems } from "@/lib/utils/info/navigation";
 import Link from "next/link";
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   const additionalLinks = navbarItems.filter(
-    (item) => !item.dropdown && item.label !== "Home",
+    (item) => !item.dropdown && item.label !== "Home"
   );
 
   return (
