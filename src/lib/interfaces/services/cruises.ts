@@ -59,30 +59,6 @@ export interface BaseCruise {
 
 export type Cruise = BaseCruise & Flags & Details & CruiseCategoryFlags;
 
-export type CruiseShipType =
-  | "ocean-liner"
-  | "mainstream-cruise-ship"
-  | "mid-size-cruise-ship"
-  | "small-ocean-ship"
-  | "luxury-cruise-ship"
-  | "ultra-luxury-cruise-ship"
-  | "superyacht"
-  | "mega-yacht"
-  | "boutique-cruise-ship"
-  | "expedition-ship"
-  | "polar-expedition-ship"
-  | "ice-class-ship"
-  | "eco-friendly-hybrid-ship"
-  | "resort-style-ship"
-  | "adults-only-ship"
-  | "family-cruise-ship"
-  | "party-cruise-ship"
-  | "short-hop-ferry"
-  | "chartered-vessel"
-  | "river-cruise-ship"
-  | "catamaran"
-  | "zodiac-equipped-vessel";
-
 export interface CruiseVessel {
   id: string;
   name: string;
@@ -99,7 +75,7 @@ export interface Vessels {
   name: string;
   description: string;
   imageUrl?: string;
-  type: CruiseShipType;
+  type: string;
   capacity: number;
   topSpeed: number;
   length: number;
