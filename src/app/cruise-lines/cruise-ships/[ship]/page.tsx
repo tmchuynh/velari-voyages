@@ -69,7 +69,8 @@ const mockDecks = [
 export default function ShipDetailPage() {
   const params = useParams();
   const router = useRouter();
-  const shipId = params.ship as string;
+  const shipId = params.ship;
+  const ID = parseInt(shipId as string, 10);
 
   const [ship, setShip] = useState<ShipDetails | null>(null);
   const [cabinCategories, setCabinCategories] = useState<CabinCategory[]>([]);
@@ -82,7 +83,7 @@ export default function ShipDetailPage() {
         setLoading(true);
 
         // Get ship details
-        const shipResponse = await getShipDetails(shipId);
+        const shipResponse = await getShipDetails(ID);
         if (shipResponse.success && shipResponse.data) {
           setShip(shipResponse.data);
 
