@@ -105,7 +105,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -114,7 +114,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } library files`
+  } library files`,
 );
 
 // Library donation policies
@@ -429,19 +429,19 @@ function generateLibraryName(cityName, vesselName, region) {
     libraryNames.push(
       `European Literary Heritage`,
       `Continental Book Collection`,
-      `Old World Library`
+      `Old World Library`,
     );
   } else if (region === "Asia") {
     libraryNames.push(
       `Eastern Wisdom Library`,
       `Pacific Literary Center`,
-      `Oriental Book Collection`
+      `Oriental Book Collection`,
     );
   } else if (region === "North America") {
     libraryNames.push(
       `American Literary Collection`,
       `New World Library`,
-      `Atlantic Reading Room`
+      `Atlantic Reading Room`,
     );
   }
 
@@ -454,7 +454,7 @@ function generateLibraryDescription(
   vesselName,
   cityName,
   region,
-  features
+  features,
 ) {
   const baseDescription = `Welcome to ${libraryName} aboard the ${vesselName}. Our comprehensive library offers a peaceful retreat for book lovers and knowledge seekers during your cruise to ${cityName}.`;
 
@@ -462,31 +462,31 @@ function generateLibraryDescription(
 
   if (features.hasStudyAreas) {
     featureDescriptions.push(
-      "quiet study areas perfect for reading and research"
+      "quiet study areas perfect for reading and research",
     );
   }
 
   if (features.hasComputers) {
     featureDescriptions.push(
-      "computer stations with internet access and digital resources"
+      "computer stations with internet access and digital resources",
     );
   }
 
   if (features.hasEvents) {
     featureDescriptions.push(
-      "engaging literary events and author presentations"
+      "engaging literary events and author presentations",
     );
   }
 
   if (features.hasBookClubs) {
     featureDescriptions.push(
-      "active book clubs for readers of all interests and levels"
+      "active book clubs for readers of all interests and levels",
     );
   }
 
   if (features.hasMovieRentals) {
     featureDescriptions.push(
-      "movie rentals featuring literary adaptations and documentaries"
+      "movie rentals featuring literary adaptations and documentaries",
     );
   }
 
@@ -528,7 +528,7 @@ function generateFeaturedBooks() {
     if (booksInGroup.length > 0) {
       const selectedFromGroup = getRandomItems(
         booksInGroup,
-        Math.min(count, booksInGroup.length)
+        Math.min(count, booksInGroup.length),
       );
       selectedBooks.push(...selectedFromGroup);
     }
@@ -537,11 +537,12 @@ function generateFeaturedBooks() {
   // If we don't have enough books, fill with random selections
   while (selectedBooks.length < 20) {
     const remainingBooks = popularBooks.filter(
-      (book) => !selectedBooks.some((selected) => selected.title === book.title)
+      (book) =>
+        !selectedBooks.some((selected) => selected.title === book.title),
     );
     if (remainingBooks.length === 0) break;
     selectedBooks.push(
-      remainingBooks[Math.floor(Math.random() * remainingBooks.length)]
+      remainingBooks[Math.floor(Math.random() * remainingBooks.length)],
     );
   }
 
@@ -618,7 +619,7 @@ function generateLibrary(vessel, cityName, region) {
       vessel.name,
       cityName,
       region,
-      features
+      features,
     ),
     hours: generateLibraryHours(),
     isPopular: Math.random() < 0.3, // 30% chance of being popular
@@ -648,7 +649,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -682,7 +683,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -712,7 +713,7 @@ function generateLibrariesForCity(cityName, vessels) {
           library.hasMovieRentals && "Movie Rentals",
         ]
           .filter(Boolean)
-          .join(", ")}`
+          .join(", ")}`,
       );
     }
   });
@@ -841,7 +842,7 @@ function generateTypeScriptContent(cityName, libraries) {
 async function createLibraryFiles() {
   const outputDir = path.join(
     __dirname,
-    "../src/lib/constants/venues/libraries"
+    "../src/lib/constants/venues/libraries",
   );
 
   // Create the directory if it doesn't exist

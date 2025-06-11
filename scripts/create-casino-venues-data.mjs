@@ -113,14 +113,14 @@ const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const CASINOS_PER_VESSEL = parseInt(
   args.find((arg) => arg.startsWith("--casinos-per-vessel="))?.split("=")[1] ||
     "0",
-  10
+  10,
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(`Casinos per vessel: ${CASINOS_PER_VESSEL || "3-5 (random)"}`);
 console.log(
@@ -130,7 +130,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } casino files`
+  } casino files`,
 );
 
 // Casino games by category
@@ -397,7 +397,7 @@ function generateCasinoGames(
   hasTableGames,
   hasPokerRoom,
   hasLiveDealerGames,
-  hasHighRollerRoom
+  hasHighRollerRoom,
 ) {
   const games = [];
 
@@ -415,13 +415,13 @@ function generateCasinoGames(
 
   if (hasLiveDealerGames) {
     games.push(
-      ...getRandomItems(casinoGames.liveDealerGames, getRandomInt(3, 6))
+      ...getRandomItems(casinoGames.liveDealerGames, getRandomInt(3, 6)),
     );
   }
 
   if (hasHighRollerRoom) {
     games.push(
-      ...getRandomItems(casinoGames.highRollerGames, getRandomInt(3, 6))
+      ...getRandomItems(casinoGames.highRollerGames, getRandomInt(3, 6)),
     );
   }
 
@@ -464,7 +464,7 @@ function generateCasinoDescription(
   vesselName,
   cityName,
   region,
-  features
+  features,
 ) {
   const specialFeatures = [];
   if (features.hasHighRollerRoom)
@@ -499,7 +499,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -533,7 +533,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -597,11 +597,11 @@ function generateCasinosForVessel(vessel, cityName, region, casinoCount) {
     const maxWagering = getRandomInt(5000, 25000);
     const selectedWageringMethods = getRandomItems(
       wageringMethods,
-      getRandomInt(4, 6)
+      getRandomInt(4, 6),
     );
     const selectedRedemptionMethods = getRandomItems(
       redemptionMethods,
-      getRandomInt(3, 5)
+      getRandomInt(3, 5),
     );
 
     const casino = {
@@ -613,7 +613,7 @@ function generateCasinosForVessel(vessel, cityName, region, casinoCount) {
         vessel.name,
         cityName,
         region,
-        features
+        features,
       ),
       imageUrl: `/images/casinos/${vessel.type}-casino-${i + 1}.jpg`,
       hours: hours,
@@ -626,7 +626,7 @@ function generateCasinosForVessel(vessel, cityName, region, casinoCount) {
         features.hasTableGames,
         features.hasPokerRoom,
         features.hasLiveDealerGames,
-        features.hasHighRollerRoom
+        features.hasHighRollerRoom,
       ),
       minimumAge: 21,
       dressCode: getRandomElement([
@@ -676,14 +676,14 @@ function generateCasinosForCity(cityName) {
       vessel,
       cityName,
       region,
-      casinoCount
+      casinoCount,
     );
     casinos.push(...vesselCasinos);
   });
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${casinos.length} casinos for ${cityName} (${vessels.length} vessels)`
+      `Generated ${casinos.length} casinos for ${cityName} (${vessels.length} vessels)`,
     );
   }
 
@@ -752,7 +752,7 @@ async function generateCasinoFiles() {
     "lib",
     "constants",
     "venues",
-    "casinos"
+    "casinos",
   );
 
   // Create directories if they don't exist
@@ -794,7 +794,7 @@ async function generateCasinoFiles() {
         try {
           const existingContent = fs.readFileSync(casinoFilePath, "utf8");
           const existingCasinosMatch = existingContent.match(
-            /export const \w+Casinos: Casino\[\] = \[([\s\S]*?)\];/
+            /export const \w+Casinos: Casino\[\] = \[([\s\S]*?)\];/,
           );
 
           if (existingCasinosMatch) {
@@ -805,7 +805,7 @@ async function generateCasinoFiles() {
           }
         } catch (error) {
           console.warn(
-            `⚠️  Could not parse existing casino file for ${city}: ${error.message}`
+            `⚠️  Could not parse existing casino file for ${city}: ${error.message}`,
           );
         }
       }
@@ -818,11 +818,11 @@ async function generateCasinoFiles() {
 
       if (APPEND_MODE && fileExists) {
         console.log(
-          `✅ Updated casino file for ${capitalize(city)} (${allCasinos.length} casinos)`
+          `✅ Updated casino file for ${capitalize(city)} (${allCasinos.length} casinos)`,
         );
       } else {
         console.log(
-          `✅ Created casino file for ${capitalize(city)} (${allCasinos.length} casinos)`
+          `✅ Created casino file for ${capitalize(city)} (${allCasinos.length} casinos)`,
         );
         filesCreated++;
       }

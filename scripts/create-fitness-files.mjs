@@ -103,7 +103,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -112,7 +112,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } fitness center files`
+  } fitness center files`,
 );
 
 // Fitness equipment categories
@@ -429,23 +429,23 @@ function generateFitnessEquipment(vesselType) {
 
   // Always include basic cardio and strength equipment
   equipment.push(
-    ...getRandomItems(fitnessEquipment.cardio, getRandomInt(6, 10))
+    ...getRandomItems(fitnessEquipment.cardio, getRandomInt(6, 10)),
   );
   equipment.push(
-    ...getRandomItems(fitnessEquipment.strength, getRandomInt(8, 12))
+    ...getRandomItems(fitnessEquipment.strength, getRandomInt(8, 12)),
   );
   equipment.push(
-    ...getRandomItems(fitnessEquipment.functional, getRandomInt(5, 8))
+    ...getRandomItems(fitnessEquipment.functional, getRandomInt(5, 8)),
   );
 
   // Add specialized equipment based on vessel type
   if (vesselType.includes("luxury") || vesselType.includes("vip")) {
     equipment.push(
-      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(3, 6))
+      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(3, 6)),
     );
   } else {
     equipment.push(
-      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(1, 3))
+      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(1, 3)),
     );
   }
 
@@ -468,7 +468,7 @@ function generateFitnessAmenities(vesselType) {
   if (vesselType.includes("luxury") || vesselType.includes("vip")) {
     const luxuryAmenities = getRandomItems(
       fitnessAmenities,
-      getRandomInt(3, 5)
+      getRandomInt(3, 5),
     );
     return [...new Set([...baseAmenities, ...luxuryAmenities])];
   }
@@ -512,7 +512,7 @@ function generateFitnessDescription(
   vesselName,
   cityName,
   region,
-  features
+  features,
 ) {
   const specialFeatures = [];
   if (features.hasPool) specialFeatures.push("pool area");
@@ -548,7 +548,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -582,7 +582,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -639,7 +639,7 @@ function generateFitnessCenterForVessel(vessel, cityName, region) {
       vessel.name,
       cityName,
       region,
-      features
+      features,
     ),
     imageUrl: `/images/fitness/${vessel.type}-fitness-center.jpg`,
     hours: hours,
@@ -672,13 +672,13 @@ function generateFitnessCentersForCity(cityName) {
   // Generate one fitness center per vessel
   vessels.forEach((vessel) => {
     fitnessCenters.push(
-      generateFitnessCenterForVessel(vessel, cityName, region)
+      generateFitnessCenterForVessel(vessel, cityName, region),
     );
   });
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${fitnessCenters.length} fitness centers for ${cityName} (${vessels.length} vessels)`
+      `Generated ${fitnessCenters.length} fitness centers for ${cityName} (${vessels.length} vessels)`,
     );
   }
 

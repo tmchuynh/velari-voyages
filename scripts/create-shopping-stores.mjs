@@ -110,7 +110,7 @@ const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const STORES_PER_CATEGORY = parseInt(
   args.find((arg) => arg.startsWith("--stores-per-category="))?.split("=")[1] ||
     "3", // Default 3 stores per category
-  10
+  10,
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 const HELP_MODE = args.includes("--help") || args.includes("-h");
@@ -161,7 +161,7 @@ Each file exports a typed array compatible with the Shopping interface.
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(`Stores per category: ${STORES_PER_CATEGORY}`);
 console.log(`Debug mode: ${DEBUG_MODE ? "Enabled" : "Disabled"}`);
@@ -473,7 +473,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -486,7 +486,7 @@ function getVesselDataForCity(cityName) {
   try {
     const fileContent = fs.readFileSync(vesselFilePath, "utf8");
     const arrayMatch = fileContent.match(
-      /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/
+      /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/,
     );
 
     if (!arrayMatch || !arrayMatch[1]) {
@@ -499,7 +499,7 @@ function getVesselDataForCity(cityName) {
     // Extract vessel data - simplified parsing
     const vessels = [];
     const vesselMatches = arrayMatch[1].match(
-      /\{\s*id:\s*"([^"]+)"[\s\S]*?name:\s*"([^"]+)"/g
+      /\{\s*id:\s*"([^"]+)"[\s\S]*?name:\s*"([^"]+)"/g,
     );
 
     if (vesselMatches) {
@@ -535,7 +535,7 @@ function generateIndividualStore(storeType, cityName, vesselName, region) {
       storeName,
       storeType,
       vesselName,
-      cityName
+      cityName,
     ),
     hours: hours,
     contact: {
@@ -553,14 +553,14 @@ function generateShoppingCategoryForVessel(
   cityName,
   region,
   storeType,
-  storesPerCategory = 3
+  storesPerCategory = 3,
 ) {
   const stores = [];
 
   // Generate individual stores for this category
   for (let i = 0; i < storesPerCategory; i++) {
     stores.push(
-      generateIndividualStore(storeType, cityName, vessel.name, region)
+      generateIndividualStore(storeType, cityName, vessel.name, region),
     );
   }
 
@@ -592,15 +592,15 @@ function generateShoppingCategoriesForCity(cityName) {
           cityName,
           region,
           storeType,
-          STORES_PER_CATEGORY
-        )
+          STORES_PER_CATEGORY,
+        ),
       );
     });
   });
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${shoppingCategories.length} shopping categories for ${cityName} (${vessels.length} vessels, ${SHOPPING_TYPES.length} types each)`
+      `Generated ${shoppingCategories.length} shopping categories for ${cityName} (${vessels.length} vessels, ${SHOPPING_TYPES.length} types each)`,
     );
   }
 
@@ -635,17 +635,17 @@ ${category.stores
         },
         contact: {
           contactNumber: "${generateRandomPhoneNumber(
-            cityToRegionMap[cityName]
+            cityToRegionMap[cityName],
           )}",
           contactEmail: "${generateRandomEmail("shopping.velarivoyages.com")}",
         },
         hasSales: ${store.hasSales},
         isPopular: ${store.isPopular},
-      }`
+      }`,
   )
   .join(",\n")}
     ],
-  }`
+  }`,
     )
     .join(",\n");
 
@@ -671,7 +671,7 @@ async function generateShoppingFiles() {
     "lib",
     "constants",
     "venues",
-    "shopping"
+    "shopping",
   );
 
   // Create directories if they don't exist
@@ -713,7 +713,7 @@ async function generateShoppingFiles() {
         try {
           const existingContent = fs.readFileSync(shoppingFilePath, "utf8");
           const existingStoresMatch = existingContent.match(
-            /export const \w+Shopping: Shopping\[\] = \[([\s\S]*?)\];/
+            /export const \w+Shopping: Shopping\[\] = \[([\s\S]*?)\];/,
           );
 
           if (existingStoresMatch) {
@@ -722,18 +722,18 @@ async function generateShoppingFiles() {
               existingStoresMatch[1].match(/\{/g) || []
             ).length;
             console.log(
-              `Found ${existingStoresCount} existing stores in ${city}-shopping.ts`
+              `Found ${existingStoresCount} existing stores in ${city}-shopping.ts`,
             );
 
             // For append mode, we'll just add new categories
             console.log(
-              `📝 Appending to existing shopping categories for ${city}`
+              `📝 Appending to existing shopping categories for ${city}`,
             );
             filesAppended++;
           }
         } catch (error) {
           console.warn(
-            `⚠️  Could not parse existing shopping store file for ${city}: ${error.message}`
+            `⚠️  Could not parse existing shopping store file for ${city}: ${error.message}`,
           );
         }
       }
@@ -741,7 +741,7 @@ async function generateShoppingFiles() {
       // Create file content
       const fileContent = createShoppingFileContent(
         city,
-        allShoppingCategories
+        allShoppingCategories,
       );
 
       // Write file
@@ -749,11 +749,11 @@ async function generateShoppingFiles() {
 
       if (APPEND_MODE && fileExists) {
         console.log(
-          `✅ Updated shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`
+          `✅ Updated shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`,
         );
       } else {
         console.log(
-          `✅ Created shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`
+          `✅ Created shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`,
         );
         filesCreated++;
       }

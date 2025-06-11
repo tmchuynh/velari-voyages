@@ -6,6 +6,9 @@
  *
  * This script validates that all cruises in the system have proper vessel assignments.
  * It checks all cruise files and reports any missing or invalid vessel IDs.
+ * It also provides a summary of the validation results.
+ * Usage:
+ *   node scripts/validate-cruise-vessels.mjs
  */
 
 import fs from "fs";

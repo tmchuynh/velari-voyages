@@ -106,7 +106,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -115,7 +115,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } art gallery files`
+  } art gallery files`,
 );
 
 // Famous artists by region/era
@@ -538,7 +538,7 @@ function generateArtGalleryDescription(
   vesselName,
   cityName,
   region,
-  features
+  features,
 ) {
   const specialFeatures = [];
   if (features.hasExhibitions) specialFeatures.push("rotating exhibitions");
@@ -570,7 +570,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -604,7 +604,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -644,7 +644,7 @@ function generateArtGalleryForVessel(vessel, cityName, region) {
       vessel.name,
       cityName,
       region,
-      features
+      features,
     ),
     imageUrl: `/images/art-galleries/${vessel.type}-gallery.jpg`,
     hours: hours,
@@ -671,7 +671,7 @@ function generateArtGalleriesForCity(cityName) {
   const vessels = getVesselDataForCity(cityName);
   if (vessels.length === 0) {
     console.warn(
-      `⚠️  No vessels found for ${cityName}, skipping art gallery generation`
+      `⚠️  No vessels found for ${cityName}, skipping art gallery generation`,
     );
     return [];
   }
@@ -687,7 +687,7 @@ function generateArtGalleriesForCity(cityName) {
 
   if (DEBUG_MODE) {
     console.log(
-      `✅ Generated ${artGalleries.length} art galleries for ${cityName}`
+      `✅ Generated ${artGalleries.length} art galleries for ${cityName}`,
     );
   }
 
@@ -713,7 +713,7 @@ function createArtGalleryFileContent(cityName, artGalleries) {
 export const ${camelCaseCityName}ArtGalleries: ArtGallery[] = ${JSON.stringify(
     artGalleries,
     null,
-    2
+    2,
   )};
 `;
 
@@ -729,7 +729,7 @@ async function processCityArtGalleries(cityName) {
     "lib",
     "constants",
     "venues",
-    "art-galleries"
+    "art-galleries",
   );
   const outputFile = path.join(outputDir, `${cityName}-art-galleries.ts`);
 
@@ -753,14 +753,14 @@ async function processCityArtGalleries(cityName) {
     if (APPEND_MODE && fs.existsSync(outputFile)) {
       const existingContent = fs.readFileSync(outputFile, "utf8");
       const match = existingContent.match(
-        /export const \w+ArtGalleries: ArtGallery\[\] = (\[[\s\S]*\]);/
+        /export const \w+ArtGalleries: ArtGallery\[\] = (\[[\s\S]*\]);/,
       );
       if (match) {
         try {
           existingArtGalleries = JSON.parse(match[1]);
         } catch (parseError) {
           console.warn(
-            `⚠️  Could not parse existing art galleries for ${cityName}, will overwrite`
+            `⚠️  Could not parse existing art galleries for ${cityName}, will overwrite`,
           );
         }
       }
@@ -786,7 +786,7 @@ async function processCityArtGalleries(cityName) {
 
     if (DEBUG_MODE) {
       console.log(
-        `✅ ${APPEND_MODE ? "Appended to" : "Created"} ${cityName}-art-galleries.ts with ${newArtGalleries.length} new art galleries`
+        `✅ ${APPEND_MODE ? "Appended to" : "Created"} ${cityName}-art-galleries.ts with ${newArtGalleries.length} new art galleries`,
       );
     }
 
@@ -828,7 +828,7 @@ async function main() {
     // Progress indicator
     if (totalProcessed % 10 === 0 || totalProcessed === cityFiles.length) {
       console.log(
-        `📊 Progress: ${totalProcessed}/${cityFiles.length} cities processed`
+        `📊 Progress: ${totalProcessed}/${cityFiles.length} cities processed`,
       );
     }
   }
@@ -844,7 +844,7 @@ async function main() {
 
   if (totalErrors > 0) {
     console.log(
-      "\n⚠️  Some errors occurred during generation. Check the logs above for details."
+      "\n⚠️  Some errors occurred during generation. Check the logs above for details.",
     );
   }
 }

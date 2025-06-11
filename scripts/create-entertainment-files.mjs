@@ -676,7 +676,7 @@ const testimonialTemplates = {
     "Interactive magic that made me feel like part of the show. Truly special experience.",
   ],
   Nightclub: [
-    "The DJ {performer} really knew how to keep the dance floor packed all night!",
+    "The DJ, {performer}, really knew how to keep the dance floor packed all night!",
     "Great music, amazing lights, and such a fun atmosphere. Perfect nightclub experience.",
     "The {showName} party was incredible! Danced until the early morning hours.",
     "Fantastic sound system and the perfect mix of music. Had an amazing time!",
@@ -825,102 +825,964 @@ const faqTemplates = {
   ],
 };
 
-// Generate entertainment operating hours
-function generateEntertainmentHours(categoryType) {
-  let startHour, endHour, description;
+// Base FAQ templates with placeholders for customization
+const baseFaqTemplates = {
+  "Live Music": {
+    ticketing: [
+      "Do I need tickets for {categoryType} performances?",
+      "How do I reserve seats for {showName}?",
+      "Are there VIP tickets available for live music shows?",
+      "Can I get refunds if I miss a {categoryType} show?",
+    ],
+    participation: [
+      "Can I request songs from the {performerRole}?",
+      "Do you accept song requests for {categoryType} performances?",
+      "Can I dedicate a song to someone during {showName}?",
+      "How do I submit music requests to performers?",
+    ],
+    ageRestrictions: [
+      "Are {categoryType} venues suitable for all ages?",
+      "Do you have family-friendly music performances?",
+      "What are the age restrictions for evening shows?",
+      "Are children welcome at {categoryType} events?",
+    ],
+    venue: [
+      "What is the capacity of the {venueArea}?",
+      "Is the {venueArea} accessible for guests with mobility issues?",
+      "Does the {categoryType} venue have a bar?",
+      "What time do {categoryType} performances typically start?",
+    ],
+    scheduling: [
+      "How many {categoryType} performances are scheduled during my {cruiseDuration} cruise?",
+      "What's the performance schedule for {showName} during the {cruiseDuration} voyage?",
+      "Are there daily {categoryType} shows throughout the {cruiseDuration} trip?",
+      "How often does {showName} perform during a {cruiseDuration} cruise?",
+    ],
+  },
 
-  switch (categoryType) {
-    case "Movie Theater":
-      startHour = getRandomInt(14, 16); // 2pm-4pm
-      endHour = getRandomInt(23, 1); // 11pm-1am
-      description = "Multiple showtimes throughout the day";
-      break;
-    case "Nightclub":
-      startHour = getRandomInt(21, 22); // 9pm-10pm
-      endHour = getRandomInt(2, 4); // 2am-4am
-      description = "Late night entertainment venue";
-      break;
-    case "Karaoke":
-      startHour = getRandomInt(19, 20); // 7pm-8pm
-      endHour = getRandomInt(1, 3); // 1am-3am
-      description = "Evening karaoke sessions";
-      break;
-    default:
-      startHour = getRandomInt(18, 20); // 6pm-8pm
-      endHour = getRandomInt(22, 24); // 10pm-12am
-      description = "Evening entertainment hours";
+  Dancing: {
+    skillLevel: [
+      "Do I need dance experience for {categoryType} events?",
+      "Are {categoryType} lessons suitable for beginners?",
+      "What if I've never done {categoryType} before?",
+      "Do you offer different skill levels for dance instruction?",
+    ],
+    equipment: [
+      "Should I bring special {categoryType} shoes?",
+      "What should I wear to {categoryType} events?",
+      "Are dance shoes available for purchase onboard?",
+      "Do I need special attire for {showName}?",
+    ],
+    instruction: [
+      "Are {categoryType} lessons included in the cruise fare?",
+      "Do you offer private {categoryType} instruction?",
+      "How long are the {categoryType} lessons?",
+      "Can I get personalized dance coaching during {showName}?",
+    ],
+    social: [
+      "Can I participate without a dance partner?",
+      "Do you help match dance partners for {categoryType}?",
+      "Are there social {categoryType} events?",
+      "What if I'm traveling solo and want to join {categoryType} activities?",
+    ],
+    progression: [
+      "Can I learn multiple dance styles during my {cruiseDuration} cruise?",
+      "Are there progressive {categoryType} lessons throughout the {cruiseDuration} voyage?",
+      "How many {categoryType} events happen during a {cruiseDuration} cruise?",
+      "Do dance skills build throughout the {cruiseDuration} journey?",
+    ],
+  },
+
+  Comedy: {
+    content: [
+      "Is the {showName} show appropriate for children?",
+      "What type of humor can I expect at {categoryType} shows?",
+      "Are there clean comedy options available?",
+      "Do you have both family and adult comedy performances?",
+    ],
+    interaction: [
+      "Will I be called on stage during {showName}?",
+      "Can I interact with comedians after the show?",
+      "Do {categoryType} shows include audience participation?",
+      "What if I don't want to be part of the {categoryType} act?",
+    ],
+    scheduling: [
+      "How many {categoryType} shows are there per cruise?",
+      "Do I need to reserve seats for {showName}?",
+      "What time do {categoryType} performances start?",
+      "Are there multiple showtimes for popular {categoryType} acts?",
+    ],
+  },
+
+  "Game Show": {
+    participation: [
+      "How do I sign up to participate in {showName}?",
+      "What types of games are featured in {categoryType} events?",
+      "Can families participate together in {categoryType} shows?",
+      "Do I need to register in advance for {categoryType} participation?",
+    ],
+    prizes: [
+      "What prizes can I win at {categoryType} events?",
+      "Are there different prize levels for {showName}?",
+      "Do {categoryType} winners get cruise credits?",
+      "What happens if I win multiple {categoryType} games?",
+    ],
+    format: [
+      "How long do {categoryType} shows typically last?",
+      "What's the format of {showName}?",
+      "How many contestants participate in each {categoryType} show?",
+      "Are {categoryType} games based on luck or skill?",
+    ],
+  },
+
+  "Movie Theater": {
+    selection: [
+      "What movies are shown during my {cruiseDuration} cruise?",
+      "Do you show current releases in the {venueArea}?",
+      "Are there themed movie nights in the {categoryType}?",
+      "Can I request specific films for {showName} screenings?",
+    ],
+    accessibility: [
+      "Are {categoryType} screenings captioned?",
+      "Does the {venueArea} have wheelchair accessible seating?",
+      "Are there audio descriptions available for {categoryType} films?",
+      "Do you offer assisted listening devices for movies?",
+    ],
+    amenities: [
+      "Can I bring snacks to the {categoryType}?",
+      "Is there a concession stand at the {venueArea}?",
+      "Are beverages allowed in the {categoryType}?",
+      "What refreshments are available during {showName}?",
+    ],
+    programming: [
+      "How many different movies will be shown during my {cruiseDuration} cruise?",
+      "Do you change the movie selection throughout the {cruiseDuration} voyage?",
+      "What's the movie schedule for a {cruiseDuration} cruise?",
+      "Are there special movie events during {cruiseDuration} cruises?",
+    ],
+  },
+
+  Karaoke: {
+    songLibrary: [
+      "What songs are available for {categoryType}?",
+      "Do you have {musicGenre} songs for karaoke?",
+      "Can I request new songs be added to the {categoryType} library?",
+      "Are there songs in multiple languages for {categoryType}?",
+    ],
+    participation: [
+      "Do I need to sign up in advance for {categoryType}?",
+      "Can I sing duets during {showName}?",
+      "What if I'm too nervous to sing alone at {categoryType}?",
+      "Are there group {categoryType} sessions?",
+    ],
+    equipment: [
+      "Do you provide microphones for {categoryType}?",
+      "Is the {categoryType} sound system professional quality?",
+      "Can I connect my phone to the {categoryType} system?",
+      "Are there backup singers available for {showName}?",
+    ],
+  },
+
+  "Magic Show": {
+    participation: [
+      "Will I be selected as a volunteer for {showName}?",
+      "Can I decline participation in {categoryType} audience interaction?",
+      "What should I expect if chosen for a {categoryType} trick?",
+      "Are {categoryType} volunteer roles suitable for children?",
+    ],
+    content: [
+      "What type of magic is featured in {showName}?",
+      "Are {categoryType} shows suitable for young children?",
+      "Do you have both close-up and stage magic in {categoryType}?",
+      "What makes {showName} different from other magic shows?",
+    ],
+    learning: [
+      "Can I learn magic tricks during the cruise?",
+      "Do {categoryType} performers offer workshops?",
+      "Are magic supplies available for purchase after {showName}?",
+      "Can children learn simple tricks at {categoryType} events?",
+    ],
+  },
+
+  Nightclub: {
+    dressCode: [
+      "What's the dress code for {venueArea}?",
+      "Can I wear casual clothes to {categoryType} events?",
+      "Are there different dress requirements for {showName}?",
+      "What should I avoid wearing to the {categoryType}?",
+    ],
+    agePolicy: [
+      "What's the minimum age for {categoryType} entry?",
+      "Are there family hours at the {venueArea}?",
+      "Do you have 21+ only events in the {categoryType}?",
+      "Can teenagers attend early {categoryType} events?",
+    ],
+    music: [
+      "What type of music is played at {categoryType} events?",
+      "Can I request songs from the DJ at {showName}?",
+      "Are there themed music nights in the {categoryType}?",
+      "Do you have live DJs for all {categoryType} events?",
+    ],
+  },
+};
+
+function getCruiseDataForCity(cityName) {
+  const cruiseFilePath = path.join(
+    __dirname,
+    "..",
+    "..",
+    "src",
+    "lib",
+    "constants",
+    "cruises",
+    "cruises",
+    `${cityName}-cruises.ts`
+  );
+
+  if (!fs.existsSync(cruiseFilePath)) {
+    if (DEBUG_MODE) {
+      console.log(`⚠️  No cruise file found for ${cityName}`);
+    }
+    return [];
   }
 
-  return {
-    start: `${startHour.toString().padStart(2, "0")}:00`,
-    end:
-      endHour > 24
-        ? `0${(endHour - 24).toString()}:00`
-        : `${endHour.toString().padStart(2, "0")}:00`,
-    duration: `${endHour > startHour ? endHour - startHour : 24 - startHour + endHour} hours`,
-    description: description,
-  };
+  try {
+    const cruiseFileContent = fs.readFileSync(cruiseFilePath, "utf8");
+    const cruises = [];
+
+    // Extract cruise data using regex - focusing on vesselId and totalDuration
+    const cruisePattern =
+      /\{\s*id:\s*"([^"]+)",\s*vesselId:\s*"([^"]+)",[\s\S]*?totalDuration:\s*"([^"]+)",[\s\S]*?\}/g;
+
+    let match;
+    while ((match = cruisePattern.exec(cruiseFileContent)) !== null) {
+      cruises.push({
+        id: match[1],
+        vesselId: match[2],
+        totalDuration: match[3],
+      });
+    }
+
+    if (DEBUG_MODE) {
+      console.log(`✅ Found ${cruises.length} cruises for ${cityName}`);
+    }
+
+    return cruises;
+  } catch (error) {
+    console.warn(
+      `⚠️  Could not read cruise file for ${cityName}: ${error.message}`
+    );
+    return [];
+  }
 }
 
-// Generate deck and area location
-function generateLocation() {
-  const deck = getRandomInt(5, 15);
-  const areas = [
-    "Main Theater",
-    "Atrium",
-    "Pool Deck",
-    "Upper Deck",
-    "Forward Lounge",
-    "Aft Lounge",
-    "Midship Theater",
-    "Sky Deck",
-    "Observation Deck",
-    "Entertainment Plaza",
-    "Central Court",
-    "Grand Ballroom",
-  ];
+// Context-aware FAQ answer generator
+const contextualAnswers = {
+  "Live Music": {
+    ticketing: [
+      (context) => {
+        const { hasTickets, ticketPrice, categoryType } = context;
+        if (!hasTickets) {
+          return `All ${categoryType.toLowerCase()} performances are included in your cruise fare. Simply arrive early to secure the best seats - no reservations needed!`;
+        }
+        return `${categoryType} shows require advance tickets at $${ticketPrice} per person. Book early through Guest Services or the ship's mobile app to guarantee your spot.`;
+      },
+      (context) => {
+        const { hasTickets, ticketPrice, categoryType } = context;
+        if (!hasTickets) {
+          return `Great news! ${categoryType.toLowerCase()} events are complimentary for all guests. We recommend arriving 15-20 minutes before showtime for optimal seating.`;
+        }
+        return `Premium ${categoryType.toLowerCase()} experiences are ticketed at $${ticketPrice}. Tickets can be purchased at the Guest Services desk or reserved online through your cruise account.`;
+      },
+      (context) => {
+        const { hasTickets, ticketPrice, categoryType } = context;
+        if (!hasTickets) {
+          return `No tickets required! ${categoryType.toLowerCase()} performances are part of your cruise experience. Seating is first-come, first-served.`;
+        }
+        return `Special ${categoryType.toLowerCase()} performances require tickets priced at $${ticketPrice} each. Visit Guest Services to check availability and make reservations.`;
+      },
+    ],
 
-  return {
-    deck: deck,
-    area: getRandomElement(areas),
+    venue: [
+      (context) => {
+        const { hasBar, capacity, venueArea, cruiseDuration } = context;
+        return `The ${venueArea} ${hasBar ? "features a sophisticated bar with craft cocktails and" : ""} comfortably seats ${capacity || "up to 250"} guests. During your ${cruiseDuration} cruise, we host multiple performances with state-of-the-art acoustics.`;
+      },
+      (context) => {
+        const { hasBar, capacity, venueArea } = context;
+        return `Our ${venueArea} offers an intimate setting for ${capacity || "200"} guests, ${hasBar ? "complete with full beverage service and" : "featuring"} exceptional sound quality and unobstructed views.`;
+      },
+      (context) => {
+        const { hasBar, capacity, venueArea } = context;
+        return `Experience live music in our beautifully designed ${venueArea}, accommodating ${capacity || "180"} guests ${hasBar ? "with premium bar service available throughout the performance" : "in a comfortable, acoustically optimized environment"}.`;
+      },
+    ],
+
+    participation: [
+      (context) => {
+        const { categoryType, performerRole } = context;
+        return `Absolutely! Our ${performerRole.toLowerCase()}s love taking requests. Feel free to approach them during breaks or submit requests to our entertainment staff.`;
+      },
+      (context) => {
+        const { categoryType, performerRole } = context;
+        return `Song requests are welcome and encouraged! You can submit requests in advance at Guest Services or speak directly with the ${performerRole.toLowerCase()} before the show.`;
+      },
+      (context) => {
+        const { categoryType, showName } = context;
+        return `${showName} performers are happy to accommodate requests when possible. Submit your favorites early in the cruise for the best chance of hearing them performed.`;
+      },
+    ],
+
+    scheduling: [
+      (context) => {
+        const { categoryType, cruiseDuration, showName } = context;
+        const dayCount = parseInt(cruiseDuration.split(" ")[0]) || 7;
+        const performanceCount = Math.floor(dayCount * 0.6); // Roughly 60% of days
+        return `During your ${cruiseDuration} cruise, ${showName} typically performs ${performanceCount} times, ensuring you have multiple opportunities to enjoy our ${categoryType.toLowerCase()} entertainment.`;
+      },
+      (context) => {
+        const { categoryType, cruiseDuration } = context;
+        return `Our ${categoryType.toLowerCase()} programming runs throughout your ${cruiseDuration} voyage with performances scheduled on most evenings, giving you plenty of entertainment options.`;
+      },
+    ],
+  },
+
+  Dancing: {
+    skillLevel: [
+      (context) => {
+        const { categoryType } = context;
+        return `No experience necessary! Our ${categoryType.toLowerCase()} sessions are designed for all skill levels, from complete beginners to seasoned dancers. Professional instructors provide personalized guidance.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Whether you're a first-timer or experienced dancer, our ${categoryType.toLowerCase()} events welcome everyone. We offer beginner-friendly instruction alongside more advanced choreography.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Don't worry about experience! Our ${categoryType.toLowerCase()} activities are structured to accommodate dancers at every level, with patient instructors who make learning fun and stress-free.`;
+      },
+    ],
+
+    equipment: [
+      (context) => {
+        const { categoryType } = context;
+        return `Comfortable closed-toe shoes are perfect for ${categoryType.toLowerCase()} activities. Specialized dance shoes are available for purchase in our onboard boutique if you'd like to invest in them.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `We recommend wearing shoes with smooth soles for ${categoryType.toLowerCase()} events. Our ship's shops carry dance shoes, or you can dance in comfortable dress shoes.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Any comfortable shoes work for ${categoryType.toLowerCase()}! Athletic shoes are fine for casual sessions, though dance-specific footwear enhances the experience and is available onboard.`;
+      },
+    ],
+
+    social: [
+      (context) => {
+        const { categoryType } = context;
+        return `Solo travelers are very welcome! Our dance hosts and instructors help pair guests for partner dances, and many ${categoryType.toLowerCase()} activities work perfectly for individuals.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `No partner required! We have dedicated dance hosts to partner with solo guests, and our ${categoryType.toLowerCase()} events include many group dances and solo opportunities.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Traveling alone is no problem for ${categoryType.toLowerCase()} events! Our professional dance staff ensures everyone has partners when needed, and we foster a welcoming, inclusive atmosphere.`;
+      },
+    ],
+
+    progression: [
+      (context) => {
+        const { categoryType, cruiseDuration } = context;
+        const dayCount = parseInt(cruiseDuration.split(" ")[0]) || 7;
+        const lessonCount = Math.floor(dayCount * 0.8); // Most days have lessons
+        return `Your ${cruiseDuration} cruise includes approximately ${lessonCount} ${categoryType.toLowerCase()} sessions, allowing you to progress from beginner to intermediate level during your voyage.`;
+      },
+    ],
+  },
+
+  Comedy: {
+    content: [
+      (context) => {
+        const { isAdultOnly, showName } = context;
+        if (isAdultOnly) {
+          return `${showName} features mature content and language intended for adult audiences (18+). We also offer family-friendly comedy shows throughout your cruise for all-ages entertainment.`;
+        }
+        return `${showName} is carefully curated for family audiences, featuring clever, clean humor that entertains guests of all ages without compromising on laughs.`;
+      },
+      (context) => {
+        const { isAdultOnly, showName } = context;
+        if (isAdultOnly) {
+          return `This adults-only ${showName} includes edgier humor and themes suitable for mature audiences. Check your daily program for our family-appropriate comedy options as well.`;
+        }
+        return `Our ${showName} delivers hilarious, wholesome entertainment perfect for families, featuring professional comedians skilled in all-ages humor.`;
+      },
+      (context) => {
+        const { isAdultOnly, showName } = context;
+        if (isAdultOnly) {
+          return `${showName} is designed for guests 18 and older, featuring bold comedy and adult themes. We balance our comedy lineup with shows suitable for the whole family.`;
+        }
+        return `${showName} provides laugh-out-loud entertainment that's appropriate for everyone, from kids to grandparents, without sacrificing comedic quality.`;
+      },
+    ],
+
+    interaction: [
+      (context) => {
+        const { showName } = context;
+        return `While ${showName} may include audience interaction, participation is always voluntary. Our comedians are respectful and will honor your preference to simply enjoy the show as a spectator.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Audience participation in ${categoryType.toLowerCase()} shows is completely optional. Simply indicate to our staff if you prefer not to participate, and they'll ensure you can enjoy without pressure.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `Don't worry about being put on the spot! ${showName} comedians are professionals who read the room well and only involve willing participants. You can always politely decline.`;
+      },
+    ],
+  },
+
+  "Game Show": {
+    participation: [
+      (context) => {
+        const { showName } = context;
+        return `Join ${showName} by simply attending and volunteering when contestants are called. Some shows also accept advance registration at the Guest Services desk starting the day before.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Participation in ${categoryType.toLowerCase()} events is easy! Arrive early, raise your hand when volunteers are requested, or sign up in advance at Guest Services for guaranteed spots.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `To be part of ${showName}, attend the show and express interest when participants are selected. Early registration is sometimes available - check with Guest Services for details.`;
+      },
+    ],
+
+    prizes: [
+      (context) => {
+        const { categoryType } = context;
+        return `${categoryType} winners enjoy fantastic prizes including onboard credits, specialty dining certificates, spa treatments, shore excursion discounts, and exclusive merchandise.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `${showName} offers exciting prizes ranging from cruise credits and premium dining experiences to logo merchandise, wine packages, and future cruise discounts.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Prize packages for ${categoryType.toLowerCase()} events include valuable cruise credits, specialty restaurant vouchers, spa services, beverage packages, and unique souvenirs.`;
+      },
+    ],
+
+    format: [
+      (context) => {
+        const { showName } = context;
+        return `${showName} typically runs 45-60 minutes with multiple rounds, keeping energy high and giving several guests chances to participate and win throughout the show.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Most ${categoryType.toLowerCase()} events last about an hour, featuring multiple games and opportunities for different guests to participate, ensuring everyone stays engaged.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `${showName} is structured as an interactive hour-long experience with various game segments, allowing multiple contestants to participate while keeping the audience entertained throughout.`;
+      },
+    ],
+  },
+
+  "Movie Theater": {
+    selection: [
+      (context) => {
+        const { categoryType, cruiseDuration } = context;
+        return `During your ${cruiseDuration} cruise, our ${categoryType.toLowerCase()} features a diverse lineup including recent blockbusters, timeless classics, family favorites, and critically acclaimed films updated regularly.`;
+      },
+      (context) => {
+        const { venueArea, cruiseDuration } = context;
+        return `Throughout your ${cruiseDuration} journey, the ${venueArea} showcases a carefully curated selection of current releases, beloved classics, international films, and family-friendly options.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Our ${categoryType.toLowerCase()} programming includes the latest Hollywood releases, classic cinema, animated features, and documentary selections, ensuring something for every movie lover.`;
+      },
+    ],
+
+    accessibility: [
+      (context) => {
+        const { venueArea } = context;
+        return `The ${venueArea} is fully accessible with wheelchair-friendly seating, closed captioning available upon request, and assistive listening devices for guests with hearing impairments.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Our ${categoryType.toLowerCase()} offers comprehensive accessibility including reserved wheelchair spaces, audio descriptions for visually impaired guests, and captioning services for all screenings.`;
+      },
+      (context) => {
+        const { venueArea } = context;
+        return `${venueArea} accessibility features include designated wheelchair seating areas, assistive listening systems, closed captioning options, and staff assistance for guests with special needs.`;
+      },
+    ],
+
+    amenities: [
+      (context) => {
+        const { venueArea } = context;
+        return `${venueArea} amenities include comfortable stadium seating, premium sound systems, climate control, and a concession area offering popcorn, candy, and beverages during screenings.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Enjoy ${categoryType.toLowerCase()} comfort with plush seating, state-of-the-art projection and sound, perfect temperature control, and classic movie snacks available for purchase.`;
+      },
+      (context) => {
+        const { venueArea } = context;
+        return `The ${venueArea} provides a premium cinema experience with ergonomic seating, surround sound, optimal lighting, and a selection of movie theater treats and beverages.`;
+      },
+    ],
+
+    programming: [
+      (context) => {
+        const { cruiseDuration, categoryType } = context;
+        const dayCount = parseInt(cruiseDuration.split(" ")[0]) || 7;
+        const movieCount = Math.min(dayCount * 2, 20); // Up to 2 movies per day, max 20
+        return `Throughout your ${cruiseDuration} cruise, our ${categoryType.toLowerCase()} features approximately ${movieCount} different films, ensuring fresh entertainment options throughout your voyage.`;
+      },
+    ],
+  },
+
+  Karaoke: {
+    songLibrary: [
+      (context) => {
+        const { categoryType } = context;
+        return `Our extensive ${categoryType.toLowerCase()} collection features thousands of songs spanning all genres, decades, and languages, from current chart-toppers to timeless classics, updated regularly with guest requests.`;
+      },
+      (context) => {
+        return `The karaoke library includes an impressive variety of music: pop, rock, country, R&B, international hits, show tunes, and classics, with new songs added based on popular demand and current trends.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Choose from our comprehensive ${categoryType.toLowerCase()} database featuring music in multiple languages, every genre imaginable, and songs from the 1950s to today's hottest hits.`;
+      },
+    ],
+
+    participation: [
+      (context) => {
+        const { showName } = context;
+        return `${showName} welcomes walk-in participants! Sign up when you arrive, or reserve your spot in advance at Guest Services. Group performances and duets are especially popular.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Join ${categoryType.toLowerCase()} anytime during open sessions. No advance signup required, though you can reserve slots at Guest Services. Solo, duet, and group performances all welcome!`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `${categoryType} participation is easy and flexible - show up and add your name to the list, or book ahead through Guest Services for busy nights. All skill levels encouraged!`;
+      },
+    ],
+  },
+
+  "Magic Show": {
+    participation: [
+      (context) => {
+        const { showName } = context;
+        return `Audience participation in ${showName} is completely voluntary. Our magicians are skilled at reading comfort levels and will always respect your preference to enjoy the show from your seat.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `While ${categoryType.toLowerCase()} shows often include audience interaction, participation is never mandatory. Simply signal to our staff if you prefer to watch rather than participate.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `${showName} volunteers are always willing participants. Our magicians create a comfortable environment where you can decline participation while still enjoying the full entertainment experience.`;
+      },
+    ],
+
+    content: [
+      (context) => {
+        const { showName } = context;
+        return `${showName} features a blend of classic illusions, modern magic techniques, mind-bending mentalism, and comedy magic, creating an entertaining experience that amazes guests of all ages.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Our ${categoryType.toLowerCase()} performances combine traditional stage magic with contemporary illusions, close-up magic, and interactive elements that engage and mystify audiences.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `${showName} showcases diverse magical arts including sleight of hand, grand illusions, escape artistry, and mentalism, performed by world-class magicians with international experience.`;
+      },
+    ],
+  },
+
+  Nightclub: {
+    dressCode: [
+      (context) => {
+        const { venueArea } = context;
+        return `${venueArea} maintains an upscale dress code: collared shirts, dress pants, and closed-toe shoes required. No swimwear, shorts, tank tops, or flip-flops permitted after 6 PM.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Our ${categoryType.toLowerCase()} enforces smart casual to formal attire: dress shirts, slacks, dresses, and appropriate footwear. Casual wear like t-shirts and sandals aren't permitted during evening hours.`;
+      },
+      (context) => {
+        const { venueArea } = context;
+        return `${venueArea} dress expectations include business casual or formal wear: button-down shirts, nice pants or dresses, and proper shoes. Resort casual attire is not accepted for nighttime events.`;
+      },
+    ],
+
+    agePolicy: [
+      (context) => {
+        const { categoryType, hasEarlyHours } = context;
+        return `The ${categoryType.toLowerCase()} welcomes guests 18+ during standard hours. ${hasEarlyHours ? "Family hours (6-8 PM) accommodate all ages with age-appropriate music and activities." : "Some special events may require guests to be 21 years or older."}`;
+      },
+      (context) => {
+        const { venueArea, hasEarlyHours } = context;
+        return `${venueArea} age policy: 18+ for regular evening hours. ${hasEarlyHours ? "Earlier family-friendly sessions welcome guests of all ages with supervised activities." : "Certain premium events may have a 21+ age requirement."}`;
+      },
+      (context) => {
+        const { categoryType, hasEarlyHours } = context;
+        return `Standard ${categoryType.toLowerCase()} access requires guests to be 18 or older. ${hasEarlyHours ? "Special family sessions earlier in the evening include all-ages entertainment and activities." : "Select adult-only events may require participants to be 21+."}`;
+      },
+    ],
+
+    music: [
+      (context) => {
+        const { categoryType } = context;
+        return `${categoryType} events feature diverse musical styles including current pop hits, classic dance music, electronic dance music, and themed nights with specific genres like retro, Latin, or hip-hop.`;
+      },
+      (context) => {
+        const { showName } = context;
+        return `${showName} showcases dynamic music programming: top 40 hits, dance remixes, classic party anthems, and special theme nights featuring everything from 80s hits to Latin rhythms.`;
+      },
+      (context) => {
+        const { categoryType } = context;
+        return `Our ${categoryType.toLowerCase()} music selection spans current chart-toppers, timeless dance classics, electronic beats, and themed evenings celebrating specific decades or musical styles.`;
+      },
+    ],
+  },
+};
+
+// Updated function to generate context-aware FAQs with cruise data
+export function generateCustomFAQs(entertainmentShow, category, vessel, cityName) {
+  const categoryType = category.type;
+  const templates = baseFaqTemplates[categoryType];
+
+  if (!templates) {
+    console.warn(`No FAQ templates found for category: ${categoryType}`);
+    return [];
+  }
+
+  // Get cruise data for the city to find duration
+  const cruises = getCruiseDataForCity(cityName);
+  const vesselCruises = cruises.filter(
+    (cruise) => cruise.vesselId === vessel.id
+  );
+  const cruiseDuration =
+    vesselCruises.length > 0
+      ? getRandomElement(vesselCruises).totalDuration
+      : getRandomElement(["7 days", "10 days", "14 days"]); // fallback
+
+  const context = {
+    categoryType,
+    showName: entertainmentShow.title,
+    venueArea: category.location.area,
+    hasBar: category.hasBar,
+    hasTickets: entertainmentShow.tickets.isRequired,
+    ticketPrice: entertainmentShow.tickets.price,
+    isAdultOnly: entertainmentShow.isAdultOnly,
+    performerRole: entertainmentShow.performers[0]?.role || "performer",
+    vesselType: vessel.type,
+    capacity: vessel.capacity,
+    hasEarlyHours: getRandomBool(0.4),
+    cruiseDuration: cruiseDuration, // Now using actual cruise duration
+    cityName: cityName,
+    region: cityToRegionMap[cityName] || "International Waters",
   };
+
+  const faqs = [];
+
+  const showsDataString = shows
+    .map((show) => {
+      // Generate custom FAQs for this specific show with cruise data
+      const customFaqs = generateCustomFAQs(show, category, vessel, cityName);
+
+      return `  {
+  id: "${categoryId}",
+  category: "${categoryType}",
+  name: "${show.title}",
+  description: "${show.description}",
+  // ...existing show properties...
+  faqs: [
+${customFaqs
+  .map(
+    (faq) =>
+      `      {
+        question: "${faq.question}",
+        answer: "${faq.answer}",
+      }`
+  )
+  .join(",\n")}
+    ],
+    isPopular: ${getRandomBool(0.3)}
+  }`;
+    })
+    .join(",\n");
+  const templateCategories = Object.keys(templates);
+
+  // Select 3-5 template categories for variety
+  const selectedCategories = getRandomItems(
+    templateCategories,
+    getRandomInt(3, 5)
+  );
+
+  selectedCategories.forEach((templateCategory) => {
+    const categoryTemplates = templates[templateCategory];
+    const selectedQuestion = getRandomElement(categoryTemplates);
+
+    // Replace placeholders in question
+    let question = selectedQuestion;
+    Object.keys(context).forEach((key) => {
+      const placeholder = `{${key}}`;
+      if (question.includes(placeholder)) {
+        question = question.replace(new RegExp(placeholder, "g"), context[key]);
+      }
+    });
+
+    // Generate contextual answer using random variant
+    let answer;
+    const answerVariants = contextualAnswers[categoryType]?.[templateCategory];
+    if (answerVariants && Array.isArray(answerVariants)) {
+      const selectedVariant = getRandomElement(answerVariants);
+      answer = selectedVariant(context);
+    } else {
+      // Fallback to generic answer
+      answer = generateGenericAnswer(question, context);
+    }
+
+    faqs.push({ question, answer });
+  });
+
+  return faqs;
+}
+
+// Enhanced generic answer generator with variants
+function generateGenericAnswer(question, context) {
+  const { categoryType, showName } = context;
+
+  const genericVariants = {
+    age: [
+      `${showName} welcomes guests of all ages unless specifically noted as adults-only. Check your daily program for age recommendations and family-friendly alternatives.`,
+      `Most ${categoryType.toLowerCase()} events are suitable for all ages. Adult-only shows are clearly marked in the daily schedule with alternative family options available.`,
+      `${showName} is generally appropriate for all guests. When age restrictions apply, they're clearly indicated, and we always offer family-friendly alternatives.`,
+    ],
+    tickets: [
+      `Most ${categoryType.toLowerCase()} events are complimentary for all guests. Premium experiences may require tickets available through Guest Services with advance booking recommended.`,
+      `${categoryType} activities are typically included in your cruise fare. Special performances requiring tickets are noted in advance with pricing and availability at Guest Services.`,
+      `The majority of ${categoryType.toLowerCase()} entertainment is complimentary. Ticketed events are premium experiences available for purchase at Guest Services or through the ship's app.`,
+    ],
+    schedule: [
+      `${categoryType} event schedules vary by day and are updated in your daily program and the ship's mobile app. Times may change due to weather or port schedules.`,
+      `Check your daily program or the ship's app for current ${categoryType.toLowerCase()} schedules. We recommend confirming times as they may adjust based on itinerary changes.`,
+      `${showName} times are published in the daily program and ship's app. Schedules are subject to change, so please verify current times before attending.`,
+    ],
+  };
+
+  if (
+    question.toLowerCase().includes("age") ||
+    question.toLowerCase().includes("children")
+  ) {
+    return getRandomElement(genericVariants.age);
+  }
+
+  if (
+    question.toLowerCase().includes("ticket") ||
+    question.toLowerCase().includes("reservation")
+  ) {
+    return getRandomElement(genericVariants.tickets);
+  }
+
+  if (
+    question.toLowerCase().includes("time") ||
+    question.toLowerCase().includes("schedule")
+  ) {
+    return getRandomElement(genericVariants.schedule);
+  }
+
+  return `For specific information about ${showName}, please contact Guest Services or visit the ${categoryType.toLowerCase()} venue directly for the most current details.`;
+}
+
+function createEntertainmentShowsFileContent(
+  categoryType,
+  shows,
+  categoryId,
+  vessel,
+  category,
+  cityName
+) {
+  const showsDataString = shows
+    .map((show) => {
+      // Generate custom FAQs for this specific show with cruise data
+      const customFaqs = generateCustomFAQs(show, category, vessel, cityName);
+
+      // Update the show's faqs
+      show.faqs = customFaqs;
+
+      return `  {
+    id: "${show.id}",
+    categoryId: "${categoryId}",
+    title: "${show.title}",
+    description: "${show.description}",
+    duration: ${show.duration},
+    performers: [
+${show.performers
+  .map(
+    (performer) =>
+      `      {
+        id: "${performer.id}",
+        name: "${performer.name}",
+        role: "${performer.role}",
+        bio: "${performer.bio}",
+        nationality: "${performer.nationality}",
+      }`
+  )
+  .join(",\n")}
+    ],
+    schedule: [
+${show.schedule
+  .map(
+    (schedule) =>
+      `      {
+        day: "${schedule.day}",
+        time: "${schedule.time}",
+      }`
+  )
+  .join(",\n")}
+    ],
+    tickets: {
+      isRequired: ${show.tickets.isRequired},
+      price: ${show.tickets.price},
+    },
+    isAdultOnly: ${show.isAdultOnly},
+    testimonials: [
+${show.testimonials
+  .map(
+    (testimonial) =>
+      `      {
+        id: "${testimonial.id}",
+        guestName: "${testimonial.guestName}",
+        rating: ${testimonial.rating},
+        comment: "${testimonial.comment}",
+        date: "${testimonial.date}",
+        isVerified: ${testimonial.isVerified},
+      }`
+  )
+  .join(",\n")}
+    ],
+    merchandise: [
+${show.merchandise
+  .map(
+    (item) =>
+      `      {
+        name: "${item.name}",
+        description: "${item.description}",
+        price: ${item.price},
+      }`
+  )
+  .join(",\n")}
+    ],
+    faqs: [
+${customFaqs
+  .map(
+    (faq) =>
+      `      {
+        question: "${faq.question}",
+        answer: "${faq.answer}",
+      }`
+  )
+  .join(",\n")}
+    ],
+    isPopular: ${getRandomBool(0.3)},
+  }`;
+    })
+    .join(",\n");
+
+  return `// ${categoryType} entertainment shows for ${vessel.name} in ${capitalize(cityName)}
+// Generated on ${new Date().toISOString()}
+
+import { Entertainment } from "@/lib/interfaces/services/venues";
+
+export const ${formatKebabToCamelCase(vessel.name)}${categoryType.replace(/\s+/g, "")}Entertainment: Entertainment[] = [
+${showsDataString}
+];
+`;
+}
+
+// Generate performers for a show
+function generatePerformers(categoryType) {
+  const performerCount = getRandomInt(1, 4);
+  const performers = [];
+  const specialties = performerSpecialties[categoryType] || ["Performer"];
+
+  for (let i = 0; i < performerCount; i++) {
+    const name = getRandomName();
+    const performer = {
+      id: generateUniqueId(),
+      name: name,
+      role: getRandomElement(specialties),
+      bio: `Professional ${getRandomElement(specialties).toLowerCase()} with years of experience in entertainment.`,
+      nationality: getRandomElement([
+        "American",
+        "British",
+        "Canadian",
+        "Australian",
+        "Italian",
+        "French",
+        "Spanish",
+        "German",
+      ]),
+    };
+    performers.push(performer);
+  }
+
+  return performers;
+}
+
+// Generate schedule for a show
+function generateSchedule() {
+  const days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+  const selectedDays = getRandomItems(days, getRandomInt(3, 5));
+
+  return selectedDays.map((day) => ({
+    day: day,
+    time: getRandomElement(["7:00 PM", "8:00 PM", "9:00 PM", "10:00 PM"]),
+  }));
 }
 
 // Generate testimonials for a show
-function generateTestimonials(
-  showName,
-  performer,
-  categoryType,
-  count = getRandomInt(5, 10)
-) {
+function generateTestimonials(categoryType, showName) {
+  const testimonialCount = getRandomInt(5, 10);
   const testimonials = [];
   const templates =
     testimonialTemplates[categoryType] || testimonialTemplates["Live Music"];
 
-  for (let i = 0; i < count; i++) {
-    const fullName = getRandomName();
-    const firstName = fullName.split(" ")[0];
-    const gender = determineGenderFromName(firstName);
-
-    // Select and customize template
-    let quote = getRandomElement(templates);
-    quote = quote.replace("{showName}", showName);
-    quote = quote.replace("{performer}", performer);
+  for (let i = 0; i < testimonialCount; i++) {
+    const name = getRandomName();
+    const template = getRandomElement(templates);
+    const testimonialText = template
+      .replace("{showName}", showName)
+      .replace("{performer}", name);
 
     const testimonial = {
-      quote: quote,
-      author: fullName,
-      title: getRandomElement([
-        "Guest",
-        "Cruise Passenger",
-        "Traveler",
-        "Vacationer",
-        "Entertainment Enthusiast",
-        "Music Lover",
-      ]),
-      image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
-      rating: getRandomInt(4, 5), // 4 or 5 stars
+      id: generateUniqueId(),
+      guestName: name,
+      rating: getRandomInt(4, 5),
+      comment: testimonialText,
       date: generateRandomDate(),
+      isVerified: getRandomBool(0.8),
     };
 
     testimonials.push(testimonial);
@@ -929,51 +1791,134 @@ function generateTestimonials(
   return testimonials;
 }
 
-// Generate merchandise for a show
-function generateMerchandise(categoryType, showName) {
-  const categoryMerchandise =
-    merchandiseByCategory[categoryType] || merchandiseByCategory["Live Music"];
-  const selectedItems = getRandomItems(categoryMerchandise, getRandomInt(1, 3));
-
-  return selectedItems.map((item) => ({
-    id: generateUniqueId(),
-    name: item.name,
-    description: item.description.replace("{showName}", showName),
-    price: item.price + getRandomInt(-5, 10), // Add some price variation
-    currency: "USD",
-  }));
+// Generate merchandise for a category
+function generateMerchandise(categoryType) {
+  const merchandiseCount = getRandomInt(2, 4);
+  const availableMerchandise = merchandiseByCategory[categoryType] || [];
+  return getRandomItems(
+    availableMerchandise,
+    Math.min(merchandiseCount, availableMerchandise.length)
+  );
 }
 
-// Generate performer data
-function generatePerformer(categoryType) {
-  const specialties =
-    performerSpecialties[categoryType] || performerSpecialties["Live Music"];
-  const fullName = getRandomName();
-  const firstName = fullName.split(" ")[0];
-  const gender = determineGenderFromName(firstName);
+// Generate entertainment categories and shows
+function generateEntertainmentCategories(vessel, cityName) {
+  const categories = [];
+  const selectedTypes = getRandomItems(entertainmentTypes, getRandomInt(4, 6));
 
-  return {
-    id: generateUniqueId(),
-    name: fullName,
-    role: getRandomElement(specialties),
-    bio: `Professional ${getRandomElement(specialties).toLowerCase()} with years of cruise ship entertainment experience.`,
-    image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
-    contact: {
-      contactEmail: generateRandomEmail("entertainment.velarivoyages.com"),
+  selectedTypes.forEach((type) => {
+    const categoryId = generateUniqueId();
+    const category = {
+      id: categoryId,
+      type: type,
+      name: `${type} Entertainment`,
+      description: `Experience world-class ${type.toLowerCase()} entertainment aboard the ${vessel.name}`,
+      location: {
+        deck: getRandomInt(3, 12),
+        area: getRandomElement([
+          "Main Theater",
+          "Lounge",
+          "Club",
+          "Auditorium",
+          "Performance Hall",
+          "Entertainment Deck",
+        ]),
+        capacity: getRandomInt(150, 400),
+      },
+      hasBar: getRandomBool(0.7),
+      hasMerchandise: getRandomBool(0.6),
+      isAdultOnly: type === "Nightclub" ? true : getRandomBool(0.2),
+      operatingHours: {
+        start: getRandomElement(["6:00 PM", "7:00 PM", "8:00 PM", "9:00 PM"]),
+        end: getRandomElement(["10:00 PM", "11:00 PM", "12:00 AM", "1:00 AM"]),
+      },
+    };
+
+    // Generate shows for this category
+    const showCount = getRandomInt(6, 10);
+    const shows = [];
+    const categoryShows = entertainmentShows[type];
+
+    for (let i = 0; i < showCount; i++) {
+      const showId = generateUniqueId();
+      const showName = getRandomElement(categoryShows.names);
+      const showDescription = getRandomElement(categoryShows.descriptions);
+
+      const show = {
+        id: showId,
+        title: showName,
+        description: showDescription,
+        duration: getRandomInt(45, 120), // minutes
+        performers: generatePerformers(type),
+        schedule: generateSchedule(),
+        tickets: {
+          isRequired: getRandomBool(0.3),
+          price: getRandomBool(0.3) ? getRandomInt(15, 45) : 0,
+        },
+        isAdultOnly: category.isAdultOnly || getRandomBool(0.1),
+        testimonials: generateTestimonials(type, showName),
+        merchandise: category.hasMerchandise ? generateMerchandise(type) : [],
+        faqs: [], // Will be filled by generateCustomFAQs
+      };
+
+      shows.push(show);
+    }
+
+    categories.push({
+      category: category,
+      shows: shows,
+    });
+  });
+
+  return categories;
+}
+
+// Create entertainment category file content
+function createEntertainmentCategoryFileContent(
+  entertainmentData,
+  vessel,
+  cityName
+) {
+  const categoriesDataString = entertainmentData
+    .map((item) => {
+      const category = item.category;
+      return `  {
+    id: "${category.id}",
+    type: "${category.type}",
+    name: "${category.name}",
+    description: "${category.description}",
+    location: {
+      deck: ${category.location.deck},
+      area: "${category.location.area}",
+      capacity: ${category.location.capacity},
     },
-    yearsOfExperience: getRandomInt(3, 15),
-    specialties: getRandomItems(specialties, getRandomInt(1, 3)),
-    certifications: [
-      "Professional Entertainment License",
-      "Maritime Safety Certification",
-    ],
-  };
+    hasBar: ${category.hasBar},
+    hasMerchandise: ${category.hasMerchandise},
+    isAdultOnly: ${category.isAdultOnly},
+    operatingHours: {
+      start: "${category.operatingHours.start}",
+      end: "${category.operatingHours.end}",
+    },
+  }`;
+    })
+    .join(",\n");
+
+  return `// Entertainment categories for ${vessel.name} in ${capitalize(cityName)}
+// Generated on ${new Date().toISOString()}
+
+import { EntertainmentCategory } from "@/lib/interfaces/services/venues";
+
+export const ${formatKebabToCamelCase(vessel.name)}Entertainment: EntertainmentCategory[] = [
+${categoriesDataString}
+];
+`;
 }
 
-// Read vessel data from a city's vessel file
+// Function to get vessel data from city file
 function getVesselDataForCity(cityName) {
   const vesselFilePath = path.join(
     __dirname,
+    "..",
     "..",
     "src",
     "lib",
@@ -1020,365 +1965,130 @@ function getVesselDataForCity(cityName) {
   }
 }
 
-// Generate entertainment categories for a vessel
-function generateEntertainmentCategories(vessel, cityName, region) {
-  const categories = [];
-
-  // Determine how many categories based on vessel type
-  const isLuxury =
-    vessel.type.toLowerCase().includes("luxury") ||
-    vessel.type.toLowerCase().includes("vip");
-  const categoryCount = isLuxury ? getRandomInt(6, 8) : getRandomInt(4, 6);
-
-  const selectedTypes = getRandomItems(entertainmentTypes, categoryCount);
-
-  selectedTypes.forEach((type) => {
-    const location = generateLocation();
-    const category = {
-      id: generateUniqueId(),
-      vesselId: vessel.id,
-      type: type,
-      location: location,
-      hasBar: getRandomBool(0.7), // 70% chance
-      hasFoodService: getRandomBool(0.4), // 40% chance
-      hasAccessibleSeating: getRandomBool(0.8), // 80% chance
-    };
-
-    categories.push(category);
-  });
-
-  return categories;
-}
-
-// Generate entertainment shows for a category
-function generateEntertainmentShows(category, vessel, cityName, region) {
-  const showCount = getRandomInt(6, 10);
-  const shows = [];
-  const categoryShows =
-    entertainmentShows[category.type] || entertainmentShows["Live Music"];
-
-  for (let i = 0; i < showCount; i++) {
-    const showName = getRandomElement(categoryShows.names);
-    const description = getRandomElement(categoryShows.descriptions);
-    const performer = generatePerformer(category.type);
-    const hasMerchandise = getRandomBool(0.6); // 60% chance
-    const hours = generateEntertainmentHours(category.type);
-
-    const show = {
-      id: generateUniqueId(),
-      title: showName,
-      description: description,
-      tickets: {
-        isRequired: getRandomBool(0.3), // 30% chance tickets required
-        price: getRandomBool(0.3) ? getRandomInt(15, 45) : 0,
-        currency: "USD",
-      },
-      isAdultOnly: getRandomBool(0.2), // 20% chance adults only
-      duration: `${getRandomInt(60, 120)} minutes`,
-      schedule: [
-        {
-          start: hours.start,
-          end: hours.end,
-          duration: hours.duration,
-          description: `${showName} performance times`,
-        },
-      ],
-      performers: [performer],
-      testimonials: generateTestimonials(
-        showName,
-        `${performer.firstName} ${performer.lastName}`,
-        category.type
-      ),
-      hasVIPSeating: getRandomBool(0.4), // 40% chance
-      hasAccessibleSeating: getRandomBool(0.9), // 90% chance
-      hasMerchandise: hasMerchandise,
-    };
-
-    // Add merchandise if hasMerchandise is true
-    if (hasMerchandise) {
-      show.merchandise = generateMerchandise(category.type, showName)[0]; // Single merchandise item
-    }
-
-    shows.push(show);
+// Generate entertainment files for a vessel in a city
+function generateEntertainmentFiles(city, vessel) {
+  if (DEBUG_MODE) {
+    console.log(
+      `\n🎭 Generating entertainment for ${vessel.name} in ${capitalize(city)}`
+    );
   }
 
-  return shows;
-}
+  const entertainmentData = generateEntertainmentCategories(vessel, city);
 
-// Generate entertainment data for a vessel
-function generateEntertainmentForVessel(vessel, cityName, region) {
-  const categories = generateEntertainmentCategories(vessel, cityName, region);
-  const entertainmentShows = [];
-
-  categories.forEach((category) => {
-    const shows = generateEntertainmentShows(
-      category,
-      vessel,
-      cityName,
-      region
-    );
-    entertainmentShows.push({
-      category: category,
-      shows: shows,
-    });
-  });
-
-  return {
-    categories: categories,
-    entertainment: entertainmentShows,
-  };
-}
-
-// Create entertainment categories file content
-function createEntertainmentCategoriesFileContent(categories) {
-  const categoriesDataString = categories
-    .map(
-      (category) =>
-        `  {
-    id: "${category.id}",
-    vesselId: "${category.vesselId}",
-    type: "${category.type}",
-    location: {
-      deck: ${category.location.deck},
-      area: "${category.location.area}",
-    },
-    hasBar: ${category.hasBar},
-    hasFoodService: ${category.hasFoodService},
-    hasAccessibleSeating: ${category.hasAccessibleSeating},
-  }`
-    )
-    .join(",\n");
-
-  return `// Entertainment categories for this vessel
-// This file contains entertainment category information for shows and events
-
-import { EntertainmentCategory } from "@/lib/interfaces/services/venues";
-
-export const entertainmentCategories: EntertainmentCategory[] = [
-${categoriesDataString}
-];
-`;
-}
-
-// Create entertainment shows file content
-function createEntertainmentShowsFileContent(categoryType, shows, categoryId) {
-  const showsDataString = shows
-    .map(
-      (show) =>
-        `  {
-    id: "${categoryId}",
-    category: "${categoryType}",
-    name: "${show.title}",
-    description: "${show.description}",
-    imageUrl: "/images/entertainment/${categoryType.toLowerCase().replace(" ", "-")}-show.jpg",
-    hours: ${JSON.stringify(show.schedule[0], null, 6).replace(/^/gm, "    ")},
-    contact: {
-      contactNumber: "+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}",
-      contactEmail: "${generateRandomEmail("entertainment.velarivoyages.com")}",
-    },
-    shows: [{
-      id: "${show.id}",
-      title: "${show.title}",
-      description: "${show.description}",
-      tickets: {
-        isRequired: ${show.tickets.isRequired},
-        price: ${show.tickets.price},
-        currency: "${show.tickets.currency}",
-      },
-      isAdultOnly: ${show.isAdultOnly},
-      duration: "${show.duration}",
-      schedule: [${JSON.stringify(show.schedule[0], null, 8).replace(/^/gm, "        ")}],
-      performers: [${JSON.stringify(show.performers[0], null, 8).replace(/^/gm, "        ")}],
-      testimonials: [
-${show.testimonials
-  .map(
-    (testimonial) =>
-      `        {
-          quote: "${testimonial.quote}",
-          author: "${testimonial.author}",
-          title: "${testimonial.title}",
-          image: "${testimonial.image}",
-          rating: ${testimonial.rating},
-          date: "${testimonial.date}",
-        }`
-  )
-  .join(",\n")}
-      ],
-      hasVIPSeating: ${show.hasVIPSeating},
-      hasAccessibleSeating: ${show.hasAccessibleSeating},
-      hasMerchandise: ${show.hasMerchandise}${
-        show.merchandise
-          ? `,
-      merchandise: ${JSON.stringify(show.merchandise, null, 8).replace(/^/gm, "      ")}`
-          : ""
-      }
-    }],
-    faqs: [
-${getRandomItems(
-  faqTemplates[categoryType] || faqTemplates["Live Music"],
-  getRandomInt(3, 5)
-)
-  .map(
-    (faq) =>
-      `      {
-        question: "${faq.question}",
-        answer: "${faq.answer}",
-      }`
-  )
-  .join(",\n")}
-    ],
-    isPopular: ${getRandomBool(0.3)}
-  }`
-    )
-    .join(",\n");
-
-  const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, "-");
-
-  return `// ${categoryType} entertainment shows
-// This file contains ${categoryType.toLowerCase()} entertainment show information
-
-import { Entertainment } from "@/lib/interfaces/services/venues";
-
-export const ${formatKebabToCamelCase(fileNameSuffix)}Entertainment: Entertainment[] = [
-${showsDataString}
-];
-`;
-}
-
-// Main function to generate entertainment files
-async function generateEntertainmentFiles() {
-  const entertainmentDir = path.join(
+  const vesselDir = path.join(
     __dirname,
+    "..",
     "..",
     "src",
     "lib",
     "constants",
     "venues",
-    "entertainment"
+    "entertainment",
+    city,
+    vessel.name.toLowerCase().replace(/\s+/g, "-")
   );
 
-  // Create base directory if it doesn't exist
-  if (!fs.existsSync(entertainmentDir)) {
-    fs.mkdirSync(entertainmentDir, { recursive: true });
-    console.log(`📁 Created directory: ${entertainmentDir}`);
+  // Create directory if it doesn't exist
+  if (!fs.existsSync(vesselDir)) {
+    fs.mkdirSync(vesselDir, { recursive: true });
   }
 
-  let filesCreated = 0;
-  let filesAppended = 0;
-  let filesSkipped = 0;
+  // Create main entertainment category file
+  const mainFilePath = path.join(vesselDir, "entertainment.ts");
+  const mainFileExists = fs.existsSync(mainFilePath);
 
-  console.log(`\n🚀 Processing ${cityFiles.length} cities...`);
+  if (!mainFileExists || REWRITE_MODE || APPEND_MODE) {
+    const mainContent = createEntertainmentCategoryFileContent(
+      entertainmentData,
+      vessel,
+      city
+    );
+    fs.writeFileSync(mainFilePath, mainContent);
 
-  for (const city of cityFiles) {
-    const vessels = getVesselDataForCity(city);
-    if (vessels.length === 0) {
-      console.log(`⚠️  Skipping ${city} - no vessels found`);
-      continue;
-    }
-
-    const region = cityToRegionMap[city];
-    const cityDir = path.join(entertainmentDir, city);
-
-    // Create city directory
-    if (!fs.existsSync(cityDir)) {
-      fs.mkdirSync(cityDir, { recursive: true });
-      console.log(`📁 Created city directory: ${cityDir}`);
-    }
-
-    for (const vessel of vessels) {
-      const vesselDir = path.join(
-        cityDir,
-        vessel.name.toLowerCase().replace(/\s+/g, "-")
+    if (mainFileExists) {
+      console.log(
+        `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`
       );
-
-      // Create vessel directory
-      if (!fs.existsSync(vesselDir)) {
-        fs.mkdirSync(vesselDir, { recursive: true });
-        console.log(`📁 Created vessel directory: ${vesselDir}`);
-      }
-
-      try {
-        const entertainmentData = generateEntertainmentForVessel(
-          vessel,
-          city,
-          region
-        );
-
-        // Create entertainment.ts file with categories
-        const categoriesFilePath = path.join(vesselDir, "entertainment.ts");
-        const categoriesFileExists = fs.existsSync(categoriesFilePath);
-
-        if (!categoriesFileExists || REWRITE_MODE || APPEND_MODE) {
-          const categoriesContent = createEntertainmentCategoriesFileContent(
-            entertainmentData.categories
-          );
-          fs.writeFileSync(categoriesFilePath, categoriesContent);
-
-          if (categoriesFileExists) {
-            console.log(
-              `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`
-            );
-            filesAppended++;
-          } else {
-            console.log(
-              `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`
-            );
-            filesCreated++;
-          }
-        } else {
-          filesSkipped++;
-        }
-
-        // Create individual entertainment show files for each category
-        entertainmentData.entertainment.forEach((entertainmentCategory) => {
-          const categoryType = entertainmentCategory.category.type;
-          const fileNameSuffix = categoryType
-            .toLowerCase()
-            .replace(/\s+/g, "-");
-          const showsFilePath = path.join(
-            vesselDir,
-            `${fileNameSuffix}-entertainment.ts`
-          );
-          const showsFileExists = fs.existsSync(showsFilePath);
-
-          if (!showsFileExists || REWRITE_MODE || APPEND_MODE) {
-            const showsContent = createEntertainmentShowsFileContent(
-              categoryType,
-              entertainmentCategory.shows,
-              entertainmentCategory.category.id
-            );
-            fs.writeFileSync(showsFilePath, showsContent);
-
-            if (showsFileExists) {
-              console.log(
-                `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
-              );
-              filesAppended++;
-            } else {
-              console.log(
-                `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
-              );
-              filesCreated++;
-            }
-          } else {
-            filesSkipped++;
-          }
-        });
-      } catch (error) {
-        console.error(
-          `❌ Error processing ${vessel.name} in ${city}: ${error.message}`
-        );
-      }
+      filesAppended++;
+    } else {
+      console.log(
+        `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`
+      );
+      filesCreated++;
     }
+  } else {
+    filesSkipped++;
   }
 
-  // Print summary
-  console.log(`\n📊 Summary:`);
-  console.log(`   Files created: ${filesCreated}`);
-  if (APPEND_MODE) console.log(`   Files appended: ${filesAppended}`);
-  console.log(`   Files skipped: ${filesSkipped}`);
-  console.log(`\n🎉 Entertainment venue generation complete!`);
+  // Create individual entertainment show files
+  entertainmentData.forEach((entertainmentCategory) => {
+    const categoryType = entertainmentCategory.category.type;
+    const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, "-");
+    const showsFilePath = path.join(
+      vesselDir,
+      `${fileNameSuffix}-entertainment.ts`
+    );
+    const showsFileExists = fs.existsSync(showsFilePath);
+
+    if (!showsFileExists || REWRITE_MODE || APPEND_MODE) {
+      const showsContent = createEntertainmentShowsFileContent(
+        categoryType,
+        entertainmentCategory.shows,
+        entertainmentCategory.category.id,
+        vessel,
+        entertainmentCategory.category,
+        city
+      );
+      fs.writeFileSync(showsFilePath, showsContent);
+
+      if (showsFileExists) {
+        console.log(
+          `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
+        );
+        filesAppended++;
+      } else {
+        console.log(
+          `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
+        );
+        filesCreated++;
+      }
+    } else {
+      filesSkipped++;
+    }
+  });
 }
 
-// Run the script
-generateEntertainmentFiles().catch(console.error);
+// Main execution
+let filesCreated = 0;
+let filesAppended = 0;
+let filesSkipped = 0;
+
+console.log("🎭 Starting entertainment files generation...\n");
+
+// Process each city
+cityFiles.forEach((city) => {
+  console.log(`\n🌍 Processing ${capitalize(city)}...`);
+
+  const vessels = getVesselDataForCity(city);
+
+  if (vessels.length === 0) {
+    console.log(`⚠️  No vessels found for ${city}, skipping...`);
+    return;
+  }
+
+  vessels.forEach((vessel) => {
+    generateEntertainmentFiles(city, vessel);
+  });
+});
+
+// Summary
+console.log("\n" + "=".repeat(50));
+console.log("🎭 Entertainment Files Generation Complete!");
+console.log("=".repeat(50));
+console.log(`📁 Files created: ${filesCreated}`);
+console.log(`📝 Files updated: ${filesAppended}`);
+console.log(`⏭️  Files skipped: ${filesSkipped}`);
+console.log(
+  `📊 Total processed: ${filesCreated + filesAppended + filesSkipped}`
+);
+console.log("=".repeat(50));

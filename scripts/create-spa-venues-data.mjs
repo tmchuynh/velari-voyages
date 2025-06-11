@@ -107,14 +107,14 @@ const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const SPAS_PER_VESSEL = parseInt(
   args.find((arg) => arg.startsWith("--spas-per-vessel="))?.split("=")[1] ||
     "0",
-  10
+  10,
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(`Spas per vessel: ${SPAS_PER_VESSEL || "1-2 (random)"}`);
 console.log(
@@ -124,7 +124,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } spa files`
+  } spa files`,
 );
 
 // Spa service categories and descriptions
@@ -1417,7 +1417,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -1451,7 +1451,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -1505,7 +1505,7 @@ function generateSpasForCity(cityName) {
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${spas.length} spas for ${cityName} (${vessels.length} vessels)`
+      `Generated ${spas.length} spas for ${cityName} (${vessels.length} vessels)`,
     );
   }
 
@@ -1545,7 +1545,7 @@ ${spa.services
         description: "${service.description}",
         tags: [${service.tags.map((tag) => `"${tag}"`).join(", ")}],
         rating: ${service.rating},
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1557,11 +1557,11 @@ ${spa.faqs
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
-  }`
+  }`,
     )
     .join(",\n");
 
@@ -1586,7 +1586,7 @@ async function generateSpaFiles() {
     "lib",
     "constants",
     "venues",
-    "spas"
+    "spas",
   );
 
   // Create directories if they don't exist
@@ -1628,7 +1628,7 @@ async function generateSpaFiles() {
         try {
           const existingContent = fs.readFileSync(spaFilePath, "utf8");
           const existingSpasMatch = existingContent.match(
-            /export const \w+Spas: Spa\[\] = \[([\s\S]*?)\];/
+            /export const \w+Spas: Spa\[\] = \[([\s\S]*?)\];/,
           );
 
           if (existingSpasMatch) {
@@ -1639,7 +1639,7 @@ async function generateSpaFiles() {
           }
         } catch (error) {
           console.warn(
-            `⚠️  Could not parse existing spa file for ${city}: ${error.message}`
+            `⚠️  Could not parse existing spa file for ${city}: ${error.message}`,
           );
         }
       }
@@ -1652,11 +1652,11 @@ async function generateSpaFiles() {
 
       if (APPEND_MODE && fileExists) {
         console.log(
-          `✅ Updated spa file for ${capitalize(city)} (${allSpas.length} spas)`
+          `✅ Updated spa file for ${capitalize(city)} (${allSpas.length} spas)`,
         );
       } else {
         console.log(
-          `✅ Created spa file for ${capitalize(city)} (${allSpas.length} spas)`
+          `✅ Created spa file for ${capitalize(city)} (${allSpas.length} spas)`,
         );
         filesCreated++;
       }

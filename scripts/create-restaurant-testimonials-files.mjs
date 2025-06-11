@@ -88,7 +88,7 @@ const restaurantsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "restaurants",
 );
 
 // Output directory for testimonial files (write to here)
@@ -99,7 +99,7 @@ const testimonialsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -116,7 +116,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase()
+      index === 0 ? word.toLowerCase() : word.toUpperCase(),
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
