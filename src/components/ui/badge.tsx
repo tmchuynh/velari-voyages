@@ -24,6 +24,8 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-white   dark:bg-destructive/60",
         outline: "text-foreground",
+        ocean:
+          "border-transparent bg-gradient-to-r from-blue-600 via-emerald-500 to-blue-700 text-white shadow-md hover:shadow-lg transition-all duration-300",
       },
       size: {
         xs: "px-1 py-0.5 text-xs",
