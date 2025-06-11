@@ -280,10 +280,10 @@ export function BookingHistoryDisplay({ bookingId }: { bookingId: string }) {
             <div key={index} className="py-2 pl-4 border-blue-200 border-l-4">
               <div className="flex justify-between items-center">
                 <span className="font-medium text-gray-900">
-                  {entry.actions.join(", ")}
+                  {entry.action}
                 </span>
                 <span className="text-gray-500 text-sm">
-                  {entry.entry_date_time.toLocaleDateString()}
+                  {new Date(entry.timestamp).toLocaleDateString()}
                 </span>
               </div>
               <p className="mt-1 text-gray-600 text-sm">
