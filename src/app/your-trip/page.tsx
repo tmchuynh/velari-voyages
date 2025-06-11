@@ -1,43 +1,44 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
-  CalendarIcon,
   UserIcon,
   CreditCardIcon,
   CheckCircleIcon,
   ExclamationTriangleIcon,
   MapPinIcon,
   ClockIcon,
-  CurrencyDollarIcon,
   UserGroupIcon,
   ShieldCheckIcon,
   GlobeAltIcon,
-  EnvelopeIcon,
-  PhoneIcon,
-  IdentificationIcon,
-  MinusIcon,
-  PlusIcon,
-  InformationCircleIcon,
-  TagIcon,
-  StarIcon,
 } from "@heroicons/react/24/outline";
 import { getCruiseById } from "@/lib/utils/get/cruises";
 import { Cruise } from "@/lib/interfaces/services/cruises";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/cards/Card";
-import { Button, OceanButton, WaveButton } from "@/components/button/Button";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 import { OceanLoading } from "@/components/Loading";
-import ChartBase, { createOceanDataset } from "@/components/charts/ChartBase";
-import Image from "next/image";
+// Remove ChartBase import as it's not used in the current implementation
+import ChartBase from "@/components/charts/ChartBase";
 
 // Types for booking
 interface BookingStep {
@@ -76,6 +77,18 @@ interface CabinSelection {
 interface BookingFormData {
   passengers: PassengerInfo[];
   cabin: CabinSelection | null;
+  guestCount: {
+    adults: number;
+    children: number;
+    seniors: number;
+    infants: number;
+  };
+  guestResidency: {
+    country: string;
+    state?: string;
+    isResident: boolean;
+  };
+  promotionCode: string;
   diningPreferences: string[];
   excursions: string[];
   specialRequests: string;
@@ -107,8 +120,14 @@ interface BookingFormData {
 
 const bookingSteps: BookingStep[] = [
   {
+    id: "guest-info",
+    title: "Guest Information",
+    description: "Number of guests and residency details",
+    icon: <UserGroupIcon className="w-5 h-5" />,
+  },
+  {
     id: "passengers",
-    title: "Passenger Information",
+    title: "Passenger Details",
     description: "Add traveler details and documents",
     icon: <UserIcon className="w-5 h-5" />,
   },
@@ -145,7 +164,13 @@ const cabinTypes: CabinSelection[] = [
     level: "Essential",
     price: 1299,
     description: "Comfortable interior cabin with modern amenities",
-    amenities: ["Private bathroom", "Air conditioning", "TV", "Safe", "Mini-fridge"],
+    amenities: [
+      "Private bathroom",
+      "Air conditioning",
+      "TV",
+      "Safe",
+      "Mini-fridge",
+    ],
     maxOccupancy: 2,
   },
   {
@@ -154,7 +179,15 @@ const cabinTypes: CabinSelection[] = [
     level: "Classic",
     price: 1799,
     description: "Enjoy stunning ocean views from your private window",
-    amenities: ["Ocean view window", "Private bathroom", "Air conditioning", "TV", "Safe", "Mini-fridge", "Sitting area"],
+    amenities: [
+      "Ocean view window",
+      "Private bathroom",
+      "Air conditioning",
+      "TV",
+      "Safe",
+      "Mini-fridge",
+      "Sitting area",
+    ],
     maxOccupancy: 2,
   },
   {
@@ -163,7 +196,17 @@ const cabinTypes: CabinSelection[] = [
     level: "Premium",
     price: 2499,
     description: "Spacious cabin with private balcony overlooking the ocean",
-    amenities: ["Private balcony", "Ocean view", "Private bathroom", "Air conditioning", "TV", "Safe", "Mini-fridge", "Sitting area", "Premium bedding"],
+    amenities: [
+      "Private balcony",
+      "Ocean view",
+      "Private bathroom",
+      "Air conditioning",
+      "TV",
+      "Safe",
+      "Mini-fridge",
+      "Sitting area",
+      "Premium bedding",
+    ],
     maxOccupancy: 4,
   },
   {
@@ -171,8 +214,18 @@ const cabinTypes: CabinSelection[] = [
     type: "Ocean Suite",
     level: "Luxury",
     price: 4299,
-    description: "Luxurious suite with separate living area and premium amenities",
-    amenities: ["Large private balcony", "Separate living room", "Premium bathroom", "Butler service", "Priority boarding", "Specialty dining credits", "Premium beverages", "Concierge service"],
+    description:
+      "Luxurious suite with separate living area and premium amenities",
+    amenities: [
+      "Large private balcony",
+      "Separate living room",
+      "Premium bathroom",
+      "Butler service",
+      "Priority boarding",
+      "Specialty dining credits",
+      "Premium beverages",
+      "Concierge service",
+    ],
     maxOccupancy: 4,
   },
 ];
@@ -204,6 +257,18 @@ export default function BookingPage() {
       },
     ],
     cabin: null,
+    guestCount: {
+      adults: 2,
+      children: 0,
+      seniors: 0,
+      infants: 0,
+    },
+    guestResidency: {
+      country: "",
+      state: "",
+      isResident: false,
+    },
+    promotionCode: "",
     diningPreferences: [],
     excursions: [],
     specialRequests: "",
@@ -267,29 +332,52 @@ export default function BookingPage() {
     const newErrors: Record<string, string> = {};
 
     switch (currentStep) {
-      case 0: // Passenger Information
+      case 0: // Guest Information
+        if (bookingData.guestCount.adults < 1)
+          newErrors.adults = "At least one adult is required";
+        if (!bookingData.guestResidency.country)
+          newErrors.country = "Country of residence is required";
+        break;
+      case 1: // Passenger Information
         bookingData.passengers.forEach((passenger, index) => {
-          if (!passenger.firstName) newErrors[`passenger-${index}-firstName`] = "First name is required";
-          if (!passenger.lastName) newErrors[`passenger-${index}-lastName`] = "Last name is required";
-          if (!passenger.dateOfBirth) newErrors[`passenger-${index}-dateOfBirth`] = "Date of birth is required";
-          if (!passenger.gender) newErrors[`passenger-${index}-gender`] = "Gender is required";
-          if (!passenger.nationality) newErrors[`passenger-${index}-nationality`] = "Nationality is required";
-          if (!passenger.passportNumber) newErrors[`passenger-${index}-passportNumber`] = "Passport number is required";
-          if (!passenger.passportExpiry) newErrors[`passenger-${index}-passportExpiry`] = "Passport expiry is required";
+          if (!passenger.firstName)
+            newErrors[`passenger-${index}-firstName`] =
+              "First name is required";
+          if (!passenger.lastName)
+            newErrors[`passenger-${index}-lastName`] = "Last name is required";
+          if (!passenger.dateOfBirth)
+            newErrors[`passenger-${index}-dateOfBirth`] =
+              "Date of birth is required";
+          if (!passenger.gender)
+            newErrors[`passenger-${index}-gender`] = "Gender is required";
+          if (!passenger.nationality)
+            newErrors[`passenger-${index}-nationality`] =
+              "Nationality is required";
+          if (!passenger.passportNumber)
+            newErrors[`passenger-${index}-passportNumber`] =
+              "Passport number is required";
+          if (!passenger.passportExpiry)
+            newErrors[`passenger-${index}-passportExpiry`] =
+              "Passport expiry is required";
         });
         break;
-      case 1: // Cabin Selection
+      case 2: // Cabin Selection
         if (!bookingData.cabin) newErrors.cabin = "Please select a cabin";
         break;
-      case 2: // Preferences
-        if (!bookingData.contactInfo.email) newErrors.email = "Email is required";
-        if (!bookingData.contactInfo.phone) newErrors.phone = "Phone number is required";
+      case 3: // Preferences
+        if (!bookingData.contactInfo.email)
+          newErrors.email = "Email is required";
+        if (!bookingData.contactInfo.phone)
+          newErrors.phone = "Phone number is required";
         break;
-      case 3: // Payment
-        if (!bookingData.payment.cardNumber) newErrors.cardNumber = "Card number is required";
-        if (!bookingData.payment.expiryDate) newErrors.expiryDate = "Expiry date is required";
+      case 4: // Payment
+        if (!bookingData.payment.cardNumber)
+          newErrors.cardNumber = "Card number is required";
+        if (!bookingData.payment.expiryDate)
+          newErrors.expiryDate = "Expiry date is required";
         if (!bookingData.payment.cvv) newErrors.cvv = "CVV is required";
-        if (!bookingData.payment.cardholderName) newErrors.cardholderName = "Cardholder name is required";
+        if (!bookingData.payment.cardholderName)
+          newErrors.cardholderName = "Cardholder name is required";
         break;
     }
 
@@ -335,15 +423,19 @@ export default function BookingPage() {
     if (bookingData.passengers.length > 1) {
       setBookingData({
         ...bookingData,
-        passengers: bookingData.passengers.filter(p => p.id !== passengerId),
+        passengers: bookingData.passengers.filter((p) => p.id !== passengerId),
       });
     }
   };
 
-  const updatePassenger = (passengerId: string, field: string, value: string) => {
+  const updatePassenger = (
+    passengerId: string,
+    field: string,
+    value: string
+  ) => {
     setBookingData({
       ...bookingData,
-      passengers: bookingData.passengers.map(p =>
+      passengers: bookingData.passengers.map((p) =>
         p.id === passengerId ? { ...p, [field]: value } : p
       ),
     });
@@ -362,11 +454,11 @@ export default function BookingPage() {
     setIsSubmitting(true);
     try {
       // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
       // In a real app, you would submit the booking data to your API
       console.log("Booking submitted:", bookingData);
-      
+
       // Move to confirmation step
       setCurrentStep(bookingSteps.length - 1);
     } catch (error) {
@@ -382,10 +474,10 @@ export default function BookingPage() {
 
   if (!cruise) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <Card variant="glass" className="max-w-md text-center p-8">
+      <div className="flex justify-center items-center min-h-screen">
+        <Card className="backdrop-blur-md bg-card/50 border-white/20 p-8 max-w-md text-center">
           <CardTitle className="mb-4">Cruise Not Found</CardTitle>
-          <p className="text-muted-foreground mb-4">
+          <p className="mb-4 text-muted-foreground">
             The cruise you're trying to book could not be found.
           </p>
           <Button onClick={() => router.push("/cruises")}>
@@ -402,24 +494,22 @@ export default function BookingPage() {
     datasets: [
       {
         data: [
-          bookingData.cabin ? bookingData.cabin.price * bookingData.passengers.length : 0,
-          bookingData.cabin ? bookingData.cabin.price * bookingData.passengers.length * 0.12 : 0,
+          bookingData.cabin
+            ? bookingData.cabin.price * bookingData.passengers.length
+            : 0,
+          bookingData.cabin
+            ? bookingData.cabin.price * bookingData.passengers.length * 0.12
+            : 0,
         ],
-        backgroundColor: [
-          "rgb(30, 64, 175)",
-          "rgb(5, 150, 105)",
-        ],
-        borderColor: [
-          "rgb(30, 64, 175)",
-          "rgb(5, 150, 105)",
-        ],
+        backgroundColor: ["rgb(30, 64, 175)", "rgb(5, 150, 105)"],
+        borderColor: ["rgb(30, 64, 175)", "rgb(5, 150, 105)"],
         borderWidth: 2,
       },
     ],
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-muted/30">
+    <div className="bg-gradient-to-b from-background to-muted/30 min-h-screen">
       {/* Skip link for accessibility */}
       <a href="#main-content" className="skip-link">
         Skip to main content
@@ -427,7 +517,7 @@ export default function BookingPage() {
 
       {/* Header */}
       <div className="bg-gradient-to-r from-primary/10 via-secondary/5 to-accent/10 border-b border-border/50">
-        <div className="container mx-auto px-4 py-6">
+        <div className="mx-auto px-4 py-6 container">
           <div className="flex items-center gap-4 mb-4">
             <Button
               variant="ghost"
@@ -437,7 +527,7 @@ export default function BookingPage() {
               <ChevronLeftIcon className="w-5 h-5" />
             </Button>
             <div>
-              <h1 className="gradient-ocean text-2xl lg:text-3xl mb-2">
+              <h1 className="mb-2 text-2xl lg:text-3xl gradient-ocean">
                 Book Your Cruise
               </h1>
               <p className="text-muted-foreground">
@@ -447,7 +537,7 @@ export default function BookingPage() {
           </div>
 
           {/* Progress Indicator */}
-          <div className="flex items-center justify-between max-w-4xl">
+          <div className="flex justify-between items-center max-w-4xl">
             {bookingSteps.map((step, index) => (
               <div
                 key={step.id}
@@ -481,8 +571,8 @@ export default function BookingPage() {
         </div>
       </div>
 
-      <main id="main-content" className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <main id="main-content" className="mx-auto px-4 py-8 container">
+        <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
           {/* Main Content */}
           <div className="lg:col-span-2">
             <AnimatePresence mode="wait">
@@ -493,7 +583,7 @@ export default function BookingPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <Card variant="ocean" className="p-6">
+                <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 p-6">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       {bookingSteps[currentStep].icon}
@@ -569,27 +659,33 @@ export default function BookingPage() {
                     onClick={prevStep}
                     disabled={currentStep === 0}
                   >
-                    <ChevronLeftIcon className="w-4 h-4 mr-2" />
+                    <ChevronLeftIcon className="mr-2 w-4 h-4" />
                     Previous
                   </Button>
 
                   {currentStep < bookingSteps.length - 2 ? (
-                    <OceanButton onClick={nextStep}>
+                    <Button 
+                      className="bg-gradient-to-r from-primary to-secondary text-white hover:from-primary/90 hover:to-secondary/90 shadow-lg hover:shadow-xl"
+                      onClick={nextStep}
+                    >
                       Next
-                      <ChevronRightIcon className="w-4 h-4 ml-2" />
-                    </OceanButton>
+                      <ChevronRightIcon className="ml-2 w-4 h-4" />
+                    </Button>
                   ) : currentStep === bookingSteps.length - 2 ? (
-                    <OceanButton
+                    <Button
+                      className="bg-gradient-to-r from-primary to-secondary text-white hover:from-primary/90 hover:to-secondary/90 shadow-lg hover:shadow-xl"
                       onClick={submitBooking}
-                      loading={isSubmitting}
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? "Processing..." : "Complete Booking"}
-                    </OceanButton>
+                    </Button>
                   ) : (
-                    <WaveButton onClick={() => router.push("/")}>
+                    <Button 
+                      className="bg-gradient-to-r from-accent to-tertiary text-white hover:from-accent/90 hover:to-tertiary/90"
+                      onClick={() => router.push("/")}
+                    >
                       Return Home
-                    </WaveButton>
+                    </Button>
                   )}
                 </div>
               </motion.div>
@@ -599,20 +695,21 @@ export default function BookingPage() {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Cruise Summary */}
-            <Card variant="glass" className="sticky top-4">
+            <Card className="backdrop-blur-md bg-card/50 border-white/20 top-4 sticky">
               <CardHeader>
                 <CardTitle className="text-lg">Booking Summary</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
                   <h4 className="font-medium">{cruise.title}</h4>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-2 text-muted-foreground text-sm">
                     <MapPinIcon className="w-4 h-4" />
                     <span>
-                      {cruise.departureLocation?.city}, {cruise.departureLocation?.country}
+                      {cruise.departureLocation?.city},{" "}
+                      {cruise.departureLocation?.country}
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-2 text-muted-foreground text-sm">
                     <ClockIcon className="w-4 h-4" />
                     <span>{cruise.itinerary?.totalDuration || "7 days"}</span>
                   </div>
@@ -620,8 +717,8 @@ export default function BookingPage() {
 
                 {bookingData.cabin && (
                   <>
-                    <div className="border-t pt-4">
-                      <h5 className="font-medium mb-2">Selected Cabin</h5>
+                    <div className="pt-4 border-t">
+                      <h5 className="mb-2 font-medium">Selected Cabin</h5>
                       <div className="space-y-1 text-sm">
                         <div>{bookingData.cabin.type}</div>
                         <div className="text-muted-foreground">
@@ -633,28 +730,38 @@ export default function BookingPage() {
                       </div>
                     </div>
 
-                    <div className="border-t pt-4">
-                      <h5 className="font-medium mb-2">Passengers</h5>
-                      <div className="text-sm text-muted-foreground">
-                        {bookingData.passengers.length} traveler{bookingData.passengers.length > 1 ? "s" : ""}
+                    <div className="pt-4 border-t">
+                      <h5 className="mb-2 font-medium">Passengers</h5>
+                      <div className="text-muted-foreground text-sm">
+                        {bookingData.passengers.length} traveler
+                        {bookingData.passengers.length > 1 ? "s" : ""}
                       </div>
                     </div>
 
-                    <div className="border-t pt-4">
+                    <div className="pt-4 border-t">
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span>Cabin ({bookingData.passengers.length}x)</span>
                           <span>
-                            ${(bookingData.cabin.price * bookingData.passengers.length).toLocaleString()}
+                            $
+                            {(
+                              bookingData.cabin.price *
+                              bookingData.passengers.length
+                            ).toLocaleString()}
                           </span>
                         </div>
                         <div className="flex justify-between text-muted-foreground">
                           <span>Taxes & Fees</span>
                           <span>
-                            ${Math.round(bookingData.cabin.price * bookingData.passengers.length * 0.12).toLocaleString()}
+                            $
+                            {Math.round(
+                              bookingData.cabin.price *
+                                bookingData.passengers.length *
+                                0.12
+                            ).toLocaleString()}
                           </span>
                         </div>
-                        <div className="flex justify-between font-medium text-lg border-t pt-2">
+                        <div className="flex justify-between pt-2 border-t font-medium text-lg">
                           <span>Total</span>
                           <span className="gradient-ocean">
                             ${calculateTotal().toLocaleString()}
@@ -664,8 +771,8 @@ export default function BookingPage() {
                     </div>
 
                     {/* Price Breakdown Chart */}
-                    <div className="border-t pt-4">
-                      <h5 className="font-medium mb-3">Price Breakdown</h5>
+                    <div className="pt-4 border-t">
+                      <h5 className="mb-3 font-medium">Price Breakdown</h5>
                       <ChartBase
                         type="doughnut"
                         data={priceBreakdownData}
@@ -686,10 +793,10 @@ export default function BookingPage() {
             </Card>
 
             {/* Security Badge */}
-            <Card variant="glass" className="text-center p-4">
-              <ShieldCheckIcon className="w-8 h-8 text-primary mx-auto mb-2" />
-              <div className="text-sm font-medium mb-1">Secure Booking</div>
-              <div className="text-xs text-muted-foreground">
+            <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4 text-center">
+              <ShieldCheckIcon className="mx-auto mb-2 w-8 h-8 text-primary" />
+              <div className="mb-1 font-medium text-sm">Secure Booking</div>
+              <div className="text-muted-foreground text-xs">
                 Your payment information is encrypted and secure
               </div>
             </Card>
@@ -717,7 +824,7 @@ function PassengerInformationStep({
   return (
     <div className="space-y-6">
       {passengers.map((passenger, index) => (
-        <Card key={passenger.id} variant="glass" className="p-4">
+        <Card key={passenger.id} className="backdrop-blur-md bg-card/50 border-white/20 p-4">
           <div className="flex justify-between items-center mb-4">
             <h4 className="font-medium">
               Passenger {index + 1}
@@ -735,17 +842,23 @@ function PassengerInformationStep({
             )}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
             <div>
               <Label htmlFor={`${passenger.id}-firstName`}>First Name *</Label>
               <Input
                 id={`${passenger.id}-firstName`}
                 value={passenger.firstName}
-                onChange={(e) => onUpdatePassenger(passenger.id, "firstName", e.target.value)}
-                className={errors[`passenger-${index}-firstName`] ? "border-destructive" : ""}
+                onChange={(e) =>
+                  onUpdatePassenger(passenger.id, "firstName", e.target.value)
+                }
+                className={
+                  errors[`passenger-${index}-firstName`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-firstName`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-firstName`]}
                 </p>
               )}
@@ -756,27 +869,41 @@ function PassengerInformationStep({
               <Input
                 id={`${passenger.id}-lastName`}
                 value={passenger.lastName}
-                onChange={(e) => onUpdatePassenger(passenger.id, "lastName", e.target.value)}
-                className={errors[`passenger-${index}-lastName`] ? "border-destructive" : ""}
+                onChange={(e) =>
+                  onUpdatePassenger(passenger.id, "lastName", e.target.value)
+                }
+                className={
+                  errors[`passenger-${index}-lastName`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-lastName`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-lastName`]}
                 </p>
               )}
             </div>
 
             <div>
-              <Label htmlFor={`${passenger.id}-dateOfBirth`}>Date of Birth *</Label>
+              <Label htmlFor={`${passenger.id}-dateOfBirth`}>
+                Date of Birth *
+              </Label>
               <Input
                 id={`${passenger.id}-dateOfBirth`}
                 type="date"
                 value={passenger.dateOfBirth}
-                onChange={(e) => onUpdatePassenger(passenger.id, "dateOfBirth", e.target.value)}
-                className={errors[`passenger-${index}-dateOfBirth`] ? "border-destructive" : ""}
+                onChange={(e) =>
+                  onUpdatePassenger(passenger.id, "dateOfBirth", e.target.value)
+                }
+                className={
+                  errors[`passenger-${index}-dateOfBirth`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-dateOfBirth`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-dateOfBirth`]}
                 </p>
               )}
@@ -786,67 +913,109 @@ function PassengerInformationStep({
               <Label htmlFor={`${passenger.id}-gender`}>Gender *</Label>
               <Select
                 value={passenger.gender}
-                onValueChange={(value) => onUpdatePassenger(passenger.id, "gender", value)}
+                onValueChange={(value) =>
+                  onUpdatePassenger(passenger.id, "gender", value)
+                }
               >
-                <SelectTrigger className={errors[`passenger-${index}-gender`] ? "border-destructive" : ""}>
+                <SelectTrigger
+                  className={
+                    errors[`passenger-${index}-gender`]
+                      ? "border-destructive"
+                      : ""
+                  }
+                >
                   <SelectValue placeholder="Select gender" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="male">Male</SelectItem>
                   <SelectItem value="female">Female</SelectItem>
                   <SelectItem value="other">Other</SelectItem>
-                  <SelectItem value="prefer-not-to-say">Prefer not to say</SelectItem>
+                  <SelectItem value="prefer-not-to-say">
+                    Prefer not to say
+                  </SelectItem>
                 </SelectContent>
               </Select>
               {errors[`passenger-${index}-gender`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-gender`]}
                 </p>
               )}
             </div>
 
             <div>
-              <Label htmlFor={`${passenger.id}-nationality`}>Nationality *</Label>
+              <Label htmlFor={`${passenger.id}-nationality`}>
+                Nationality *
+              </Label>
               <Input
                 id={`${passenger.id}-nationality`}
                 value={passenger.nationality}
-                onChange={(e) => onUpdatePassenger(passenger.id, "nationality", e.target.value)}
+                onChange={(e) =>
+                  onUpdatePassenger(passenger.id, "nationality", e.target.value)
+                }
                 placeholder="e.g., United States"
-                className={errors[`passenger-${index}-nationality`] ? "border-destructive" : ""}
+                className={
+                  errors[`passenger-${index}-nationality`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-nationality`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-nationality`]}
                 </p>
               )}
             </div>
 
             <div>
-              <Label htmlFor={`${passenger.id}-passportNumber`}>Passport Number *</Label>
+              <Label htmlFor={`${passenger.id}-passportNumber`}>
+                Passport Number *
+              </Label>
               <Input
                 id={`${passenger.id}-passportNumber`}
                 value={passenger.passportNumber}
-                onChange={(e) => onUpdatePassenger(passenger.id, "passportNumber", e.target.value)}
-                className={errors[`passenger-${index}-passportNumber`] ? "border-destructive" : ""}
+                onChange={(e) =>
+                  onUpdatePassenger(
+                    passenger.id,
+                    "passportNumber",
+                    e.target.value
+                  )
+                }
+                className={
+                  errors[`passenger-${index}-passportNumber`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-passportNumber`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-passportNumber`]}
                 </p>
               )}
             </div>
 
             <div className="md:col-span-2">
-              <Label htmlFor={`${passenger.id}-passportExpiry`}>Passport Expiry Date *</Label>
+              <Label htmlFor={`${passenger.id}-passportExpiry`}>
+                Passport Expiry Date *
+              </Label>
               <Input
                 id={`${passenger.id}-passportExpiry`}
                 type="date"
                 value={passenger.passportExpiry}
-                onChange={(e) => onUpdatePassenger(passenger.id, "passportExpiry", e.target.value)}
-                className={errors[`passenger-${index}-passportExpiry`] ? "border-destructive" : ""}
+                onChange={(e) =>
+                  onUpdatePassenger(
+                    passenger.id,
+                    "passportExpiry",
+                    e.target.value
+                  )
+                }
+                className={
+                  errors[`passenger-${index}-passportExpiry`]
+                    ? "border-destructive"
+                    : ""
+                }
               />
               {errors[`passenger-${index}-passportExpiry`] && (
-                <p className="text-destructive text-sm mt-1">
+                <p className="mt-1 text-destructive text-sm">
                   {errors[`passenger-${index}-passportExpiry`]}
                 </p>
               )}
@@ -855,12 +1024,8 @@ function PassengerInformationStep({
         </Card>
       ))}
 
-      <Button
-        variant="outline"
-        onClick={onAddPassenger}
-        className="w-full"
-      >
-        <UserIcon className="w-4 h-4 mr-2" />
+      <Button variant="outline" onClick={onAddPassenger} className="w-full">
+        <UserIcon className="mr-2 w-4 h-4" />
         Add Another Passenger
       </Button>
     </div>
@@ -883,22 +1048,24 @@ function CabinSelectionStep({
   return (
     <div className="space-y-4">
       {errors.cabin && (
-        <div className="flex items-center gap-2 p-3 bg-destructive/10 border border-destructive/20 rounded-lg text-destructive">
+        <div className="flex items-center gap-2 bg-destructive/10 p-3 border border-destructive/20 rounded-lg text-destructive">
           <ExclamationTriangleIcon className="w-5 h-5" />
           <span>{errors.cabin}</span>
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
         {cabins.map((cabin) => (
           <Card
             key={cabin.id}
-            variant={selectedCabin?.id === cabin.id ? "ocean" : "glass"}
-            interactive
             className={`cursor-pointer transition-all duration-300 ${
-              selectedCabin?.id === cabin.id ? "ring-2 ring-primary" : ""
+              selectedCabin?.id === cabin.id 
+                ? "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 ring-2 ring-primary" 
+                : "backdrop-blur-md bg-card/50 border-white/20"
             } ${
-              cabin.maxOccupancy < passengerCount ? "opacity-50 cursor-not-allowed" : ""
+              cabin.maxOccupancy < passengerCount
+                ? "opacity-50 cursor-not-allowed"
+                : ""
             }`}
             onClick={() => {
               if (cabin.maxOccupancy >= passengerCount) {
@@ -910,23 +1077,28 @@ function CabinSelectionStep({
               <div className="flex justify-between items-start">
                 <div>
                   <CardTitle className="text-lg">{cabin.type}</CardTitle>
-                  <Badge variant={cabin.level === "Luxury" ? "default" : "secondary"} className="mt-1">
+                  <Badge
+                    variant={cabin.level === "Luxury" ? "default" : "secondary"}
+                    className="mt-1"
+                  >
                     {cabin.level}
                   </Badge>
                 </div>
                 <div className="text-right">
-                  <div className="text-2xl font-bold gradient-ocean">
+                  <div className="font-bold text-2xl gradient-ocean">
                     ${cabin.price.toLocaleString()}
                   </div>
-                  <div className="text-sm text-muted-foreground">per person</div>
+                  <div className="text-muted-foreground text-sm">
+                    per person
+                  </div>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground mb-3">
+              <p className="mb-3 text-muted-foreground text-sm">
                 {cabin.description}
               </p>
-              
+
               <div className="space-y-2 mb-3">
                 <div className="flex items-center gap-2 text-sm">
                   <UserGroupIcon className="w-4 h-4" />
@@ -977,20 +1149,22 @@ function PreferencesStep({
 }) {
   return (
     <div className="space-y-6">
-      <Card variant="glass" className="p-4">
-        <h4 className="font-medium mb-4">Contact Information</h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+        <h4 className="mb-4 font-medium">Contact Information</h4>
+        <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <div>
             <Label htmlFor="email">Email Address *</Label>
             <Input
               id="email"
               type="email"
               value={contactInfo.email}
-              onChange={(e) => onUpdateContactInfo({ ...contactInfo, email: e.target.value })}
+              onChange={(e) =>
+                onUpdateContactInfo({ ...contactInfo, email: e.target.value })
+              }
               className={errors.email ? "border-destructive" : ""}
             />
             {errors.email && (
-              <p className="text-destructive text-sm mt-1">{errors.email}</p>
+              <p className="mt-1 text-destructive text-sm">{errors.email}</p>
             )}
           </div>
 
@@ -1000,56 +1174,69 @@ function PreferencesStep({
               id="phone"
               type="tel"
               value={contactInfo.phone}
-              onChange={(e) => onUpdateContactInfo({ ...contactInfo, phone: e.target.value })}
+              onChange={(e) =>
+                onUpdateContactInfo({ ...contactInfo, phone: e.target.value })
+              }
               className={errors.phone ? "border-destructive" : ""}
             />
             {errors.phone && (
-              <p className="text-destructive text-sm mt-1">{errors.phone}</p>
+              <p className="mt-1 text-destructive text-sm">{errors.phone}</p>
             )}
           </div>
 
           <div className="md:col-span-2">
             <Label htmlFor="address">Address</Label>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+            <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-2">
               <Input
                 placeholder="Street Address"
                 value={contactInfo.address.street}
-                onChange={(e) => onUpdateContactInfo({
-                  ...contactInfo,
-                  address: { ...contactInfo.address, street: e.target.value }
-                })}
+                onChange={(e) =>
+                  onUpdateContactInfo({
+                    ...contactInfo,
+                    address: { ...contactInfo.address, street: e.target.value },
+                  })
+                }
               />
               <Input
                 placeholder="City"
                 value={contactInfo.address.city}
-                onChange={(e) => onUpdateContactInfo({
-                  ...contactInfo,
-                  address: { ...contactInfo.address, city: e.target.value }
-                })}
+                onChange={(e) =>
+                  onUpdateContactInfo({
+                    ...contactInfo,
+                    address: { ...contactInfo.address, city: e.target.value },
+                  })
+                }
               />
               <Input
                 placeholder="State/Province"
                 value={contactInfo.address.state}
-                onChange={(e) => onUpdateContactInfo({
-                  ...contactInfo,
-                  address: { ...contactInfo.address, state: e.target.value }
-                })}
+                onChange={(e) =>
+                  onUpdateContactInfo({
+                    ...contactInfo,
+                    address: { ...contactInfo.address, state: e.target.value },
+                  })
+                }
               />
               <Input
                 placeholder="ZIP/Postal Code"
                 value={contactInfo.address.zipCode}
-                onChange={(e) => onUpdateContactInfo({
-                  ...contactInfo,
-                  address: { ...contactInfo.address, zipCode: e.target.value }
-                })}
+                onChange={(e) =>
+                  onUpdateContactInfo({
+                    ...contactInfo,
+                    address: {
+                      ...contactInfo.address,
+                      zipCode: e.target.value,
+                    },
+                  })
+                }
               />
             </div>
           </div>
         </div>
       </Card>
 
-      <Card variant="glass" className="p-4">
-        <h4 className="font-medium mb-4">Special Requests</h4>
+      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+        <h4 className="mb-4 font-medium">Special Requests</h4>
         <Textarea
           placeholder="Any special dietary requirements, accessibility needs, or other requests..."
           value={specialRequests}
@@ -1072,20 +1259,24 @@ function PaymentStep({
 }) {
   return (
     <div className="space-y-6">
-      <Card variant="glass" className="p-4">
-        <h4 className="font-medium mb-4">Payment Information</h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+        <h4 className="mb-4 font-medium">Payment Information</h4>
+        <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <div className="md:col-span-2">
             <Label htmlFor="cardNumber">Card Number *</Label>
             <Input
               id="cardNumber"
               placeholder="1234 5678 9012 3456"
               value={payment.cardNumber}
-              onChange={(e) => onUpdatePayment({ ...payment, cardNumber: e.target.value })}
+              onChange={(e) =>
+                onUpdatePayment({ ...payment, cardNumber: e.target.value })
+              }
               className={errors.cardNumber ? "border-destructive" : ""}
             />
             {errors.cardNumber && (
-              <p className="text-destructive text-sm mt-1">{errors.cardNumber}</p>
+              <p className="mt-1 text-destructive text-sm">
+                {errors.cardNumber}
+              </p>
             )}
           </div>
 
@@ -1095,11 +1286,15 @@ function PaymentStep({
               id="expiryDate"
               placeholder="MM/YY"
               value={payment.expiryDate}
-              onChange={(e) => onUpdatePayment({ ...payment, expiryDate: e.target.value })}
+              onChange={(e) =>
+                onUpdatePayment({ ...payment, expiryDate: e.target.value })
+              }
               className={errors.expiryDate ? "border-destructive" : ""}
             />
             {errors.expiryDate && (
-              <p className="text-destructive text-sm mt-1">{errors.expiryDate}</p>
+              <p className="mt-1 text-destructive text-sm">
+                {errors.expiryDate}
+              </p>
             )}
           </div>
 
@@ -1109,11 +1304,13 @@ function PaymentStep({
               id="cvv"
               placeholder="123"
               value={payment.cvv}
-              onChange={(e) => onUpdatePayment({ ...payment, cvv: e.target.value })}
+              onChange={(e) =>
+                onUpdatePayment({ ...payment, cvv: e.target.value })
+              }
               className={errors.cvv ? "border-destructive" : ""}
             />
             {errors.cvv && (
-              <p className="text-destructive text-sm mt-1">{errors.cvv}</p>
+              <p className="mt-1 text-destructive text-sm">{errors.cvv}</p>
             )}
           </div>
 
@@ -1123,11 +1320,15 @@ function PaymentStep({
               id="cardholderName"
               placeholder="John Doe"
               value={payment.cardholderName}
-              onChange={(e) => onUpdatePayment({ ...payment, cardholderName: e.target.value })}
+              onChange={(e) =>
+                onUpdatePayment({ ...payment, cardholderName: e.target.value })
+              }
               className={errors.cardholderName ? "border-destructive" : ""}
             />
             {errors.cardholderName && (
-              <p className="text-destructive text-sm mt-1">{errors.cardholderName}</p>
+              <p className="mt-1 text-destructive text-sm">
+                {errors.cardholderName}
+              </p>
             )}
           </div>
         </div>
@@ -1146,18 +1347,18 @@ function ConfirmationStep({
   totalPrice: number;
 }) {
   return (
-    <div className="text-center space-y-6">
+    <div className="space-y-6 text-center">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ type: "spring", duration: 0.6 }}
-        className="w-20 h-20 mx-auto bg-primary rounded-full flex items-center justify-center"
+        className="flex justify-center items-center bg-primary mx-auto rounded-full w-20 h-20"
       >
         <CheckCircleIcon className="w-10 h-10 text-primary-foreground" />
       </motion.div>
 
       <div>
-        <h3 className="text-2xl font-bold gradient-ocean mb-2">
+        <h3 className="mb-2 font-bold text-2xl gradient-ocean">
           Booking Confirmed!
         </h3>
         <p className="text-muted-foreground">
@@ -1165,14 +1366,16 @@ function ConfirmationStep({
         </p>
       </div>
 
-      <Card variant="glass" className="p-6 text-left">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-6 text-left">
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h4 className="font-medium mb-3">Booking Details</h4>
+            <h4 className="mb-3 font-medium">Booking Details</h4>
             <div className="space-y-2 text-sm">
               <div>
                 <span className="text-muted-foreground">Confirmation:</span>
-                <span className="ml-2 font-mono">#VV{Date.now().toString().slice(-8)}</span>
+                <span className="ml-2 font-mono">
+                  #VV{Date.now().toString().slice(-8)}
+                </span>
               </div>
               <div>
                 <span className="text-muted-foreground">Cruise:</span>
@@ -1180,7 +1383,9 @@ function ConfirmationStep({
               </div>
               <div>
                 <span className="text-muted-foreground">Duration:</span>
-                <span className="ml-2">{cruise.itinerary?.totalDuration || "7 days"}</span>
+                <span className="ml-2">
+                  {cruise.itinerary?.totalDuration || "7 days"}
+                </span>
               </div>
               <div>
                 <span className="text-muted-foreground">Passengers:</span>
@@ -1194,22 +1399,22 @@ function ConfirmationStep({
           </div>
 
           <div>
-            <h4 className="font-medium mb-3">Total Paid</h4>
-            <div className="text-3xl font-bold gradient-ocean">
+            <h4 className="mb-3 font-medium">Total Paid</h4>
+            <div className="font-bold text-3xl gradient-ocean">
               ${totalPrice.toLocaleString()}
             </div>
-            <p className="text-sm text-muted-foreground mt-1">
+            <p className="mt-1 text-muted-foreground text-sm">
               Including all taxes and fees
             </p>
           </div>
         </div>
       </Card>
 
-      <div className="bg-muted/50 rounded-lg p-4">
-        <p className="text-sm text-muted-foreground">
+      <div className="bg-muted/50 p-4 rounded-lg">
+        <p className="text-muted-foreground text-sm">
           A confirmation email has been sent to{" "}
-          <strong>{bookingData.contactInfo.email}</strong> with your booking details
-          and travel documents.
+          <strong>{bookingData.contactInfo.email}</strong> with your booking
+          details and travel documents.
         </p>
       </div>
     </div>
