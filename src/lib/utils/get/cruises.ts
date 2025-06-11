@@ -79,7 +79,7 @@ export async function fetchCruiseLinesFromVecto() {
 export async function fetchItinerariesFromVecto(
   cruiseLineId: string,
   startDate?: string,
-  endDate?: string
+  endDate?: string,
 ) {
   try {
     const response = await getItineraries({
@@ -219,7 +219,7 @@ export async function fetchDepartureCitiesFromVecto() {
  *          Returns an empty array if no cruises are found or if an error occurs during the fetch.
  */
 export async function fetchCruisesByDestinationFromVecto(
-  destinationId: string
+  destinationId: string,
 ) {
   try {
     const cruises = await getVectoCruisesByDestination(destinationId);
@@ -246,7 +246,9 @@ export async function fetchCruisesByDestinationFromVecto(
  * @returns A promise that resolves to an array of cruise objects for the specified departure city.
  *          Returns an empty array if no cruises are found or if an error occurs during the fetch.
  */
-export async function fetchCruisesByDepartureCityFromVecto(departureCityId: string) {
+export async function fetchCruisesByDepartureCityFromVecto(
+  departureCityId: string,
+) {
   try {
     const cruises = await getVectoCruisesByDepartureCity(departureCityId);
 
@@ -261,7 +263,7 @@ export async function fetchCruisesByDepartureCityFromVecto(departureCityId: stri
   } catch (error) {
     console.error(
       "Error fetching cruises by departure city from Vecto:",
-      error
+      error,
     );
     return [];
   }

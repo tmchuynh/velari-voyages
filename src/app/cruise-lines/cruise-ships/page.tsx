@@ -1,8 +1,7 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { 
+import React, { useState, useEffect, useMemo } from "react";
+import {
   AdjustmentsHorizontalIcon,
   MagnifyingGlassIcon,
   ArrowUpIcon,
@@ -11,32 +10,51 @@ import {
   ChevronRightIcon,
   EyeIcon,
   CalendarIcon,
-  UsersIcon
-} from '@heroicons/react/24/outline';
-import { FaShip } from 'react-icons/fa';
-import { getCruiseLines, getCruiseLineShips } from '@/lib/utils/api/vecto-cruise-api';
-import { type Ship, type CruiseLine } from '@/lib/utils/api/vecto-cruise-api';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Toggle } from '@/components/ui/toggle';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from '@/components/ui/pagination';
-import Link from 'next/link';
-import Image from 'next/image';
+  UsersIcon,
+} from "@heroicons/react/24/outline";
+import { FaShip } from "react-icons/fa";
+import {
+  getCruiseLines,
+  getCruiseLineShips,
+  getShipDetails,
+  ShipDetails,
+} from "@/lib/utils/api/vecto-cruise-api";
+import { type Ship, type CruiseLine } from "@/lib/utils/api/vecto-cruise-api";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Toggle } from "@/components/ui/toggle";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+import Link from "next/link";
+import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function CruiseShipsPage() {
-  const [ships, setShips] = useState<Ship[]>([]);
+  const [ships, setShips] = useState<(ShipDetails & { cruise_line_name: string; cruise_line_id: string })[]>([]);
   const [cruiseLines, setCruiseLines] = useState<CruiseLine[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  
+
   // Filter and sort states
   const [showFilters, setShowFilters] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCruiseLine, setSelectedCruiseLine] = useState<string>('all');
-  const [sortBy, setSortBy] = useState<'name' | 'year' | 'capacity'>('name');
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCruiseLine, setSelectedCruiseLine] = useState<string>("all");
+  const [sortBy, setSortBy] = useState<"name" | "year" | "capacity">("name");
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -45,30 +63,83 @@ export default function CruiseShipsPage() {
     const loadData = async () => {
       try {
         setLoading(true);
-        
+
         // Get all cruise lines first
         const cruiseLinesResponse = await getCruiseLines();
         if (cruiseLinesResponse.success && cruiseLinesResponse.data) {
           setCruiseLines(cruiseLinesResponse.data);
-          
+
           // Get ships for all cruise lines
-          const allShips: Ship[] = [];
+          const allShips: (ShipDetails & { cruise_line_name: string; cruise_line_id: string })[] = [];
           for (const line of cruiseLinesResponse.data) {
-            const shipsResponse = await getCruiseLineShips(line.id);
+            const shipsResponse = await getCruiseLineShips({
+              cruise_line_id: line.cruise_line_id,
+            });
             if (shipsResponse.success && shipsResponse.data) {
+              const shipDetails: (ShipDetails & { cruise_line_name: string; cruise_line_id: string })[] = await Promise.all(
+                shipsResponse.data.map(async (ship) => {
+                  const details = await getShipDetails(ship.ship_id);
+                  if (details.success && details.data) {
+                    return {
+                      ...ship,
+                      ...details.data,
+                      cruise_line_name: line.cruise_line_name,
+                      cruise_line_id: line.cruise_line_id,
+                    };
+                  }
+                  return {
+                    ...ship,
+                    ship_description: '',
+                    ship_image_thumb: '',
+                    ship_image: '',
+                    ship_year_built: null,
+                    ship_year_refurbished: null,
+                    ship_registry: null,
+                    ship_tonnage: null,
+                    ship_num_cabins: null,
+                    ship_num_handicap_cabins: null,
+                    ship_capacity: null,
+                    ship_num_elevators: null,
+                    ship_num_restaruants: null,
+                    ship_num_bars: null,
+                    ship_num_pools: null,
+                    ship_num_theaters: null,
+                    ship_has_meeting_rooms: null,
+                    ship_has_casino: null,
+                    ship_has_disco: null,
+                    ship_has_fitness_center: null,
+                    ship_has_childrens_program: null,
+                    ship_has_internet_cafe: null,
+                    ship_has_spa: null,
+                    ship_has_library: null,
+                    ship_code: null,
+                    ship_decks: [],
+                    ship_cabin_categories: [],
+                    cruise_line_name: line.cruise_line_name,
+                    cruise_line_id: line.cruise_line_id,
+                  };
+                }),
+              );
+
+              allShips.push(...shipDetails);
+
               // Add cruise line name to each ship for filtering
-              const shipsWithLineInfo = shipsResponse.data.map(ship => ({
-                ...ship,
-                cruiseLineName: line.name
-              }));
-              allShips.push(...shipsWithLineInfo);
+              // const shipsWithLineInfo = shipsResponse.data.map((ship) => ({
+              //   ...ship,
+              //   cruise_line_name: line.cruise_line_name,
+              //   cruise_line_id: line.cruise_line_id,
+              //   cruise_line_description: line.cruise_line_description,
+              //   cruise_line_logo_thumb: line.cruise_line_logo_thumb,
+              //   cruise_line_logo: line.cruise_line_logo,
+              // }));
+              // allShips.push(...shipsWithLineInfo);
             }
           }
           setShips(allShips);
         }
       } catch (err) {
-        setError('Failed to load cruise ships. Please try again.');
-        console.error('Error loading ships:', err);
+        setError("Failed to load cruise ships. Please try again.");
+        console.error("Error loading ships:", err);
       } finally {
         setLoading(false);
       }
@@ -81,13 +152,11 @@ export default function CruiseShipsPage() {
   const filteredAndSortedShips = useMemo(() => {
     const filtered = ships.filter((ship) => {
       const matchesSearch =
-        ship.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        ship.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        ship.code.toLowerCase().includes(searchTerm.toLowerCase());
+        ship.ship_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        ship.ship_id.toString().includes(searchTerm);
 
       const matchesCruiseLine =
-        selectedCruiseLine === "all" ||
-        ship.cruiseLineId === selectedCruiseLine;
+        selectedCruiseLine === "all" || ship.cruise_line_name === selectedCruiseLine;
 
       return matchesSearch && matchesCruiseLine;
     });
@@ -95,20 +164,20 @@ export default function CruiseShipsPage() {
     // Sort ships
     filtered.sort((a, b) => {
       let comparison = 0;
-      
+
       switch (sortBy) {
-        case 'name':
-          comparison = a.name.localeCompare(b.name);
+        case "name":
+          comparison = a.ship_name.localeCompare(b.ship_name);
           break;
-        case 'year':
-          comparison = (a.yearBuilt || 0) - (b.yearBuilt || 0);
+        case "year":
+          comparison = (a.ship_year_built || 0) - (b.ship_year_built || 0);
           break;
-        case 'capacity':
-          comparison = (a.capacity || 0) - (b.capacity || 0);
+        case "capacity":
+          comparison = (a.ship_capacity || 0) - (b.ship_capacity || 0);
           break;
       }
-      
-      return sortOrder === 'asc' ? comparison : -comparison;
+
+      return sortOrder === "asc" ? comparison : -comparison;
     });
 
     return filtered;
@@ -127,29 +196,29 @@ export default function CruiseShipsPage() {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   // Background animation variants
   const backgroundVariants = {
     animate: {
       background: [
-        'linear-gradient(45deg, #0f172a, #1e293b, #334155)',
-        'linear-gradient(45deg, #1e293b, #334155, #475569)',
-        'linear-gradient(45deg, #334155, #475569, #64748b)',
-        'linear-gradient(45deg, #0f172a, #1e293b, #334155)',
+        "linear-gradient(45deg, #0f172a, #1e293b, #334155)",
+        "linear-gradient(45deg, #1e293b, #334155, #475569)",
+        "linear-gradient(45deg, #334155, #475569, #64748b)",
+        "linear-gradient(45deg, #0f172a, #1e293b, #334155)",
       ],
       transition: {
         duration: 8,
         repeat: Infinity,
-        ease: "easeInOut"
-      }
-    }
+        ease: "easeInOut",
+      },
+    },
   };
 
   if (loading) {
     return (
-      <motion.div 
+      <motion.div
         className="flex justify-center items-center min-h-screen"
         variants={backgroundVariants}
         animate="animate"
@@ -168,7 +237,7 @@ export default function CruiseShipsPage() {
 
   if (error) {
     return (
-      <motion.div 
+      <motion.div
         className="flex justify-center items-center min-h-screen"
         variants={backgroundVariants}
         animate="animate"
@@ -189,14 +258,14 @@ export default function CruiseShipsPage() {
   }
 
   return (
-    <motion.div 
+    <motion.div
       className="min-h-screen"
       variants={backgroundVariants}
       animate="animate"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <motion.div 
+        <motion.div
           className="top-1/4 left-1/4 absolute bg-blue-500/10 blur-3xl rounded-full w-96 h-96"
           animate={{
             scale: [1, 1.2, 1],
@@ -204,7 +273,7 @@ export default function CruiseShipsPage() {
           }}
           transition={{ duration: 4, repeat: Infinity }}
         />
-        <motion.div 
+        <motion.div
           className="right-1/4 bottom-1/4 absolute bg-purple-500/10 blur-3xl rounded-full w-96 h-96"
           animate={{
             scale: [1.2, 1, 1.2],
@@ -228,13 +297,16 @@ export default function CruiseShipsPage() {
                 Explore our magnificent fleet of cruise ships
               </p>
             </div>
-            
+
             {/* Controls */}
             <div className="flex items-center space-x-4">
               {/* Items per page selector */}
               <div className="flex items-center space-x-2">
                 <Label className="text-sm text-white">Show:</Label>
-                <Select value={itemsPerPage.toString()} onValueChange={(value) => setItemsPerPage(Number(value))}>
+                <Select
+                  value={itemsPerPage.toString()}
+                  onValueChange={(value) => setItemsPerPage(Number(value))}
+                >
                   <SelectTrigger className="bg-white/10 border-white/20 w-20 text-white">
                     <SelectValue />
                   </SelectTrigger>
@@ -251,9 +323,9 @@ export default function CruiseShipsPage() {
               <motion.button
                 onClick={() => setShowFilters(!showFilters)}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-colors ${
-                  showFilters 
-                    ? 'bg-blue-500/30 text-blue-300' 
-                    : 'bg-white/10 text-white hover:bg-white/20'
+                  showFilters
+                    ? "bg-blue-500/30 text-blue-300"
+                    : "bg-white/10 text-white hover:bg-white/20"
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -282,7 +354,9 @@ export default function CruiseShipsPage() {
                 <Card className="top-8 sticky bg-white/10 backdrop-blur-md border-white/20 text-white">
                   <CardHeader>
                     <div className="flex justify-between items-center">
-                      <CardTitle className="text-white">Filters & Sorting</CardTitle>
+                      <CardTitle className="text-white">
+                        Filters & Sorting
+                      </CardTitle>
                       <button
                         onClick={() => setShowFilters(false)}
                         className="text-gray-400 hover:text-white transition-colors"
@@ -313,25 +387,30 @@ export default function CruiseShipsPage() {
                     {/* Cruise Line Filter */}
                     <div className="space-y-2">
                       <Label className="text-white">Cruise Line</Label>
-                      <Select value={selectedCruiseLine} onValueChange={setSelectedCruiseLine}>
+                      <Select
+                        value={selectedCruiseLine}
+                        onValueChange={setSelectedCruiseLine}
+                      >
                         <SelectTrigger className="bg-white/5 border-white/20 text-white">
                           <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="all">All Cruise Lines</SelectItem>
-                          {cruiseLines.map((line) => (
-                            <SelectItem key={line.id} value={line.id}>
-                              {line.name}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
+                        </SelectTrigger>                          <SelectContent>
+                            <SelectItem value="all">All Cruise Lines</SelectItem>
+                            {cruiseLines.map((line) => (
+                              <SelectItem key={line.cruise_line_id} value={line.cruise_line_name}>
+                                {line.cruise_line_name}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
                       </Select>
                     </div>
 
                     {/* Sort By */}
                     <div className="space-y-2">
                       <Label className="text-white">Sort By</Label>
-                      <Select value={sortBy} onValueChange={(value) => setSortBy(value as any)}>
+                      <Select
+                        value={sortBy}
+                        onValueChange={(value) => setSortBy(value as any)}
+                      >
                         <SelectTrigger className="bg-white/5 border-white/20 text-white">
                           <SelectValue />
                         </SelectTrigger>
@@ -348,16 +427,20 @@ export default function CruiseShipsPage() {
                       <Label className="text-white">Sort Order</Label>
                       <div className="flex items-center space-x-2">
                         <Toggle
-                          pressed={sortOrder === 'asc'}
-                          onPressedChange={(pressed) => setSortOrder(pressed ? 'asc' : 'desc')}
+                          pressed={sortOrder === "asc"}
+                          onPressedChange={(pressed) =>
+                            setSortOrder(pressed ? "asc" : "desc")
+                          }
                           className="flex items-center space-x-2 data-[state=on]:bg-blue-500/30 data-[state=on]:text-blue-300"
                         >
-                          {sortOrder === 'asc' ? (
+                          {sortOrder === "asc" ? (
                             <ArrowUpIcon className="w-4 h-4" />
                           ) : (
                             <ArrowDownIcon className="w-4 h-4" />
                           )}
-                          <span>{sortOrder === 'asc' ? 'Ascending' : 'Descending'}</span>
+                          <span>
+                            {sortOrder === "asc" ? "Ascending" : "Descending"}
+                          </span>
                         </Toggle>
                       </div>
                     </div>
@@ -365,7 +448,8 @@ export default function CruiseShipsPage() {
                     {/* Results Info */}
                     <div className="bg-blue-500/20 p-3 border border-blue-400/30 rounded-lg">
                       <p className="text-blue-300 text-sm">
-                        Showing {currentItems.length} of {filteredAndSortedShips.length} ships
+                        Showing {currentItems.length} of{" "}
+                        {filteredAndSortedShips.length} ships
                       </p>
                     </div>
                   </CardContent>
@@ -384,15 +468,15 @@ export default function CruiseShipsPage() {
               <AnimatePresence mode="popLayout">
                 {currentItems.map((ship, index) => (
                   <motion.div
-                    key={ship.id}
+                    key={ship.ship_id}
                     layout
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -50 }}
-                    transition={{ 
-                      duration: 0.3, 
+                    transition={{
+                      duration: 0.3,
                       delay: index * 0.05,
-                      layout: { duration: 0.3 }
+                      layout: { duration: 0.3 },
                     }}
                     whileHover={{ y: -5 }}
                   >
@@ -400,78 +484,80 @@ export default function CruiseShipsPage() {
                       <CardContent className="p-6">
                         {/* Ship Image */}
                         <div className="mb-4">
-                          <div className="flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600 mb-3 rounded-xl w-full h-40 overflow-hidden">
-                            {ship.imageUrl ? (
+                          <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg w-full h-48 overflow-hidden">
+                            {ship.ship_image || ship.ship_image_thumb ? (
                               <Image
-                                src={ship.imageUrl}
-                                alt={ship.name}
-                                width={300}
-                                height={160}
-                                className="w-full h-full object-cover"
+                                src={ship.ship_image || ship.ship_image_thumb}
+                                alt={ship.ship_name}
+                                width={400}
+                                height={200}
+                                className="w-full h-full transition-transform duration-300 object-cover group-hover:scale-105"
                               />
                             ) : (
-                              <FaShip className="w-16 h-16 text-white" />
+                              <div className="flex justify-center items-center w-full h-full">
+                                <FaShip className="w-16 h-16 text-white" />
+                              </div>
                             )}
                           </div>
                         </div>
 
-                        {/* Ship Info */}
-                        <div className="mb-4">
-                          <h3 className="mb-1 font-semibold text-lg text-white group-hover:text-blue-300 transition-colors">
-                            {ship.name}
+                        {/* Ship Details */}
+                        <div className="space-y-3">
+                          <h3 className="font-semibold text-white text-xl group-hover:text-blue-300 transition-colors">
+                            {ship.ship_name}
                           </h3>
-                          <p className="mb-2 text-gray-400 text-sm">
-                            {cruiseLines.find(line => line.id === ship.cruiseLineId)?.name || 'Unknown Cruise Line'}
-                          </p>
-                          <p className="text-gray-400 text-xs">ID: {ship.code}</p>
-                        </div>
-
-                        {/* Ship Stats */}
-                        <div className="gap-2 grid grid-cols-2 mb-4 text-sm">
-                          {ship.capacity && (
-                            <div className="flex items-center space-x-1">
-                              <UsersIcon className="w-4 h-4 text-blue-400" />
-                              <span className="text-gray-300">{ship.capacity.toLocaleString()}</span>
-                            </div>
-                          )}
-                          {ship.yearBuilt && (
-                            <div className="flex items-center space-x-1">
-                              <CalendarIcon className="w-4 h-4 text-blue-400" />
-                              <span className="text-gray-300">{ship.yearBuilt}</span>
-                            </div>
-                          )}
-                          {ship.length && (
-                            <div className="col-span-2">
-                              <span className="text-gray-400">Length: </span>
-                              <span className="text-white">{ship.length}m</span>
-                            </div>
-                          )}
-                        </div>
-
-                        {/* Action Button */}
-                        <div className="flex justify-between items-center">
-                          <Link
-                            href={`/cruise-lines/cruise-ships/${ship.id}`}
-                            className="inline-flex items-center space-x-2 font-medium text-blue-400 text-sm hover:text-blue-300 transition-colors"
-                          >
-                            <span>View Details</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                          </Link>
                           
-                          <motion.button
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            className="bg-blue-500/20 hover:bg-blue-500/30 p-2 rounded-lg transition-colors"
-                          >
-                            <EyeIcon className="w-4 h-4 text-blue-300" />
-                          </motion.button>
+                          <p className="text-gray-300 text-sm">
+                            {ship.cruise_line_name}
+                          </p>
+                          
+                          <p className="text-gray-400 text-xs">
+                            ID: {ship.ship_code || ship.ship_id}
+                          </p>
+
+                          {/* Ship Stats */}
+                          <div className="space-y-2">
+                            {ship.ship_capacity && (
+                              <div className="flex justify-between items-center text-sm">
+                                <span className="text-gray-400">Capacity:</span>
+                                <span className="text-white">
+                                  {ship.ship_capacity.toLocaleString()}
+                                </span>
+                              </div>
+                            )}
+                            {ship.ship_year_built && (
+                              <div className="flex justify-between items-center text-sm">
+                                <span className="text-gray-400">Year Built:</span>
+                                <span className="text-white">
+                                  {ship.ship_year_built}
+                                </span>
+                              </div>
+                            )}
+                            {ship.ship_tonnage && (
+                              <div className="flex justify-between items-center text-sm">
+                                <span className="text-gray-400">Tonnage:</span>
+                                <span className="text-white">{ship.ship_tonnage?.toLocaleString()}</span>
+                              </div>
+                            )}
+                          </div>
+
+                          {/* View Details Button */}
+                          <div className="pt-4 border-white/10 border-t">
+                            <Link
+                              href={`/cruise-lines/cruise-ships/${ship.ship_id}`}
+                              className="inline-flex items-center space-x-2 font-medium text-blue-400 text-sm hover:text-blue-300 transition-colors"
+                            >
+                              <span>View Details</span>
+                              <ChevronRightIcon className="w-4 h-4" />
+                            </Link>
+                          </div>
                         </div>
                       </CardContent>
                     </Card>
-                  </motion.div>
+                  </div>
                 ))}
-              </AnimatePresence>
-            </motion.div>
+              </div>
+            </div>
 
             {/* No Results */}
             {filteredAndSortedShips.length === 0 && !loading && (
@@ -482,16 +568,18 @@ export default function CruiseShipsPage() {
               >
                 <div className="bg-white/10 backdrop-blur-md p-8 border border-white/20 rounded-xl">
                   <FaShip className="mx-auto mb-4 w-16 h-16 text-gray-400" />
-                  <h3 className="mb-2 font-semibold text-white text-xl">No ships found</h3>
+                  <h3 className="mb-2 font-semibold text-white text-xl">
+                    No ships found
+                  </h3>
                   <p className="mb-4 text-gray-300">
                     Try adjusting your search terms or filters
                   </p>
                   <button
                     onClick={() => {
-                      setSearchTerm('');
-                      setSelectedCruiseLine('all');
-                      setSortBy('name');
-                      setSortOrder('asc');
+                      setSearchTerm("");
+                      setSelectedCruiseLine("all");
+                      setSortBy("name");
+                      setSortOrder("asc");
                     }}
                     className="bg-blue-500/20 hover:bg-blue-500/30 px-4 py-2 rounded-lg text-blue-300 transition-colors"
                   >
@@ -514,28 +602,38 @@ export default function CruiseShipsPage() {
                     <PaginationContent>
                       <PaginationItem>
                         <PaginationPrevious
-                          onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                          onClick={() =>
+                            handlePageChange(Math.max(1, currentPage - 1))
+                          }
                           className={`${
-                            currentPage === 1 
-                              ? 'pointer-events-none opacity-50' 
-                              : 'text-white hover:bg-white/20'
+                            currentPage === 1
+                              ? "pointer-events-none opacity-50"
+                              : "text-white hover:bg-white/20"
                           }`}
                         />
                       </PaginationItem>
-                      
+
                       {Array.from({ length: totalPages }, (_, i) => i + 1)
-                        .filter(page => {
+                        .filter((page) => {
                           const distance = Math.abs(page - currentPage);
-                          return distance === 0 || distance === 1 || page === 1 || page === totalPages;
+                          return (
+                            distance === 0 ||
+                            distance === 1 ||
+                            page === 1 ||
+                            page === totalPages
+                          );
                         })
                         .map((page, index, array) => {
-                          const showEllipsis = index > 0 && array[index - 1] !== page - 1;
-                          
+                          const showEllipsis =
+                            index > 0 && array[index - 1] !== page - 1;
+
                           return (
                             <React.Fragment key={page}>
                               {showEllipsis && (
                                 <PaginationItem>
-                                  <span className="px-3 py-2 text-gray-400">...</span>
+                                  <span className="px-3 py-2 text-gray-400">
+                                    ...
+                                  </span>
                                 </PaginationItem>
                               )}
                               <PaginationItem>
@@ -544,8 +642,8 @@ export default function CruiseShipsPage() {
                                   isActive={currentPage === page}
                                   className={`${
                                     currentPage === page
-                                      ? 'bg-blue-500/30 text-blue-300 border-blue-400/50'
-                                      : 'text-white hover:bg-white/20'
+                                      ? "bg-blue-500/30 text-blue-300 border-blue-400/50"
+                                      : "text-white hover:bg-white/20"
                                   }`}
                                 >
                                   {page}
@@ -554,14 +652,18 @@ export default function CruiseShipsPage() {
                             </React.Fragment>
                           );
                         })}
-                      
+
                       <PaginationItem>
                         <PaginationNext
-                          onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                          onClick={() =>
+                            handlePageChange(
+                              Math.min(totalPages, currentPage + 1),
+                            )
+                          }
                           className={`${
-                            currentPage === totalPages 
-                              ? 'pointer-events-none opacity-50' 
-                              : 'text-white hover:bg-white/20'
+                            currentPage === totalPages
+                              ? "pointer-events-none opacity-50"
+                              : "text-white hover:bg-white/20"
                           }`}
                         />
                       </PaginationItem>
