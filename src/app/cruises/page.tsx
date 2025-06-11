@@ -167,7 +167,7 @@ export default function CruisesPage() {
           break;
         case "destination":
           comparison = a.itinerary_destination_name.localeCompare(
-            b.itinerary_destination_name
+            b.itinerary_destination_name,
           );
           break;
         case "departDate":
@@ -182,12 +182,12 @@ export default function CruisesPage() {
           break;
         case "departureCity":
           comparison = a.itinerary_depart_city.localeCompare(
-            b.itinerary_depart_city
+            b.itinerary_depart_city,
           );
           break;
         case "returnCity":
           comparison = a.itinerary_return_city.localeCompare(
-            b.itinerary_return_city
+            b.itinerary_return_city,
           );
           break;
         case "length":
@@ -212,7 +212,7 @@ export default function CruisesPage() {
 
   // Pagination
   const totalPages = Math.ceil(
-    filteredAndSortedItineraries.length / itemsPerPage
+    filteredAndSortedItineraries.length / itemsPerPage,
   );
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -633,7 +633,7 @@ export default function CruisesPage() {
                             <span className="font-medium text-white">
                               {format(
                                 parseISO(itinerary.itinerary_depart_date),
-                                "MMM dd, yyyy"
+                                "MMM dd, yyyy",
                               )}
                             </span>
                           </div>
@@ -649,7 +649,7 @@ export default function CruisesPage() {
                             <span className="font-medium text-white">
                               {format(
                                 parseISO(itinerary.itinerary_return_date),
-                                "MMM dd, yyyy"
+                                "MMM dd, yyyy",
                               )}
                             </span>
                           </div>
@@ -805,7 +805,7 @@ export default function CruisesPage() {
                         <PaginationNext
                           onClick={() =>
                             handlePageChange(
-                              Math.min(totalPages, currentPage + 1)
+                              Math.min(totalPages, currentPage + 1),
                             )
                           }
                           className={`${

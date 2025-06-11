@@ -204,7 +204,7 @@ export default function ItineraryDetailPage() {
                         <p className="font-medium text-white">
                           {format(
                             parseISO(itinerary.itinerary_depart_date),
-                            "MMMM dd, yyyy"
+                            "MMMM dd, yyyy",
                           )}
                         </p>
                       </div>
@@ -217,7 +217,7 @@ export default function ItineraryDetailPage() {
                         <p className="font-medium text-white">
                           {format(
                             parseISO(itinerary.itinerary_return_date),
-                            "MMMM dd, yyyy"
+                            "MMMM dd, yyyy",
                           )}
                         </p>
                       </div>
@@ -409,7 +409,7 @@ export default function ItineraryDetailPage() {
                               <p className="text-blue-300 text-sm">
                                 {format(
                                   parseISO(day.itinerary_day_date),
-                                  "EEEE, MMMM dd, yyyy"
+                                  "EEEE, MMMM dd, yyyy",
                                 )}
                               </p>
                             </div>
@@ -506,7 +506,7 @@ export default function ItineraryDetailPage() {
                                 {format(parseISO(promotion.start), "MMM dd")} -{" "}
                                 {format(
                                   parseISO(promotion.expiration),
-                                  "MMM dd, yyyy"
+                                  "MMM dd, yyyy",
                                 )}
                               </p>
                             </div>
