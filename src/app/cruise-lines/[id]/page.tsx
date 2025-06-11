@@ -20,6 +20,7 @@ export default function CruiseLineDetailPage() {
   const cruiseLineId = params.id as string;
 
   const [cruiseLine, setCruiseLine] = useState<CruiseLine | null>(null);
+  const [ships, setShips] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -29,18 +30,18 @@ export default function CruiseLineDetailPage() {
         setLoading(true);
         const [lineDetails, shipsList] = await Promise.all([
           getCruiseLineDetails(cruiseLineId),
-          getCruiseLineShips({ cruise_line_id: cruiseLineId }),
+          getCruiseLineShips(cruiseLineId),
         ]);
-
         if (lineDetails.success && lineDetails.data) {
           setCruiseLine(lineDetails.data);
         }
+
         if (shipsList.success && shipsList.data) {
           setShips(shipsList.data);
         }
       } catch (err) {
-        setError("Failed to load cruise line details. Please try again.");
-        console.error("Error loading cruise line details:", err);
+        setError("Failed to load cruise line details");
+        console.error("Error loading cruise line data:", err);
       } finally {
         setLoading(false);
       }
@@ -170,21 +171,17 @@ export default function CruiseLineDetailPage() {
                 {/* Logo */}
                 <div className="flex-shrink-0">
                   <div className="flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl w-24 h-24">
-                    {cruiseLine.cruise_line_logo_thumb ||
-                    cruiseLine.cruise_line_logo ? (
+                    {cruiseLine.logo_thumbnail || cruiseLine.logo_url ? (
                       <Image
-                        src={
-                          cruiseLine.cruise_line_logo_thumb ||
-                          cruiseLine.cruise_line_logo
-                        }
-                        alt={`${cruiseLine.cruise_line_name} logo`}
+                        src={cruiseLine.logo_thumbnail || cruiseLine.logo_url}
+                        alt={`${cruiseLine.name} logo`}
                         width={80}
                         height={80}
                         className="rounded-xl object-cover"
                       />
                     ) : (
                       <span className="font-bold text-2xl text-white">
-                        {cruiseLine.cruise_line_name.charAt(0)}
+                        {cruiseLine.name.charAt(0)}
                       </span>
                     )}
                   </div>
@@ -193,10 +190,10 @@ export default function CruiseLineDetailPage() {
                 {/* Info */}
                 <div className="flex-1">
                   <h1 className="mb-2 font-bold text-4xl text-white">
-                    {cruiseLine.cruise_line_name}
+                    {cruiseLine.name}
                   </h1>
                   <p className="mb-4 text-gray-300 text-lg">
-                    {cruiseLine.cruise_line_description ||
+                    {cruiseLine.description ||
                       "Premium cruise experiences with exceptional service and destinations."}
                   </p>
 
@@ -204,7 +201,7 @@ export default function CruiseLineDetailPage() {
                     <div className="flex items-center space-x-2">
                       <span className="text-gray-400">ID:</span>
                       <span className="font-medium text-blue-300">
-                        {cruiseLine.cruise_line_id}
+                        {cruiseLine.id}
                       </span>
                     </div>
                     {ships.length > 0 && (
@@ -217,10 +214,10 @@ export default function CruiseLineDetailPage() {
                 </div>
 
                 {/* Contact Info */}
-                {cruiseLine.cruise_line_url && (
+                {cruiseLine.website_url && (
                   <div className="flex-shrink-0 space-y-2">
                     <a
-                      href={cruiseLine.cruise_line_url}
+                      href={cruiseLine.website_url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -269,13 +266,13 @@ export default function CruiseLineDetailPage() {
                 <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
                   <CardHeader>
                     <CardTitle className="text-white">
-                      About {cruiseLine.cruise_line_name}
+                      About {cruiseLine.name}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-300 leading-relaxed">
-                      {cruiseLine.cruise_line_description ||
-                        `${cruiseLine.cruise_line_name} offers premium cruise experiences with world-class amenities, 
+                      {cruiseLine.description ||
+                        `${cruiseLine.name} offers premium cruise experiences with world-class amenities, 
                         exceptional dining, and carefully curated itineraries to the most sought-after 
                         destinations around the globe. Our commitment to excellence ensures every guest 
                         enjoys an unforgettable voyage.`}
