@@ -869,9 +869,7 @@ function GuestInformationStep({
     guestCount.children +
     guestCount.seniors +
     guestCount.infants;
-  const cruiseStartDate = cruise?.itinerary?.startDate
-    ? new Date(cruise.itinerary.startDate)
-    : new Date();
+  const cruiseStartDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000); // 30 days from now
 
   // Calculate age at cruise start for seniors determination
   const calculateAgeAtCruiseStart = (birthDate: string) => {
