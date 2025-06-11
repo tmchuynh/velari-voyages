@@ -280,16 +280,16 @@ export function BookingHistoryDisplay({ bookingId }: { bookingId: string }) {
             <div key={index} className="py-2 pl-4 border-blue-200 border-l-4">
               <div className="flex justify-between items-center">
                 <span className="font-medium text-gray-900">
-                  {entry.action}
+                  {entry.actions.join(", ")}
                 </span>
                 <span className="text-gray-500 text-sm">
-                  {new Date(entry.timestamp).toLocaleDateString()}
+                  {entry.entry_date_time.toLocaleDateString()}
                 </span>
               </div>
-              <p className="mt-1 text-gray-600 text-sm">{entry.details}</p>
-              {entry.user && (
-                <p className="mt-1 text-gray-500 text-xs">By: {entry.user}</p>
-              )}
+              <p className="mt-1 text-gray-600 text-sm">
+                Type: {entry.actionType ?? "N/A"}
+              </p>
+              {/* User information is not available in BookingHistoryEntry type */}
             </div>
           ))}
         </div>
