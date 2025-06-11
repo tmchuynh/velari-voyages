@@ -443,7 +443,11 @@ export default function BookingPage() {
 
   const calculateTotal = () => {
     if (!bookingData.cabin) return 0;
-    const basePrice = bookingData.cabin.price * bookingData.passengers.length;
+    const totalGuests = bookingData.guestCount.adults + 
+                       bookingData.guestCount.children + 
+                       bookingData.guestCount.seniors + 
+                       bookingData.guestCount.infants;
+    const basePrice = bookingData.cabin.price * totalGuests;
     const taxes = basePrice * 0.12; // 12% taxes and fees
     return basePrice + taxes;
   };
@@ -632,7 +636,12 @@ export default function BookingPage() {
                         onSelectCabin={(cabin) =>
                           setBookingData({ ...bookingData, cabin })
                         }
-                        passengerCount={bookingData.passengers.length}
+                        passengerCount={
+                          bookingData.guestCount.adults +
+                          bookingData.guestCount.children +
+                          bookingData.guestCount.seniors +
+                          bookingData.guestCount.infants
+                        }
                         errors={errors}
                       />
                     )}
