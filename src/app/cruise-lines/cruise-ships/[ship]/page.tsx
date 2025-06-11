@@ -1,19 +1,14 @@
 "use client";
-
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useParams, useRouter } from "next/navigation";
 import {
   ArrowLeftIcon,
   CalendarIcon,
   UsersIcon,
-  MapIcon,
   BuildingOfficeIcon,
-  ArrowsPointingOutIcon,
-  BoltIcon,
-  StarIcon,
 } from "@heroicons/react/24/outline";
-import { FaShip, FaBed, FaWifi, FaTv, FaBath } from "react-icons/fa";
+import { FaShip, FaBed } from "react-icons/fa";
 import {
   getShipDetails,
   getAvailableCabinCategories,
@@ -23,7 +18,6 @@ import {
   type CabinCategory,
 } from "@/lib/utils/api/vecto-cruise-api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { MdBalcony } from "react-icons/md";
 import Image from "next/image";
 
 // Mock deck data (since API doesn't provide deck information)
@@ -238,10 +232,10 @@ export default function ShipDetailPage() {
                 {/* Ship Image */}
                 <div className="flex-shrink-0">
                   <div className="flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl w-48 h-32 overflow-hidden">
-                    {ship.imageUrl ? (
+                    {ship.ship_image ? (
                       <Image
-                        src={ship.imageUrl}
-                        alt={ship.name}
+                        src={ship.ship_image}
+                        alt={ship.ship_name}
                         width={192}
                         height={128}
                         className="w-full h-full object-cover"
@@ -255,18 +249,18 @@ export default function ShipDetailPage() {
                 {/* Ship Info */}
                 <div className="flex-1">
                   <h1 className="mb-2 font-bold text-4xl text-white">
-                    {ship.name}
+                    {ship.ship_name}
                   </h1>
                   <p className="mb-4 text-gray-300 text-lg">
-                    {ship.description ||
+                    {ship.ship_description ||
                       "Experience luxury cruising at its finest with exceptional amenities and service."}
                   </p>
 
                   <div className="flex items-center space-x-6 text-sm">
                     <div className="flex items-center space-x-2">
-                      <span className="text-gray-400">Ship Code:</span>
+                      <span className="text-gray-400">Ship ID:</span>
                       <span className="font-medium text-blue-300">
-                        {ship.code}
+                        {ship.ship_id}
                       </span>
                     </div>
                   </div>
@@ -292,76 +286,37 @@ export default function ShipDetailPage() {
             <CardContent>
               <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {/* Capacity */}
-                {ship.capacity && (
+                {ship.ship_capacity && (
                   <div className="bg-blue-500/20 p-4 border border-blue-400/30 rounded-xl text-center">
                     <UsersIcon className="mx-auto mb-2 w-8 h-8 text-blue-400" />
                     <p className="mb-1 text-gray-300 text-sm">Guest Capacity</p>
                     <p className="font-bold text-2xl text-white">
-                      {ship.capacity.toLocaleString()}
+                      {ship.ship_capacity.toLocaleString()}
                     </p>
                   </div>
                 )}
 
                 {/* Year Built */}
-                {ship.yearBuilt && (
+                {ship.ship_year_built && (
                   <div className="bg-purple-500/20 p-4 border border-purple-400/30 rounded-xl text-center">
                     <CalendarIcon className="mx-auto mb-2 w-8 h-8 text-purple-400" />
                     <p className="mb-1 text-gray-300 text-sm">Year Built</p>
                     <p className="font-bold text-2xl text-white">
-                      {ship.yearBuilt}
-                    </p>
-                  </div>
-                )}
-
-                {/* Length */}
-                {ship.length && (
-                  <div className="bg-green-500/20 p-4 border border-green-400/30 rounded-xl text-center">
-                    <ArrowsPointingOutIcon className="mx-auto mb-2 w-8 h-8 text-green-400" />
-                    <p className="mb-1 text-gray-300 text-sm">Length</p>
-                    <p className="font-bold text-2xl text-white">
-                      {ship.length}m
-                    </p>
-                  </div>
-                )}
-
-                {/* Width */}
-                {ship.width && (
-                  <div className="bg-orange-500/20 p-4 border border-orange-400/30 rounded-xl text-center">
-                    <MapIcon className="mx-auto mb-2 w-8 h-8 text-orange-400" />
-                    <p className="mb-1 text-gray-300 text-sm">Width</p>
-                    <p className="font-bold text-2xl text-white">
-                      {ship.width}m
+                      {ship.ship_year_built}
                     </p>
                   </div>
                 )}
 
                 {/* Decks */}
-                {ship.decks && (
+                {ship.ship_decks && (
                   <div className="bg-cyan-500/20 p-4 border border-cyan-400/30 rounded-xl text-center">
                     <BuildingOfficeIcon className="mx-auto mb-2 w-8 h-8 text-cyan-400" />
                     <p className="mb-1 text-gray-300 text-sm">Decks</p>
                     <p className="font-bold text-2xl text-white">
-                      {ship.decks}
+                      {ship.ship_decks.length}
                     </p>
                   </div>
                 )}
-
-                {/* Additional specs from ship.specifications if available */}
-                {ship.specifications &&
-                  Object.entries(ship.specifications)
-                    .slice(0, 3)
-                    .map(([key, value]) => (
-                      <div
-                        key={key}
-                        className="bg-indigo-500/20 p-4 border border-indigo-400/30 rounded-xl text-center"
-                      >
-                        <BoltIcon className="mx-auto mb-2 w-8 h-8 text-indigo-400" />
-                        <p className="mb-1 text-gray-300 text-sm capitalize">
-                          {key.replace(/([A-Z])/g, " $1").trim()}
-                        </p>
-                        <p className="font-bold text-2xl text-white">{value}</p>
-                      </div>
-                    ))}
               </div>
             </CardContent>
           </Card>
@@ -405,7 +360,57 @@ export default function ShipDetailPage() {
           </Card>
         </motion.div>
 
-        {/* Cabin Categories */}
+        {/* Ship Decks */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
+            <CardHeader>
+              <CardTitle className="text-2xl text-white">Ship Decks</CardTitle>
+            </CardHeader>
+            <CardContent>
+              {ship.ship_decks.length > 0 ? (
+                <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  {ship.ship_decks.map((deck, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 * index }}
+                      className="bg-white/5 hover:bg-white/10 p-6 border border-white/10 rounded-xl transition-colors"
+                    >
+                      <Image
+                        src={deck.ship_deck_image}
+                        alt={deck.ship_deck_name}
+                        width={400}
+                        height={200}
+                        className="mb-4 rounded-lg w-full h-40 object-cover"
+                      />
+
+                      <h3 className="mb-2 font-semibold text-white text-xl">
+                        {deck.ship_deck_name}
+                      </h3>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <div className="py-8 text-center">
+                  <FaBed className="mx-auto mb-4 w-16 h-16 text-gray-400" />
+                  <h3 className="mb-2 font-semibold text-white text-xl">
+                    Cabin Information Not Available
+                  </h3>
+                  <p className="text-gray-300">
+                    Cabin category details are currently not available for this
+                    ship.
+                  </p>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -418,111 +423,28 @@ export default function ShipDetailPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              {cabinCategories.length > 0 ? (
+              {ship.ship_cabin_categories.length > 0 ? (
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                  {cabinCategories.map((category, index) => (
+                  {ship.ship_cabin_categories.map((category, index) => (
                     <motion.div
-                      key={category.id}
+                      key={index}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.1 * index }}
                       className="bg-white/5 hover:bg-white/10 p-6 border border-white/10 rounded-xl transition-colors"
                     >
-                      {/* Cabin Image */}
-                      <div className="flex justify-center items-center bg-gradient-to-br from-amber-500 to-orange-600 mb-4 rounded-lg w-full h-40">
-                        <FaBed className="w-12 h-12 text-white" />
-                      </div>
+                      <Image
+                        src={category.ship_cabin_category_image}
+                        alt={category.ship_cabin_category_name}
+                        width={400}
+                        height={200}
+                        className="mb-4 rounded-lg w-full h-40 object-cover"
+                      />
 
                       {/* Cabin Name */}
                       <h3 className="mb-2 font-semibold text-white text-xl">
-                        {category.name}
+                        {category.ship_cabin_category_name}
                       </h3>
-
-                      {/* Cabin Code */}
-                      <p className="mb-3 text-blue-300 text-sm">
-                        Code: {category.code}
-                      </p>
-
-                      {/* Description */}
-                      <p className="mb-4 text-gray-300 text-sm">
-                        {category.description ||
-                          "Comfortable accommodations with modern amenities and elegant design."}
-                      </p>
-
-                      {/* Cabin Details */}
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-400 text-sm">
-                            Max Occupancy:
-                          </span>
-                          <span className="font-medium text-white">
-                            {category.maxOccupancy} guests
-                          </span>
-                        </div>
-
-                        {category.size && (
-                          <div className="flex justify-between items-center">
-                            <span className="text-gray-400 text-sm">Size:</span>
-                            <span className="font-medium text-white">
-                              {category.size} sq ft
-                            </span>
-                          </div>
-                        )}
-
-                        {/* Amenities */}
-                        {category.amenities &&
-                          category.amenities.length > 0 && (
-                            <div className="mt-3">
-                              <p className="mb-2 text-gray-400 text-sm">
-                                Amenities:
-                              </p>
-                              <div className="flex flex-wrap gap-2">
-                                {category.amenities
-                                  .slice(0, 4)
-                                  .map((amenity, idx) => {
-                                    const getAmenityIcon = (
-                                      amenity: string
-                                    ) => {
-                                      const lower = amenity.toLowerCase();
-                                      if (
-                                        lower.includes("wifi") ||
-                                        lower.includes("internet")
-                                      )
-                                        return <FaWifi className="w-3 h-3" />;
-                                      if (
-                                        lower.includes("tv") ||
-                                        lower.includes("television")
-                                      )
-                                        return <FaTv className="w-3 h-3" />;
-                                      if (
-                                        lower.includes("bath") ||
-                                        lower.includes("shower")
-                                      )
-                                        return <FaBath className="w-3 h-3" />;
-                                      if (
-                                        lower.includes("balcony") ||
-                                        lower.includes("deck")
-                                      )
-                                        return (
-                                          <MdBalcony className="w-3 h-3" />
-                                        );
-                                      return <StarIcon className="w-3 h-3" />;
-                                    };
-
-                                    return (
-                                      <span
-                                        key={idx}
-                                        className="inline-flex items-center space-x-1 bg-blue-500/20 px-2 py-1 rounded text-blue-300 text-xs"
-                                      >
-                                        {getAmenityIcon(amenity)}
-                                        <span>{amenity}</span>
-                                      </span>
-                                    );
-                                  })}
-                              </div>
-                            </div>
-                          )}
-                      </div>
                     </motion.div>
                   ))}
                 </div>
