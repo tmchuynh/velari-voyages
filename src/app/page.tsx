@@ -85,7 +85,7 @@ export default function ExpediaCruiseDashboard() {
   if (error) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <Card variant="glass" className="p-8 max-w-md text-center">
+        <Card variant="neon" className="p-8 max-w-md text-center">
           <div className="flex justify-center items-center bg-destructive/10 mx-auto mb-4 rounded-full w-16 h-16">
             <svg
               className="w-8 h-8 text-destructive"
@@ -174,7 +174,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 * index, duration: 0.5 }}
               >
-                <Card variant="ocean" interactive className="h-full">
+                <Card variant="gradient" interactive className="h-full">
                   <CardHeader>
                     <div className="flex justify-center items-center bg-primary/10 mb-3 rounded-full w-12 h-12">
                       <MapPinIcon className="w-6 h-6 text-primary" />
@@ -248,7 +248,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card variant="ocean" interactive className="h-full">
+                <Card variant="gradient" interactive className="h-full">
                   <CardHeader>
                     <div className="flex items-center space-x-4">
                       <div className="relative flex-shrink-0 w-16 h-16">
@@ -351,7 +351,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card variant="ocean" interactive className="h-full">
+                <Card variant="gradient" interactive className="h-full">
                   <div className="relative rounded-t-lg h-32 overflow-hidden">
                     <Image
                       src={port.portImage}
@@ -444,7 +444,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card variant="neon" interactive className="h-full">
+                <Card variant="gradient" interactive className="h-full">
                   <div className="relative rounded-t-lg h-32 overflow-hidden">
                     <Image
                       src={activity.imageUrl}
