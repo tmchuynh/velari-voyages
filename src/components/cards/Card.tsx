@@ -5,14 +5,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
-  variant?:
-    | "default"
-    | "ocean"
-    | "glass"
-    | "gradient"
-    | "neon"
-    | "minimal"
-    | "elevated";
+  variant?: "default" | "ocean" | "gradient" | "neon" | "sunset" | "forest";
   interactive?: boolean;
   children: React.ReactNode;
 }
@@ -30,15 +23,13 @@ export function Card({
     default: "bg-card text-card-foreground border-border shadow-sm",
     ocean:
       "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 text-foreground",
-    glass:
-      "bg-white/10 backdrop-blur-md border-white/20 text-foreground shadow-lg",
     gradient:
-      "bg-gradient-to-br from-purple-500/10 via-blue-500/10 to-teal-500/10 border-gradient-to-r border-purple-500/20 text-foreground shadow-md",
+      "bg-gradient-to-br from-sky-700/10 via-sky-400/10 to-blue-500/20 border-gradient-to-r border-teal-500/20 text-foreground shadow-md",
     neon: "bg-gray-900 border-cyan-400/50 text-cyan-100 shadow-lg shadow-cyan-400/25",
-    minimal:
-      "bg-transparent border-gray-200 text-foreground shadow-none hover:shadow-sm",
-    elevated:
-      "bg-white border-gray-100 text-foreground shadow-xl shadow-gray-200/50",
+    sunset:
+      "bg-gradient-to-br from-orange-500/10 via-red-500/10 to-pink-500/10 border-orange-400/30 text-foreground shadow-lg shadow-orange-200/20",
+    forest:
+      "bg-gradient-to-br from-green-600/10 via-emerald-500/10 to-teal-600/10 border-green-500/30 text-foreground shadow-md shadow-green-200/20",
   };
 
   const interactiveClasses = interactive
@@ -76,7 +67,9 @@ export function CardTitle({
   className,
   variant = "default",
   ...props
-}: React.HTMLAttributes<HTMLHeadingElement> & { variant?: CardProps["variant"] }) {
+}: React.HTMLAttributes<HTMLHeadingElement> & {
+  variant?: CardProps["variant"];
+}) {
   const variantTextClasses = {
     default: "text-foreground",
     ocean: "text-foreground",
@@ -85,6 +78,10 @@ export function CardTitle({
     neon: "text-cyan-100",
     minimal: "text-gray-900",
     elevated: "text-gray-900",
+    sunset: "text-orange-900 dark:text-orange-100",
+    forest: "text-green-900 dark:text-green-100",
+    dark: "text-gray-100",
+    metallic: "text-slate-800",
   };
 
   return (
@@ -103,7 +100,9 @@ export function CardDescription({
   className,
   variant = "default",
   ...props
-}: React.HTMLAttributes<HTMLParagraphElement> & { variant?: CardProps["variant"] }) {
+}: React.HTMLAttributes<HTMLParagraphElement> & {
+  variant?: CardProps["variant"];
+}) {
   const variantTextClasses = {
     default: "text-muted-foreground",
     ocean: "text-muted-foreground",
@@ -112,10 +111,17 @@ export function CardDescription({
     neon: "text-cyan-200",
     minimal: "text-gray-600",
     elevated: "text-gray-600",
+    sunset: "text-orange-700 dark:text-orange-200",
+    forest: "text-green-700 dark:text-green-200",
+    dark: "text-gray-300",
+    metallic: "text-slate-600",
   };
 
   return (
-    <p className={cn("text-sm", variantTextClasses[variant], className)} {...props} />
+    <p
+      className={cn("text-sm", variantTextClasses[variant], className)}
+      {...props}
+    />
   );
 }
 
@@ -132,6 +138,10 @@ export function CardContent({
     neon: "text-cyan-100",
     minimal: "text-gray-800",
     elevated: "text-gray-800",
+    sunset: "text-orange-800 dark:text-orange-100",
+    forest: "text-green-800 dark:text-green-100",
+    dark: "text-gray-200",
+    metallic: "text-slate-700",
   };
 
   return (
@@ -200,22 +210,6 @@ export function GradientCard({ children, className, ...props }: CardProps) {
   );
 }
 
-export function EnhancedGlassCard({
-  children,
-  className,
-  ...props
-}: CardProps) {
-  return (
-    <Card
-      variant="glass"
-      className={cn("hover:bg-white/20 transition-colors", className)}
-      {...props}
-    >
-      {children}
-    </Card>
-  );
-}
-
 export function NeonCard({ children, className, ...props }: CardProps) {
   return (
     <Card
@@ -231,11 +225,14 @@ export function NeonCard({ children, className, ...props }: CardProps) {
   );
 }
 
-export function MinimalCard({ children, className, ...props }: CardProps) {
+export function SunsetCard({ children, className, ...props }: CardProps) {
   return (
     <Card
-      variant="minimal"
-      className={cn("hover:border-gray-300 hover:bg-gray-50/50", className)}
+      variant="sunset"
+      className={cn(
+        "hover:shadow-orange-300/40 hover:border-orange-400/50",
+        className
+      )}
       {...props}
     >
       {children}
@@ -243,12 +240,12 @@ export function MinimalCard({ children, className, ...props }: CardProps) {
   );
 }
 
-export function ElevatedCard({ children, className, ...props }: CardProps) {
+export function ForestCard({ children, className, ...props }: CardProps) {
   return (
     <Card
-      variant="elevated"
+      variant="forest"
       className={cn(
-        "hover:shadow-2xl hover:shadow-gray-200/60 hover:-translate-y-1",
+        "hover:shadow-green-300/40 hover:border-green-500/50",
         className
       )}
       {...props}
