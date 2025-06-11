@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useBookingAuth } from '@/hooks/useBookingAuth';
-import { BookingManagementDashboard } from '@/components/booking/BookingManagement';
-import { useRouter } from 'next/navigation';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useBookingAuth } from "@/hooks/useBookingAuth";
+import { BookingManagementDashboard } from "@/components/booking/BookingManagement";
+import { useRouter } from "next/navigation";
 import {
   ArrowLeftIcon,
   UserCircleIcon,
@@ -13,17 +13,19 @@ import {
   CreditCardIcon,
   ClockIcon,
   CheckCircleIcon,
-} from '@heroicons/react/24/outline';
+} from "@heroicons/react/24/outline";
 
 export default function BookingDashboardPage() {
   const router = useRouter();
   const { user, logout, isAuthenticated } = useBookingAuth();
-  const [activeTab, setActiveTab] = useState<'overview' | 'status' | 'history' | 'manage'>('overview');
+  const [activeTab, setActiveTab] = useState<
+    "overview" | "status" | "history" | "manage"
+  >("overview");
 
   // Redirect to login if not authenticated
   React.useEffect(() => {
     if (!isAuthenticated) {
-      router.push('/login');
+      router.push("/login");
     }
   }, [isAuthenticated, router]);
 
@@ -40,7 +42,7 @@ export default function BookingDashboardPage() {
 
   const handleLogout = () => {
     logout();
-    router.push('/login');
+    router.push("/login");
   };
 
   return (
@@ -55,19 +57,21 @@ export default function BookingDashboardPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <button
-                onClick={() => router.push('/')}
+                onClick={() => router.push("/")}
                 className="flex items-center text-white hover:text-blue-300 transition-colors"
               >
                 <ArrowLeftIcon className="mr-2 w-5 h-5" />
                 <span className="font-medium">Back to Home</span>
               </button>
             </div>
-            
+
             <div className="flex items-center space-x-4">
               <div className="flex items-center text-white">
                 <UserCircleIcon className="mr-2 w-8 h-8" />
                 <div>
-                  <p className="font-medium text-sm">{user.firstName} {user.lastName}</p>
+                  <p className="font-medium text-sm">
+                    {user.firstName} {user.lastName}
+                  </p>
                   <p className="text-gray-300 text-xs">{user.email}</p>
                 </div>
               </div>
@@ -141,18 +145,18 @@ export default function BookingDashboardPage() {
         >
           <nav className="flex space-x-1 bg-white/10 backdrop-blur-md p-1 rounded-xl">
             {[
-              { id: 'overview', label: 'Overview' },
-              { id: 'status', label: 'Booking Status' },
-              { id: 'history', label: 'History' },
-              { id: 'manage', label: 'Manage Booking' }
+              { id: "overview", label: "Overview" },
+              { id: "status", label: "Booking Status" },
+              { id: "history", label: "History" },
+              { id: "manage", label: "Manage Booking" },
             ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
                 className={`flex-1 py-3 px-4 rounded-lg font-medium transition-all duration-200 ${
                   activeTab === tab.id
-                    ? 'bg-white text-slate-900 shadow-lg'
-                    : 'text-white hover:bg-white/10'
+                    ? "bg-white text-slate-900 shadow-lg"
+                    : "text-white hover:bg-white/10"
                 }`}
               >
                 {tab.label}
@@ -168,10 +172,10 @@ export default function BookingDashboardPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3 }}
         >
-          {activeTab === 'overview' && <OverviewTab />}
-          {activeTab === 'status' && <BookingManagementDashboard />}
-          {activeTab === 'history' && <BookingManagementDashboard />}
-          {activeTab === 'manage' && <BookingManagementDashboard />}
+          {activeTab === "overview" && <OverviewTab />}
+          {activeTab === "status" && <BookingManagementDashboard />}
+          {activeTab === "history" && <BookingManagementDashboard />}
+          {activeTab === "manage" && <BookingManagementDashboard />}
         </motion.div>
       </main>
     </div>
@@ -179,22 +183,25 @@ export default function BookingDashboardPage() {
 }
 
 // Stats Card Component
-function StatsCard({ 
-  icon, 
-  title, 
-  value, 
-  color 
-}: { 
-  icon: React.ReactNode; 
-  title: string; 
-  value: string; 
-  color: 'green' | 'blue' | 'purple' | 'orange';
+function StatsCard({
+  icon,
+  title,
+  value,
+  color,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  value: string;
+  color: "green" | "blue" | "purple" | "orange";
 }) {
   const colorClasses = {
-    green: 'from-green-500/20 to-emerald-500/20 border-green-400/30 text-green-300',
-    blue: 'from-blue-500/20 to-cyan-500/20 border-blue-400/30 text-blue-300',
-    purple: 'from-purple-500/20 to-pink-500/20 border-purple-400/30 text-purple-300',
-    orange: 'from-orange-500/20 to-yellow-500/20 border-orange-400/30 text-orange-300'
+    green:
+      "from-green-500/20 to-emerald-500/20 border-green-400/30 text-green-300",
+    blue: "from-blue-500/20 to-cyan-500/20 border-blue-400/30 text-blue-300",
+    purple:
+      "from-purple-500/20 to-pink-500/20 border-purple-400/30 text-purple-300",
+    orange:
+      "from-orange-500/20 to-yellow-500/20 border-orange-400/30 text-orange-300",
   };
 
   return (
@@ -207,9 +214,7 @@ function StatsCard({
           <p className="opacity-80 mb-1 text-sm">{title}</p>
           <p className="font-bold text-xl">{value}</p>
         </div>
-        <div className="opacity-60">
-          {icon}
-        </div>
+        <div className="opacity-60">{icon}</div>
       </div>
     </motion.div>
   );
@@ -225,7 +230,9 @@ function OverviewTab() {
         animate={{ opacity: 1, y: 0 }}
         className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="mb-4 font-semibold text-white text-xl">Your Cruise Details</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">
+          Your Cruise Details
+        </h3>
         <div className="space-y-4">
           <div className="flex justify-between">
             <span className="text-gray-300">Cruise Line:</span>
@@ -257,14 +264,20 @@ function OverviewTab() {
         transition={{ delay: 0.1 }}
         className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="mb-4 font-semibold text-white text-xl">Itinerary Highlights</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">
+          Itinerary Highlights
+        </h3>
         <div className="space-y-3">
           {[
-            { day: 'Day 1', port: 'Miami, FL', activity: 'Departure' },
-            { day: 'Day 2', port: 'At Sea', activity: 'Relaxation Day' },
-            { day: 'Day 3', port: 'Cozumel, Mexico', activity: 'Shore Excursion' },
-            { day: 'Day 4', port: 'Jamaica', activity: 'Beach Day' },
-            { day: 'Day 5', port: 'Cayman Islands', activity: 'Snorkeling' }
+            { day: "Day 1", port: "Miami, FL", activity: "Departure" },
+            { day: "Day 2", port: "At Sea", activity: "Relaxation Day" },
+            {
+              day: "Day 3",
+              port: "Cozumel, Mexico",
+              activity: "Shore Excursion",
+            },
+            { day: "Day 4", port: "Jamaica", activity: "Beach Day" },
+            { day: "Day 5", port: "Cayman Islands", activity: "Snorkeling" },
           ].map((item, index) => (
             <div key={index} className="flex items-center space-x-3">
               <div className="bg-blue-400 rounded-full w-2 h-2"></div>
@@ -287,7 +300,9 @@ function OverviewTab() {
         transition={{ delay: 0.2 }}
         className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="mb-4 font-semibold text-white text-xl">Payment Summary</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">
+          Payment Summary
+        </h3>
         <div className="space-y-3">
           <div className="flex justify-between">
             <span className="text-gray-300">Cruise Fare:</span>
