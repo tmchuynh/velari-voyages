@@ -255,7 +255,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50  text-foreground;
   }
   
   html {
@@ -263,7 +263,7 @@
   }
   
   body {
-    @apply bg-background font-[Figtree] text-foreground cursor-default;
+    @apply bg-background font-[Figtree]  cursor-default;
     @apply selection:bg-accent/20 selection:text-accent-foreground;
     font-feature-settings: "cv11", "ss01";
     font-variation-settings: "opsz" 32;
