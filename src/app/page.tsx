@@ -135,12 +135,16 @@ export default function ExpediaCruiseDashboard() {
               your next adventure awaits.
             </p>
             <div className="flex sm:flex-row flex-col justify-center gap-4">
-              <OceanButton size="lg" className="wave-animation">
-                Explore Cruises
-              </OceanButton>
-              <WaveButton size="lg" variant="outline">
-                View Destinations
-              </WaveButton>
+              <Link href="/cruises">
+                <OceanButton size="lg" className="wave-animation">
+                  Explore Cruises
+                </OceanButton>
+              </Link>
+              <Link href="/your-trip">
+                <WaveButton size="lg" variant="outline">
+                  Book Your Trip
+                </WaveButton>
+              </Link>
             </div>
           </motion.div>
         </div>
