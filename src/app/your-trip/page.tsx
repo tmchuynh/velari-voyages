@@ -165,6 +165,8 @@ const cabinTypes: CabinSelection[] = [
       "TV",
       "Safe",
       "Mini-fridge",
+      "Desk area",
+      "Storage space",
     ],
     maxOccupancy: 2,
   },
@@ -182,6 +184,7 @@ const cabinTypes: CabinSelection[] = [
       "Safe",
       "Mini-fridge",
       "Sitting area",
+      "Desk space",
     ],
     maxOccupancy: 2,
   },
@@ -201,27 +204,74 @@ const cabinTypes: CabinSelection[] = [
       "Mini-fridge",
       "Sitting area",
       "Premium bedding",
+      "Room service",
     ],
     maxOccupancy: 4,
   },
   {
-    id: "suite",
-    type: "Ocean Suite",
+    id: "premium-suite",
+    type: "Premium Suite with Whirlpool",
+    level: "Premium",
+    price: 3299,
+    description:
+      "Premium suite with whirlpool, private decks and enhanced amenities",
+    amenities: [
+      "Private whirlpool",
+      "Multiple deck areas",
+      "King bed (convertible)",
+      "Separate sitting area",
+      "Premium bathroom",
+      "Priority boarding",
+      "Concierge service",
+      "Room service",
+      "Premium bedding",
+      "Enhanced storage",
+    ],
+    maxOccupancy: 4,
+  },
+  {
+    id: "yacht-club-suite",
+    type: "MSC Yacht Club Deluxe Suite",
     level: "Luxury",
     price: 4299,
     description:
-      "Luxurious suite with separate living area and premium amenities",
+      "Exclusive Yacht Club suite with dedicated butler service and premium privileges",
     amenities: [
       "Large private balcony",
       "Separate living room",
-      "Premium bathroom",
-      "Butler service",
+      "Premium bathroom with bathtub",
+      "24-Hour butler service",
       "Priority boarding",
+      "Yacht Club privileges",
+      "Premium beverages included",
       "Specialty dining credits",
-      "Premium beverages",
-      "Concierge service",
+      "Thermal suite access",
+      "Dedicated concierge",
+      "Premium internet package",
     ],
-    maxOccupancy: 4,
+    maxOccupancy: 5,
+  },
+  {
+    id: "penthouse-suite",
+    type: "Penthouse Suite",
+    level: "Ultra-Luxury",
+    price: 6999,
+    description:
+      "Ultimate luxury experience with panoramic views and exclusive amenities",
+    amenities: [
+      "Panoramic ocean views",
+      "Multiple bedrooms",
+      "Full kitchen facilities",
+      "Private dining area",
+      "Jacuzzi on balcony",
+      "Butler and concierge service",
+      "Priority everything",
+      "Unlimited premium beverages",
+      "Private shore excursions",
+      "Exclusive amenities",
+      "VIP transfers",
+    ],
+    maxOccupancy: 6,
   },
 ];
 
@@ -1576,8 +1626,64 @@ function CabinSelectionStep({
   passengerCount: number;
   errors: Record<string, string>;
 }) {
+  const [sortBy, setSortBy] = useState<"price" | "level" | "occupancy">(
+    "price"
+  );
+  const [showOnlyAvailable, setShowOnlyAvailable] = useState(true);
+
+  const calculateTotalPrice = (cabin: CabinSelection) => {
+    const basePrice = cabin.price * passengerCount;
+    const taxes = basePrice * 0.12;
+    return basePrice + taxes;
+  };
+
+  const getLevelColor = (level: string) => {
+    switch (level) {
+      case "Essential":
+        return "bg-slate-100 text-slate-800";
+      case "Classic":
+        return "bg-blue-100 text-blue-800";
+      case "Premium":
+        return "bg-purple-100 text-purple-800";
+      case "Luxury":
+        return "bg-amber-100 text-amber-800";
+      case "Ultra-Luxury":
+        return "bg-rose-100 text-rose-800";
+      default:
+        return "bg-gray-100 text-gray-800";
+    }
+  };
+
+  const getLevelOrder = (level: string) => {
+    const order = {
+      Essential: 1,
+      Classic: 2,
+      Premium: 3,
+      Luxury: 4,
+      "Ultra-Luxury": 5,
+    };
+    return order[level as keyof typeof order] || 0;
+  };
+
+  const filteredAndSortedCabins = cabins
+    .filter(
+      (cabin) => !showOnlyAvailable || cabin.maxOccupancy >= passengerCount
+    )
+    .sort((a, b) => {
+      switch (sortBy) {
+        case "price":
+          return a.price - b.price;
+        case "level":
+          return getLevelOrder(a.level) - getLevelOrder(b.level);
+        case "occupancy":
+          return b.maxOccupancy - a.maxOccupancy;
+        default:
+          return 0;
+      }
+    });
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       {errors.cabin && (
         <div className="flex items-center gap-2 bg-destructive/10 p-3 border border-destructive/20 rounded-lg text-destructive">
           <ExclamationTriangleIcon className="w-5 h-5" />
@@ -1585,82 +1691,236 @@ function CabinSelectionStep({
         </div>
       )}
 
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-        {cabins.map((cabin) => (
-          <Card
-            key={cabin.id}
-            className={`cursor-pointer transition-all duration-300 ${
-              selectedCabin?.id === cabin.id
-                ? "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 ring-2 ring-primary"
-                : "backdrop-blur-md bg-card/50 border-white/20"
-            } ${
-              cabin.maxOccupancy < passengerCount
-                ? "opacity-50 cursor-not-allowed"
-                : ""
-            }`}
-            onClick={() => {
-              if (cabin.maxOccupancy >= passengerCount) {
-                onSelectCabin(cabin);
-              }
-            }}
-          >
-            <CardHeader>
-              <div className="flex justify-between items-start">
-                <div>
-                  <CardTitle className="text-lg">{cabin.type}</CardTitle>
-                  <Badge
-                    variant={cabin.level === "Luxury" ? "default" : "secondary"}
-                    className="mt-1"
-                  >
-                    {cabin.level}
-                  </Badge>
-                </div>
-                <div className="text-right">
-                  <div className="font-bold text-2xl gradient-ocean">
-                    ${cabin.price.toLocaleString()}
-                  </div>
-                  <div className="text-muted-foreground text-sm">
-                    per person
-                  </div>
-                </div>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p className="mb-3 text-muted-foreground text-sm">
-                {cabin.description}
-              </p>
-
-              <div className="space-y-2 mb-3">
-                <div className="flex items-center gap-2 text-sm">
-                  <UserGroupIcon className="w-4 h-4" />
-                  <span>Max {cabin.maxOccupancy} guests</span>
-                  {cabin.maxOccupancy < passengerCount && (
-                    <Badge variant="destructive" className="text-xs">
-                      Too Small
-                    </Badge>
-                  )}
-                </div>
-              </div>
-
-              <div className="space-y-1">
-                <h5 className="font-medium text-sm">Amenities:</h5>
-                <div className="flex flex-wrap gap-1">
-                  {cabin.amenities.slice(0, 3).map((amenity) => (
-                    <Badge key={amenity} variant="outline" className="text-xs">
-                      {amenity}
-                    </Badge>
-                  ))}
-                  {cabin.amenities.length > 3 && (
-                    <Badge variant="outline" className="text-xs">
-                      +{cabin.amenities.length - 3} more
-                    </Badge>
-                  )}
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+      {/* Guest Count Reminder */}
+      <div className="bg-primary/5 p-4 border border-primary/20 rounded-lg">
+        <div className="flex items-center gap-2">
+          <UserGroupIcon className="w-5 h-5 text-primary" />
+          <span className="font-medium">
+            Selecting cabin for {passengerCount} guests
+          </span>
+        </div>
+        <p className="mt-1 text-muted-foreground text-sm">
+          Only cabins that can accommodate your party size are available for
+          selection.
+        </p>
       </div>
+
+      {/* Filter and Sort Controls */}
+      <Card className="bg-muted/20 border-muted/40">
+        <CardContent className="p-4">
+          <div className="flex sm:flex-row flex-col justify-between items-start sm:items-center gap-4">
+            <div className="flex items-center gap-4">
+              <Label htmlFor="sort-select" className="font-medium text-sm">
+                Sort by:
+              </Label>
+              <Select
+                value={sortBy}
+                onValueChange={(value: "price" | "level" | "occupancy") =>
+                  setSortBy(value)
+                }
+              >
+                <SelectTrigger className="w-40" id="sort-select">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="price">Price (Low to High)</SelectItem>
+                  <SelectItem value="level">Level (Basic to Luxury)</SelectItem>
+                  <SelectItem value="occupancy">Max Occupancy</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <Checkbox
+                id="available-only"
+                checked={showOnlyAvailable}
+                onCheckedChange={(checked) =>
+                  setShowOnlyAvailable(checked === true)
+                }
+              />
+              <Label htmlFor="available-only" className="text-sm">
+                Show only available cabins
+              </Label>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="gap-6 grid grid-cols-1 lg:grid-cols-2">
+        {filteredAndSortedCabins.map((cabin) => {
+          const isAvailable = cabin.maxOccupancy >= passengerCount;
+          const totalPrice = calculateTotalPrice(cabin);
+
+          return (
+            <Card
+              key={cabin.id}
+              className={`cursor-pointer transition-all duration-300 hover:shadow-lg ${
+                selectedCabin?.id === cabin.id
+                  ? "bg-gradient-to-br from-primary/5 to-secondary/5 border-primary ring-2 ring-primary"
+                  : "backdrop-blur-md bg-card/50 border-white/20 hover:border-primary/30"
+              } ${!isAvailable ? "opacity-50 cursor-not-allowed" : ""}`}
+              onClick={() => {
+                if (isAvailable) {
+                  onSelectCabin(cabin);
+                }
+              }}
+            >
+              <CardHeader className="pb-3">
+                <div className="flex justify-between items-start mb-2">
+                  <div className="flex-1">
+                    <CardTitle className="mb-2 text-lg">{cabin.type}</CardTitle>
+                    <Badge className={`${getLevelColor(cabin.level)} border-0`}>
+                      {cabin.level}
+                    </Badge>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-bold text-2xl gradient-ocean">
+                      ${cabin.price.toLocaleString()}
+                    </div>
+                    <div className="text-muted-foreground text-sm">
+                      per person
+                    </div>
+                  </div>
+                </div>
+
+                {/* Total Price Display */}
+                <div className="bg-muted/30 p-3 rounded-lg">
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground text-sm">
+                      Total for {passengerCount} guests:
+                    </span>
+                    <div className="text-right">
+                      <div className="font-semibold text-lg">
+                        ${totalPrice.toLocaleString()}
+                      </div>
+                      <div className="text-muted-foreground text-xs">
+                        (includes taxes & fees)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="mb-4 text-muted-foreground text-sm">
+                  {cabin.description}
+                </p>
+
+                {/* Occupancy Info */}
+                <div className="space-y-2 mb-4">
+                  <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UserGroupIcon className="w-4 h-4" />
+                      <span>
+                        Accommodates up to {cabin.maxOccupancy} guests
+                      </span>
+                    </div>
+                    {!isAvailable && (
+                      <Badge variant="destructive" className="text-xs">
+                        Too Small
+                      </Badge>
+                    )}
+                    {isAvailable && selectedCabin?.id === cabin.id && (
+                      <Badge variant="default" className="bg-green-500 text-xs">
+                        Selected
+                      </Badge>
+                    )}
+                  </div>
+                </div>
+
+                {/* Amenities */}
+                <div className="space-y-2">
+                  <h5 className="font-medium text-sm">Key Amenities:</h5>
+                  <div className="gap-1 grid grid-cols-2">
+                    {cabin.amenities.slice(0, 6).map((amenity) => (
+                      <div
+                        key={amenity}
+                        className="flex items-center gap-1 text-muted-foreground text-xs"
+                      >
+                        <div className="bg-primary rounded-full w-1 h-1"></div>
+                        {amenity}
+                      </div>
+                    ))}
+                  </div>
+                  {cabin.amenities.length > 6 && (
+                    <div className="font-medium text-primary text-xs">
+                      +{cabin.amenities.length - 6} more amenities included
+                    </div>
+                  )}
+                </div>
+
+                {/* Special Offers */}
+                {cabin.level === "Luxury" || cabin.level === "Ultra-Luxury" ? (
+                  <div className="bg-amber-50 mt-4 p-2 border border-amber-200 rounded">
+                    <div className="font-medium text-amber-800 text-xs">
+                      🎁 Special Inclusions
+                    </div>
+                    <div className="text-amber-700 text-xs">
+                      Priority boarding, specialty dining credits, and premium
+                      beverages
+                    </div>
+                  </div>
+                ) : null}
+
+                {/* Limited Availability */}
+                {cabin.level === "Ultra-Luxury" && (
+                  <div className="mt-2 text-center">
+                    <Badge
+                      variant="outline"
+                      className="border-orange-300 text-orange-700 text-xs"
+                    >
+                      ⚡ Limited Availability
+                    </Badge>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
+
+      {filteredAndSortedCabins.length === 0 && (
+        <div className="py-8 text-center">
+          <div className="text-muted-foreground">
+            No cabins match your current filters.
+            <Button
+              variant="link"
+              onClick={() => {
+                setShowOnlyAvailable(false);
+                setSortBy("price");
+              }}
+              className="ml-1 p-0"
+            >
+              Reset filters
+            </Button>
+          </div>
+        </div>
+      )}
+
+      {/* Selected Cabin Summary */}
+      {selectedCabin && (
+        <Card className="bg-gradient-to-r from-primary/5 to-secondary/5 border-primary/30">
+          <CardContent className="p-4">
+            <div className="flex justify-between items-center">
+              <div>
+                <h4 className="font-medium">Selected: {selectedCabin.type}</h4>
+                <p className="text-muted-foreground text-sm">
+                  {selectedCabin.level} Level • Max {selectedCabin.maxOccupancy}{" "}
+                  guests
+                </p>
+              </div>
+              <div className="text-right">
+                <div className="font-bold text-xl gradient-ocean">
+                  ${calculateTotalPrice(selectedCabin).toLocaleString()}
+                </div>
+                <div className="text-muted-foreground text-sm">
+                  Total for {passengerCount} guests
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 }
