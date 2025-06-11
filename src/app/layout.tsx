@@ -1,9 +1,9 @@
 import BackToTop from "@/components/button/BackToTop";
-import DynamicBreadcrumb from "@/components/navigation/dynamic-breadcrumb";
 import Footer from "@/components/navigation/Footer";
 import Header from "@/components/navigation/Header";
 import "./globals.css";
 import { Providers } from "./provider";
+import DynamicBreadcrumb from "@/components/navigation/dynamic-breadcrumb";
 
 export default function RootLayout({
   children,
