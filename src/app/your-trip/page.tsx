@@ -597,6 +597,25 @@ export default function BookingPage() {
                   <CardContent>
                     {/* Step Content */}
                     {currentStep === 0 && (
+                      <GuestInformationStep
+                        guestCount={bookingData.guestCount}
+                        guestResidency={bookingData.guestResidency}
+                        promotionCode={bookingData.promotionCode}
+                        cruise={cruise}
+                        onUpdateGuestCount={(guestCount) =>
+                          setBookingData({ ...bookingData, guestCount })
+                        }
+                        onUpdateGuestResidency={(guestResidency) =>
+                          setBookingData({ ...bookingData, guestResidency })
+                        }
+                        onUpdatePromotionCode={(promotionCode) =>
+                          setBookingData({ ...bookingData, promotionCode })
+                        }
+                        errors={errors}
+                      />
+                    )}
+
+                    {currentStep === 1 && (
                       <PassengerInformationStep
                         passengers={bookingData.passengers}
                         onUpdatePassenger={updatePassenger}
@@ -606,7 +625,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 1 && (
+                    {currentStep === 2 && (
                       <CabinSelectionStep
                         cabins={cabinTypes}
                         selectedCabin={bookingData.cabin}
@@ -618,7 +637,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 2 && (
+                    {currentStep === 3 && (
                       <PreferencesStep
                         contactInfo={bookingData.contactInfo}
                         specialRequests={bookingData.specialRequests}
@@ -632,7 +651,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 3 && (
+                    {currentStep === 4 && (
                       <PaymentStep
                         payment={bookingData.payment}
                         onUpdatePayment={(payment) =>
@@ -642,7 +661,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 4 && (
+                    {currentStep === 5 && (
                       <ConfirmationStep
                         cruise={cruise}
                         bookingData={bookingData}
