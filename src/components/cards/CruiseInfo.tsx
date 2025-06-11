@@ -173,7 +173,7 @@ export default function CruiseInfo({
                               <strong>Languages: </strong>{" "}
                               {person.languages.map((language, index) => (
                                 <span key={index} className="mr-1">
-                                  {language}{" "}
+                                  {String(language)}{" "}
                                   {index < person.languages.length - 1
                                     ? ","
                                     : ""}
