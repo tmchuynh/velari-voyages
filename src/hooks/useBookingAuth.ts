@@ -28,7 +28,7 @@ import {
   type CancellationInfo,
 } from "../lib/utils/booking/booking-auth";
 
-import { type Booking } from "../lib/utils/api/vecto-cruise-api";
+import { type Booking } from "../lib/utils/api/expedia-cruise-api";
 
 // Hook return types
 interface UseBookingAuthReturn {
