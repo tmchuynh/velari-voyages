@@ -8,9 +8,6 @@ import {
   ArrowDownIcon,
   XMarkIcon,
   ChevronRightIcon,
-  EyeIcon,
-  CalendarIcon,
-  UsersIcon,
 } from "@heroicons/react/24/outline";
 import { FaShip } from "react-icons/fa";
 import {
@@ -19,7 +16,7 @@ import {
   getShipDetails,
   ShipDetails,
 } from "@/lib/utils/api/vecto-cruise-api";
-import { type Ship, type CruiseLine } from "@/lib/utils/api/vecto-cruise-api";
+import { type CruiseLine } from "@/lib/utils/api/vecto-cruise-api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -393,14 +390,18 @@ export default function CruiseShipsPage() {
                       >
                         <SelectTrigger className="bg-white/5 border-white/20 text-white">
                           <SelectValue />
-                        </SelectTrigger>                          <SelectContent>
-                            <SelectItem value="all">All Cruise Lines</SelectItem>
-                            {cruiseLines.map((line) => (
-                              <SelectItem key={line.cruise_line_id} value={line.cruise_line_name}>
-                                {line.cruise_line_name}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
+                        </SelectTrigger>{" "}
+                        <SelectContent>
+                          <SelectItem value="all">All Cruise Lines</SelectItem>
+                          {cruiseLines.map((line) => (
+                            <SelectItem
+                              key={line.cruise_line_id}
+                              value={line.cruise_line_name}
+                            >
+                              {line.cruise_line_name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
                       </Select>
                     </div>
 
@@ -459,7 +460,7 @@ export default function CruiseShipsPage() {
           </AnimatePresence>
 
           {/* Main Content Area */}
-          <div className="flex-1 min-w-0">
+          <motion.div className="flex-1 min-w-0">
             {/* Results Grid */}
             <motion.div
               layout
@@ -506,11 +507,11 @@ export default function CruiseShipsPage() {
                           <h3 className="font-semibold text-white text-xl group-hover:text-blue-300 transition-colors">
                             {ship.ship_name}
                           </h3>
-                          
+
                           <p className="text-gray-300 text-sm">
                             {ship.cruise_line_name}
                           </p>
-                          
+
                           <p className="text-gray-400 text-xs">
                             ID: {ship.ship_code || ship.ship_id}
                           </p>
@@ -527,7 +528,9 @@ export default function CruiseShipsPage() {
                             )}
                             {ship.ship_year_built && (
                               <div className="flex justify-between items-center text-sm">
-                                <span className="text-gray-400">Year Built:</span>
+                                <span className="text-gray-400">
+                                  Year Built:
+                                </span>
                                 <span className="text-white">
                                   {ship.ship_year_built}
                                 </span>
@@ -536,7 +539,9 @@ export default function CruiseShipsPage() {
                             {ship.ship_tonnage && (
                               <div className="flex justify-between items-center text-sm">
                                 <span className="text-gray-400">Tonnage:</span>
-                                <span className="text-white">{ship.ship_tonnage?.toLocaleString()}</span>
+                                <span className="text-white">
+                                  {ship.ship_tonnage?.toLocaleString()}
+                                </span>
                               </div>
                             )}
                           </div>
@@ -554,10 +559,10 @@ export default function CruiseShipsPage() {
                         </div>
                       </CardContent>
                     </Card>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
-            </div>
+              </AnimatePresence>
+            </motion.div>
 
             {/* No Results */}
             {filteredAndSortedShips.length === 0 && !loading && (
@@ -657,7 +662,7 @@ export default function CruiseShipsPage() {
                         <PaginationNext
                           onClick={() =>
                             handlePageChange(
-                              Math.min(totalPages, currentPage + 1),
+                              Math.min(totalPages, currentPage + 1)
                             )
                           }
                           className={`${
@@ -672,7 +677,7 @@ export default function CruiseShipsPage() {
                 </div>
               </motion.div>
             )}
-          </div>
+          </motion.div>
         </div>
       </main>
     </motion.div>
