@@ -96,13 +96,11 @@ export default function CruiseInfo({
                         {cruise.itinerary.timeAtSea?.length > 0 && (
                           <section>
                             <h5>Time at Sea:</h5>
-                            <ul className="pl-5 text-sm list-disc">
-                              {cruise.itinerary.timeAtSea.map((period, i) => (
-                                <li key={i}>
-                                  {period.description}: {period.duration}
-                                </li>
-                              ))}
-                            </ul>
+                            {cruise.itinerary.timeAtSea.map((period, i) => (
+                              <li key={i}>
+                                {period.start}: {period.end}
+                              </li>
+                            ))}
                           </section>
                         )}
                         {cruise.itinerary.timeOnLand?.length > 0 && (
@@ -111,7 +109,7 @@ export default function CruiseInfo({
                             <ul className="pl-5 text-sm list-disc">
                               {cruise.itinerary.timeOnLand.map((period, i) => (
                                 <li key={i}>
-                                  {period.description}: {period.duration}
+                                  {period.start}: {period.end}
                                 </li>
                               ))}
                             </ul>
@@ -167,7 +165,6 @@ export default function CruiseInfo({
                       {cruise.contactPersonnel.map((person, i) => (
                         <div key={i} className="flex flex-col">
                           <h4>{person.name}</h4>
-                          {person.bio && <p>{person.bio}</p>}
                           <div className="mt-3">
                             <p>
                               <strong>Languages: </strong>{" "}
@@ -191,7 +188,7 @@ export default function CruiseInfo({
                   onClick={() =>
                     router.push(
                       "/book-your-trip-today?cruise=" +
-                        formatToSlug(cruise.title),
+                        formatToSlug(cruise.title)
                     )
                   }
                   className="mx-auto mt-4 w-13/14"
@@ -224,8 +221,8 @@ export default function CruiseInfo({
 
               router.push(
                 `/cruises/cruise-categories/velari-voyages-cruises/cruise/${formatToSlug(
-                  cruise.title,
-                )}?${queryParams.toString()}`,
+                  cruise.title
+                )}?${queryParams.toString()}`
               );
             }}
           >
