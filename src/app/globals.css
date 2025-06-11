@@ -59,10 +59,10 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.11 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.11 0 0);
+  --background: #3b5f90;
+  --foreground: #fff;
+  --card: #416ba6;
+  --card-foreground: #f9f9f9;
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.11 0 0);
   --primary: oklch(0.4404 0.0325 72.23);
@@ -164,13 +164,13 @@
   Card,
   AlertDialog,
   Dialog {
-    @apply bg-card text-card-foreground border-border rounded-lg shadow-md;
+    @apply bg-card shadow-md border-border rounded-lg text-card-foreground;
   }
   Popover {
-    @apply bg-popover text-popover-foreground border-border rounded-lg shadow-md;
+    @apply bg-popover shadow-md border-border rounded-lg text-popover-foreground;
   }
   Image {
-    @apply object-cover object-center rounded-2xl;
+    @apply rounded-2xl object-cover object-center;
   }
 }
 
@@ -183,28 +183,28 @@
   }
 
   h1 {
-    @apply font-[Gloock] mb-2 font-bold text-4xl;
+    @apply mb-2 font-[Gloock] font-bold text-4xl;
   }
 
   h2 {
-    @apply font-[EncodeSans] font-extrabold mb-3 text-2xl lg:text-3xl;
+    @apply mb-3 font-[EncodeSans] font-extrabold text-2xl lg:text-3xl;
   }
 
   h3 {
-    @apply font-[NotoSans] font-bold text-base tracking-wider lg:text-xl;
+    @apply font-[NotoSans] font-bold text-base lg:text-xl tracking-wider;
   }
 
   h4 {
-    @apply font-[Gloock] lg:text-lg text-primary underline text-base;
+    @apply font-[Gloock] text-base text-primary lg:text-lg underline;
   }
   h5 {
-    @apply font-[Gloock] uppercase font-medium text-gray-600 dark:text-gray-400 text-xs;
+    @apply font-[Gloock] font-medium text-gray-600 text-xs dark:text-gray-400 uppercase;
   }
   p {
-    @apply text-pretty leading-relaxed my-2;
+    @apply my-2 text-pretty leading-relaxed;
   }
   blockquote {
-    @apply pl-4 italic mb-5 text-lg max-w-4xl mx-auto;
+    @apply mx-auto mb-5 pl-4 max-w-4xl text-lg italic;
   }
   header {
     @apply mb-8 w-full;
