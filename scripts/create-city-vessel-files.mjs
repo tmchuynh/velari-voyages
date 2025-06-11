@@ -535,7 +535,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   // Validate the vessel type is in our allowed list
   if (!vesselTypes.includes(formatTitleToKebabCase(type))) {
     console.warn(
-      `Warning: Invalid vessel type "${formatTitleToKebabCase(type)}" specified. Using default selection.`
+      `Warning: Invalid vessel type "${formatTitleToKebabCase(type)}" specified. Using default selection.`,
     );
     type = vesselTypes[Math.floor(Math.random() * vesselTypes.length)];
   }
@@ -661,7 +661,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedEnvFeatures = [];
   for (let i = 0; i < numEnvFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * environmentalFeatures.length
+      Math.random() * environmentalFeatures.length,
     );
     if (!selectedEnvFeatures.includes(environmentalFeatures[randomIndex])) {
       selectedEnvFeatures.push(environmentalFeatures[randomIndex]);
@@ -692,7 +692,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedAccessFeatures = [];
   for (let i = 0; i < numAccessFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * accessibilityFeatures.length
+      Math.random() * accessibilityFeatures.length,
     );
     if (!selectedAccessFeatures.includes(accessibilityFeatures[randomIndex])) {
       selectedAccessFeatures.push(accessibilityFeatures[randomIndex]);
@@ -727,7 +727,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedEntFeatures = [];
   for (let i = 0; i < numEntFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * entertainmentEquipment.length
+      Math.random() * entertainmentEquipment.length,
     );
     if (!selectedEntFeatures.includes(entertainmentEquipment[randomIndex])) {
       selectedEntFeatures.push(entertainmentEquipment[randomIndex]);
@@ -753,7 +753,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedCommFeatures = [];
   for (let i = 0; i < numCommFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * communicationEquipment.length
+      Math.random() * communicationEquipment.length,
     );
     if (!selectedCommFeatures.includes(communicationEquipment[randomIndex])) {
       selectedCommFeatures.push(communicationEquipment[randomIndex]);

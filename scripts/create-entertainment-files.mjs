@@ -112,7 +112,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -121,7 +121,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } entertainment files`
+  } entertainment files`,
 );
 
 // Entertainment types from the interface
@@ -1036,7 +1036,7 @@ function getCruiseDataForCity(cityName) {
     "constants",
     "cruises",
     "cruises",
-    `${cityName}-cruises.ts`
+    `${cityName}-cruises.ts`,
   );
 
   if (!fs.existsSync(cruiseFilePath)) {
@@ -1070,7 +1070,7 @@ function getCruiseDataForCity(cityName) {
     return cruises;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read cruise file for ${cityName}: ${error.message}`
+      `⚠️  Could not read cruise file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -1459,7 +1459,12 @@ const contextualAnswers = {
 };
 
 // Updated function to generate context-aware FAQs with cruise data
-export function generateCustomFAQs(entertainmentShow, category, vessel, cityName) {
+export function generateCustomFAQs(
+  entertainmentShow,
+  category,
+  vessel,
+  cityName,
+) {
   const categoryType = category.type;
   const templates = baseFaqTemplates[categoryType];
 
@@ -1471,7 +1476,7 @@ export function generateCustomFAQs(entertainmentShow, category, vessel, cityName
   // Get cruise data for the city to find duration
   const cruises = getCruiseDataForCity(cityName);
   const vesselCruises = cruises.filter(
-    (cruise) => cruise.vesselId === vessel.id
+    (cruise) => cruise.vesselId === vessel.id,
   );
   const cruiseDuration =
     vesselCruises.length > 0
@@ -1515,7 +1520,7 @@ ${customFaqs
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1528,7 +1533,7 @@ ${customFaqs
   // Select 3-5 template categories for variety
   const selectedCategories = getRandomItems(
     templateCategories,
-    getRandomInt(3, 5)
+    getRandomInt(3, 5),
   );
 
   selectedCategories.forEach((templateCategory) => {
@@ -1613,7 +1618,7 @@ function createEntertainmentShowsFileContent(
   categoryId,
   vessel,
   category,
-  cityName
+  cityName,
 ) {
   const showsDataString = shows
     .map((show) => {
@@ -1639,7 +1644,7 @@ ${show.performers
         role: "${performer.role}",
         bio: "${performer.bio}",
         nationality: "${performer.nationality}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1650,7 +1655,7 @@ ${show.schedule
       `      {
         day: "${schedule.day}",
         time: "${schedule.time}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1670,7 +1675,7 @@ ${show.testimonials
         comment: "${testimonial.comment}",
         date: "${testimonial.date}",
         isVerified: ${testimonial.isVerified},
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1682,7 +1687,7 @@ ${show.merchandise
         name: "${item.name}",
         description: "${item.description}",
         price: ${item.price},
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1693,7 +1698,7 @@ ${customFaqs
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
@@ -1797,7 +1802,7 @@ function generateMerchandise(categoryType) {
   const availableMerchandise = merchandiseByCategory[categoryType] || [];
   return getRandomItems(
     availableMerchandise,
-    Math.min(merchandiseCount, availableMerchandise.length)
+    Math.min(merchandiseCount, availableMerchandise.length),
   );
 }
 
@@ -1877,7 +1882,7 @@ function generateEntertainmentCategories(vessel, cityName) {
 function createEntertainmentCategoryFileContent(
   entertainmentData,
   vessel,
-  cityName
+  cityName,
 ) {
   const categoriesDataString = entertainmentData
     .map((item) => {
@@ -1925,7 +1930,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -1959,7 +1964,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -1969,7 +1974,7 @@ function getVesselDataForCity(cityName) {
 function generateEntertainmentFiles(city, vessel) {
   if (DEBUG_MODE) {
     console.log(
-      `\n🎭 Generating entertainment for ${vessel.name} in ${capitalize(city)}`
+      `\n🎭 Generating entertainment for ${vessel.name} in ${capitalize(city)}`,
     );
   }
 
@@ -1985,7 +1990,7 @@ function generateEntertainmentFiles(city, vessel) {
     "venues",
     "entertainment",
     city,
-    vessel.name.toLowerCase().replace(/\s+/g, "-")
+    vessel.name.toLowerCase().replace(/\s+/g, "-"),
   );
 
   // Create directory if it doesn't exist
@@ -2001,18 +2006,18 @@ function generateEntertainmentFiles(city, vessel) {
     const mainContent = createEntertainmentCategoryFileContent(
       entertainmentData,
       vessel,
-      city
+      city,
     );
     fs.writeFileSync(mainFilePath, mainContent);
 
     if (mainFileExists) {
       console.log(
-        `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`
+        `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`,
       );
       filesAppended++;
     } else {
       console.log(
-        `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`
+        `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`,
       );
       filesCreated++;
     }
@@ -2026,7 +2031,7 @@ function generateEntertainmentFiles(city, vessel) {
     const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, "-");
     const showsFilePath = path.join(
       vesselDir,
-      `${fileNameSuffix}-entertainment.ts`
+      `${fileNameSuffix}-entertainment.ts`,
     );
     const showsFileExists = fs.existsSync(showsFilePath);
 
@@ -2037,18 +2042,18 @@ function generateEntertainmentFiles(city, vessel) {
         entertainmentCategory.category.id,
         vessel,
         entertainmentCategory.category,
-        city
+        city,
       );
       fs.writeFileSync(showsFilePath, showsContent);
 
       if (showsFileExists) {
         console.log(
-          `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
+          `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
         );
         filesAppended++;
       } else {
         console.log(
-          `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
+          `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
         );
         filesCreated++;
       }
@@ -2089,6 +2094,6 @@ console.log(`📁 Files created: ${filesCreated}`);
 console.log(`📝 Files updated: ${filesAppended}`);
 console.log(`⏭️  Files skipped: ${filesSkipped}`);
 console.log(
-  `📊 Total processed: ${filesCreated + filesAppended + filesSkipped}`
+  `📊 Total processed: ${filesCreated + filesAppended + filesSkipped}`,
 );
 console.log("=".repeat(50));

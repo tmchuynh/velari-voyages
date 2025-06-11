@@ -26,7 +26,7 @@ const cruisesDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "cruises"
+  "cruises",
 );
 
 async function validateAllCruiseVesselAssignments() {
@@ -55,7 +55,7 @@ async function validateAllCruiseVesselAssignments() {
     // Count total cruise objects in the file (exclude contactPersonnel IDs)
     // Look for cruise objects specifically by matching the cruise structure pattern
     const cruiseObjectMatches = content.match(
-      /{\s*id:\s*"[^"]+",\s*vesselId|{\s*id:\s*"[^"]+",\s*basePrice/g
+      /{\s*id:\s*"[^"]+",\s*vesselId|{\s*id:\s*"[^"]+",\s*basePrice/g,
     );
     const cruiseCount = cruiseObjectMatches ? cruiseObjectMatches.length : 0;
 
@@ -74,12 +74,12 @@ async function validateAllCruiseVesselAssignments() {
       problemFiles.push({ file, city, cruiseCount, vesselIdCount });
     } else if (vesselIdCount < cruiseCount) {
       console.log(
-        `⚠️  ${city}: ${cruiseCount} cruises, ${vesselIdCount} vessel assignments (${cruiseCount - vesselIdCount} missing)`
+        `⚠️  ${city}: ${cruiseCount} cruises, ${vesselIdCount} vessel assignments (${cruiseCount - vesselIdCount} missing)`,
       );
       problemFiles.push({ file, city, cruiseCount, vesselIdCount });
     } else if (vesselIdCount === cruiseCount && cruiseCount > 0) {
       console.log(
-        `✅ ${city}: ${cruiseCount} cruises, ${vesselIdCount} vessel assignments`
+        `✅ ${city}: ${cruiseCount} cruises, ${vesselIdCount} vessel assignments`,
       );
     }
   }
@@ -89,12 +89,12 @@ async function validateAllCruiseVesselAssignments() {
   console.log(`Cruises with vessels: ${cruisesWithVessels}`);
   console.log(`Cruises without vessels: ${cruisesWithoutVessels}`);
   console.log(
-    `Coverage: ${((cruisesWithVessels / totalCruises) * 100).toFixed(1)}%`
+    `Coverage: ${((cruisesWithVessels / totalCruises) * 100).toFixed(1)}%`,
   );
 
   if (problemFiles.length > 0) {
     console.log(
-      `\n🔧 Files needing vessel assignment fixes: ${problemFiles.length}`
+      `\n🔧 Files needing vessel assignment fixes: ${problemFiles.length}`,
     );
 
     console.log("\nTo fix these files, run:");
