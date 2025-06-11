@@ -822,6 +822,72 @@ export default function BookingPage() {
               </CardContent>
             </Card>
 
+            {/* Guest Information Summary */}
+            {(bookingData.guestCount.adults > 0 || bookingData.guestCount.children > 0 || 
+              bookingData.guestCount.seniors > 0 || bookingData.guestCount.infants > 0) && (
+              <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
+                <CardHeader>
+                  <CardTitle className="text-lg">Guest Information</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-2">
+                    {bookingData.guestCount.adults > 0 && (
+                      <div className="flex justify-between">
+                        <span>Adults (18+)</span>
+                        <span>{bookingData.guestCount.adults}</span>
+                      </div>
+                    )}
+                    {bookingData.guestCount.children > 0 && (
+                      <div className="flex justify-between">
+                        <span>Children (2-17)</span>
+                        <span>{bookingData.guestCount.children}</span>
+                      </div>
+                    )}
+                    {bookingData.guestCount.seniors > 0 && (
+                      <div className="flex justify-between">
+                        <span>Seniors (65+)</span>
+                        <span>{bookingData.guestCount.seniors}</span>
+                      </div>
+                    )}
+                    {bookingData.guestCount.infants > 0 && (
+                      <div className="flex justify-between">
+                        <span>Infants (Under 2)</span>
+                        <span>{bookingData.guestCount.infants}</span>
+                      </div>
+                    )}
+                    <div className="flex justify-between pt-2 border-t font-medium">
+                      <span>Total Guests</span>
+                      <span>
+                        {bookingData.guestCount.adults + 
+                         bookingData.guestCount.children + 
+                         bookingData.guestCount.seniors + 
+                         bookingData.guestCount.infants}
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* Guest Residency Summary */}
+            {bookingData.guestResidency.country && (
+              <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
+                <CardHeader>
+                  <CardTitle className="text-lg">Residency</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-2">
+                    <div>{bookingData.guestResidency.country}</div>
+                    {bookingData.guestResidency.state && (
+                      <div className="text-muted-foreground">
+                        {bookingData.guestResidency.state}
+                      </div>
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
             {/* Security Badge */}
             <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20 text-center">
               <ShieldCheckIcon className="mx-auto mb-2 w-8 h-8 text-primary" />
@@ -1805,8 +1871,21 @@ function ConfirmationStep({
                 </span>
               </div>
               <div>
-                <span className="text-muted-foreground">Passengers:</span>
-                <span className="ml-2">{bookingData.passengers.length}</span>
+                <span className="text-muted-foreground">Total Guests:</span>
+                <span className="ml-2">
+                  {bookingData.guestCount.adults + 
+                   bookingData.guestCount.children + 
+                   bookingData.guestCount.seniors + 
+                   bookingData.guestCount.infants} 
+                  ({bookingData.guestCount.adults} Adults, {bookingData.guestCount.children} Children, {bookingData.guestCount.seniors} Seniors, {bookingData.guestCount.infants} Infants)
+                </span>
+              </div>
+              <div>
+                <span className="text-muted-foreground">Residency:</span>
+                <span className="ml-2">
+                  {bookingData.guestResidency.country}
+                  {bookingData.guestResidency.state && `, ${bookingData.guestResidency.state}`}
+                </span>
               </div>
               <div>
                 <span className="text-muted-foreground">Cabin:</span>
