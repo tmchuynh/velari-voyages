@@ -6,7 +6,10 @@
  */
 
 // Base API configuration
-const VECTO_API_BASE_URL = "https://api.vectotechnology.com";
+const VECTO_API_BASE_URL = process.env.VECTO_API_BASE_URL || "https://api.vectotechnology.com";
+const VECTO_CONVERSATION_ID = process.env.VECTO_CONVERSATION_ID || "demo-conversation-001";
+const VECTO_API_KEY = process.env.VECTO_API_KEY;
+const USE_MOCK_DATA = process.env.VECTO_USE_MOCK_DATA === "true";
 
 // Types for API responses
 export interface ApiResponse<T = any> {
@@ -378,12 +381,26 @@ async function makeApiRequest<T>(
   options: RequestInit = {}
 ): Promise<ApiResponse<T>> {
   try {
+    // If mock data mode is enabled, return mock data for development
+    if (USE_MOCK_DATA) {
+      console.warn(`API Mock Mode: Returning mock data for ${endpoint}`);
+      return getMockData<T>(endpoint);
+    }
+
     const url = `${VECTO_API_BASE_URL}${endpoint}`;
+    const headers: Record<string, string> = {
+      "Content-Type": "application/json",
+      "conversation_id": VECTO_CONVERSATION_ID,
+    };
+
+    // Add API key if available
+    if (VECTO_API_KEY) {
+      headers['Authorization'] = `Bearer ${VECTO_API_KEY}`;
+    }
+
     const response = await fetch(url, {
       headers: {
-        "Content-Type": "application/json",
-        // Add authentication headers if needed
-        // 'Authorization': `Bearer ${apiKey}`,
+        ...headers,
         ...options.headers,
       },
       ...options,
@@ -394,6 +411,13 @@ async function makeApiRequest<T>(
     }
 
     const data = await response.json();
+    
+    // Check for API error responses
+    if (data.errors && Array.isArray(data.errors) && data.errors.length > 0) {
+      const errorMessages = data.errors.map((err: any) => `${err.code}: ${err.description}`).join(', ');
+      throw new Error(`API Error: ${errorMessages}`);
+    }
+
     return {
       data,
       success: true,
@@ -846,50 +870,144 @@ export async function verifyStandalone(cardData: {
   });
 }
 
-// Utility functions for integration with existing codebase
-export async function getVectoCruisesByDestination(
-  destination: string
-): Promise<Itinerary[]> {
-  try {
-    const response = await getItineraries();
-    if (response.success && response.data) {
-      // Filter by destination (this would need more sophisticated matching)
-      return response.data.filter((itinerary) =>
-        itinerary.itinerary_title
-          .toLowerCase()
-          .includes(destination.toLowerCase())
-      );
-    }
-    return [];
-  } catch (error) {
-    console.error("Error fetching Vecto cruises by destination:", error);
-    return [];
+// Mock data for development
+function getMockData<T>(endpoint: string): ApiResponse<T> {
+  console.log(`Returning mock data for endpoint: ${endpoint}`);
+  
+  // Mock cruise lines data
+  if (endpoint === "/cruise/getCruiseLines") {
+    return {
+      data: [
+        {
+          cruise_line_id: "1",
+          cruise_line_name: "Royal Caribbean International",
+          cruise_line_description: "The world's largest cruise line offering innovative ships and unforgettable experiences.",
+          cruise_line_image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          cruise_line_logo: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+          cruise_line_id: "2",
+          cruise_line_name: "Norwegian Cruise Line",
+          cruise_line_description: "Freestyle cruising with no formal dress codes and flexible dining options.",
+          cruise_line_image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          cruise_line_logo: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+          cruise_line_id: "3",
+          cruise_line_name: "Carnival Cruise Line",
+          cruise_line_description: "Fun ships with exciting entertainment, great dining, and affordable prices.",
+          cruise_line_image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          cruise_line_logo: "https://images.unsplash.com/photo-1570126618953-d437176e8c79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        }
+      ] as T,
+      success: true,
+    };
   }
-}
 
-export async function getVectoCruisesByDepartureCity(
-  cityName: string
-): Promise<Itinerary[]> {
-  try {
-    const [departureCitiesResponse, itinerariesResponse] = await Promise.all([
-      getDepartureCities(),
-      getItineraries(),
-    ]);
-
-    if (departureCitiesResponse.success && itinerariesResponse.success) {
-      const city = departureCitiesResponse.data?.find((c) =>
-        c.city_name.toLowerCase().includes(cityName.toLowerCase())
-      );
-
-      if (city && itinerariesResponse.data) {
-        return itinerariesResponse.data.filter(
-          (itinerary) => itinerary.itinerary_depart_city === city.city_name
-        );
-      }
-    }
-    return [];
-  } catch (error) {
-    console.error("Error fetching Vecto cruises by departure city:", error);
-    return [];
+  // Mock itineraries data
+  if (endpoint.includes("/cruise/getItineraries")) {
+    return {
+      data: [
+        {
+          itinerary_id: "1",
+          itinerary_name: "Caribbean Adventure",
+          itinerary_description: "Explore the beautiful Caribbean islands with crystal clear waters and white sand beaches.",
+          itinerary_duration: 7,
+          itinerary_starting_port: "Miami",
+          itinerary_ending_port: "Miami",
+          itinerary_image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          itinerary_price_from: 599,
+          itinerary_currency: "USD",
+          cruise_line_id: "1",
+          ship_id: "1"
+        },
+        {
+          itinerary_id: "2",
+          itinerary_name: "Mediterranean Splendor",
+          itinerary_description: "Discover the Mediterranean's most beautiful ports from Barcelona to Rome.",
+          itinerary_duration: 10,
+          itinerary_starting_port: "Barcelona",
+          itinerary_ending_port: "Rome",
+          itinerary_image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73826?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          itinerary_price_from: 899,
+          itinerary_currency: "USD",
+          cruise_line_id: "2",
+          ship_id: "2"
+        }
+      ] as T,
+      success: true,
+    };
   }
+
+  // Mock ship data
+  if (endpoint.includes("/cruise/getCruiseLineShips")) {
+    return {
+      data: [
+        {
+          ship_id: "1",
+          ship_name: "Harmony of the Seas",
+          ship_description: "One of the world's largest cruise ships with incredible amenities and entertainment.",
+          ship_image: "https://images.unsplash.com/photo-1574856344991-aaa31b6f4ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          ship_capacity: 6780,
+          ship_tonnage: 226963,
+          ship_length: 362,
+          ship_width: 66,
+          cruise_line_id: "1"
+        },
+        {
+          ship_id: "2",
+          ship_name: "Norwegian Epic",
+          ship_description: "A freestyle cruise ship with innovative design and entertainment options.",
+          ship_image: "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+          ship_capacity: 4100,
+          ship_tonnage: 155873,
+          ship_length: 329,
+          ship_width: 40,
+          cruise_line_id: "2"
+        }
+      ] as T,
+      success: true,
+    };
+  }
+
+  // Mock destinations data
+  if (endpoint === "/cruise/getSailingDestinations") {
+    return {
+      data: [
+        {
+          destination_id: "1",
+          destination_name: "Caribbean",
+          destination_description: "Tropical paradise with beautiful beaches and crystal clear waters.",
+          destination_image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+          destination_id: "2",
+          destination_name: "Mediterranean",
+          destination_description: "Historic ports with rich culture and stunning architecture.",
+          destination_image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73826?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        }
+      ] as T,
+      success: true,
+    };
+  }
+
+  // Mock departure cities data
+  if (endpoint === "/cruise/getDepartureCities") {
+    return {
+      data: [
+        { city_id: 1, city_name: "Miami" },
+        { city_id: 2, city_name: "Fort Lauderdale" },
+        { city_id: 3, city_name: "Barcelona" },
+        { city_id: 4, city_name: "Rome" },
+        { city_id: 5, city_name: "Southampton" }
+      ] as T,
+      success: true,
+    };
+  }
+
+  // Default mock response
+  return {
+    data: [] as T,
+    success: true,
+  };
 }

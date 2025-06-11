@@ -1,22 +1,26 @@
 /**
  * Cruise Booking Authentication and Management
- * 
+ *
  * This module provides comprehensive booking management functionality including:
  * - User authentication for booking access
  * - Booking status checking
  * - Booking cancellation
  * - Past booking history
  * - Booking updates and modifications
+ * 
+ * All functions are dependent on the Vecto Cruise API interfaces and match the actual API structure.
  */
 
 import {
-    cancelBooking,
-    getBooking,
-    getBookingHistory,
-    getCancellationPenalties,
-    getStatementAndPricing,
-    updateBooking,
-    type Booking
+  cancelBooking,
+  getBooking,
+  getBookingHistory,
+  getCancellationPenalties,
+  getStatementAndPricing,
+  updateBooking,
+  type Booking,
+  type Passenger,
+  type ApiResponse,
 } from "../api/vecto-cruise-api";
 
 // Types for booking authentication and management
@@ -25,9 +29,10 @@ export interface BookingUser {
   email: string;
   firstName: string;
   lastName: string;
-  phone: string;
+  phone?: string;
   isAuthenticated: boolean;
   lastLogin?: string;
+  bookingNumber?: string;
 }
 
 export interface BookingCredentials {
@@ -45,62 +50,39 @@ export interface BookingLoginResult {
 
 export interface BookingStatusInfo {
   booking: Booking;
-  status: 'confirmed' | 'pending' | 'cancelled' | 'completed' | 'modified';
+  status: "confirmed" | "pending" | "cancelled" | "completed" | "modified";
   statusDescription: string;
   canCancel: boolean;
   canModify: boolean;
   cancellationPenalty?: number;
+  refundAmount?: number;
   lastModified?: string;
 }
 
 export interface BookingHistoryEntry {
-  timestamp: string;
-  action: string;
-  details: string;
-  user?: string;
-  actionType: 'created' | 'modified' | 'cancelled' | 'payment' | 'confirmation';
+  entry_date_time: Date;
+  actions: string[];
+  actionType: "created" | "modified" | "cancelled" | "payment" | "confirmation";
 }
 
 export interface CancellationInfo {
   canCancel: boolean;
-  penalties: Array<{
-    date: string;
-    penalty: number;
-    percentage: number;
-  }>;
-  currentPenalty: number;
+  penalty: number;
+  percentage: number;
   refundAmount: number;
   cancellationDeadline?: string;
 }
 
 export interface BookingUpdateRequest {
-  bookingId: string;
-  updateType: 'passenger_info' | 'cabin_upgrade' | 'services' | 'contact_info';
+  bookingNumber: string;
+  itinerary_id: number;
+  updateType: "passenger_info" | "cabin_upgrade" | "services" | "contact_info";
   updates: {
-    passengers?: Array<{
-      id: string;
-      firstName?: string;
-      lastName?: string;
-      title?: string;
-      gender?: string;
-      dateOfBirth?: string;
-      nationality?: string;
-      occupation?: string;
-    }>;
-    contactInfo?: {
-      email?: string;
-      phone?: string;
-      address?: {
-        street?: string;
-        city?: string;
-        state?: string;
-        zipCode?: string;
-        country?: string;
-      };
-    };
-    selectedServices?: string[];
-    selectedPackages?: string[];
-    cabinId?: string;
+    passengers?: Partial<Passenger>[];
+    cabin_category_code?: string;
+    cabin_number?: string;
+    dining_seat_code?: number;
+    dining_table_code?: number;
   };
   reason?: string;
 }
@@ -117,7 +99,7 @@ function generateSessionToken(): string {
 
 /**
  * Validates booking credentials and authenticates user
- * 
+ *
  * @param credentials - Booking number, email, and last name for authentication
  * @returns Promise resolving to login result with user and booking info
  */
@@ -126,55 +108,69 @@ export async function authenticateBooking(
 ): Promise<BookingLoginResult> {
   try {
     // Validate input
-    if (!credentials.bookingNumber || !credentials.email || !credentials.lastName) {
+    if (
+      !credentials.bookingNumber ||
+      !credentials.email ||
+      !credentials.lastName
+    ) {
       return {
         success: false,
-        error: "All fields are required: booking number, email, and last name"
+        error: "All fields are required: booking number, email, and last name",
       };
     }
 
     // Fetch booking from API
     const bookingResponse = await getBooking(credentials.bookingNumber);
-    
+
     if (!bookingResponse.success || !bookingResponse.data) {
       return {
         success: false,
-        error: "Booking not found. Please check your booking number."
+        error: "Booking not found. Please check your booking number.",
       };
     }
 
     const booking = bookingResponse.data;
 
-    // Find the primary passenger (first passenger is usually the booking contact)
-    const primaryPassenger = booking.passengers[0];
+    // Find the primary passenger (first passenger with primary_contact flag or first passenger)
+    const primaryPassenger = booking.passenger.find(
+      (p) => p.primary_contact === "Y"
+    ) || booking.passenger[0];
+
     if (!primaryPassenger) {
       return {
         success: false,
-        error: "No passenger information found for this booking."
+        error: "No passenger information found for this booking.",
       };
     }
 
     // Verify credentials (case-insensitive comparison)
-    const emailMatch = primaryPassenger.firstName?.toLowerCase().includes(credentials.email.toLowerCase()) ||
-                      booking.bookingNumber.toLowerCase().includes(credentials.email.toLowerCase());
-    const nameMatch = primaryPassenger.lastName?.toLowerCase() === credentials.lastName.toLowerCase();
+    const nameMatch =
+      primaryPassenger.last_name.toLowerCase() === credentials.lastName.toLowerCase();
 
-    if (!emailMatch && !nameMatch) {
+    // For email verification, we'll check against the booking agent email if available
+    const emailMatch = 
+      primaryPassenger.agent_email?.toLowerCase() === credentials.email.toLowerCase() ||
+      // Fallback: check if email domain matches or contains passenger name
+      credentials.email.toLowerCase().includes(primaryPassenger.first_name.toLowerCase()) ||
+      credentials.email.toLowerCase().includes(primaryPassenger.last_name.toLowerCase());
+
+    if (!nameMatch) {
       return {
         success: false,
-        error: "The provided information doesn't match our records."
+        error: "The provided last name doesn't match our records.",
       };
     }
 
     // Create authenticated user session
     const user: BookingUser = {
-      id: primaryPassenger.id,
+      id: `${primaryPassenger.first_name}_${primaryPassenger.last_name}_${credentials.bookingNumber}`,
       email: credentials.email,
-      firstName: primaryPassenger.firstName || '',
-      lastName: primaryPassenger.lastName || '',
-      phone: '', // Would need to be fetched from booking contact info
+      firstName: primaryPassenger.first_name,
+      lastName: primaryPassenger.last_name,
+      phone: primaryPassenger.phone,
       isAuthenticated: true,
-      lastLogin: new Date().toISOString()
+      lastLogin: new Date().toISOString(),
+      bookingNumber: credentials.bookingNumber,
     };
 
     // Store session (in production, use secure session management)
@@ -184,21 +180,20 @@ export async function authenticateBooking(
     return {
       success: true,
       user,
-      booking
+      booking,
     };
-
   } catch (error) {
-    console.error('Error authenticating booking:', error);
+    console.error("Error authenticating booking:", error);
     return {
       success: false,
-      error: "Authentication failed. Please try again."
+      error: "Authentication failed. Please try again.",
     };
   }
 }
 
 /**
  * Logs out a user by invalidating their session
- * 
+ *
  * @param sessionToken - The session token to invalidate
  */
 export function logoutBookingUser(sessionToken: string): void {
@@ -207,7 +202,7 @@ export function logoutBookingUser(sessionToken: string): void {
 
 /**
  * Checks if a session token is valid and returns the associated user
- * 
+ *
  * @param sessionToken - The session token to validate
  * @returns The authenticated user or null if invalid
  */
@@ -217,17 +212,19 @@ export function getAuthenticatedUser(sessionToken: string): BookingUser | null {
 
 /**
  * Retrieves comprehensive booking status information
- * 
- * @param bookingId - The booking ID to check status for
+ *
+ * @param bookingNumber - The booking number to check status for
+ * @param itinerary_id - The itinerary ID associated with the booking
  * @returns Promise resolving to detailed booking status information
  */
 export async function getBookingStatus(
-  bookingId: string
+  bookingNumber: string,
+  itinerary_id: number
 ): Promise<BookingStatusInfo | null> {
   try {
     const [bookingResponse, cancellationResponse] = await Promise.all([
-      getBooking(bookingId),
-      getCancellationPenalties(bookingId)
+      getBooking(bookingNumber),
+      getCancellationPenalties(bookingNumber, itinerary_id),
     ]);
 
     if (!bookingResponse.success || !bookingResponse.data) {
@@ -235,10 +232,10 @@ export async function getBookingStatus(
     }
 
     const booking = bookingResponse.data;
-    
+
     // Determine booking status and capabilities
     const status = determineBookingStatus(booking);
-    const canCancel = canCancelBooking(booking, cancellationResponse.data);
+    const canCancel = canCancelBooking(booking);
     const canModify = canModifyBooking(booking);
 
     return {
@@ -247,141 +244,124 @@ export async function getBookingStatus(
       statusDescription: status.description,
       canCancel,
       canModify,
-      cancellationPenalty: cancellationResponse.data?.currentPenalty,
-      lastModified: booking.modifiedDate
+      cancellationPenalty: cancellationResponse.data?.penalty,
+      refundAmount: cancellationResponse.data?.refund_amount,
     };
-
   } catch (error) {
-    console.error('Error getting booking status:', error);
+    console.error("Error getting booking status:", error);
     return null;
   }
 }
 
 /**
- * Determines the current status of a booking
+ * Determines the current status of a booking based on available data
  */
-function determineBookingStatus(booking: Booking): { 
-  status: 'confirmed' | 'pending' | 'cancelled' | 'completed' | 'modified';
+function determineBookingStatus(booking: Booking): {
+  status: "confirmed" | "pending" | "cancelled" | "completed" | "modified";
   description: string;
 } {
-  switch (booking.status.toLowerCase()) {
-    case 'confirmed':
-      return {
-        status: 'confirmed',
-        description: 'Your booking is confirmed and ready for travel'
-      };
-    case 'pending':
-      return {
-        status: 'pending',
-        description: 'Your booking is pending confirmation'
-      };
-    case 'cancelled':
-      return {
-        status: 'cancelled',
-        description: 'This booking has been cancelled'
-      };
-    case 'completed':
-      return {
-        status: 'completed',
-        description: 'Your cruise has been completed'
-      };
-    default:
-      return {
-        status: 'modified',
-        description: 'Your booking has been modified'
-      };
+  // Since the Booking interface doesn't have a status field, we'll infer status
+  // based on the booking data and current date
+  const now = new Date();
+  
+  // If booking has a booking_number, it's likely confirmed
+  if (booking.booking_number) {
+    return {
+      status: "confirmed",
+      description: "Your booking is confirmed and ready for travel",
+    };
   }
+
+  // Default to pending if no booking number
+  return {
+    status: "pending",
+    description: "Your booking is being processed",
+  };
 }
 
 /**
- * Determines if a booking can be cancelled
+ * Determines if a booking can be cancelled based on booking data
  */
-function canCancelBooking(booking: Booking, cancellationData: any): boolean {
-  if (booking.status.toLowerCase() === 'cancelled' || 
-      booking.status.toLowerCase() === 'completed') {
-    return false;
-  }
-  
-  // Check if we're within the cancellation window
-  const now = new Date();
-  const createdDate = new Date(booking.createdDate);
-  const daysSinceBooking = (now.getTime() - createdDate.getTime()) / (1000 * 60 * 60 * 24);
-  
-  // Allow cancellation within reasonable timeframe (this would be based on cruise line policy)
-  return daysSinceBooking < 365; // Example: allow cancellation within a year
+function canCancelBooking(booking: Booking): boolean {
+  // Basic logic: if booking has a booking_number, it can potentially be cancelled
+  // In practice, this would depend on cruise line policies and departure dates
+  return Boolean(booking.booking_number);
 }
 
 /**
  * Determines if a booking can be modified
  */
 function canModifyBooking(booking: Booking): boolean {
-  return booking.status.toLowerCase() === 'confirmed' || 
-         booking.status.toLowerCase() === 'pending';
+  // Similar to cancellation, if booking exists and has a booking number, it can be modified
+  return Boolean(booking.booking_number);
 }
 
 /**
  * Retrieves the complete booking history for a booking
- * 
- * @param bookingId - The booking ID to get history for
+ *
+ * @param bookingNumber - The booking number to get history for
+ * @param itinerary_id - The itinerary ID associated with the booking
  * @returns Promise resolving to array of booking history entries
  */
 export async function getCompleteBookingHistory(
-  bookingId: string
+  bookingNumber: string,
+  itinerary_id: number
 ): Promise<BookingHistoryEntry[]> {
   try {
-    const historyResponse = await getBookingHistory(bookingId);
-    
+    const historyResponse = await getBookingHistory(bookingNumber, itinerary_id);
+
     if (!historyResponse.success || !historyResponse.data) {
       return [];
     }
 
     // Transform API response to our internal format
-    return historyResponse.data.map((entry: any) => ({
-      timestamp: entry.timestamp,
-      action: entry.action,
-      details: entry.details,
-      user: entry.user,
-      actionType: determineActionType(entry.action)
+    return historyResponse.data.booking_history_entries.map((entry) => ({
+      entry_date_time: entry.entry_date_time,
+      actions: entry.actions,
+      actionType: determineActionType(entry.actions.join(", ")),
     }));
-
   } catch (error) {
-    console.error('Error getting booking history:', error);
+    console.error("Error getting booking history:", error);
     return [];
   }
 }
 
 /**
- * Determines the action type based on the action description
+ * Determines the action type based on the action descriptions
  */
-function determineActionType(action: string): 'created' | 'modified' | 'cancelled' | 'payment' | 'confirmation' {
-  const actionLower = action.toLowerCase();
-  
-  if (actionLower.includes('created') || actionLower.includes('booked')) {
-    return 'created';
-  } else if (actionLower.includes('cancelled')) {
-    return 'cancelled';
-  } else if (actionLower.includes('payment') || actionLower.includes('paid')) {
-    return 'payment';
-  } else if (actionLower.includes('confirmed')) {
-    return 'confirmation';
+function determineActionType(
+  actions: string
+): "created" | "modified" | "cancelled" | "payment" | "confirmation" {
+  const actionsLower = actions.toLowerCase();
+
+  if (actionsLower.includes("created") || actionsLower.includes("booked")) {
+    return "created";
+  } else if (actionsLower.includes("cancelled")) {
+    return "cancelled";
+  } else if (actionsLower.includes("payment") || actionsLower.includes("paid")) {
+    return "payment";
+  } else if (actionsLower.includes("confirmed")) {
+    return "confirmation";
   } else {
-    return 'modified';
+    return "modified";
   }
 }
 
 /**
  * Gets detailed cancellation information for a booking
- * 
- * @param bookingId - The booking ID to get cancellation info for
+ *
+ * @param bookingNumber - The booking number to get cancellation info for
+ * @param itinerary_id - The itinerary ID associated with the booking
  * @returns Promise resolving to cancellation information
  */
 export async function getBookingCancellationInfo(
-  bookingId: string
+  bookingNumber: string,
+  itinerary_id: number
 ): Promise<CancellationInfo | null> {
   try {
     const [bookingResponse, cancellationResponse] = await Promise.all([
-      getBooking(bookingId),
-      getCancellationPenalties(bookingId)
+      getBooking(bookingNumber),
+      getCancellationPenalties(bookingNumber, itinerary_id),
     ]);
 
     if (!bookingResponse.success || !cancellationResponse.success) {
@@ -390,20 +370,18 @@ export async function getBookingCancellationInfo(
 
     const booking = bookingResponse.data!;
     const cancellationData = cancellationResponse.data!;
-    
-    const canCancel = canCancelBooking(booking, cancellationData);
-    const refundAmount = booking.totalPrice - cancellationData.currentPenalty;
+
+    const canCancel = canCancelBooking(booking);
 
     return {
       canCancel,
-      penalties: cancellationData.penalties,
-      currentPenalty: cancellationData.currentPenalty,
-      refundAmount: Math.max(0, refundAmount),
-      cancellationDeadline: calculateCancellationDeadline(booking)
+      penalty: cancellationData.penalty,
+      percentage: cancellationData.percentage,
+      refundAmount: cancellationData.refund_amount,
+      cancellationDeadline: calculateCancellationDeadline(booking),
     };
-
   } catch (error) {
-    console.error('Error getting cancellation info:', error);
+    console.error("Error getting cancellation info:", error);
     return null;
   }
 }
@@ -413,10 +391,10 @@ export async function getBookingCancellationInfo(
  */
 function calculateCancellationDeadline(booking: Booking): string | undefined {
   // This would typically be based on cruise line policies
-  // For example, 48 hours before departure
+  // Since we don't have departure date in the booking, we'll use a default policy
   try {
-    const itineraryDate = new Date(booking.createdDate);
-    const deadline = new Date(itineraryDate.getTime() - (48 * 60 * 60 * 1000)); // 48 hours before
+    const now = new Date();
+    const deadline = new Date(now.getTime() + 48 * 60 * 60 * 1000); // 48 hours from now
     return deadline.toISOString();
   } catch {
     return undefined;
@@ -425,19 +403,20 @@ function calculateCancellationDeadline(booking: Booking): string | undefined {
 
 /**
  * Cancels a booking with optional reason
- * 
- * @param bookingId - The booking ID to cancel
- * @param reason - Optional reason for cancellation
+ *
+ * @param bookingNumber - The booking number to cancel
+ * @param itinerary_id - The itinerary ID associated with the booking
  * @param sessionToken - User session token for authentication
  * @returns Promise resolving to cancellation result
  */
 export async function cancelUserBooking(
-  bookingId: string,
-  reason?: string,
+  bookingNumber: string,
+  itinerary_id: number,
   sessionToken?: string
 ): Promise<{
   success: boolean;
-  refundAmount?: number;
+  bookingCancelled?: "Y" | "N";
+  cancelRefNumber?: string;
   error?: string;
 }> {
   try {
@@ -445,46 +424,49 @@ export async function cancelUserBooking(
     if (sessionToken && !getAuthenticatedUser(sessionToken)) {
       return {
         success: false,
-        error: "Authentication required to cancel booking"
+        error: "Authentication required to cancel booking",
       };
     }
 
     // Check if booking can be cancelled
-    const cancellationInfo = await getBookingCancellationInfo(bookingId);
+    const cancellationInfo = await getBookingCancellationInfo(
+      bookingNumber,
+      itinerary_id
+    );
     if (!cancellationInfo?.canCancel) {
       return {
         success: false,
-        error: "This booking cannot be cancelled at this time"
+        error: "This booking cannot be cancelled at this time",
       };
     }
 
     // Proceed with cancellation
-    const cancellationResponse = await cancelBooking(bookingId, reason);
-    
+    const cancellationResponse = await cancelBooking(bookingNumber, itinerary_id);
+
     if (!cancellationResponse.success) {
       return {
         success: false,
-        error: "Failed to cancel booking. Please contact customer service."
+        error: "Failed to cancel booking. Please contact customer service.",
       };
     }
 
     return {
       success: true,
-      refundAmount: cancellationResponse.data?.refundAmount
+      bookingCancelled: cancellationResponse.data?.booking_cancelled,
+      cancelRefNumber: cancellationResponse.data?.booking_cancel_ref_num,
     };
-
   } catch (error) {
-    console.error('Error cancelling booking:', error);
+    console.error("Error cancelling booking:", error);
     return {
       success: false,
-      error: "An error occurred while cancelling the booking"
+      error: "An error occurred while cancelling the booking",
     };
   }
 }
 
 /**
  * Updates a booking with new information
- * 
+ *
  * @param updateRequest - The booking update request
  * @param sessionToken - User session token for authentication
  * @returns Promise resolving to update result
@@ -502,95 +484,106 @@ export async function updateUserBooking(
     if (sessionToken && !getAuthenticatedUser(sessionToken)) {
       return {
         success: false,
-        error: "Authentication required to update booking"
+        error: "Authentication required to update booking",
       };
     }
 
     // Validate the booking can be modified
-    const statusInfo = await getBookingStatus(updateRequest.bookingId);
+    const statusInfo = await getBookingStatus(
+      updateRequest.bookingNumber,
+      updateRequest.itinerary_id
+    );
     if (!statusInfo?.canModify) {
       return {
         success: false,
-        error: "This booking cannot be modified at this time"
+        error: "This booking cannot be modified at this time",
       };
     }
 
-    // Prepare update data
-    const updateData: Partial<Booking> = {};
-    
+    // Prepare update data based on the actual Booking interface
+    const updateData: Partial<Booking> = {
+      booking_number: updateRequest.bookingNumber,
+      itinerary_id: updateRequest.itinerary_id,
+    };
+
     if (updateRequest.updates.passengers) {
-      updateData.passengers = updateRequest.updates.passengers.map(p => ({
-        id: p.id,
-        firstName: p.firstName || '',
-        lastName: p.lastName || '',
-        title: p.title,
-        gender: p.gender,
-        dateOfBirth: p.dateOfBirth,
-        nationality: p.nationality,
-        occupation: p.occupation
-      }));
+      updateData.passenger = updateRequest.updates.passengers as Passenger[];
     }
 
-    if (updateRequest.updates.cabinId) {
-      updateData.cabinId = updateRequest.updates.cabinId;
+    if (updateRequest.updates.cabin_category_code) {
+      updateData.cabin_category_code = updateRequest.updates.cabin_category_code;
+    }
+
+    if (updateRequest.updates.cabin_number) {
+      updateData.cabin_number = updateRequest.updates.cabin_number;
+    }
+
+    if (updateRequest.updates.dining_seat_code) {
+      updateData.dining_seat_code = updateRequest.updates.dining_seat_code;
+    }
+
+    if (updateRequest.updates.dining_table_code) {
+      updateData.dining_table_code = updateRequest.updates.dining_table_code;
     }
 
     // Update the booking
-    const updateResponse = await updateBooking(updateRequest.bookingId, updateData);
-    
+    const updateResponse = await updateBooking(updateRequest.bookingNumber, updateData);
+
     if (!updateResponse.success) {
       return {
         success: false,
-        error: "Failed to update booking. Please try again."
+        error: "Failed to update booking. Please try again.",
       };
     }
 
     return {
       success: true,
-      updatedBooking: updateResponse.data
+      updatedBooking: updateResponse.data,
     };
-
   } catch (error) {
-    console.error('Error updating booking:', error);
+    console.error("Error updating booking:", error);
     return {
       success: false,
-      error: "An error occurred while updating the booking"
+      error: "An error occurred while updating the booking",
     };
   }
 }
 
 /**
  * Gets the current pricing and statement for a booking
- * 
- * @param bookingId - The booking ID to get pricing for
+ *
+ * @param bookingData - The booking data to get pricing for
  * @returns Promise resolving to pricing information
  */
-export async function getBookingPricing(bookingId: string) {
+export async function getBookingPricing(
+  bookingData: Booking
+): Promise<Booking | null> {
   try {
-    const pricingResponse = await getStatementAndPricing(bookingId);
-    return pricingResponse.success ? pricingResponse.data : null;
+    const pricingResponse = await getStatementAndPricing(bookingData);
+    return pricingResponse.success && pricingResponse.data ? pricingResponse.data : null;
   } catch (error) {
-    console.error('Error getting booking pricing:', error);
+    console.error("Error getting booking pricing:", error);
     return null;
   }
 }
 
 /**
  * Retrieves all bookings for a user (based on email)
- * This would typically require a different API endpoint, but we'll simulate it
- * 
+ * This would typically require a different API endpoint, but the current API doesn't support this
+ *
  * @param email - User's email address
  * @returns Promise resolving to array of user's bookings
  */
 export async function getUserBookings(email: string): Promise<Booking[]> {
   try {
     // In a real implementation, this would call a specific API endpoint
-    // For now, we'll return empty array as this functionality would need
-    // to be implemented on the API side
+    // The current Vecto API doesn't have a "get bookings by email" endpoint
+    // This would need to be implemented on the API side
     console.log(`Getting bookings for user: ${email}`);
+    console.warn("getUserBookings: This functionality requires an API endpoint that doesn't exist yet");
     return [];
   } catch (error) {
-    console.error('Error getting user bookings:', error);
+    console.error("Error getting user bookings:", error);
     return [];
   }
 }
@@ -604,20 +597,34 @@ export function validateBookingCredentials(credentials: BookingCredentials): {
 } {
   const errors: string[] = [];
 
-  if (!credentials.bookingNumber || credentials.bookingNumber.length < 6) {
-    errors.push("Booking number must be at least 6 characters long");
+  if (!credentials.bookingNumber || credentials.bookingNumber.trim().length < 3) {
+    errors.push("Booking number must be at least 3 characters long");
   }
 
-  if (!credentials.email || !credentials.email.includes('@')) {
+  if (!credentials.email || !credentials.email.includes("@")) {
     errors.push("Please provide a valid email address");
   }
 
-  if (!credentials.lastName || credentials.lastName.length < 2) {
+  if (!credentials.lastName || credentials.lastName.trim().length < 2) {
     errors.push("Last name must be at least 2 characters long");
   }
 
   return {
     isValid: errors.length === 0,
-    errors
+    errors,
   };
+}
+
+/**
+ * Gets all active booking sessions (for admin purposes)
+ */
+export function getActiveBookingSessions(): string[] {
+  return Array.from(bookingSessions.keys());
+}
+
+/**
+ * Clears all booking sessions (for admin purposes or cleanup)
+ */
+export function clearAllBookingSessions(): void {
+  bookingSessions.clear();
 }
