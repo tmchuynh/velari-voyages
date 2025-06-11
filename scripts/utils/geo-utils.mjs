@@ -389,7 +389,7 @@ export const regionalDestinations = {
   "Northern Italy": ["venice"],
 };
 
-export const currenciesMap = [
+export const currenciesMap:Currency[] = [
   { code: "USD", symbol: "$", name: "US Dollar", country: "United States" },
   { code: "USD", symbol: "$", name: "US Dollar", country: "Puerto Rico" },
   { code: "USD", symbol: "$", name: "US Dollar", country: "US Virgin Islands" },
