@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, useMemo } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import {
   AdjustmentsHorizontalIcon,
   MagnifyingGlassIcon,
@@ -32,6 +31,7 @@ import {
 } from "@/components/ui/pagination";
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function CruiseLinesPage() {
   const [cruiseLines, setCruiseLines] = useState<any[]>([]);
@@ -121,42 +121,25 @@ export default function CruiseLinesPage() {
 
   if (loading) {
     return (
-      <motion.div
-        className="flex justify-center items-center min-h-screen"
-        variants={backgroundVariants}
-        animate="animate"
-      >
+      <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
-          <motion.div
-            className="mx-auto mb-4 border-4 border-t-transparent border-blue-500 rounded-full w-16 h-16"
-            animate={{ rotate: 360 }}
-            transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-          />
-          <p className="text-lg text-white">Loading cruise lines...</p>
+          <div className="mx-auto mb-4 border-4 border-t-transparent border-border rounded-full w-16 h-16 animate-spin" />
+          <p className="text-lg">Loading cruise lines...</p>
         </div>
-      </motion.div>
+      </div>
     );
   }
 
   if (error) {
     return (
-      <motion.div
-        className="flex justify-center items-center min-h-screen"
-        variants={backgroundVariants}
-        animate="animate"
-      >
+      <div className="flex justify-center items-center min-h-screen">
         <div className="max-w-md text-center">
-          <div className="bg-red-500/20 backdrop-blur-sm p-6 border border-red-400/50 rounded-xl">
+          <div className="rounded-xl">
             <p className="mb-4 text-red-300">{error}</p>
-            <button
-              onClick={() => window.location.reload()}
-              className="bg-red-500/20 hover:bg-red-500/30 px-4 py-2 rounded-lg text-red-300 hover:text-red-200 transition-colors"
-            >
-              Try Again
-            </button>
+            <Button onClick={() => window.location.reload()}>Try Again</Button>
           </div>
         </div>
-      </motion.div>
+      </div>
     );
   }
 
@@ -169,7 +152,7 @@ export default function CruiseLinesPage() {
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
-          className="top-1/4 left-1/4 absolute bg-blue-500/10 blur-3xl rounded-full w-96 h-96"
+          className="top-1/4 left-1/4 absolute bg-card blur-3xl rounded-full w-96 h-96"
           animate={{
             scale: [1, 1.2, 1],
             opacity: [0.3, 0.5, 0.3],
@@ -177,7 +160,7 @@ export default function CruiseLinesPage() {
           transition={{ duration: 4, repeat: Infinity }}
         />
         <motion.div
-          className="right-1/4 bottom-1/4 absolute bg-purple-500/10 blur-3xl rounded-full w-96 h-96"
+          className="right-1/4 bottom-1/4 absolute bg-card/10 blur-3xl rounded-full w-96 h-96"
           animate={{
             scale: [1.2, 1, 1.2],
             opacity: [0.2, 0.4, 0.2],
@@ -254,12 +237,10 @@ export default function CruiseLinesPage() {
                 transition={{ duration: 0.3, ease: "easeInOut" }}
                 className="flex-shrink-0"
               >
-                <Card className="top-8 sticky bg-white/10 backdrop-blur-md border-white/20 text-white">
+                <Card className="top-8 sticky bg-card/10 backdrop-blur-md border-border/20">
                   <CardHeader>
                     <div className="flex justify-between items-center">
-                      <CardTitle className="text-white">
-                        Filters & Sorting
-                      </CardTitle>
+                      <CardTitle className="">Filters & Sorting</CardTitle>
                       <button
                         onClick={() => setShowFilters(false)}
                         className="text-gray-400 hover:text-white transition-colors"
