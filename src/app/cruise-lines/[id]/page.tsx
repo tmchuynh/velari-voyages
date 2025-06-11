@@ -30,7 +30,7 @@ export default function CruiseLineDetailPage() {
         setLoading(true);
         const [lineDetails, shipsList] = await Promise.all([
           getCruiseLineDetails(cruiseLineId),
-          getCruiseLineShips(cruiseLineId),
+          getCruiseLineShips({ cruise_line_id: cruiseLineId }),
         ]);
 
         if (lineDetails.success && lineDetails.data) {
