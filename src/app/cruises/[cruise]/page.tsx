@@ -53,13 +53,13 @@ export default function CruiseDetailsPage() {
   if (loading) {
     return (
       <div className="mx-auto px-4 py-8 container">
-        <div className="animate-pulse space-y-6">
-          <div className="h-8 bg-gray-300 rounded w-64"></div>
-          <div className="h-4 bg-gray-300 rounded w-full"></div>
-          <div className="h-4 bg-gray-300 rounded w-3/4"></div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div className="h-64 bg-gray-300 rounded"></div>
-            <div className="h-64 bg-gray-300 rounded"></div>
+        <div className="space-y-6 animate-pulse">
+          <div className="bg-gray-300 rounded w-64 h-8"></div>
+          <div className="bg-gray-300 rounded w-full h-4"></div>
+          <div className="bg-gray-300 rounded w-3/4 h-4"></div>
+          <div className="gap-6 grid grid-cols-1 lg:grid-cols-2">
+            <div className="bg-gray-300 rounded h-64"></div>
+            <div className="bg-gray-300 rounded h-64"></div>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ export default function CruiseDetailsPage() {
   }
 
   return (
-    <div className="mx-auto px-4 py-8 container max-w-7xl">
+    <div className="mx-auto px-4 py-8 max-w-7xl container">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -86,25 +86,33 @@ export default function CruiseDetailsPage() {
       >
         {/* Cruise Header */}
         <div className="mb-8">
-          <h1 className="mb-4 font-bold text-4xl text-gray-900">{cruise.title}</h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-600">
+          <h1 className="mb-4 font-bold text-4xl text-gray-900">
+            {cruise.title}
+          </h1>
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-3 text-gray-600 text-sm">
             <div>
-              <span className="font-medium">Departure:</span> {cruise.departureLocation?.city}, {cruise.departureLocation?.country}
+              <span className="font-medium">Departure:</span>{" "}
+              {cruise.departureLocation?.city},{" "}
+              {cruise.departureLocation?.country}
             </div>
             <div>
-              <span className="font-medium">Arrival:</span> {cruise.arrivalLocation?.city}, {cruise.arrivalLocation?.country}
+              <span className="font-medium">Arrival:</span>{" "}
+              {cruise.arrivalLocation?.city}, {cruise.arrivalLocation?.country}
             </div>
             <div>
-              <span className="font-medium">Price:</span> ${cruise.basePrice?.toLocaleString()}
+              <span className="font-medium">Price:</span> $
+              {cruise.basePrice?.toLocaleString()}
             </div>
           </div>
-          <p className="mt-4 text-gray-700 leading-relaxed">{cruise.description}</p>
+          <p className="mt-4 text-gray-700 leading-relaxed">
+            {cruise.description}
+          </p>
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+        <div className="gap-8 grid grid-cols-1 xl:grid-cols-3">
           {/* Left Column - Map and Events */}
-          <div className="xl:col-span-2 space-y-8">
+          <div className="space-y-8 xl:col-span-2">
             {/* Departure Location Map */}
             {coordinates && (
               <motion.div
@@ -112,20 +120,28 @@ export default function CruiseDetailsPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Departure Location</h2>
+                <h2 className="mb-4 font-bold text-2xl text-gray-900">
+                  Departure Location
+                </h2>
                 <MapComponent
-                  coordinates={{ longitude: coordinates.longitude, latitude: coordinates.latitude }}
+                  coordinates={{
+                    longitude: coordinates.longitude,
+                    latitude: coordinates.latitude,
+                  }}
                   zoom={12}
                   height="300px"
                   markers={[
                     {
-                      coordinates: { longitude: coordinates.longitude, latitude: coordinates.latitude },
+                      coordinates: {
+                        longitude: coordinates.longitude,
+                        latitude: coordinates.latitude,
+                      },
                       title: `${cruise.departureLocation?.city} Port`,
                       description: "Cruise departure location",
-                      color: "#3b82f6"
-                    }
+                      color: "#3b82f6",
+                    },
                   ]}
-                  className="rounded-lg overflow-hidden shadow-md"
+                  className="shadow-md rounded-lg overflow-hidden"
                 />
               </motion.div>
             )}
@@ -154,18 +170,21 @@ export default function CruiseDetailsPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Select Cruise Date</h2>
+              <h2 className="mb-4 font-bold text-gray-900 text-xl">
+                Select Cruise Date
+              </h2>
               <HolidayCalendar
-                selectedDate={selectedDate}
+                selectedDate={selectedDate || undefined}
                 onDateSelect={setSelectedDate}
                 country={cruise.departureLocation?.country || "United States"}
                 minDate={new Date()}
                 showHolidayTooltip={true}
               />
               {selectedDate && (
-                <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-md">
-                  <p className="text-sm text-blue-800">
-                    <span className="font-medium">Selected Date:</span> {selectedDate.toLocaleDateString()}
+                <div className="bg-blue-50 mt-4 p-3 border border-blue-200 rounded-md">
+                  <p className="text-blue-800 text-sm">
+                    <span className="font-medium">Selected Date:</span>{" "}
+                    {selectedDate.toLocaleDateString()}
                   </p>
                 </div>
               )}
@@ -194,56 +213,80 @@ export default function CruiseDetailsPage() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-12"
         >
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Cruise Details</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-semibold text-gray-900 mb-2">Itinerary</h3>
+          <h2 className="mb-6 font-bold text-2xl text-gray-900">
+            Cruise Details
+          </h2>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <h3 className="mb-2 font-semibold text-gray-900">Itinerary</h3>
               {cruise.itinerary?.route && cruise.itinerary.route.length > 0 ? (
-                <ul className="space-y-1 text-sm text-gray-600">
-                  {cruise.itinerary.route.slice(0, 5).map((stop, index) => (
-                    <li key={index}>• {stop.city}, {stop.country}</li>
-                  ))}
+                <ul className="space-y-1 text-gray-600 text-sm">
+                  {cruise.itinerary.route
+                    .slice(0, 5)
+                    .map((stop: any, index: number) => (
+                      <li key={index}>
+                        • {stop.city}, {stop.country}
+                      </li>
+                    ))}
                   {cruise.itinerary.route.length > 5 && (
-                    <li className="text-blue-600">+ {cruise.itinerary.route.length - 5} more stops</li>
+                    <li className="text-blue-600">
+                      + {cruise.itinerary.route.length - 5} more stops
+                    </li>
                   )}
                 </ul>
               ) : (
-                <p className="text-sm text-gray-600">Itinerary details coming soon</p>
+                <p className="text-gray-600 text-sm">
+                  Itinerary details coming soon
+                </p>
               )}
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-semibold text-gray-900 mb-2">Crew Members</h3>
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <h3 className="mb-2 font-semibold text-gray-900">Crew Members</h3>
               {cruise.crewMembers && cruise.crewMembers.length > 0 ? (
                 <div className="space-y-2">
-                  {cruise.crewMembers.slice(0, 3).map((crew, index) => (
-                    <div key={index} className="text-sm">
-                      <p className="font-medium text-gray-900">{crew.name}</p>
-                      <p className="text-gray-600">{crew.role}</p>
-                    </div>
-                  ))}
+                  {cruise.crewMembers
+                    .slice(0, 3)
+                    .map((crew: any, index: number) => (
+                      <div key={index} className="text-sm">
+                        <p className="font-medium text-gray-900">{crew.name}</p>
+                        <p className="text-gray-600">{crew.role}</p>
+                      </div>
+                    ))}
                   {cruise.crewMembers.length > 3 && (
-                    <p className="text-sm text-blue-600">+ {cruise.crewMembers.length - 3} more crew members</p>
+                    <p className="text-blue-600 text-sm">
+                      + {cruise.crewMembers.length - 3} more crew members
+                    </p>
                   )}
                 </div>
               ) : (
-                <p className="text-sm text-gray-600">Crew information coming soon</p>
+                <p className="text-gray-600 text-sm">
+                  Crew information coming soon
+                </p>
               )}
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-semibold text-gray-900 mb-2">Tags & Categories</h3>
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <h3 className="mb-2 font-semibold text-gray-900">
+                Tags & Categories
+              </h3>
               <div className="space-y-2">
-                <p className="text-sm text-gray-600">
-                  <span className="font-medium">Category:</span> {cruise.category?.replace('-', ' ') || 'General'}
+                <p className="text-gray-600 text-sm">
+                  <span className="font-medium">Category:</span>{" "}
+                  {cruise.category?.replace("-", " ") || "General"}
                 </p>
                 {cruise.tags && cruise.tags.length > 0 && (
                   <div className="flex flex-wrap gap-1">
-                    {cruise.tags.slice(0, 4).map((tag, index) => (
-                      <span key={index} className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
-                        {tag}
-                      </span>
-                    ))}
+                    {cruise.tags
+                      .slice(0, 4)
+                      .map((tag: string, index: number) => (
+                        <span
+                          key={index}
+                          className="bg-blue-100 px-2 py-1 rounded-full text-blue-800 text-xs"
+                        >
+                          {tag}
+                        </span>
+                      ))}
                   </div>
                 )}
               </div>
