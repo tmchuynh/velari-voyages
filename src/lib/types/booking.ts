@@ -1,5 +1,5 @@
-import React from "react";
 import { Cruise } from "@/lib/interfaces/services/cruises";
+import React from "react";
 
 export interface BookingStep {
   id: string;
