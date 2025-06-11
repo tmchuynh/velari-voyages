@@ -9,7 +9,7 @@ import { BaseCruise, Cruise, Vessels } from "@/lib/interfaces/services/cruises";
  */
 export function validateCruiseVesselAssignment(
   cruise: Cruise | BaseCruise,
-  availableVessels?: Vessels[]
+  availableVessels?: Vessels[],
 ): boolean {
   // Check if vesselId exists and is not empty
   if (
@@ -24,11 +24,11 @@ export function validateCruiseVesselAssignment(
   // If available vessels are provided, validate that the vessel exists
   if (availableVessels && availableVessels.length > 0) {
     const vesselExists = availableVessels.some(
-      (vessel) => vessel.id === cruise.vesselId
+      (vessel) => vessel.id === cruise.vesselId,
     );
     if (!vesselExists) {
       console.error(
-        `Cruise ${cruise.id} references non-existent vessel: ${cruise.vesselId}`
+        `Cruise ${cruise.id} references non-existent vessel: ${cruise.vesselId}`,
       );
       return false;
     }
@@ -46,23 +46,23 @@ export function validateCruiseVesselAssignment(
  */
 export function validateAllCruiseVesselAssignments(
   cruises: (Cruise | BaseCruise)[],
-  availableVessels?: Vessels[]
+  availableVessels?: Vessels[],
 ): boolean {
   if (!cruises || cruises.length === 0) {
     return true; // Empty array is valid
   }
 
   const invalidCruises = cruises.filter(
-    (cruise) => !validateCruiseVesselAssignment(cruise, availableVessels)
+    (cruise) => !validateCruiseVesselAssignment(cruise, availableVessels),
   );
 
   if (invalidCruises.length > 0) {
     console.error(
-      `Found ${invalidCruises.length} cruises with invalid vessel assignments`
+      `Found ${invalidCruises.length} cruises with invalid vessel assignments`,
     );
     invalidCruises.forEach((cruise) => {
       console.error(
-        `- Cruise ID: ${cruise.id}, Vessel ID: ${cruise.vesselId || "MISSING"}`
+        `- Cruise ID: ${cruise.id}, Vessel ID: ${cruise.vesselId || "MISSING"}`,
       );
     });
     return false;
@@ -83,11 +83,11 @@ export function validateAllCruiseVesselAssignments(
 export function ensureCruiseVesselAssignment<T extends BaseCruise>(
   cruise: T,
   defaultVesselId: string,
-  departureCity?: string
+  departureCity?: string,
 ): T {
   if (!cruise.vesselId || cruise.vesselId.trim() === "") {
     console.warn(
-      `Cruise ${cruise.id} missing vesselId, assigning default: ${defaultVesselId}`
+      `Cruise ${cruise.id} missing vesselId, assigning default: ${defaultVesselId}`,
     );
     return {
       ...cruise,
@@ -105,7 +105,7 @@ export function ensureCruiseVesselAssignment<T extends BaseCruise>(
  * @returns Object with vessel IDs as keys and arrays of cruises as values
  */
 export function groupCruisesByVessel(
-  cruises: (Cruise | BaseCruise)[]
+  cruises: (Cruise | BaseCruise)[],
 ): Record<string, (Cruise | BaseCruise)[]> {
   return cruises.reduce(
     (groups, cruise) => {
@@ -116,7 +116,7 @@ export function groupCruisesByVessel(
       groups[vesselId].push(cruise);
       return groups;
     },
-    {} as Record<string, (Cruise | BaseCruise)[]>
+    {} as Record<string, (Cruise | BaseCruise)[]>,
   );
 }
 
@@ -147,7 +147,7 @@ export function createCruiseWithVessel(
   cruiseData: Omit<BaseCruise, "id"> & {
     vesselId: string; // Explicitly require vesselId
     id?: string; // Make id optional since we can generate it
-  }
+  },
 ): BaseCruise {
   if (!cruiseData.vesselId || cruiseData.vesselId.trim() === "") {
     throw new Error("Cannot create cruise without valid vesselId");
@@ -189,7 +189,7 @@ export type CruiseWithGuaranteedVessel<T extends BaseCruise = BaseCruise> =
  * @returns boolean indicating if cruise has valid vessel
  */
 export function cruiseHasValidVessel(
-  cruise: BaseCruise | Cruise
+  cruise: BaseCruise | Cruise,
 ): cruise is CruiseWithGuaranteedVessel<typeof cruise> {
   return (
     cruise.vesselId != null &&
