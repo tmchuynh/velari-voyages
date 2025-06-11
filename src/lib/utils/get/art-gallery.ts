@@ -43,10 +43,10 @@ export async function getArtGalleries(city: string): Promise<ArtGallery[]> {
     formatToSlug(cityWithoutAccents.replace("'", "-")) + "-art-galleries";
 
   console.log(
-    `Looking for art galleries in: @/lib/constants/venues/art-galleries/${sluggedCity}`
+    `Looking for art galleries in: @/lib/constants/venues/art-galleries/${sluggedCity}`,
   );
   console.log(
-    `Export expected: export const ${artGalleryID}: ArtGallery[] = [];`
+    `Export expected: export const ${artGalleryID}: ArtGallery[] = [];`,
   );
 
   try {
@@ -64,13 +64,13 @@ export async function getArtGalleries(city: string): Promise<ArtGallery[]> {
       }
 
       console.error(
-        `Export not found in module. Looking for: ${artGalleryID} or ${alternateArtGalleryID}`
+        `Export not found in module. Looking for: ${artGalleryID} or ${alternateArtGalleryID}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading art gallery data: ${error}. Tried: @/lib/constants/venues/art-galleries/${sluggedCity} with export ${artGalleryID}`
+      `Error loading art gallery data: ${error}. Tried: @/lib/constants/venues/art-galleries/${sluggedCity} with export ${artGalleryID}`,
     );
     return [];
   }
@@ -92,7 +92,7 @@ export async function getArtGalleries(city: string): Promise<ArtGallery[]> {
  *          or if no art galleries are found for the given city.
  */
 export async function getArtGalleriesByLocation(
-  cityInfo: Location
+  cityInfo: Location,
 ): Promise<ArtGallery[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
@@ -144,7 +144,7 @@ export async function getAllArtGalleries(): Promise<ArtGallery[]> {
  * }
  */
 export async function getArtGalleryById(
-  id: string
+  id: string,
 ): Promise<ArtGallery | null> {
   if (!id) {
     console.error("Art gallery ID is required");
@@ -168,7 +168,7 @@ export async function getArtGalleryById(
  * console.log(vesselArtGalleries);
  */
 export async function getArtGalleriesByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<ArtGallery[]> {
   if (!vesselId) {
     console.error("Vessel ID is required");

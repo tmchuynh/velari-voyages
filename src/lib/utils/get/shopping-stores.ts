@@ -38,7 +38,7 @@ export async function getShopping(city: string): Promise<Shopping[]> {
 
     if (!shopping) {
       console.error(
-        `Export "${exportName}" not found in ${formattedCitySlug}-shopping module`
+        `Export "${exportName}" not found in ${formattedCitySlug}-shopping module`,
       );
       return [];
     }
@@ -64,7 +64,7 @@ export async function getShopping(city: string): Promise<Shopping[]> {
  * console.log(shopping);
  */
 export async function getShoppingByLocation(
-  location: Location
+  location: Location,
 ): Promise<Shopping[]> {
   return getShopping(location.city);
 }
@@ -111,7 +111,7 @@ export async function getAllShopping(): Promise<Shopping[]> {
  * }
  */
 export async function getShoppingById(
-  id: string
+  id: string,
 ): Promise<Shopping | undefined> {
   if (!id || typeof id !== "string") {
     console.error("Invalid shopping ID provided:", id);
@@ -135,7 +135,7 @@ export async function getShoppingById(
  * console.log(vesselShopping);
  */
 export async function getShoppingByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<Shopping[]> {
   if (!vesselId || typeof vesselId !== "string") {
     console.error("Invalid vessel ID provided:", vesselId);

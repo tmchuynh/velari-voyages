@@ -43,7 +43,7 @@ export async function getLibraries(city: string): Promise<Library[]> {
     formatToSlug(cityWithoutAccents.replace("'", "-")) + "-libraries";
 
   console.log(
-    `Looking for libraries in: @/lib/constants/venues/libraries/${sluggedCity}`
+    `Looking for libraries in: @/lib/constants/venues/libraries/${sluggedCity}`,
   );
   console.log(`Export expected: export const ${libraryID}: Library[] = [];`);
 
@@ -62,13 +62,13 @@ export async function getLibraries(city: string): Promise<Library[]> {
       }
 
       console.error(
-        `Export not found in module. Looking for: ${libraryID} or ${alternateLibraryID}`
+        `Export not found in module. Looking for: ${libraryID} or ${alternateLibraryID}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading library data: ${error}. Tried: @/lib/constants/venues/libraries/${sluggedCity} with export ${libraryID}`
+      `Error loading library data: ${error}. Tried: @/lib/constants/venues/libraries/${sluggedCity} with export ${libraryID}`,
     );
     return [];
   }
@@ -90,7 +90,7 @@ export async function getLibraries(city: string): Promise<Library[]> {
  *          or if no libraries are found for the given city.
  */
 export async function getLibrariesByLocation(
-  cityInfo: Location
+  cityInfo: Location,
 ): Promise<Library[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
@@ -164,7 +164,7 @@ export async function getLibraryById(id: string): Promise<Library | null> {
  * console.log(vesselLibraries);
  */
 export async function getLibrariesByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<Library[]> {
   if (!vesselId) {
     console.error("Vessel ID is required");

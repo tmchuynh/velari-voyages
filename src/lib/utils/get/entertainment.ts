@@ -14,10 +14,10 @@ async function getVesselNameById(vesselId: string): Promise<string | null> {
       const cityWithoutAccents = removeAccents(city);
       const vesselFilePath = `@/lib/constants/cruises/vessels/${cityWithoutAccents}-vessels`;
       const vesselModule = await import(vesselFilePath);
-      
+
       const vesselData = vesselModule.default || Object.values(vesselModule)[0];
       if (Array.isArray(vesselData)) {
-        const vessel = vesselData.find(v => v.id === vesselId);
+        const vessel = vesselData.find((v) => v.id === vesselId);
         if (vessel) {
           return vessel.name;
         }
@@ -49,7 +49,7 @@ async function getVesselNameById(vesselId: string): Promise<string | null> {
  */
 export async function getEntertainmentCategories(
   city: string,
-  vesselIdOrName: string
+  vesselIdOrName: string,
 ): Promise<EntertainmentCategory[]> {
   if (
     !city ||
@@ -81,7 +81,7 @@ export async function getEntertainmentCategories(
   const sluggedVessel = formatToSlug(vesselName);
 
   console.log(
-    `Looking for entertainment categories in: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`
+    `Looking for entertainment categories in: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`,
   );
 
   try {
@@ -96,13 +96,13 @@ export async function getEntertainmentCategories(
       return entertainmentModule.entertainmentCategories;
     } else {
       console.error(
-        `No entertainment categories export found in module for ${city}/${vesselName}`
+        `No entertainment categories export found in module for ${city}/${vesselName}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading entertainment categories: ${error}. Tried: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`
+      `Error loading entertainment categories: ${error}. Tried: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`,
     );
     return [];
   }
@@ -126,7 +126,7 @@ export async function getEntertainmentCategories(
 export async function getEntertainmentShows(
   city: string,
   vessel: string,
-  category: string
+  category: string,
 ): Promise<Entertainment[]> {
   if (
     !city ||
@@ -147,7 +147,7 @@ export async function getEntertainmentShows(
   const sluggedCategory = formatToSlug(category);
 
   console.log(
-    `Looking for entertainment shows in: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/${sluggedCategory}-entertainment`
+    `Looking for entertainment shows in: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/${sluggedCategory}-entertainment`,
   );
 
   try {
@@ -165,7 +165,7 @@ export async function getEntertainmentShows(
         (key) =>
           key.toLowerCase().includes("entertainment") ||
           key.toLowerCase().includes("shows") ||
-          Array.isArray(entertainmentModule[key])
+          Array.isArray(entertainmentModule[key]),
       );
 
       if (entertainmentExport) {
@@ -173,13 +173,13 @@ export async function getEntertainmentShows(
       }
 
       console.error(
-        `No entertainment shows export found in module for ${city}/${vessel}/${category}`
+        `No entertainment shows export found in module for ${city}/${vessel}/${category}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading entertainment shows: ${error}. Tried: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/${sluggedCategory}-entertainment`
+      `Error loading entertainment shows: ${error}. Tried: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/${sluggedCategory}-entertainment`,
     );
     return [];
   }
@@ -214,7 +214,7 @@ export async function getAllEntertainmentCategories(): Promise<
           try {
             const cityWithoutAccents = removeAccents(city);
             const sluggedCity = formatToSlug(
-              cityWithoutAccents.replace("'", "-")
+              cityWithoutAccents.replace("'", "-"),
             );
             const sluggedVessel = formatToSlug(vessel.name);
 
@@ -237,7 +237,7 @@ export async function getAllEntertainmentCategories(): Promise<
     } catch (error) {
       console.error(
         `Error loading entertainment categories for ${city}:`,
-        error
+        error,
       );
     }
   }
@@ -272,7 +272,7 @@ export async function getAllEntertainmentShows(): Promise<Entertainment[]> {
           try {
             const cityWithoutAccents = removeAccents(city);
             const sluggedCity = formatToSlug(
-              cityWithoutAccents.replace("'", "-")
+              cityWithoutAccents.replace("'", "-"),
             );
             const sluggedVessel = formatToSlug(vessel.name);
 
@@ -336,7 +336,7 @@ export async function getAllEntertainmentShows(): Promise<Entertainment[]> {
  * }
  */
 export async function getEntertainmentById(
-  id: string
+  id: string,
 ): Promise<Entertainment | null> {
   if (!id) {
     console.error("Entertainment ID is required");
@@ -360,7 +360,7 @@ export async function getEntertainmentById(
  * console.log(vesselEntertainment);
  */
 export async function getEntertainmentByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<Entertainment[]> {
   if (!vesselId) {
     console.error("Vessel ID is required");
@@ -370,7 +370,7 @@ export async function getEntertainmentByVesselId(
   // First get all entertainment categories for this vessel
   const allCategories = await getAllEntertainmentCategories();
   const vesselCategories = allCategories.filter(
-    (category) => category.vesselId === vesselId
+    (category) => category.vesselId === vesselId,
   );
 
   if (vesselCategories.length === 0) {

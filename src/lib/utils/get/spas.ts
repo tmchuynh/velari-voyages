@@ -38,7 +38,7 @@ export async function getSpas(city: string): Promise<Spa[]> {
 
     if (!spas) {
       console.error(
-        `Export "${exportName}" not found in ${formattedCitySlug}-spas module`
+        `Export "${exportName}" not found in ${formattedCitySlug}-spas module`,
       );
       return [];
     }

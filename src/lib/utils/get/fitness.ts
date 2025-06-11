@@ -25,7 +25,7 @@ import {
  * console.log(fitnessCenters);
  */
 export async function getFitnessCenters(
-  city: string
+  city: string,
 ): Promise<FitnessCenter[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
@@ -45,10 +45,10 @@ export async function getFitnessCenters(
     formatToSlug(cityWithoutAccents.replace("'", "-")) + "-fitness";
 
   console.log(
-    `Looking for fitness centers in: @/lib/constants/venues/fitness/${sluggedCity}`
+    `Looking for fitness centers in: @/lib/constants/venues/fitness/${sluggedCity}`,
   );
   console.log(
-    `Export expected: export const ${fitnessCenterID}: FitnessCenter[] = [];`
+    `Export expected: export const ${fitnessCenterID}: FitnessCenter[] = [];`,
   );
 
   try {
@@ -66,13 +66,13 @@ export async function getFitnessCenters(
       }
 
       console.error(
-        `Export not found in module. Looking for: ${fitnessCenterID} or ${alternateFitnessCenterID}`
+        `Export not found in module. Looking for: ${fitnessCenterID} or ${alternateFitnessCenterID}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading fitness center data: ${error}. Tried: @/lib/constants/venues/fitness/${sluggedCity} with export ${fitnessCenterID}`
+      `Error loading fitness center data: ${error}. Tried: @/lib/constants/venues/fitness/${sluggedCity} with export ${fitnessCenterID}`,
     );
     return [];
   }
@@ -94,7 +94,7 @@ export async function getFitnessCenters(
  *          or if no fitness centers are found for the given city.
  */
 export async function getFitnessCentersByLocation(
-  cityInfo: Location
+  cityInfo: Location,
 ): Promise<FitnessCenter[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
@@ -146,7 +146,7 @@ export async function getAllFitnessCenters(): Promise<FitnessCenter[]> {
  * }
  */
 export async function getFitnessCenterById(
-  id: string
+  id: string,
 ): Promise<FitnessCenter | null> {
   if (!id) {
     console.error("Fitness center ID is required");
@@ -170,7 +170,7 @@ export async function getFitnessCenterById(
  * console.log(vesselFitnessCenters);
  */
 export async function getFitnessCentersByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<FitnessCenter[]> {
   if (!vesselId) {
     console.error("Vessel ID is required");

@@ -43,7 +43,7 @@ export async function getCasinos(city: string): Promise<Casino[]> {
     formatToSlug(cityWithoutAccents.replace("'", "-")) + "-casinos";
 
   console.log(
-    `Looking for casinos in: @/lib/constants/venues/casinos/${sluggedCity}`
+    `Looking for casinos in: @/lib/constants/venues/casinos/${sluggedCity}`,
   );
   console.log(`Export expected: export const ${casinoID}: Casino[] = [];`);
 
@@ -62,13 +62,13 @@ export async function getCasinos(city: string): Promise<Casino[]> {
       }
 
       console.error(
-        `Export not found in module. Looking for: ${casinoID} or ${alternateCasinoID}`
+        `Export not found in module. Looking for: ${casinoID} or ${alternateCasinoID}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading casino data: ${error}. Tried: @/lib/constants/venues/casinos/${sluggedCity} with export ${casinoID}`
+      `Error loading casino data: ${error}. Tried: @/lib/constants/venues/casinos/${sluggedCity} with export ${casinoID}`,
     );
     return [];
   }
@@ -90,7 +90,7 @@ export async function getCasinos(city: string): Promise<Casino[]> {
  *          or if no casinos are found for the given city.
  */
 export async function getCasinosByLocation(
-  cityInfo: Location
+  cityInfo: Location,
 ): Promise<Casino[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
@@ -164,7 +164,7 @@ export async function getCasinoById(id: string): Promise<Casino | null> {
  * console.log(vesselCasinos);
  */
 export async function getCasinosByVesselId(
-  vesselId: string
+  vesselId: string,
 ): Promise<Casino[]> {
   if (!vesselId) {
     console.error("Vessel ID is required");
