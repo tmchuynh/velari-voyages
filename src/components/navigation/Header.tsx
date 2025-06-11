@@ -46,7 +46,7 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="inline-flex justify-center items-center hover:bg-white/10 -m-2.5 p-2.5 rounded-md text-white transition-colors hover:scale-105"
+            className="inline-flex justify-center items-center hover:bg-white/10 -m-2.5 p-2.5 rounded-md transition-colors hover:scale-105"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -60,7 +60,7 @@ export default function Header() {
               <DropdownMenu key={item.label}>
                 <DropdownMenuTrigger asChild>
                   <button
-                    className="flex items-center gap-1 font-semibold text-sm/6 text-white hover:text-blue-300 transition-colors hover:scale-105"
+                    className="flex items-center gap-1 font-semibold text-sm/6 hover:text-blue-300 transition-colors hover:scale-105"
                     type="button"
                   >
                     {item.label}
@@ -69,7 +69,7 @@ export default function Header() {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent
                   align="start"
-                  className="bg-white/10 backdrop-blur-md border-white/20 min-w-[180px] text-white"
+                  className="bg-white/10 backdrop-blur-md border-white/20 min-w-[180px]"
                 >
                   {item.dropdown.map((sub) => (
                     <DropdownMenuItem asChild key={sub.label}>
@@ -87,7 +87,7 @@ export default function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                className="font-semibold text-sm/6 text-white hover:text-blue-300 transition-colors hover:scale-105"
+                className="font-semibold text-sm/6 hover:text-blue-300 transition-colors hover:scale-105"
               >
                 {item.label}
               </a>
@@ -124,7 +124,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="hover:bg-white/10 -m-2.5 p-2.5 rounded-md text-white transition-colors hover:scale-105"
+              className="hover:bg-white/10 -m-2.5 p-2.5 rounded-md transition-colors hover:scale-105"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="size-6" />
@@ -137,7 +137,7 @@ export default function Header() {
                   item.dropdown ? (
                     <div key={item.label}>
                       <details>
-                        <summary className="flex justify-between items-center hover:bg-white/10 -mx-3 px-3 py-2 border border-white/20 rounded-lg font-semibold text-base/7 text-white cursor-pointer">
+                        <summary className="flex justify-between items-center hover:bg-white/10 -mx-3 px-3 py-2 border border-white/20 rounded-lg font-semibold text-base/7 cursor-pointer">
                           {item.label}
                           <ChevronDownIcon className="inline ml-2 w-4 h-4" />
                         </summary>
@@ -146,7 +146,7 @@ export default function Header() {
                             <a
                               key={sub.label}
                               href={sub.href}
-                              className="block hover:bg-white/10 -mx-3 px-3 py-2 border border-white/10 rounded-lg text-gray-300 text-sm hover:text-white transition-colors hover:translate-x-1"
+                              className="block hover:bg-white/10 -mx-3 px-3 py-2 border border-white/10 rounded-lg text-gray-300 text-sm transition-colors hover:translate-x-1 hover:"
                             >
                               {sub.label}
                             </a>
@@ -158,7 +158,7 @@ export default function Header() {
                     <a
                       key={item.label}
                       href={item.href}
-                      className="block hover:bg-white/10 -mx-3 px-3 py-2 border border-white/20 rounded-lg font-semibold text-base/7 text-white transition-colors hover:translate-x-1"
+                      className="block hover:bg-white/10 -mx-3 px-3 py-2 border border-white/20 rounded-lg font-semibold text-base/7 transition-colors hover:translate-x-1"
                     >
                       {item.label}
                     </a>
