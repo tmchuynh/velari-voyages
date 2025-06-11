@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -17,12 +17,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { getCruiseById } from "@/lib/utils/get/cruises";
 import { Cruise } from "@/lib/interfaces/services/cruises";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -230,7 +225,7 @@ const cabinTypes: CabinSelection[] = [
   },
 ];
 
-export default function BookingPage() {
+function BookingPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const cruiseId = searchParams.get("cruise");
@@ -387,7 +382,50 @@ export default function BookingPage() {
 
   const nextStep = () => {
     if (validateCurrentStep() && currentStep < bookingSteps.length - 1) {
-      setCurrentStep(currentStep + 1);
+      const newStep = currentStep + 1;
+
+      // When moving to passenger information step (step 1), adjust passenger count
+      if (newStep === 1) {
+        const totalGuests =
+          bookingData.guestCount.adults +
+          bookingData.guestCount.children +
+          bookingData.guestCount.seniors +
+          bookingData.guestCount.infants;
+
+        // Adjust passenger array to match guest count
+        const currentPassengers = [...bookingData.passengers];
+
+        if (totalGuests > currentPassengers.length) {
+          // Add more passengers
+          for (let i = currentPassengers.length; i < totalGuests; i++) {
+            currentPassengers.push({
+              id: `passenger-${i + 1}`,
+              firstName: "",
+              lastName: "",
+              dateOfBirth: "",
+              gender: "",
+              nationality: "",
+              passportNumber: "",
+              passportExpiry: "",
+              emergencyContact: {
+                name: "",
+                phone: "",
+                relationship: "",
+              },
+            });
+          }
+        } else if (totalGuests < currentPassengers.length) {
+          // Remove excess passengers
+          currentPassengers.splice(totalGuests);
+        }
+
+        setBookingData({
+          ...bookingData,
+          passengers: currentPassengers,
+        });
+      }
+
+      setCurrentStep(newStep);
     }
   };
 
@@ -443,10 +481,11 @@ export default function BookingPage() {
 
   const calculateTotal = () => {
     if (!bookingData.cabin) return 0;
-    const totalGuests = bookingData.guestCount.adults + 
-                       bookingData.guestCount.children + 
-                       bookingData.guestCount.seniors + 
-                       bookingData.guestCount.infants;
+    const totalGuests =
+      bookingData.guestCount.adults +
+      bookingData.guestCount.children +
+      bookingData.guestCount.seniors +
+      bookingData.guestCount.infants;
     const basePrice = bookingData.cabin.price * totalGuests;
     const taxes = basePrice * 0.12; // 12% taxes and fees
     return basePrice + taxes;
@@ -493,16 +532,19 @@ export default function BookingPage() {
   }
 
   // Price breakdown chart data
+  const totalGuestsForChart =
+    bookingData.guestCount.adults +
+    bookingData.guestCount.children +
+    bookingData.guestCount.seniors +
+    bookingData.guestCount.infants;
   const priceBreakdownData = {
     labels: ["Base Price", "Taxes & Fees"],
     datasets: [
       {
         data: [
+          bookingData.cabin ? bookingData.cabin.price * totalGuestsForChart : 0,
           bookingData.cabin
-            ? bookingData.cabin.price * bookingData.passengers.length
-            : 0,
-          bookingData.cabin
-            ? bookingData.cabin.price * bookingData.passengers.length * 0.12
+            ? bookingData.cabin.price * totalGuestsForChart * 0.12
             : 0,
         ],
         backgroundColor: ["rgb(30, 64, 175)", "rgb(5, 150, 105)"],
@@ -781,12 +823,13 @@ export default function BookingPage() {
                         <div className="flex justify-between text-muted-foreground">
                           <span>Taxes & Fees</span>
                           <span>
-                            ${Math.round(
+                            $
+                            {Math.round(
                               bookingData.cabin.price *
-                                (bookingData.guestCount.adults + 
-                                bookingData.guestCount.children + 
-                                bookingData.guestCount.seniors + 
-                                bookingData.guestCount.infants) *
+                                (bookingData.guestCount.adults +
+                                  bookingData.guestCount.children +
+                                  bookingData.guestCount.seniors +
+                                  bookingData.guestCount.infants) *
                                 0.12
                             ).toLocaleString()}
                           </span>
@@ -823,8 +866,10 @@ export default function BookingPage() {
             </Card>
 
             {/* Guest Information Summary */}
-            {(bookingData.guestCount.adults > 0 || bookingData.guestCount.children > 0 || 
-              bookingData.guestCount.seniors > 0 || bookingData.guestCount.infants > 0) && (
+            {(bookingData.guestCount.adults > 0 ||
+              bookingData.guestCount.children > 0 ||
+              bookingData.guestCount.seniors > 0 ||
+              bookingData.guestCount.infants > 0) && (
               <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
                 <CardHeader>
                   <CardTitle className="text-lg">Guest Information</CardTitle>
@@ -858,10 +903,10 @@ export default function BookingPage() {
                     <div className="flex justify-between pt-2 border-t font-medium">
                       <span>Total Guests</span>
                       <span>
-                        {bookingData.guestCount.adults + 
-                         bookingData.guestCount.children + 
-                         bookingData.guestCount.seniors + 
-                         bookingData.guestCount.infants}
+                        {bookingData.guestCount.adults +
+                          bookingData.guestCount.children +
+                          bookingData.guestCount.seniors +
+                          bookingData.guestCount.infants}
                       </span>
                     </div>
                   </div>
@@ -1307,7 +1352,10 @@ function PassengerInformationStep({
   return (
     <div className="space-y-6">
       {passengers.map((passenger, index) => (
-        <Card key={passenger.id} className="bg-card/50 backdrop-blur-md p-4 border-white/20">
+        <Card
+          key={passenger.id}
+          className="bg-card/50 backdrop-blur-md p-4 border-white/20"
+        >
           <div className="flex justify-between items-center mb-4">
             <h4 className="font-medium">
               Passenger {index + 1}
@@ -1542,8 +1590,8 @@ function CabinSelectionStep({
           <Card
             key={cabin.id}
             className={`cursor-pointer transition-all duration-300 ${
-              selectedCabin?.id === cabin.id 
-                ? "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 ring-2 ring-primary" 
+              selectedCabin?.id === cabin.id
+                ? "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 ring-2 ring-primary"
                 : "backdrop-blur-md bg-card/50 border-white/20"
             } ${
               cabin.maxOccupancy < passengerCount
@@ -1873,18 +1921,22 @@ function ConfirmationStep({
               <div>
                 <span className="text-muted-foreground">Total Guests:</span>
                 <span className="ml-2">
-                  {bookingData.guestCount.adults + 
-                   bookingData.guestCount.children + 
-                   bookingData.guestCount.seniors + 
-                   bookingData.guestCount.infants} 
-                  ({bookingData.guestCount.adults} Adults, {bookingData.guestCount.children} Children, {bookingData.guestCount.seniors} Seniors, {bookingData.guestCount.infants} Infants)
+                  {bookingData.guestCount.adults +
+                    bookingData.guestCount.children +
+                    bookingData.guestCount.seniors +
+                    bookingData.guestCount.infants}
+                  ({bookingData.guestCount.adults} Adults,{" "}
+                  {bookingData.guestCount.children} Children,{" "}
+                  {bookingData.guestCount.seniors} Seniors,{" "}
+                  {bookingData.guestCount.infants} Infants)
                 </span>
               </div>
               <div>
                 <span className="text-muted-foreground">Residency:</span>
                 <span className="ml-2">
                   {bookingData.guestResidency.country}
-                  {bookingData.guestResidency.state && `, ${bookingData.guestResidency.state}`}
+                  {bookingData.guestResidency.state &&
+                    `, ${bookingData.guestResidency.state}`}
                 </span>
               </div>
               <div>
@@ -1914,5 +1966,23 @@ function ConfirmationStep({
         </p>
       </div>
     </div>
+  );
+}
+
+// Wrapper component with Suspense boundary
+export default function BookingPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex justify-center items-center min-h-screen">
+          <div className="flex flex-col items-center space-y-4">
+            <div className="border-primary border-b-2 rounded-full w-8 h-8 animate-spin"></div>
+            <p className="text-muted-foreground">Loading booking page...</p>
+          </div>
+        </div>
+      }
+    >
+      <BookingPageContent />
+    </Suspense>
   );
 }

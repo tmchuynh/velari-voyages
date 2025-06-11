@@ -627,7 +627,7 @@ export default function CruisesPage() {
                         <Button
                           variant="outline"
                           size="sm"
-                          onClick={() => router.push(`/cruise/${cruise.id}`)}
+                          onClick={() => router.push(`/cruises/${cruise.id}`)}
                         >
                           <EyeIcon className="mr-2 w-4 h-4" />
                           View Details
