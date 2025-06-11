@@ -26,11 +26,12 @@ import {
   fetchPopularCruiseLinesFromExpedia,
   fetchPopularDeparturePortsFromExpedia,
 } from "@/lib/utils/get/expedia-cruises";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/cards/Card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/button/Button";
+import { OceanLoading } from "@/components/Loading";
 import {
   Select,
   SelectContent,
@@ -252,24 +253,22 @@ export default function CruisesPage() {
   };
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="mx-auto border-b-2 border-blue-600 rounded-full w-32 h-32 animate-spin"></div>
-          <p className="mt-4 text-gray-600 text-lg">Loading cruise data...</p>
-        </div>
-      </div>
-    );
+    return <OceanLoading text="Loading cruise data..." />;
   }
 
   if (error) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <h1 className="mb-4 font-bold text-2xl text-red-600">Error</h1>
-          <p className="mb-4 text-gray-600">{error}</p>
+        <Card variant="glass" className="max-w-md text-center p-8">
+          <div className="w-16 h-16 mx-auto mb-4 bg-destructive/10 rounded-full flex items-center justify-center">
+            <svg className="w-8 h-8 text-destructive" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z" />
+            </svg>
+          </div>
+          <CardTitle className="mb-4 text-destructive">Error Loading Cruises</CardTitle>
+          <p className="mb-4 text-muted-foreground">{error}</p>
           <Button onClick={() => window.location.reload()}>Try Again</Button>
-        </div>
+        </Card>
       </div>
     );
   }
