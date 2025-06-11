@@ -1,7 +1,7 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 // Mock cruise data for development
-const mockCruises: Cruise[] = [
+export const mockCruises: Cruise[] = [
   {
     id: "mediterranean-discovery",
     vesselId: "ocean-explorer-1",
