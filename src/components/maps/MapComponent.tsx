@@ -110,7 +110,7 @@ export default function MapComponent({
               popup.setHTML(`
                 <div class="p-2">
                   ${marker.title ? `<h3 class="font-semibold text-sm">${marker.title}</h3>` : ""}
-                  ${marker.description ? `<p class="text-xs text-gray-600">${marker.description}</p>` : ""}
+                  ${marker.description ? `<p class="text-gray-600 text-xs">${marker.description}</p>` : ""}
                 </div>
               `);
             }
@@ -147,13 +147,13 @@ export default function MapComponent({
 
   if (error) {
     return (
-      <div 
+      <div
         className={`bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center rounded-lg ${className}`}
         style={{ width, height }}
       >
         <div className="text-center text-gray-500">
           <p className="text-sm">Failed to load map</p>
-          <p className="text-xs mt-1">{error}</p>
+          <p className="mt-1 text-xs">{error}</p>
         </div>
       </div>
     );
@@ -167,12 +167,12 @@ export default function MapComponent({
         className="rounded-lg overflow-hidden"
       />
       {!isLoaded && (
-        <div 
-          className="absolute inset-0 bg-gray-100 flex items-center justify-center rounded-lg"
+        <div
+          className="absolute inset-0 flex justify-center items-center bg-gray-100 rounded-lg"
           style={{ width, height }}
         >
           <div className="text-center text-gray-500">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-2"></div>
+            <div className="mx-auto mb-2 border-b-2 border-blue-600 rounded-full w-8 h-8 animate-spin"></div>
             <p className="text-sm">Loading map...</p>
           </div>
         </div>

@@ -85,19 +85,19 @@ export default function CurrencyConverter({
 
   return (
     <div className={`bg-white rounded-lg shadow-md p-6 ${className}`}>
-      <h3 className="text-xl font-bold text-gray-900 mb-4">Currency Converter</h3>
+      <h3 className="mb-4 font-bold text-gray-900 text-xl">Currency Converter</h3>
 
       <div className="space-y-4">
         {/* Amount Input */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+          <label className="block mb-1 font-medium text-gray-700 text-sm">
             Amount
           </label>
           <input
             type="number"
             value={amount}
             onChange={(e) => setAmount(parseFloat(e.target.value) || 0)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="px-3 py-2 border border-gray-300 focus:border-transparent rounded-md focus:ring-2 focus:ring-blue-500 w-full focus:outline-none"
             placeholder="Enter amount"
             min="0"
             step="0.01"
@@ -105,15 +105,15 @@ export default function CurrencyConverter({
         </div>
 
         {/* Currency Selection */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
+        <div className="items-end gap-4 grid grid-cols-1 md:grid-cols-3">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block mb-1 font-medium text-gray-700 text-sm">
               From
             </label>
             <select
               value={fromCurrency}
               onChange={(e) => setFromCurrency(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="px-3 py-2 border border-gray-300 focus:border-transparent rounded-md focus:ring-2 focus:ring-blue-500 w-full focus:outline-none"
             >
               {supportedCurrencies.map((currency) => (
                 <option key={currency} value={currency}>
@@ -129,19 +129,19 @@ export default function CurrencyConverter({
               className="p-2 text-gray-400 hover:text-gray-600 transition-colors duration-200"
               disabled={loading}
             >
-              <ArrowsRightLeftIcon className="h-5 w-5" />
+              <ArrowsRightLeftIcon className="w-5 h-5" />
             </button>
           </div>
 
           {!showMultipleConversions && (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block mb-1 font-medium text-gray-700 text-sm">
                 To
               </label>
               <select
                 value={toCurrency}
                 onChange={(e) => setToCurrency(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="px-3 py-2 border border-gray-300 focus:border-transparent rounded-md focus:ring-2 focus:ring-blue-500 w-full focus:outline-none"
               >
                 {supportedCurrencies.map((currency) => (
                   <option key={currency} value={currency}>
@@ -155,15 +155,15 @@ export default function CurrencyConverter({
 
         {/* Error Display */}
         {error && (
-          <div className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-md p-3">
+          <div className="bg-red-50 p-3 border border-red-200 rounded-md text-red-600 text-sm">
             {error}
           </div>
         )}
 
         {/* Loading Indicator */}
         {loading && (
-          <div className="flex items-center justify-center py-4">
-            <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+          <div className="flex justify-center items-center py-4">
+            <div className="border-b-2 border-blue-600 rounded-full w-6 h-6 animate-spin"></div>
             <span className="ml-2 text-gray-600">Converting...</span>
           </div>
         )}
@@ -174,19 +174,19 @@ export default function CurrencyConverter({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="bg-blue-50 border border-blue-200 rounded-md p-4"
+            className="bg-blue-50 p-4 border border-blue-200 rounded-md"
           >
             <div className="text-center">
-              <p className="text-2xl font-bold text-blue-900">
+              <p className="font-bold text-2xl text-blue-900">
                 {formatCurrency(conversionResult.convertedAmount, conversionResult.to)}
               </p>
-              <p className="text-sm text-blue-700 mt-1">
+              <p className="mt-1 text-blue-700 text-sm">
                 {formatCurrency(amount, fromCurrency)} = {formatCurrency(conversionResult.convertedAmount, conversionResult.to)}
               </p>
-              <p className="text-xs text-blue-600 mt-1">
+              <p className="mt-1 text-blue-600 text-xs">
                 Exchange rate: 1 {conversionResult.from} = {conversionResult.rate.toFixed(4)} {conversionResult.to}
               </p>
-              <p className="text-xs text-blue-500 mt-1">
+              <p className="mt-1 text-blue-500 text-xs">
                 Source: {conversionResult.source === "apyhub" ? "APYHub" : "CurrencyFreaks"}
               </p>
             </div>
@@ -204,21 +204,21 @@ export default function CurrencyConverter({
             <h4 className="font-medium text-gray-900">
               {formatCurrency(amount, fromCurrency)} converts to:
             </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="gap-3 grid grid-cols-1 sm:grid-cols-2">
               {multipleConversions.map((conversion) => (
                 <div
                   key={conversion.to}
-                  className="bg-gray-50 border border-gray-200 rounded-md p-3"
+                  className="bg-gray-50 p-3 border border-gray-200 rounded-md"
                 >
                   <div className="flex justify-between items-center">
                     <span className="font-medium text-gray-900">
                       {conversion.to}
                     </span>
-                    <span className="text-lg font-bold text-gray-900">
+                    <span className="font-bold text-gray-900 text-lg">
                       {formatCurrency(conversion.convertedAmount, conversion.to)}
                     </span>
                   </div>
-                  <p className="text-xs text-gray-500 mt-1">
+                  <p className="mt-1 text-gray-500 text-xs">
                     Rate: {conversion.rate.toFixed(4)}
                   </p>
                 </div>
