@@ -7,15 +7,18 @@ import MapComponent from "@/components/maps/MapComponent";
 import EventsComponent from "@/components/events/EventsComponent";
 import CurrencyConverter from "@/components/currency/CurrencyConverter";
 import HolidayCalendar from "@/components/calendar/HolidayCalendar";
-import { getCruiseById } from "@/lib/utils/get/cruises";
 import { geocodeLocation } from "@/lib/utils/api/mapbox-api";
 import { Cruise } from "@/lib/interfaces/services/cruises";
+import { getCruiseById } from "@/lib/utils/get/cruises";
 
 export default function CruiseDetailsPage() {
   const params = useParams();
   const cruiseId = params.cruise as string;
   const [cruise, setCruise] = useState<Cruise | null>(null);
-  const [coordinates, setCoordinates] = useState<{ latitude: number; longitude: number } | null>(null);
+  const [coordinates, setCoordinates] = useState<{
+    latitude: number;
+    longitude: number;
+  } | null>(null);
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -27,13 +30,13 @@ export default function CruiseDetailsPage() {
         const cruiseData = await getCruiseById(cruiseId);
         if (cruiseData) {
           setCruise(cruiseData);
-          
+
           // Geocode the departure location for map and events
           if (cruiseData.departureLocation?.city) {
             const geoResult = await geocodeLocation(
               `${cruiseData.departureLocation.city}, ${cruiseData.departureLocation.country}`
             );
-            
+
             if (geoResult?.features?.[0]) {
               const [longitude, latitude] = geoResult.features[0].center;
               setCoordinates({ latitude, longitude });
