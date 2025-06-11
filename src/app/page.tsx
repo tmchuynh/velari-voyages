@@ -248,7 +248,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card className="group hover:shadow-lg h-full transition-shadow duration-300 cursor-pointer">
+                <Card variant="ocean" interactive className="h-full">
                   <CardHeader>
                     <div className="flex items-center space-x-4">
                       <div className="relative flex-shrink-0 w-16 h-16">
@@ -351,7 +351,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card className="group hover:shadow-lg h-full transition-shadow duration-300 cursor-pointer">
+                <Card variant="ocean" interactive className="h-full">
                   <div className="relative rounded-t-lg h-32 overflow-hidden">
                     <Image
                       src={port.portImage}
@@ -444,7 +444,7 @@ export default function ExpediaCruiseDashboard() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card className="group hover:shadow-lg h-full transition-shadow duration-300 cursor-pointer">
+                <Card variant="neon" interactive className="h-full">
                   <div className="relative rounded-t-lg h-32 overflow-hidden">
                     <Image
                       src={activity.imageUrl}
@@ -502,42 +502,6 @@ export default function ExpediaCruiseDashboard() {
                 </Card>
               </motion.div>
             ))}
-          </div>
-        </motion.section>
-
-        {/* Call to Action */}
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1.0 }}
-          className="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 rounded-2xl text-center text-white"
-        >
-          <h2 className="mb-4 font-bold text-3xl">
-            Ready to Start Your Cruise Adventure?
-          </h2>
-          <p className="mx-auto mb-6 max-w-2xl text-blue-100">
-            Explore our comprehensive collection of cruise destinations, lines,
-            and activities. Find the perfect cruise that matches your travel
-            dreams and create memories that will last a lifetime.
-          </p>
-          <div className="flex sm:flex-row flex-col justify-center gap-4">
-            <Link href="/cruise-destinations">
-              <Button
-                size="lg"
-                className="bg-white hover:bg-blue-50 text-blue-600"
-              >
-                Browse Destinations
-              </Button>
-            </Link>
-            <Link href="/cruise-lines">
-              <Button
-                size="lg"
-                variant="outline"
-                className="hover:bg-white border-white text-white hover:text-blue-600"
-              >
-                Compare Cruise Lines
-              </Button>
-            </Link>
           </div>
         </motion.section>
       </main>

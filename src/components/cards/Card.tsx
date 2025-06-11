@@ -74,12 +74,24 @@ export function CardHeader({
 
 export function CardTitle({
   className,
+  variant = "default",
   ...props
-}: React.HTMLAttributes<HTMLHeadingElement>) {
+}: React.HTMLAttributes<HTMLHeadingElement> & { variant?: CardProps["variant"] }) {
+  const variantTextClasses = {
+    default: "text-foreground",
+    ocean: "text-foreground",
+    glass: "text-white",
+    gradient: "text-purple-900 dark:text-purple-100",
+    neon: "text-cyan-100",
+    minimal: "text-gray-900",
+    elevated: "text-gray-900",
+  };
+
   return (
     <h3
       className={cn(
         "text-lg font-semibold leading-none tracking-tight",
+        variantTextClasses[variant],
         className
       )}
       {...props}
@@ -89,18 +101,45 @@ export function CardTitle({
 
 export function CardDescription({
   className,
+  variant = "default",
   ...props
-}: React.HTMLAttributes<HTMLParagraphElement>) {
+}: React.HTMLAttributes<HTMLParagraphElement> & { variant?: CardProps["variant"] }) {
+  const variantTextClasses = {
+    default: "text-muted-foreground",
+    ocean: "text-muted-foreground",
+    glass: "text-white/80",
+    gradient: "text-purple-700 dark:text-purple-200",
+    neon: "text-cyan-200",
+    minimal: "text-gray-600",
+    elevated: "text-gray-600",
+  };
+
   return (
-    <p className={cn("text-sm text-muted-foreground", className)} {...props} />
+    <p className={cn("text-sm", variantTextClasses[variant], className)} {...props} />
   );
 }
 
 export function CardContent({
   className,
+  variant = "default",
   ...props
-}: React.HTMLAttributes<HTMLDivElement>) {
-  return <div className={cn("p-6 pt-0", className)} {...props} />;
+}: React.HTMLAttributes<HTMLDivElement> & { variant?: CardProps["variant"] }) {
+  const variantTextClasses = {
+    default: "text-foreground",
+    ocean: "text-foreground",
+    glass: "text-white/90",
+    gradient: "text-purple-800 dark:text-purple-100",
+    neon: "text-cyan-100",
+    minimal: "text-gray-800",
+    elevated: "text-gray-800",
+  };
+
+  return (
+    <div
+      className={cn("p-6 pt-0", variantTextClasses[variant], className)}
+      {...props}
+    />
+  );
 }
 
 export function CardFooter({
