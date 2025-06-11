@@ -781,10 +781,12 @@ export default function BookingPage() {
                         <div className="flex justify-between text-muted-foreground">
                           <span>Taxes & Fees</span>
                           <span>
-                            $
-                            {Math.round(
+                            ${Math.round(
                               bookingData.cabin.price *
-                                bookingData.passengers.length *
+                                (bookingData.guestCount.adults + 
+                                bookingData.guestCount.children + 
+                                bookingData.guestCount.seniors + 
+                                bookingData.guestCount.infants) *
                                 0.12
                             ).toLocaleString()}
                           </span>
