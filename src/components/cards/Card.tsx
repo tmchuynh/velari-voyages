@@ -5,7 +5,14 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
-  variant?: "default" | "glass" | "ocean" | "elevated";
+  variant?:
+    | "default"
+    | "ocean"
+    | "glass"
+    | "gradient"
+    | "neon"
+    | "minimal"
+    | "elevated";
   interactive?: boolean;
   children: React.ReactNode;
 }
@@ -21,11 +28,17 @@ export function Card({
 
   const variantClasses = {
     default: "bg-card text-card-foreground border-border shadow-sm",
-    glass: "glass border-white/20 text-foreground",
     ocean:
       "bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 text-foreground",
+    glass:
+      "bg-white/10 backdrop-blur-md border-white/20 text-foreground shadow-lg",
+    gradient:
+      "bg-gradient-to-br from-purple-500/10 via-blue-500/10 to-teal-500/10 border-gradient-to-r border-purple-500/20 text-foreground shadow-md",
+    neon: "bg-gray-900 border-cyan-400/50 text-cyan-100 shadow-lg shadow-cyan-400/25",
+    minimal:
+      "bg-transparent border-gray-200 text-foreground shadow-none hover:shadow-sm",
     elevated:
-      "bg-card text-card-foreground border-border shadow-lg hover:shadow-xl",
+      "bg-white border-gray-100 text-foreground shadow-xl shadow-gray-200/50",
   };
 
   const interactiveClasses = interactive
@@ -136,11 +149,69 @@ export function OceanCard({ children, className, ...props }: CardProps) {
   );
 }
 
-export function GlassCard({ children, className, ...props }: CardProps) {
+export function GradientCard({ children, className, ...props }: CardProps) {
+  return (
+    <Card
+      variant="gradient"
+      className={cn("hover:shadow-purple-500/20", className)}
+      {...props}
+    >
+      {children}
+    </Card>
+  );
+}
+
+export function EnhancedGlassCard({
+  children,
+  className,
+  ...props
+}: CardProps) {
   return (
     <Card
       variant="glass"
-      className={cn("backdrop-blur-md", className)}
+      className={cn("hover:bg-white/20 transition-colors", className)}
+      {...props}
+    >
+      {children}
+    </Card>
+  );
+}
+
+export function NeonCard({ children, className, ...props }: CardProps) {
+  return (
+    <Card
+      variant="neon"
+      className={cn(
+        "hover:shadow-cyan-400/40 hover:border-cyan-400/70",
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </Card>
+  );
+}
+
+export function MinimalCard({ children, className, ...props }: CardProps) {
+  return (
+    <Card
+      variant="minimal"
+      className={cn("hover:border-gray-300 hover:bg-gray-50/50", className)}
+      {...props}
+    >
+      {children}
+    </Card>
+  );
+}
+
+export function ElevatedCard({ children, className, ...props }: CardProps) {
+  return (
+    <Card
+      variant="elevated"
+      className={cn(
+        "hover:shadow-2xl hover:shadow-gray-200/60 hover:-translate-y-1",
+        className
+      )}
       {...props}
     >
       {children}
