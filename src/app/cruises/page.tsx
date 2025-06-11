@@ -1,6 +1,4 @@
-// list all the cruises available in the system
-
-// enable the user to filter cruises by destination, departure city, cruise line, and ship
+"use client";
 
 "use client";
 import React, { useState, useEffect, useMemo } from "react";
@@ -50,8 +48,10 @@ import {
 } from "@/components/ui/pagination";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function CruisesPage() {
+  const router = useRouter();
   const [cruises, setCruises] = useState<any[]>([]);
   const [destinations, setDestinations] = useState<any[]>([]);
   const [cruiseLines, setCruiseLines] = useState<any[]>([]);
@@ -275,9 +275,9 @@ export default function CruisesPage() {
   }
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 py-20 text-white">
+      <div className="">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -288,7 +288,7 @@ export default function CruisesPage() {
             <h1 className="mb-6 font-bold text-4xl md:text-6xl">
               Discover Your Perfect Cruise
             </h1>
-            <p className="mb-8 text-blue-100 text-xl md:text-2xl">
+            <p className="mb-8 text-xl md:text-2xl">
               Browse {cruises.length} cruises from top cruise lines worldwide
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
@@ -314,8 +314,8 @@ export default function CruisesPage() {
         <div className="mb-8">
           <div className="flex lg:flex-row flex-col gap-4 mb-6">
             {/* Search Bar */}
-            <div className="relative flex-1">
-              <MagnifyingGlassIcon className="top-1/2 left-3 absolute w-5 h-5 text-gray-400 transform -translate-y-1/2" />
+            <div className="relative flex-1 items-center">
+              <MagnifyingGlassIcon className="top-6 left-3 absolute w-5 h-5 transform -translate-y-1/2" />
               <Input
                 type="text"
                 placeholder="Search cruises, destinations, cruise lines..."
@@ -542,7 +542,7 @@ export default function CruisesPage() {
         ) : (
           <>
             {/* Cruise Grid */}
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-8">
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
               {currentItems.map((cruise, index) => (
                 <motion.div
                   key={cruise.id || index}
@@ -625,20 +625,23 @@ export default function CruisesPage() {
                       </div>
 
                       <div className="flex justify-between items-center">
-                        <Button variant="outline" size="sm" asChild>
-                          <Link href={`/cruises/${cruise.id}`}>
-                            <EyeIcon className="mr-2 w-4 h-4" />
-                            View Details
-                          </Link>
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          onClick={() => router.push(`/cruise/${cruise.id}`)}
+                        >
+                          <EyeIcon className="mr-2 w-4 h-4" />
+                          View Details
                         </Button>
 
-                        <Button size="sm" asChild>
-                          <Link
-                            href={`/book-your-trip-today?cruise=${cruise.id}`}
-                          >
-                            Book Now
-                            <ChevronRightIcon className="ml-2 w-4 h-4" />
-                          </Link>
+                        <Button
+                          size="sm"
+                          onClick={() =>
+                            router.push(`/your-trip?cruise=${cruise.id}`)
+                          }
+                        >
+                          Book Now
+                          <ChevronRightIcon className="ml-2 w-4 h-4" />
                         </Button>
                       </div>
                     </CardContent>
