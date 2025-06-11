@@ -475,7 +475,7 @@ export default function BookingPage() {
   if (!cruise) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <Card className="backdrop-blur-md bg-card/50 border-white/20 p-8 max-w-md text-center">
+        <Card className="bg-card/50 backdrop-blur-md p-8 border-white/20 max-w-md text-center">
           <CardTitle className="mb-4">Cruise Not Found</CardTitle>
           <p className="mb-4 text-muted-foreground">
             The cruise you're trying to book could not be found.
@@ -583,7 +583,7 @@ export default function BookingPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-accent/20 p-6">
+                <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 p-6 border-accent/20">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       {bookingSteps[currentStep].icon}
@@ -597,6 +597,25 @@ export default function BookingPage() {
                   <CardContent>
                     {/* Step Content */}
                     {currentStep === 0 && (
+                      <GuestInformationStep
+                        guestCount={bookingData.guestCount}
+                        guestResidency={bookingData.guestResidency}
+                        promotionCode={bookingData.promotionCode}
+                        cruise={cruise}
+                        onUpdateGuestCount={(guestCount) =>
+                          setBookingData({ ...bookingData, guestCount })
+                        }
+                        onUpdateGuestResidency={(guestResidency) =>
+                          setBookingData({ ...bookingData, guestResidency })
+                        }
+                        onUpdatePromotionCode={(promotionCode) =>
+                          setBookingData({ ...bookingData, promotionCode })
+                        }
+                        errors={errors}
+                      />
+                    )}
+
+                    {currentStep === 1 && (
                       <PassengerInformationStep
                         passengers={bookingData.passengers}
                         onUpdatePassenger={updatePassenger}
@@ -606,7 +625,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 1 && (
+                    {currentStep === 2 && (
                       <CabinSelectionStep
                         cabins={cabinTypes}
                         selectedCabin={bookingData.cabin}
@@ -618,7 +637,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 2 && (
+                    {currentStep === 3 && (
                       <PreferencesStep
                         contactInfo={bookingData.contactInfo}
                         specialRequests={bookingData.specialRequests}
@@ -632,7 +651,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 3 && (
+                    {currentStep === 4 && (
                       <PaymentStep
                         payment={bookingData.payment}
                         onUpdatePayment={(payment) =>
@@ -642,7 +661,7 @@ export default function BookingPage() {
                       />
                     )}
 
-                    {currentStep === 4 && (
+                    {currentStep === 5 && (
                       <ConfirmationStep
                         cruise={cruise}
                         bookingData={bookingData}
@@ -664,8 +683,8 @@ export default function BookingPage() {
                   </Button>
 
                   {currentStep < bookingSteps.length - 2 ? (
-                    <Button 
-                      className="bg-gradient-to-r from-primary to-secondary text-white hover:from-primary/90 hover:to-secondary/90 shadow-lg hover:shadow-xl"
+                    <Button
+                      className="bg-gradient-to-r from-primary hover:from-primary/90 to-secondary hover:to-secondary/90 shadow-lg hover:shadow-xl text-white"
                       onClick={nextStep}
                     >
                       Next
@@ -673,15 +692,15 @@ export default function BookingPage() {
                     </Button>
                   ) : currentStep === bookingSteps.length - 2 ? (
                     <Button
-                      className="bg-gradient-to-r from-primary to-secondary text-white hover:from-primary/90 hover:to-secondary/90 shadow-lg hover:shadow-xl"
+                      className="bg-gradient-to-r from-primary hover:from-primary/90 to-secondary hover:to-secondary/90 shadow-lg hover:shadow-xl text-white"
                       onClick={submitBooking}
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? "Processing..." : "Complete Booking"}
                     </Button>
                   ) : (
-                    <Button 
-                      className="bg-gradient-to-r from-accent to-tertiary text-white hover:from-accent/90 hover:to-tertiary/90"
+                    <Button
+                      className="bg-gradient-to-r from-accent hover:from-accent/90 to-tertiary hover:to-tertiary/90 text-white"
                       onClick={() => router.push("/")}
                     >
                       Return Home
@@ -695,7 +714,7 @@ export default function BookingPage() {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Cruise Summary */}
-            <Card className="backdrop-blur-md bg-card/50 border-white/20 top-4 sticky">
+            <Card className="top-4 sticky bg-card/50 backdrop-blur-md border-white/20">
               <CardHeader>
                 <CardTitle className="text-lg">Booking Summary</CardTitle>
               </CardHeader>
@@ -793,7 +812,7 @@ export default function BookingPage() {
             </Card>
 
             {/* Security Badge */}
-            <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4 text-center">
+            <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20 text-center">
               <ShieldCheckIcon className="mx-auto mb-2 w-8 h-8 text-primary" />
               <div className="mb-1 font-medium text-sm">Secure Booking</div>
               <div className="text-muted-foreground text-xs">
@@ -808,6 +827,395 @@ export default function BookingPage() {
 }
 
 // Step Components
+function GuestInformationStep({
+  guestCount,
+  guestResidency,
+  promotionCode,
+  cruise,
+  onUpdateGuestCount,
+  onUpdateGuestResidency,
+  onUpdatePromotionCode,
+  errors,
+}: {
+  guestCount: {
+    adults: number;
+    children: number;
+    seniors: number;
+    infants: number;
+  };
+  guestResidency: {
+    country: string;
+    state?: string;
+    isResident: boolean;
+  };
+  promotionCode: string;
+  cruise: Cruise | null;
+  onUpdateGuestCount: (guestCount: {
+    adults: number;
+    children: number;
+    seniors: number;
+    infants: number;
+  }) => void;
+  onUpdateGuestResidency: (guestResidency: {
+    country: string;
+    state?: string;
+    isResident: boolean;
+  }) => void;
+  onUpdatePromotionCode: (promotionCode: string) => void;
+  errors: Record<string, string>;
+}) {
+  const totalGuests =
+    guestCount.adults +
+    guestCount.children +
+    guestCount.seniors +
+    guestCount.infants;
+  const cruiseStartDate = cruise?.itinerary?.startDate
+    ? new Date(cruise.itinerary.startDate)
+    : new Date();
+
+  // Calculate age at cruise start for seniors determination
+  const calculateAgeAtCruiseStart = (birthDate: string) => {
+    const birth = new Date(birthDate);
+    const ageAtCruise = cruiseStartDate.getFullYear() - birth.getFullYear();
+    const monthDiff = cruiseStartDate.getMonth() - birth.getMonth();
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && cruiseStartDate.getDate() < birth.getDate())
+    ) {
+      return ageAtCruise - 1;
+    }
+    return ageAtCruise;
+  };
+
+  const updateGuestCount = (field: keyof typeof guestCount, value: number) => {
+    onUpdateGuestCount({
+      ...guestCount,
+      [field]: Math.max(0, value),
+    });
+  };
+
+  const countries = [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "Australia",
+    "Germany",
+    "France",
+    "Italy",
+    "Spain",
+    "Netherlands",
+    "Belgium",
+    "Other",
+  ];
+
+  return (
+    <div className="space-y-6">
+      {/* Guest Count Section */}
+      <Card className="bg-card/50 backdrop-blur-md p-6 border-white/20">
+        <h4 className="mb-4 font-medium text-lg">Number of Guests</h4>
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
+          <div>
+            <Label htmlFor="adults" className="flex items-center gap-2">
+              <UserIcon className="w-4 h-4" />
+              Adults (18+) *
+            </Label>
+            <div className="flex items-center gap-2 mt-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("adults", guestCount.adults - 1)
+                }
+                disabled={guestCount.adults <= 1}
+                className="p-0 w-8 h-8"
+              >
+                -
+              </Button>
+              <Input
+                id="adults"
+                type="number"
+                min="1"
+                value={guestCount.adults}
+                onChange={(e) =>
+                  updateGuestCount("adults", parseInt(e.target.value) || 1)
+                }
+                className={`w-20 text-center ${errors.adults ? "border-destructive" : ""}`}
+              />
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("adults", guestCount.adults + 1)
+                }
+                className="p-0 w-8 h-8"
+              >
+                +
+              </Button>
+            </div>
+            {errors.adults && (
+              <p className="mt-1 text-destructive text-sm">{errors.adults}</p>
+            )}
+          </div>
+
+          <div>
+            <Label htmlFor="children" className="flex items-center gap-2">
+              <UserIcon className="w-4 h-4" />
+              Children (2-17)
+            </Label>
+            <div className="flex items-center gap-2 mt-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("children", guestCount.children - 1)
+                }
+                disabled={guestCount.children <= 0}
+                className="p-0 w-8 h-8"
+              >
+                -
+              </Button>
+              <Input
+                id="children"
+                type="number"
+                min="0"
+                value={guestCount.children}
+                onChange={(e) =>
+                  updateGuestCount("children", parseInt(e.target.value) || 0)
+                }
+                className="w-20 text-center"
+              />
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("children", guestCount.children + 1)
+                }
+                className="p-0 w-8 h-8"
+              >
+                +
+              </Button>
+            </div>
+          </div>
+
+          <div>
+            <Label htmlFor="seniors" className="flex items-center gap-2">
+              <UserIcon className="w-4 h-4" />
+              Seniors (65+ at cruise start)
+            </Label>
+            <div className="flex items-center gap-2 mt-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("seniors", guestCount.seniors - 1)
+                }
+                disabled={guestCount.seniors <= 0}
+                className="p-0 w-8 h-8"
+              >
+                -
+              </Button>
+              <Input
+                id="seniors"
+                type="number"
+                min="0"
+                value={guestCount.seniors}
+                onChange={(e) =>
+                  updateGuestCount("seniors", parseInt(e.target.value) || 0)
+                }
+                className="w-20 text-center"
+              />
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("seniors", guestCount.seniors + 1)
+                }
+                className="p-0 w-8 h-8"
+              >
+                +
+              </Button>
+            </div>
+            <p className="mt-1 text-muted-foreground text-xs">
+              Based on age at cruise departure:{" "}
+              {cruiseStartDate.toLocaleDateString()}
+            </p>
+          </div>
+
+          <div>
+            <Label htmlFor="infants" className="flex items-center gap-2">
+              <UserIcon className="w-4 h-4" />
+              Infants (Under 2)
+            </Label>
+            <div className="flex items-center gap-2 mt-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("infants", guestCount.infants - 1)
+                }
+                disabled={guestCount.infants <= 0}
+                className="p-0 w-8 h-8"
+              >
+                -
+              </Button>
+              <Input
+                id="infants"
+                type="number"
+                min="0"
+                value={guestCount.infants}
+                onChange={(e) =>
+                  updateGuestCount("infants", parseInt(e.target.value) || 0)
+                }
+                className="w-20 text-center"
+              />
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  updateGuestCount("infants", guestCount.infants + 1)
+                }
+                className="p-0 w-8 h-8"
+              >
+                +
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2 bg-muted/50 mt-4 p-3 rounded-lg">
+          <UserGroupIcon className="w-5 h-5 text-primary" />
+          <span className="font-medium">Total Guests: {totalGuests}</span>
+        </div>
+      </Card>
+
+      {/* Guest Residency Section */}
+      <Card className="bg-card/50 backdrop-blur-md p-6 border-white/20">
+        <h4 className="mb-4 font-medium text-lg">Guest Residency</h4>
+        <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+          <div>
+            <Label htmlFor="country">Country of Residence *</Label>
+            <Select
+              value={guestResidency.country}
+              onValueChange={(value) =>
+                onUpdateGuestResidency({
+                  ...guestResidency,
+                  country: value,
+                  isResident: value === "United States",
+                })
+              }
+            >
+              <SelectTrigger
+                className={errors.country ? "border-destructive" : ""}
+              >
+                <SelectValue placeholder="Select your country" />
+              </SelectTrigger>
+              <SelectContent>
+                {countries.map((country) => (
+                  <SelectItem key={country} value={country}>
+                    {country}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            {errors.country && (
+              <p className="mt-1 text-destructive text-sm">{errors.country}</p>
+            )}
+          </div>
+
+          {guestResidency.country === "United States" && (
+            <div>
+              <Label htmlFor="state">State</Label>
+              <Input
+                id="state"
+                placeholder="e.g., California"
+                value={guestResidency.state || ""}
+                onChange={(e) =>
+                  onUpdateGuestResidency({
+                    ...guestResidency,
+                    state: e.target.value,
+                  })
+                }
+              />
+            </div>
+          )}
+        </div>
+
+        <div className="flex items-center gap-3 mt-4">
+          <Checkbox
+            id="resident"
+            checked={guestResidency.isResident}
+            onCheckedChange={(checked) =>
+              onUpdateGuestResidency({
+                ...guestResidency,
+                isResident: checked === true,
+              })
+            }
+          />
+          <Label htmlFor="resident" className="text-sm">
+            I am a resident of{" "}
+            {guestResidency.country || "the selected country"}
+          </Label>
+        </div>
+      </Card>
+
+      {/* Promotion Code Section */}
+      <Card className="bg-card/50 backdrop-blur-md p-6 border-white/20">
+        <h4 className="mb-4 font-medium text-lg">Promotion Code (Optional)</h4>
+        <div className="max-w-md">
+          <Label htmlFor="promotionCode">Have a promo code?</Label>
+          <div className="flex gap-2 mt-2">
+            <Input
+              id="promotionCode"
+              placeholder="Enter promotion code"
+              value={promotionCode}
+              onChange={(e) =>
+                onUpdatePromotionCode(e.target.value.toUpperCase())
+              }
+              className="flex-1"
+            />
+            <Button
+              type="button"
+              variant="outline"
+              disabled={!promotionCode.trim()}
+            >
+              Apply
+            </Button>
+          </div>
+          <p className="mt-2 text-muted-foreground text-sm">
+            Discounts will be applied during checkout
+          </p>
+        </div>
+      </Card>
+
+      {/* Summary Info */}
+      <div className="bg-primary/10 p-4 rounded-lg">
+        <div className="flex items-start gap-3">
+          <div className="flex flex-shrink-0 justify-center items-center bg-primary mt-1 rounded-full w-6 h-6">
+            <span className="font-bold text-primary-foreground text-xs">i</span>
+          </div>
+          <div className="text-sm">
+            <p className="mb-1 font-medium">Before proceeding:</p>
+            <ul className="space-y-1 text-muted-foreground">
+              <li>• Ensure all guest counts are accurate</li>
+              <li>• Verify your country of residence for pricing</li>
+              <li>• Senior discounts are based on age at cruise departure</li>
+              <li>• Infants may have different cabin requirements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function PassengerInformationStep({
   passengers,
   onUpdatePassenger,
@@ -824,7 +1232,7 @@ function PassengerInformationStep({
   return (
     <div className="space-y-6">
       {passengers.map((passenger, index) => (
-        <Card key={passenger.id} className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+        <Card key={passenger.id} className="bg-card/50 backdrop-blur-md p-4 border-white/20">
           <div className="flex justify-between items-center mb-4">
             <h4 className="font-medium">
               Passenger {index + 1}
@@ -1149,7 +1557,7 @@ function PreferencesStep({
 }) {
   return (
     <div className="space-y-6">
-      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+      <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
         <h4 className="mb-4 font-medium">Contact Information</h4>
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <div>
@@ -1235,7 +1643,7 @@ function PreferencesStep({
         </div>
       </Card>
 
-      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+      <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
         <h4 className="mb-4 font-medium">Special Requests</h4>
         <Textarea
           placeholder="Any special dietary requirements, accessibility needs, or other requests..."
@@ -1259,7 +1667,7 @@ function PaymentStep({
 }) {
   return (
     <div className="space-y-6">
-      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-4">
+      <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
         <h4 className="mb-4 font-medium">Payment Information</h4>
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <div className="md:col-span-2">
@@ -1366,7 +1774,7 @@ function ConfirmationStep({
         </p>
       </div>
 
-      <Card className="backdrop-blur-md bg-card/50 border-white/20 p-6 text-left">
+      <Card className="bg-card/50 backdrop-blur-md p-6 border-white/20 text-left">
         <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
           <div>
             <h4 className="mb-3 font-medium">Booking Details</h4>
