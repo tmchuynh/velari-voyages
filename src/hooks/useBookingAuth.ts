@@ -75,7 +75,7 @@ interface UseBookingUpdateReturn {
  * @returns Authentication state and methods
  */
 export function useBookingAuth(
-  sessionStorageKey = "booking_session"
+  sessionStorageKey = "booking_session",
 ): UseBookingAuthReturn {
   const [user, setUser] = useState<BookingUser | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -128,7 +128,7 @@ export function useBookingAuth(
         setIsLoading(false);
       }
     },
-    [sessionStorageKey]
+    [sessionStorageKey],
   );
 
   const logout = useCallback(() => {
@@ -158,7 +158,7 @@ export function useBookingAuth(
  * @returns Booking status information and refresh method
  */
 export function useBookingStatus(
-  bookingId: string | null
+  bookingId: string | null,
 ): UseBookingStatusReturn {
   const [statusInfo, setStatusInfo] = useState<BookingStatusInfo | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -204,7 +204,7 @@ export function useBookingStatus(
  * @returns Booking history and refresh method
  */
 export function useBookingHistory(
-  bookingId: string | null
+  bookingId: string | null,
 ): UseBookingHistoryReturn {
   const [history, setHistory] = useState<BookingHistoryEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -246,7 +246,7 @@ export function useBookingHistory(
  * @returns Cancellation information and cancel method
  */
 export function useCancellation(
-  bookingId: string | null
+  bookingId: string | null,
 ): UseCancellationReturn {
   const [cancellationInfo, setCancellationInfo] =
     useState<CancellationInfo | null>(null);
@@ -284,7 +284,7 @@ export function useCancellation(
         const result = await cancelUserBooking(
           bookingId,
           reason,
-          sessionToken || undefined
+          sessionToken || undefined,
         );
 
         if (result.success) {
@@ -303,7 +303,7 @@ export function useCancellation(
         setIsLoading(false);
       }
     },
-    [bookingId]
+    [bookingId],
   );
 
   return {
@@ -333,7 +333,7 @@ export function useBookingUpdate(): UseBookingUpdateReturn {
         const sessionToken = localStorage.getItem("booking_session");
         const result = await updateUserBooking(
           updateRequest,
-          sessionToken || undefined
+          sessionToken || undefined,
         );
 
         if (result.success) {
@@ -349,7 +349,7 @@ export function useBookingUpdate(): UseBookingUpdateReturn {
         setIsLoading(false);
       }
     },
-    []
+    [],
   );
 
   return {
