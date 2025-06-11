@@ -83,7 +83,7 @@ export default function LoginPage() {
     setFocusedField(null);
     const error = validateField(
       field,
-      formData[field as keyof typeof formData]
+      formData[field as keyof typeof formData],
     );
     if (error) {
       setFieldErrors((prev) => ({ ...prev, [field]: error }));
