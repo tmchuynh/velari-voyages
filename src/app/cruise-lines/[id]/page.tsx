@@ -2,22 +2,13 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useParams, useRouter } from "next/navigation";
-import {
-  ArrowLeftIcon,
-  GlobeAltIcon,
-  EnvelopeIcon,
-  PhoneIcon,
-  MapPinIcon,
-} from "@heroicons/react/24/outline";
+import { ArrowLeftIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
 import { FaShip } from "react-icons/fa";
 import {
   getCruiseLineDetails,
   getCruiseLineShips,
 } from "@/lib/utils/api/vecto-cruise-api";
-import {
-  type CruiseLineDetails,
-  type Ship,
-} from "@/lib/utils/api/vecto-cruise-api";
+import { type CruiseLine, type Ship } from "@/lib/utils/api/vecto-cruise-api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
@@ -28,7 +19,7 @@ export default function CruiseLineDetailPage() {
   const router = useRouter();
   const cruiseLineId = params.id as string;
 
-  const [cruiseLine, setCruiseLine] = useState<CruiseLineDetails | null>(null);
+  const [cruiseLine, setCruiseLine] = useState<CruiseLine | null>(null);
   const [ships, setShips] = useState<Ship[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -180,17 +171,21 @@ export default function CruiseLineDetailPage() {
                 {/* Logo */}
                 <div className="flex-shrink-0">
                   <div className="flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl w-24 h-24">
-                    {cruiseLine.logo || cruiseLine.imageUrl ? (
+                    {cruiseLine.cruise_line_logo_thumb ||
+                    cruiseLine.cruise_line_logo ? (
                       <Image
-                        src={cruiseLine.logo || cruiseLine.imageUrl}
-                        alt={`${cruiseLine.name} logo`}
+                        src={
+                          cruiseLine.cruise_line_logo_thumb ||
+                          cruiseLine.cruise_line_logo
+                        }
+                        alt={`${cruiseLine.cruise_line_name} logo`}
                         width={80}
                         height={80}
                         className="rounded-xl object-cover"
                       />
                     ) : (
                       <span className="font-bold text-2xl text-white">
-                        {cruiseLine.name.charAt(0)}
+                        {cruiseLine.cruise_line_name.charAt(0)}
                       </span>
                     )}
                   </div>
@@ -199,18 +194,18 @@ export default function CruiseLineDetailPage() {
                 {/* Info */}
                 <div className="flex-1">
                   <h1 className="mb-2 font-bold text-4xl text-white">
-                    {cruiseLine.name}
+                    {cruiseLine.cruise_line_name}
                   </h1>
                   <p className="mb-4 text-gray-300 text-lg">
-                    {cruiseLine.description ||
+                    {cruiseLine.cruise_line_description ||
                       "Premium cruise experiences with exceptional service and destinations."}
                   </p>
 
                   <div className="flex items-center space-x-6 text-sm">
                     <div className="flex items-center space-x-2">
-                      <span className="text-gray-400">Code:</span>
+                      <span className="text-gray-400">ID:</span>
                       <span className="font-medium text-blue-300">
-                        {cruiseLine.code}
+                        {cruiseLine.cruise_line_id}
                       </span>
                     </div>
                     {ships.length > 0 && (
@@ -223,39 +218,17 @@ export default function CruiseLineDetailPage() {
                 </div>
 
                 {/* Contact Info */}
-                {(cruiseLine.website ||
-                  cruiseLine.email ||
-                  cruiseLine.phone) && (
+                {cruiseLine.cruise_line_url && (
                   <div className="flex-shrink-0 space-y-2">
-                    {cruiseLine.website && (
-                      <a
-                        href={cruiseLine.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
-                      >
-                        <GlobeAltIcon className="w-4 h-4" />
-                        <span className="text-sm">Website</span>
-                      </a>
-                    )}
-                    {cruiseLine.email && (
-                      <a
-                        href={`mailto:${cruiseLine.email}`}
-                        className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
-                      >
-                        <EnvelopeIcon className="w-4 h-4" />
-                        <span className="text-sm">Email</span>
-                      </a>
-                    )}
-                    {cruiseLine.phone && (
-                      <a
-                        href={`tel:${cruiseLine.phone}`}
-                        className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
-                      >
-                        <PhoneIcon className="w-4 h-4" />
-                        <span className="text-sm">Call</span>
-                      </a>
-                    )}
+                    <a
+                      href={cruiseLine.cruise_line_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
+                    >
+                      <GlobeAltIcon className="w-4 h-4" />
+                      <span className="text-sm">Website</span>
+                    </a>
                   </div>
                 )}
               </div>
@@ -297,13 +270,13 @@ export default function CruiseLineDetailPage() {
                 <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
                   <CardHeader>
                     <CardTitle className="text-white">
-                      About {cruiseLine.name}
+                      About {cruiseLine.cruise_line_name}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-300 leading-relaxed">
-                      {cruiseLine.description ||
-                        `${cruiseLine.name} offers premium cruise experiences with world-class amenities, 
+                      {cruiseLine.cruise_line_description ||
+                        `${cruiseLine.cruise_line_name} offers premium cruise experiences with world-class amenities, 
                         exceptional dining, and carefully curated itineraries to the most sought-after 
                         destinations around the globe. Our commitment to excellence ensures every guest 
                         enjoys an unforgettable voyage.`}
@@ -328,27 +301,15 @@ export default function CruiseLineDetailPage() {
                       {ships.length > 0 && (
                         <>
                           <div className="flex justify-between items-center">
-                            <span className="text-gray-300">Newest Ship:</span>
+                            <span className="text-gray-300">Latest Ship:</span>
                             <span className="font-medium text-white">
-                              {
-                                ships.sort(
-                                  (a, b) =>
-                                    (b.yearBuilt || 0) - (a.yearBuilt || 0)
-                                )[0]?.name
-                              }
+                              {ships[0]?.ship_name || "N/A"}
                             </span>
                           </div>
                           <div className="flex justify-between items-center">
-                            <span className="text-gray-300">
-                              Total Capacity:
-                            </span>
+                            <span className="text-gray-300">Fleet Size:</span>
                             <span className="font-medium text-white">
-                              {ships
-                                .reduce(
-                                  (total, ship) => total + (ship.capacity || 0),
-                                  0
-                                )
-                                .toLocaleString()}
+                              {ships.length} ships
                             </span>
                           </div>
                         </>
@@ -365,7 +326,7 @@ export default function CruiseLineDetailPage() {
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   {ships.map((ship, index) => (
                     <motion.div
-                      key={ship.id}
+                      key={ship.ship_id}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.1 }}
@@ -374,60 +335,24 @@ export default function CruiseLineDetailPage() {
                         <CardContent className="p-6">
                           <div className="mb-4">
                             <div className="flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600 mb-3 rounded-lg w-full h-32">
-                              {ship.imageUrl ? (
-                                <Image
-                                  src={ship.imageUrl}
-                                  alt={ship.name}
-                                  width={200}
-                                  height={120}
-                                  className="rounded-lg w-full h-full object-cover"
-                                />
-                              ) : (
-                                <FaShip className="w-12 h-12 text-white" />
-                              )}
+                              <FaShip className="w-12 h-12 text-white" />
                             </div>
                           </div>
 
                           <h3 className="mb-2 font-semibold text-lg text-white">
-                            {ship.name}
+                            {ship.ship_name}
                           </h3>
 
                           <div className="space-y-2 text-sm">
                             <div className="flex justify-between">
-                              <span className="text-gray-400">Code:</span>
-                              <span className="text-white">{ship.code}</span>
+                              <span className="text-gray-400">Ship ID:</span>
+                              <span className="text-white">{ship.ship_id}</span>
                             </div>
-                            {ship.capacity && (
-                              <div className="flex justify-between">
-                                <span className="text-gray-400">Capacity:</span>
-                                <span className="text-white">
-                                  {ship.capacity.toLocaleString()}
-                                </span>
-                              </div>
-                            )}
-                            {ship.yearBuilt && (
-                              <div className="flex justify-between">
-                                <span className="text-gray-400">
-                                  Year Built:
-                                </span>
-                                <span className="text-white">
-                                  {ship.yearBuilt}
-                                </span>
-                              </div>
-                            )}
-                            {ship.length && (
-                              <div className="flex justify-between">
-                                <span className="text-gray-400">Length:</span>
-                                <span className="text-white">
-                                  {ship.length}m
-                                </span>
-                              </div>
-                            )}
                           </div>
 
                           <div className="mt-4">
                             <Link
-                              href={`/ships/${ship.id}`}
+                              href={`/cruise-lines/cruise-ships/${ship.ship_id}`}
                               className="inline-flex items-center text-blue-400 text-sm hover:text-blue-300 transition-colors"
                             >
                               View Details →
@@ -452,83 +377,6 @@ export default function CruiseLineDetailPage() {
                   </CardContent>
                 </Card>
               )}
-            </TabsContent>
-
-            {/* Contact Tab */}
-            <TabsContent value="contact" className="space-y-6">
-              <Card className="bg-white/10 backdrop-blur-md border-white/20 text-white">
-                <CardHeader>
-                  <CardTitle className="text-white">
-                    Contact Information
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                  <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
-                    {cruiseLine.address && (
-                      <div className="space-y-2">
-                        <div className="flex items-center space-x-2">
-                          <MapPinIcon className="w-5 h-5 text-blue-400" />
-                          <span className="font-medium text-white">
-                            Address
-                          </span>
-                        </div>
-                        <p className="ml-7 text-gray-300">
-                          {cruiseLine.address}
-                        </p>
-                      </div>
-                    )}
-
-                    {cruiseLine.phone && (
-                      <div className="space-y-2">
-                        <div className="flex items-center space-x-2">
-                          <PhoneIcon className="w-5 h-5 text-blue-400" />
-                          <span className="font-medium text-white">Phone</span>
-                        </div>
-                        <a
-                          href={`tel:${cruiseLine.phone}`}
-                          className="ml-7 text-blue-400 hover:text-blue-300 transition-colors"
-                        >
-                          {cruiseLine.phone}
-                        </a>
-                      </div>
-                    )}
-
-                    {cruiseLine.email && (
-                      <div className="space-y-2">
-                        <div className="flex items-center space-x-2">
-                          <EnvelopeIcon className="w-5 h-5 text-blue-400" />
-                          <span className="font-medium text-white">Email</span>
-                        </div>
-                        <a
-                          href={`mailto:${cruiseLine.email}`}
-                          className="ml-7 text-blue-400 hover:text-blue-300 transition-colors"
-                        >
-                          {cruiseLine.email}
-                        </a>
-                      </div>
-                    )}
-
-                    {cruiseLine.website && (
-                      <div className="space-y-2">
-                        <div className="flex items-center space-x-2">
-                          <GlobeAltIcon className="w-5 h-5 text-blue-400" />
-                          <span className="font-medium text-white">
-                            Website
-                          </span>
-                        </div>
-                        <a
-                          href={cruiseLine.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="ml-7 text-blue-400 hover:text-blue-300 transition-colors"
-                        >
-                          {cruiseLine.website}
-                        </a>
-                      </div>
-                    )}
-                  </div>
-                </CardContent>
-              </Card>
             </TabsContent>
           </Tabs>
         </motion.div>
