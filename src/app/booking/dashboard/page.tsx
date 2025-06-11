@@ -29,9 +29,9 @@ export default function BookingDashboardPage() {
 
   if (!isAuthenticated || !user) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 flex items-center justify-center">
-        <div className="text-white text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto mb-4"></div>
+      <div className="flex justify-center items-center bg-gradient-to-br from-slate-900 to-slate-800 min-h-screen">
+        <div className="text-center text-white">
+          <div className="mx-auto mb-4 border-white border-b-2 rounded-full w-12 h-12 animate-spin"></div>
           <p>Loading your booking dashboard...</p>
         </div>
       </div>
@@ -44,36 +44,36 @@ export default function BookingDashboardPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 min-h-screen">
       {/* Header */}
       <motion.header
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-white/10 backdrop-blur-md border-b border-white/20"
+        className="bg-white/10 backdrop-blur-md border-white/20 border-b"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <button
                 onClick={() => router.push('/')}
                 className="flex items-center text-white hover:text-blue-300 transition-colors"
               >
-                <ArrowLeftIcon className="w-5 h-5 mr-2" />
+                <ArrowLeftIcon className="mr-2 w-5 h-5" />
                 <span className="font-medium">Back to Home</span>
               </button>
             </div>
             
             <div className="flex items-center space-x-4">
               <div className="flex items-center text-white">
-                <UserCircleIcon className="w-8 h-8 mr-2" />
+                <UserCircleIcon className="mr-2 w-8 h-8" />
                 <div>
-                  <p className="text-sm font-medium">{user.firstName} {user.lastName}</p>
-                  <p className="text-xs text-gray-300">{user.email}</p>
+                  <p className="font-medium text-sm">{user.firstName} {user.lastName}</p>
+                  <p className="text-gray-300 text-xs">{user.email}</p>
                 </div>
               </div>
               <button
                 onClick={handleLogout}
-                className="bg-red-500/20 hover:bg-red-500/30 text-red-300 hover:text-red-200 px-4 py-2 rounded-lg transition-colors"
+                className="bg-red-500/20 hover:bg-red-500/30 px-4 py-2 rounded-lg text-red-300 hover:text-red-200 transition-colors"
               >
                 Logout
               </button>
@@ -83,7 +83,7 @@ export default function BookingDashboardPage() {
       </motion.header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-7xl">
         {/* Welcome Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -91,7 +91,7 @@ export default function BookingDashboardPage() {
           transition={{ delay: 0.1 }}
           className="mb-8"
         >
-          <h1 className="text-3xl font-bold text-white mb-2">
+          <h1 className="mb-2 font-bold text-3xl text-white">
             Welcome back, {user.firstName}!
           </h1>
           <p className="text-gray-300">
@@ -104,7 +104,7 @@ export default function BookingDashboardPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+          className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-8"
         >
           <StatsCard
             icon={<CheckCircleIcon className="w-6 h-6" />}
@@ -139,7 +139,7 @@ export default function BookingDashboardPage() {
           transition={{ delay: 0.3 }}
           className="mb-8"
         >
-          <nav className="flex space-x-1 bg-white/10 backdrop-blur-md rounded-xl p-1">
+          <nav className="flex space-x-1 bg-white/10 backdrop-blur-md p-1 rounded-xl">
             {[
               { id: 'overview', label: 'Overview' },
               { id: 'status', label: 'Booking Status' },
@@ -202,10 +202,10 @@ function StatsCard({
       whileHover={{ scale: 1.02, y: -2 }}
       className={`bg-gradient-to-br ${colorClasses[color]} backdrop-blur-md border rounded-xl p-6`}
     >
-      <div className="flex items-center justify-between">
+      <div className="flex justify-between items-center">
         <div>
-          <p className="text-sm opacity-80 mb-1">{title}</p>
-          <p className="text-xl font-bold">{value}</p>
+          <p className="opacity-80 mb-1 text-sm">{title}</p>
+          <p className="font-bold text-xl">{value}</p>
         </div>
         <div className="opacity-60">
           {icon}
@@ -218,34 +218,34 @@ function StatsCard({
 // Overview Tab Component
 function OverviewTab() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="gap-8 grid grid-cols-1 lg:grid-cols-2">
       {/* Cruise Details Card */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6"
+        className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="text-xl font-semibold text-white mb-4">Your Cruise Details</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">Your Cruise Details</h3>
         <div className="space-y-4">
           <div className="flex justify-between">
             <span className="text-gray-300">Cruise Line:</span>
-            <span className="text-white font-medium">Velari Voyages</span>
+            <span className="font-medium text-white">Velari Voyages</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-300">Ship:</span>
-            <span className="text-white font-medium">Velari Explorer</span>
+            <span className="font-medium text-white">Velari Explorer</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-300">Duration:</span>
-            <span className="text-white font-medium">7 Days</span>
+            <span className="font-medium text-white">7 Days</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-300">Cabin:</span>
-            <span className="text-white font-medium">Oceanview - Deck 8</span>
+            <span className="font-medium text-white">Oceanview - Deck 8</span>
           </div>
           <div className="flex justify-between">
             <span className="text-gray-300">Passengers:</span>
-            <span className="text-white font-medium">2 Adults</span>
+            <span className="font-medium text-white">2 Adults</span>
           </div>
         </div>
       </motion.div>
@@ -255,9 +255,9 @@ function OverviewTab() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6"
+        className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="text-xl font-semibold text-white mb-4">Itinerary Highlights</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">Itinerary Highlights</h3>
         <div className="space-y-3">
           {[
             { day: 'Day 1', port: 'Miami, FL', activity: 'Departure' },
@@ -267,13 +267,13 @@ function OverviewTab() {
             { day: 'Day 5', port: 'Cayman Islands', activity: 'Snorkeling' }
           ].map((item, index) => (
             <div key={index} className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+              <div className="bg-blue-400 rounded-full w-2 h-2"></div>
               <div className="flex-1">
                 <div className="flex justify-between">
-                  <span className="text-blue-300 font-medium">{item.day}</span>
+                  <span className="font-medium text-blue-300">{item.day}</span>
                   <span className="text-gray-300 text-sm">{item.activity}</span>
                 </div>
-                <p className="text-white text-sm">{item.port}</p>
+                <p className="text-sm text-white">{item.port}</p>
               </div>
             </div>
           ))}
@@ -285,9 +285,9 @@ function OverviewTab() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6"
+        className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="text-xl font-semibold text-white mb-4">Payment Summary</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">Payment Summary</h3>
         <div className="space-y-3">
           <div className="flex justify-between">
             <span className="text-gray-300">Cruise Fare:</span>
@@ -306,9 +306,9 @@ function OverviewTab() {
             <span className="text-white">Total Paid:</span>
             <span className="text-green-400">$2,978.50</span>
           </div>
-          <div className="text-center mt-4">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-green-500/20 text-green-300">
-              <CheckCircleIcon className="w-4 h-4 mr-1" />
+          <div className="mt-4 text-center">
+            <span className="inline-flex items-center bg-green-500/20 px-3 py-1 rounded-full text-green-300 text-sm">
+              <CheckCircleIcon className="mr-1 w-4 h-4" />
               Payment Complete
             </span>
           </div>
@@ -320,20 +320,20 @@ function OverviewTab() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
-        className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6"
+        className="bg-white/10 backdrop-blur-md p-6 border border-white/20 rounded-xl"
       >
-        <h3 className="text-xl font-semibold text-white mb-4">Quick Actions</h3>
+        <h3 className="mb-4 font-semibold text-white text-xl">Quick Actions</h3>
         <div className="space-y-3">
-          <button className="w-full bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 py-3 rounded-lg transition-colors flex items-center justify-center">
-            <CalendarDaysIcon className="w-5 h-5 mr-2" />
+          <button className="flex justify-center items-center bg-blue-500/20 hover:bg-blue-500/30 py-3 rounded-lg w-full text-blue-300 transition-colors">
+            <CalendarDaysIcon className="mr-2 w-5 h-5" />
             View Full Itinerary
           </button>
-          <button className="w-full bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 py-3 rounded-lg transition-colors flex items-center justify-center">
-            <CreditCardIcon className="w-5 h-5 mr-2" />
+          <button className="flex justify-center items-center bg-purple-500/20 hover:bg-purple-500/30 py-3 rounded-lg w-full text-purple-300 transition-colors">
+            <CreditCardIcon className="mr-2 w-5 h-5" />
             Download Documents
           </button>
-          <button className="w-full bg-green-500/20 hover:bg-green-500/30 text-green-300 py-3 rounded-lg transition-colors flex items-center justify-center">
-            <MapPinIcon className="w-5 h-5 mr-2" />
+          <button className="flex justify-center items-center bg-green-500/20 hover:bg-green-500/30 py-3 rounded-lg w-full text-green-300 transition-colors">
+            <MapPinIcon className="mr-2 w-5 h-5" />
             Shore Excursions
           </button>
         </div>
