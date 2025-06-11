@@ -116,7 +116,7 @@ export default function HolidayCalendar({
     // Empty cells for days before the first day of the month
     for (let i = 0; i < firstDay; i++) {
       days.push(
-        <div key={`empty-${i}`} className="h-10 w-10"></div>
+        <div key={`empty-${i}`} className="w-10 h-10"></div>
       );
     }
 
@@ -131,7 +131,7 @@ export default function HolidayCalendar({
       days.push(
         <div
           key={day}
-          className="relative h-10 w-10"
+          className="relative w-10 h-10"
           onMouseEnter={() => setHoveredDate(dateKey)}
           onMouseLeave={() => setHoveredDate(null)}
         >
@@ -154,7 +154,7 @@ export default function HolidayCalendar({
           
           {/* Holiday indicator */}
           {holidays.length > 0 && (
-            <div className="absolute top-0.5 right-0.5 w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="top-0.5 right-0.5 absolute bg-red-500 rounded-full w-2 h-2"></div>
           )}
 
           {/* Holiday tooltip */}
@@ -162,7 +162,7 @@ export default function HolidayCalendar({
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="absolute top-12 left-1/2 transform -translate-x-1/2 z-10 bg-gray-900 text-white text-xs rounded-md py-2 px-3 max-w-48"
+              className="top-12 left-1/2 z-10 absolute bg-gray-900 px-3 py-2 rounded-md max-w-48 text-white text-xs transform -translate-x-1/2"
             >
               <div className="space-y-1">
                 {holidays.map((holiday, index) => (
@@ -171,7 +171,7 @@ export default function HolidayCalendar({
                   </div>
                 ))}
               </div>
-              <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-900 rotate-45"></div>
+              <div className="-top-1 left-1/2 absolute bg-gray-900 w-2 h-2 transform -translate-x-1/2 rotate-45"></div>
             </motion.div>
           )}
         </div>
@@ -184,16 +184,16 @@ export default function HolidayCalendar({
   return (
     <div className={`bg-white rounded-lg shadow-md p-4 ${className}`}>
       {/* Calendar Header */}
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex justify-between items-center mb-4">
         <button
           onClick={() => navigateMonth("prev")}
           className="p-2 text-gray-400 hover:text-gray-600 transition-colors duration-200"
           disabled={loading}
         >
-          <ChevronLeftIcon className="h-5 w-5" />
+          <ChevronLeftIcon className="w-5 h-5" />
         </button>
 
-        <h3 className="text-lg font-semibold text-gray-900">
+        <h3 className="font-semibold text-gray-900 text-lg">
           {monthNames[currentDate.getMonth()]} {currentDate.getFullYear()}
         </h3>
 
@@ -202,24 +202,24 @@ export default function HolidayCalendar({
           className="p-2 text-gray-400 hover:text-gray-600 transition-colors duration-200"
           disabled={loading}
         >
-          <ChevronRightIcon className="h-5 w-5" />
+          <ChevronRightIcon className="w-5 h-5" />
         </button>
       </div>
 
       {/* Loading indicator */}
       {loading && (
-        <div className="flex items-center justify-center py-4">
-          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
-          <span className="ml-2 text-sm text-gray-600">Loading holidays...</span>
+        <div className="flex justify-center items-center py-4">
+          <div className="border-b-2 border-blue-600 rounded-full w-6 h-6 animate-spin"></div>
+          <span className="ml-2 text-gray-600 text-sm">Loading holidays...</span>
         </div>
       )}
 
       {/* Calendar Grid */}
-      <div className="grid grid-cols-7 gap-1">
+      <div className="gap-1 grid grid-cols-7">
         {/* Day headers */}
         {dayNames.map((day) => (
-          <div key={day} className="h-10 flex items-center justify-center">
-            <span className="text-xs font-medium text-gray-500">{day}</span>
+          <div key={day} className="flex justify-center items-center h-10">
+            <span className="font-medium text-gray-500 text-xs">{day}</span>
           </div>
         ))}
 
@@ -228,13 +228,13 @@ export default function HolidayCalendar({
       </div>
 
       {/* Legend */}
-      <div className="mt-4 flex items-center justify-center space-x-4 text-xs text-gray-600">
+      <div className="flex justify-center items-center space-x-4 mt-4 text-gray-600 text-xs">
         <div className="flex items-center">
-          <div className="w-2 h-2 bg-red-500 rounded-full mr-1"></div>
+          <div className="bg-red-500 mr-1 rounded-full w-2 h-2"></div>
           <span>Holiday</span>
         </div>
         <div className="flex items-center">
-          <div className="w-2 h-2 bg-blue-600 rounded-full mr-1"></div>
+          <div className="bg-blue-600 mr-1 rounded-full w-2 h-2"></div>
           <span>Selected</span>
         </div>
       </div>
