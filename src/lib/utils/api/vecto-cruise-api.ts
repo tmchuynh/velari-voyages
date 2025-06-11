@@ -1,12 +1,12 @@
 /**
  * Vecto Technology Cruise API Integration
- * 
+ *
  * This module provides functions to interact with the Vecto Technology cruise API.
  * All functions are designed to handle API responses and errors gracefully.
  */
 
 // Base API configuration
-const VECTO_API_BASE_URL = 'https://api.vectotechnology.com';
+const VECTO_API_BASE_URL = "https://api.vectotechnology.com";
 
 // Types for API responses
 export interface ApiResponse<T = any> {
@@ -108,9 +108,7 @@ export interface Ship {
   ship_name: string;
 }
 
-export interface ShipDetails {
-  ship_id: number;
-  ship_name: string;
+export interface ShipDetails extends Ship {
   ship_description: string;
   ship_image_thumb: string;
   ship_image: string;
@@ -424,18 +422,31 @@ export async function getCruiseLineDetails(
 
 // Ship API Functions
 export async function getShipDetails(
-  shipId: string
+  shipId: number
 ): Promise<ApiResponse<ShipDetails>> {
   return makeApiRequest<ShipDetails>(
     `/cruise/getShipDetails?ship_id=${shipId}`
   );
 }
 
-export async function getCruiseLineShips(
-  cruiseLineId: string
-): Promise<ApiResponse<Ship[]>> {
+export async function getCruiseLineShips(params: {
+  cruise_line_id: string;
+  depart_month?: string;
+  depart_year?: string;
+  verified_itineraries_only?: "N" | "Y";
+  region_id?: number;
+}): Promise<ApiResponse<Ship[]>> {
+  const queryParams = new URLSearchParams();
+  if (params) {
+    Object.entries(params).forEach(([key, value]) => {
+      if (value !== undefined) {
+        queryParams.append(key, value.toString());
+      }
+    });
+  }
+
   return makeApiRequest<Ship[]>(
-    `/cruise/getCruiseLineShips?cruiseLineId=${cruiseLineId}`
+    `/cruise/getCruiseLineShips?${queryParams.toString()}`
   );
 }
 
@@ -560,33 +571,12 @@ export async function getAvailableRateOptions(params: {
   passenger_occupation: string;
 }): Promise<ApiResponse<RateOption[]>> {
   const queryParams = new URLSearchParams();
-  queryParams.append("itineraryId", params.itinerary_id);
-  if (params.num_passengers) {
-    queryParams.append("num_passengers", params.num_passengers.toString());
-  }
-  if (params.num_adults) {
-    queryParams.append("num_adults", params.num_adults.toString());
-  }
-  if (params.num_seniors) {
-    queryParams.append("num_seniors", params.num_seniors.toString());
-  }
-  if (params.num_kids) {
-    queryParams.append("num_kids", params.num_kids.toString());
-  }
-  if (params.num_infants) {
-    queryParams.append("num_infants", params.num_infants.toString());
-  }
-  if (params.passenger_city_code) {
-    queryParams.append("passenger_city_code", params.passenger_city_code);
-  }
-  if (params.past_passenger_number) {
-    queryParams.append("past_passenger_number", params.past_passenger_number);
-  }
-  if (params.passenger_state) {
-    queryParams.append("passenger_state", params.passenger_state);
-  }
-  if (params.passenger_occupation) {
-    queryParams.append("passenger_occupation", params.passenger_occupation);
+  if (params) {
+    Object.entries(params).forEach(([key, value]) => {
+      if (value !== undefined) {
+        queryParams.append(key, value.toString());
+      }
+    });
   }
 
   return makeApiRequest<RateOption[]>(
@@ -635,9 +625,12 @@ export async function getAvailableCabins(params: {
   cabinCategoryId?: string;
 }): Promise<ApiResponse<Cabin[]>> {
   const queryParams = new URLSearchParams();
-  queryParams.append("itineraryId", params.itineraryId);
-  if (params.cabinCategoryId) {
-    queryParams.append("cabinCategoryId", params.cabinCategoryId);
+  if (params) {
+    Object.entries(params).forEach(([key, value]) => {
+      if (value !== undefined) {
+        queryParams.append(key, value.toString());
+      }
+    });
   }
 
   return makeApiRequest<Cabin[]>(
@@ -748,9 +741,7 @@ export async function getStatementAndPricing(
   });
 }
 
-export async function getBooking(
-  bookingId: string
-): Promise<ApiResponse<Booking>> {
+export async function getBooking(bookingId: string): Promise<ApiResponse<Booking>> {
   return makeApiRequest<Booking>(`/cruise/getBooking?bookingId=${bookingId}`);
 }
 
