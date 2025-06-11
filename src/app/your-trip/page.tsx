@@ -6,14 +6,12 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   UserIcon,
-  CreditCardIcon,
   CheckCircleIcon,
   ExclamationTriangleIcon,
   MapPinIcon,
   ClockIcon,
   UserGroupIcon,
   ShieldCheckIcon,
-  GlobeAltIcon,
 } from "@heroicons/react/24/outline";
 import { getCruiseById } from "@/lib/utils/get/cruises";
 import { Cruise } from "@/lib/interfaces/services/cruises";
@@ -32,248 +30,19 @@ import {
 } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { OceanLoading } from "@/components/Loading";
-// Remove ChartBase import as it's not used in the current implementation
-import ChartBase from "@/components/charts/ChartBase";
-
-// Types for booking
-interface BookingStep {
-  id: string;
-  title: string;
-  description: string;
-  icon: React.ReactNode;
-}
-
-interface PassengerInfo {
-  id: string;
-  firstName: string;
-  lastName: string;
-  dateOfBirth: string;
-  gender: string;
-  nationality: string;
-  passportNumber: string;
-  passportExpiry: string;
-  emergencyContact: {
-    name: string;
-    phone: string;
-    relationship: string;
-  };
-}
-
-interface CabinSelection {
-  id: string;
-  type: string;
-  level: string;
-  price: number;
-  description: string;
-  amenities: string[];
-  maxOccupancy: number;
-}
-
-interface BookingFormData {
-  passengers: PassengerInfo[];
-  cabin: CabinSelection | null;
-  guestCount: {
-    adults: number;
-    children: number;
-    seniors: number;
-    infants: number;
-  };
-  guestResidency: {
-    country: string;
-    state?: string;
-    isResident: boolean;
-  };
-  promotionCode: string;
-  diningPreferences: string[];
-  excursions: string[];
-  specialRequests: string;
-  contactInfo: {
-    email: string;
-    phone: string;
-    address: {
-      street: string;
-      city: string;
-      state: string;
-      zipCode: string;
-      country: string;
-    };
-  };
-  payment: {
-    cardNumber: string;
-    expiryDate: string;
-    cvv: string;
-    cardholderName: string;
-    billingAddress: {
-      street: string;
-      city: string;
-      state: string;
-      zipCode: string;
-      country: string;
-    };
-  };
-}
-
-const bookingSteps: BookingStep[] = [
-  {
-    id: "guest-info",
-    title: "Guest Information",
-    description: "Number of guests and residency details",
-    icon: <UserGroupIcon className="w-5 h-5" />,
-  },
-  {
-    id: "passengers",
-    title: "Passenger Details",
-    description: "Add traveler details and documents",
-    icon: <UserIcon className="w-5 h-5" />,
-  },
-  {
-    id: "cabin",
-    title: "Select Cabin",
-    description: "Choose your accommodation",
-    icon: <MapPinIcon className="w-5 h-5" />,
-  },
-  {
-    id: "preferences",
-    title: "Preferences & Extras",
-    description: "Dining, excursions, and special requests",
-    icon: <GlobeAltIcon className="w-5 h-5" />,
-  },
-  {
-    id: "payment",
-    title: "Payment",
-    description: "Secure payment and billing information",
-    icon: <CreditCardIcon className="w-5 h-5" />,
-  },
-  {
-    id: "confirmation",
-    title: "Confirmation",
-    description: "Review and confirm your booking",
-    icon: <CheckCircleIcon className="w-5 h-5" />,
-  },
-];
-
-const cabinTypes: CabinSelection[] = [
-  {
-    id: "interior",
-    type: "Interior Stateroom",
-    level: "Essential",
-    price: 1299,
-    description: "Comfortable interior cabin with modern amenities",
-    amenities: [
-      "Private bathroom",
-      "Air conditioning",
-      "TV",
-      "Safe",
-      "Mini-fridge",
-      "Desk area",
-      "Storage space",
-    ],
-    maxOccupancy: 2,
-  },
-  {
-    id: "oceanview",
-    type: "Ocean View Stateroom",
-    level: "Classic",
-    price: 1799,
-    description: "Enjoy stunning ocean views from your private window",
-    amenities: [
-      "Ocean view window",
-      "Private bathroom",
-      "Air conditioning",
-      "TV",
-      "Safe",
-      "Mini-fridge",
-      "Sitting area",
-      "Desk space",
-    ],
-    maxOccupancy: 2,
-  },
-  {
-    id: "balcony",
-    type: "Balcony Stateroom",
-    level: "Premium",
-    price: 2499,
-    description: "Spacious cabin with private balcony overlooking the ocean",
-    amenities: [
-      "Private balcony",
-      "Ocean view",
-      "Private bathroom",
-      "Air conditioning",
-      "TV",
-      "Safe",
-      "Mini-fridge",
-      "Sitting area",
-      "Premium bedding",
-      "Room service",
-    ],
-    maxOccupancy: 4,
-  },
-  {
-    id: "premium-suite",
-    type: "Premium Suite with Whirlpool",
-    level: "Premium",
-    price: 3299,
-    description:
-      "Premium suite with whirlpool, private decks and enhanced amenities",
-    amenities: [
-      "Private whirlpool",
-      "Multiple deck areas",
-      "King bed (convertible)",
-      "Separate sitting area",
-      "Premium bathroom",
-      "Priority boarding",
-      "Concierge service",
-      "Room service",
-      "Premium bedding",
-      "Enhanced storage",
-    ],
-    maxOccupancy: 4,
-  },
-  {
-    id: "yacht-club-suite",
-    type: "MSC Yacht Club Deluxe Suite",
-    level: "Luxury",
-    price: 4299,
-    description:
-      "Exclusive Yacht Club suite with dedicated butler service and premium privileges",
-    amenities: [
-      "Large private balcony",
-      "Separate living room",
-      "Premium bathroom with bathtub",
-      "24-Hour butler service",
-      "Priority boarding",
-      "Yacht Club privileges",
-      "Premium beverages included",
-      "Specialty dining credits",
-      "Thermal suite access",
-      "Dedicated concierge",
-      "Premium internet package",
-    ],
-    maxOccupancy: 5,
-  },
-  {
-    id: "penthouse-suite",
-    type: "Penthouse Suite",
-    level: "Ultra-Luxury",
-    price: 6999,
-    description:
-      "Ultimate luxury experience with panoramic views and exclusive amenities",
-    amenities: [
-      "Panoramic ocean views",
-      "Multiple bedrooms",
-      "Full kitchen facilities",
-      "Private dining area",
-      "Jacuzzi on balcony",
-      "Butler and concierge service",
-      "Priority everything",
-      "Unlimited premium beverages",
-      "Private shore excursions",
-      "Exclusive amenities",
-      "VIP transfers",
-    ],
-    maxOccupancy: 6,
-  },
-];
+import {
+  BookingFormData,
+  PassengerInfo,
+  GuestInformationStepProps,
+  PassengerInformationStepProps,
+  CabinSelectionStepProps,
+  PreferencesStepProps,
+  PaymentStepProps,
+  ConfirmationStepProps,
+  CabinSelection,
+} from "@/lib/types/booking";
+import { CABIN_TYPES, CABIN_LEVEL_COLORS, CABIN_LEVEL_ORDER, COUNTRIES } from "@/lib/constants/booking/cabins";
+import { BOOKING_STEPS } from "@/lib/constants/booking/steps";
 
 function BookingPageContent() {
   const searchParams = useSearchParams();
@@ -431,7 +200,7 @@ function BookingPageContent() {
   };
 
   const nextStep = () => {
-    if (validateCurrentStep() && currentStep < bookingSteps.length - 1) {
+    if (validateCurrentStep() && currentStep < BOOKING_STEPS.length - 1) {
       const newStep = currentStep + 1;
 
       // When moving to passenger information step (step 1), adjust passenger count
@@ -553,7 +322,7 @@ function BookingPageContent() {
       console.log("Booking submitted:", bookingData);
 
       // Move to confirmation step
-      setCurrentStep(bookingSteps.length - 1);
+      setCurrentStep(BOOKING_STEPS.length - 1);
     } catch (error) {
       console.error("Booking submission failed:", error);
     } finally {
@@ -634,11 +403,11 @@ function BookingPageContent() {
 
           {/* Progress Indicator */}
           <div className="flex justify-between items-center max-w-4xl">
-            {bookingSteps.map((step, index) => (
+            {BOOKING_STEPS.map((step, index) => (
               <div
                 key={step.id}
                 className={`flex items-center ${
-                  index < bookingSteps.length - 1 ? "flex-1" : ""
+                  index < BOOKING_STEPS.length - 1 ? "flex-1" : ""
                 }`}
               >
                 <div
@@ -654,7 +423,7 @@ function BookingPageContent() {
                     step.icon
                   )}
                 </div>
-                {index < bookingSteps.length - 1 && (
+                {index < BOOKING_STEPS.length - 1 && (
                   <div
                     className={`flex-1 h-0.5 mx-4 transition-all duration-300 ${
                       index < currentStep ? "bg-primary" : "bg-border"
@@ -669,7 +438,6 @@ function BookingPageContent() {
 
       <main id="main-content" className="mx-auto px-4 py-8 container">
         <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
-          {/* Main Content */}
           <div className="lg:col-span-2">
             <AnimatePresence mode="wait">
               <motion.div
@@ -682,11 +450,11 @@ function BookingPageContent() {
                 <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 p-6 border-accent/20">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
-                      {bookingSteps[currentStep].icon}
-                      {bookingSteps[currentStep].title}
+                      {BOOKING_STEPS[currentStep].icon}
+                      {BOOKING_STEPS[currentStep].title}
                     </CardTitle>
                     <p className="text-muted-foreground">
-                      {bookingSteps[currentStep].description}
+                      {BOOKING_STEPS[currentStep].description}
                     </p>
                   </CardHeader>
 
@@ -723,7 +491,7 @@ function BookingPageContent() {
 
                     {currentStep === 2 && (
                       <CabinSelectionStep
-                        cabins={cabinTypes}
+                        cabins={CABIN_TYPES}
                         selectedCabin={bookingData.cabin}
                         onSelectCabin={(cabin) =>
                           setBookingData({ ...bookingData, cabin })
@@ -783,7 +551,7 @@ function BookingPageContent() {
                     Previous
                   </Button>
 
-                  {currentStep < bookingSteps.length - 2 ? (
+                  {currentStep < BOOKING_STEPS.length - 2 ? (
                     <Button
                       className="bg-gradient-to-r from-primary hover:from-primary/90 to-secondary hover:to-secondary/90 shadow-lg hover:shadow-xl text-white"
                       onClick={nextStep}
@@ -791,7 +559,7 @@ function BookingPageContent() {
                       Next
                       <ChevronRightIcon className="ml-2 w-4 h-4" />
                     </Button>
-                  ) : currentStep === bookingSteps.length - 2 ? (
+                  ) : currentStep === BOOKING_STEPS.length - 2 ? (
                     <Button
                       className="bg-gradient-to-r from-primary hover:from-primary/90 to-secondary hover:to-secondary/90 shadow-lg hover:shadow-xl text-white"
                       onClick={submitBooking}
@@ -896,7 +664,7 @@ function BookingPageContent() {
                     {/* Price Breakdown Chart */}
                     <div className="pt-4 border-t">
                       <h5 className="mb-3 font-medium">Price Breakdown</h5>
-                      <ChartBase
+                      {/* <ChartBase
                         type="doughnut"
                         data={priceBreakdownData}
                         height={200}
@@ -908,7 +676,7 @@ function BookingPageContent() {
                           },
                           cutout: "60%",
                         }}
-                      />
+                      /> */}
                     </div>
                   </>
                 )}
@@ -1008,34 +776,7 @@ function GuestInformationStep({
   onUpdateGuestResidency,
   onUpdatePromotionCode,
   errors,
-}: {
-  guestCount: {
-    adults: number;
-    children: number;
-    seniors: number;
-    infants: number;
-  };
-  guestResidency: {
-    country: string;
-    state?: string;
-    isResident: boolean;
-  };
-  promotionCode: string;
-  cruise: Cruise | null;
-  onUpdateGuestCount: (guestCount: {
-    adults: number;
-    children: number;
-    seniors: number;
-    infants: number;
-  }) => void;
-  onUpdateGuestResidency: (guestResidency: {
-    country: string;
-    state?: string;
-    isResident: boolean;
-  }) => void;
-  onUpdatePromotionCode: (promotionCode: string) => void;
-  errors: Record<string, string>;
-}) {
+}: GuestInformationStepProps) {
   const totalGuests =
     guestCount.adults +
     guestCount.children +
@@ -1063,20 +804,6 @@ function GuestInformationStep({
       [field]: Math.max(0, value),
     });
   };
-
-  const countries = [
-    "United States",
-    "Canada",
-    "United Kingdom",
-    "Australia",
-    "Germany",
-    "France",
-    "Italy",
-    "Spain",
-    "Netherlands",
-    "Belgium",
-    "Other",
-  ];
 
   return (
     <div className="space-y-6">
@@ -1288,7 +1015,7 @@ function GuestInformationStep({
                 <SelectValue placeholder="Select your country" />
               </SelectTrigger>
               <SelectContent>
-                {countries.map((country) => (
+                {COUNTRIES.map((country) => (
                   <SelectItem key={country} value={country}>
                     {country}
                   </SelectItem>
@@ -1392,13 +1119,7 @@ function PassengerInformationStep({
   onAddPassenger,
   onRemovePassenger,
   errors,
-}: {
-  passengers: PassengerInfo[];
-  onUpdatePassenger: (id: string, field: string, value: string) => void;
-  onAddPassenger: () => void;
-  onRemovePassenger: (id: string) => void;
-  errors: Record<string, string>;
-}) {
+}: PassengerInformationStepProps) {
   return (
     <div className="space-y-6">
       {passengers.map((passenger, index) => (
@@ -1619,13 +1340,7 @@ function CabinSelectionStep({
   onSelectCabin,
   passengerCount,
   errors,
-}: {
-  cabins: CabinSelection[];
-  selectedCabin: CabinSelection | null;
-  onSelectCabin: (cabin: CabinSelection) => void;
-  passengerCount: number;
-  errors: Record<string, string>;
-}) {
+}: CabinSelectionStepProps) {
   const [sortBy, setSortBy] = useState<"price" | "level" | "occupancy">(
     "price"
   );
@@ -1638,31 +1353,11 @@ function CabinSelectionStep({
   };
 
   const getLevelColor = (level: string) => {
-    switch (level) {
-      case "Essential":
-        return "bg-slate-100 text-slate-800";
-      case "Classic":
-        return "bg-blue-100 text-blue-800";
-      case "Premium":
-        return "bg-purple-100 text-purple-800";
-      case "Luxury":
-        return "bg-amber-100 text-amber-800";
-      case "Ultra-Luxury":
-        return "bg-rose-100 text-rose-800";
-      default:
-        return "bg-gray-100 text-gray-800";
-    }
+    return CABIN_LEVEL_COLORS[level as keyof typeof CABIN_LEVEL_COLORS] || "bg-gray-100 text-gray-800";
   };
 
   const getLevelOrder = (level: string) => {
-    const order = {
-      Essential: 1,
-      Classic: 2,
-      Premium: 3,
-      Luxury: 4,
-      "Ultra-Luxury": 5,
-    };
-    return order[level as keyof typeof order] || 0;
+    return CABIN_LEVEL_ORDER[level as keyof typeof CABIN_LEVEL_ORDER] || 0;
   };
 
   const filteredAndSortedCabins = cabins
@@ -1931,13 +1626,7 @@ function PreferencesStep({
   onUpdateContactInfo,
   onUpdateSpecialRequests,
   errors,
-}: {
-  contactInfo: any;
-  specialRequests: string;
-  onUpdateContactInfo: (contactInfo: any) => void;
-  onUpdateSpecialRequests: (requests: string) => void;
-  errors: Record<string, string>;
-}) {
+}: PreferencesStepProps) {
   return (
     <div className="space-y-6">
       <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
@@ -2043,11 +1732,7 @@ function PaymentStep({
   payment,
   onUpdatePayment,
   errors,
-}: {
-  payment: any;
-  onUpdatePayment: (payment: any) => void;
-  errors: Record<string, string>;
-}) {
+}: PaymentStepProps) {
   return (
     <div className="space-y-6">
       <Card className="bg-card/50 backdrop-blur-md p-4 border-white/20">
@@ -2132,11 +1817,7 @@ function ConfirmationStep({
   cruise,
   bookingData,
   totalPrice,
-}: {
-  cruise: Cruise;
-  bookingData: BookingFormData;
-  totalPrice: number;
-}) {
+}: ConfirmationStepProps) {
   return (
     <div className="space-y-6 text-center">
       <motion.div
