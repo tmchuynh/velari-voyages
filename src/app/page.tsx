@@ -18,9 +18,15 @@ import {
   fetchPopularDeparturePortsFromExpedia,
   fetchDestinationActivitiesFromExpedia,
 } from "@/lib/utils/get/expedia-cruises";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/cards/Card";
+import { Button, OceanButton, WaveButton } from "@/components/button/Button";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { OceanLoading } from "@/components/Loading";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -73,157 +79,125 @@ export default function ExpediaCruiseDashboard() {
   }, []);
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="mx-auto border-b-2 border-blue-600 rounded-full w-32 h-32 animate-spin"></div>
-          <p className="mt-4 text-gray-600 text-lg">Loading cruise data...</p>
-        </div>
-      </div>
-    );
+    return <OceanLoading text="Loading cruise destinations..." />;
   }
 
   if (error) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <h1 className="mb-4 font-bold text-2xl text-red-600">Error</h1>
-          <p className="mb-4 text-gray-600">{error}</p>
+        <Card variant="glass" className="p-8 max-w-md text-center">
+          <div className="flex justify-center items-center bg-destructive/10 mx-auto mb-4 rounded-full w-16 h-16">
+            <svg
+              className="w-8 h-8 text-destructive"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z"
+              />
+            </svg>
+          </div>
+          <CardTitle className="mb-2">Unable to Load Data</CardTitle>
+          <p className="mb-4 text-muted-foreground text-sm">{error}</p>
           <Button onClick={() => window.location.reload()}>Try Again</Button>
-        </div>
+        </Card>
       </div>
     );
   }
 
   return (
-    <div className="bg-gray-50 min-h-screen">
-      {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-7xl">
-          <div className="text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <h1 className="mb-6 font-bold text-5xl">
-                Explore the World with Expedia Cruises
-              </h1>
-              <p className="mx-auto mb-8 max-w-3xl text-blue-100 text-xl">
-                Discover amazing cruise destinations, top-rated cruise lines,
-                convenient departure ports, and exciting activities at every
-                stop. Your perfect cruise adventure awaits.
-              </p>
-              <div className="flex sm:flex-row flex-col justify-center gap-4">
-                <Button
-                  size="lg"
-                  className="bg-white hover:bg-blue-50 text-blue-600"
-                >
-                  <PlayCircleIcon className="mr-2 w-5 h-5" />
-                  Explore Now
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="hover:bg-white border-white text-white hover:text-blue-600"
-                >
-                  View All Cruises
-                </Button>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </div>
+    <div className="bg-gradient-to-b from-background to-muted/30 min-h-screen">
+      {/* Skip link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
 
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-7xl">
-        {/* Popular Cruise Destinations */}
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-16"
-        >
-          <div className="flex justify-between items-center mb-8">
-            <div>
-              <h2 className="flex items-center mb-2 font-bold text-3xl text-gray-900">
-                <GlobeAltIcon className="mr-3 w-8 h-8 text-blue-600" />
-                Popular Cruise Destinations
-              </h2>
-              <p className="text-gray-600">
-                Discover the world's most sought-after cruise destinations
-              </p>
+      {/* Hero Section */}
+      <section className="relative py-20 lg:py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
+        <div className="relative mx-auto px-4 container">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="mx-auto max-w-4xl text-center"
+          >
+            <h1 className="mb-6 gradient-ocean">
+              Discover Your Perfect Ocean Adventure
+            </h1>
+            <p className="mx-auto mb-8 max-w-2xl text-muted-foreground text-xl">
+              Explore the world's most beautiful destinations with premium
+              cruise experiences. From tropical paradises to arctic wonders,
+              your next adventure awaits.
+            </p>
+            <div className="flex sm:flex-row flex-col justify-center gap-4">
+              <OceanButton size="lg" className="wave-animation">
+                Explore Cruises
+              </OceanButton>
+              <WaveButton size="lg" variant="outline">
+                View Destinations
+              </WaveButton>
             </div>
-            <Link href="/cruise-destinations">
-              <Button variant="outline" className="flex items-center">
-                View All
-                <ChevronRightIcon className="ml-1 w-4 h-4" />
-              </Button>
-            </Link>
-          </div>
+          </motion.div>
+        </div>
+      </section>
+
+      <main id="main-content" className="mx-auto px-4 pb-16 container">
+        {/* Popular Destinations */}
+        <section className="mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+            className="mb-12 text-center"
+          >
+            <h2 className="mb-4">Popular Destinations</h2>
+            <p className="mx-auto max-w-2xl text-muted-foreground">
+              Discover the most sought-after cruise destinations around the
+              world
+            </p>
+          </motion.div>
 
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {data.destinations.map((destination, index) => (
+            {data.destinations.slice(0, 6).map((destination, index) => (
               <motion.div
                 key={destination.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
+                transition={{ delay: 0.1 * index, duration: 0.5 }}
               >
-                <Card className="group hover:shadow-lg h-full transition-shadow duration-300 cursor-pointer">
-                  <div className="relative rounded-t-lg h-48 overflow-hidden">
-                    <Image
-                      src={destination.imageUrl}
-                      alt={destination.name}
-                      fill
-                      className="transition-transform duration-500 object-cover group-hover:scale-110"
-                      onError={(e) => {
-                        e.currentTarget.src =
-                          "/images/destinations/default.jpg";
-                      }}
-                    />
-                    <div className="top-2 right-2 absolute">
-                      <Badge
-                        variant="secondary"
-                        className="bg-black/60 border-none text-white"
-                      >
-                        {destination.popularityScore}/100
-                      </Badge>
+                <Card variant="ocean" interactive className="h-full">
+                  <CardHeader>
+                    <div className="flex justify-center items-center bg-primary/10 mb-3 rounded-full w-12 h-12">
+                      <MapPinIcon className="w-6 h-6 text-primary" />
                     </div>
-                  </div>
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
+                    <CardTitle className="text-lg">
                       {destination.name}
                     </CardTitle>
-                    <div className="flex items-center text-gray-600 text-sm">
-                      <MapPinIcon className="mr-1 w-4 h-4" />
-                      {destination.country} • {destination.region}
-                    </div>
                   </CardHeader>
-                  <CardContent className="pt-0">
-                    <p className="mb-3 text-gray-600 text-sm line-clamp-2">
-                      {destination.description}
+                  <CardContent>
+                    <p className="mb-4 text-muted-foreground text-sm">
+                      {destination.description ||
+                        "Explore this amazing destination"}
                     </p>
-                    {destination.bestTimeToVisit?.length > 0 && (
-                      <div className="flex flex-wrap gap-1">
-                        {destination.bestTimeToVisit
-                          .slice(0, 3)
-                          .map((month: string) => (
-                            <Badge
-                              key={month}
-                              variant="outline"
-                              className="text-xs"
-                            >
-                              {month}
-                            </Badge>
-                          ))}
-                      </div>
-                    )}
+                    <div className="flex justify-between items-center">
+                      <Badge variant="secondary" className="text-xs">
+                        {destination.region || "Popular"}
+                      </Badge>
+                      <Button variant="ghost" size="sm" className="p-0">
+                        <ChevronRightIcon className="w-4 h-4" />
+                      </Button>
+                    </div>
                   </CardContent>
                 </Card>
               </motion.div>
             ))}
           </div>
-        </motion.section>
+        </section>
 
         {/* Popular Cruise Lines */}
         <motion.section
@@ -562,7 +536,7 @@ export default function ExpediaCruiseDashboard() {
             </Link>
           </div>
         </motion.section>
-      </div>
+      </main>
     </div>
   );
 }
